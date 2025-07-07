@@ -23,38 +23,37 @@ repository               : "idagri/idagri.github.io"
 
 ###########  Author card  ##############
 author:
-  name            : "Ida Grigoryeva"
-  avatar          : "/images/profile.png"          # upload your head-shot here
-  bio             : "Economist studying mobility, urbanization, migration, and student mental health in developing countries."
-  location        : "University of California, San Diego"
-  email           : "igrigoryeva@ucsd.edu"
-  pronouns        : "she/her"  
-  links:
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=WXqdhzsAAAAJ"
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0003-3657-0526"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/idagri"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://x.com/_idagri"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/idagri"
-    - label: "CV"
-      icon: "fas fa-file-pdf"
-      url: "/files/Grigoryeva_CV.pdf
 
   # Biographic information
-  avatar           : "profile.png"
   employer         : # "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
 
+  name            : "Ida Grigoryeva"
+  avatar          : "/images/profile.jpg"
+  bio             : "Economist studying mobility, urbanization, migration, and student mental health in developing countries."
+  location        : "University of California, San Diego"
+  email           : "idagri@ucsd.edu"
+  pronouns        : "she/her"  
+  # links:
+  #   - label: "Google Scholar"
+  #     icon: "fas fa-graduation-cap"
+  #     url: "https://scholar.google.com/citations?user=WXqdhzsAAAAJ"
+  #   - label: "ORCID"
+  #     icon: "ai ai-orcid"
+  #     url: "https://orcid.org/0000-0003-3657-0526"
+  #   - label: "GitHub"
+  #     icon: "fab fa-github"
+  #     url: "https://github.com/idagri"
+  #   - label: "Twitter"
+  #     icon: "fab fa-twitter"
+  #     url: "https://x.com/_idagri"
+  #   - label: "LinkedIn"
+  #     icon: "fab fa-linkedin"
+  #     url: "https://linkedin.com/in/idagri"
+  #   - label: "CV"
+  #     icon: "fas fa-file-pdf"
+  #     url: "/files/Grigoryeva_CV.pdf
+  
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
