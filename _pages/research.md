@@ -6,41 +6,44 @@ author_profile: true
 ---
 
 {% include base_path %}
+###### &dagger; Indicates First-Authored Research  
 
-###### &dagger; Indicates First-Authored Research
+## Publications  
 
-## Publications 
+**Stay-at-home Orders, Social Distancing, and Trust** with Abel Brodeur and Lysse Kattan  <br/>
+<small>[ [Journal page][stay_home_link] ] Journal of Population Economics 34 (4): 1321–1354, 2021</small>  
 
+&dagger;**The Price Ripple Effect in the Vancouver Housing Market** with David Ley  <br/>
+<small>[ [Journal page][ripple_link] ] Urban Geography 40 (8): 1171–1189, 2019</small>  
+
+
+## Working Papers  
+
+&dagger;**Agricultural Productivity & Urbanization: Evidence from Indonesia’s Transmigration Program**  <br/>
+<small> . </small>  
+
+**Stigma, Beliefs, and Demand for Mental Health Services Among University Students**  
+with Alisher Batmanov  <br/>
+<small>[Draft][mental_health_link]</small>  
+
+
+**Motivated Beliefs & Anticipation of Uncertainty Resolution: A Note** with Alisher Batmanov  <br/>
+<small>I4R Discussion Paper Series No. 65, 2023</small>  
+
+
+**Homework vs. Midterms: Course Structure to Improve Learning in Economics**  
+with Kate Antonovics and Melissa Famulari    <br/>
+<small>Draft available upon request</small>  
+
+## Selected Work in Progress  
+
+**Rural Spillovers of Urban Growth in India** with Sam Asher, J-P Chauvin, and Paul Novosad  
+
+**Violence & Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores**  
+with Vinicius Peçanha  
  
-&dagger;**Identifying the Cumulative Causal Effect of a Non-Binary Treatment from a Binary Instrument** with Jacob Goldin <br />
-<small>[ [Draft][cce_draft_link] | [NBER WP][cce_nber_wp] | Accepted, Review of Economics and Statistics ] </small>
 
-[cce_draft_link]: https://vedant-vohra.github.io/files/CCE.pdf
-
-[cce_nber_wp]: https://www.nber.org/papers/w32425 
-
-**The Claiming of Children on U.S. Tax Returns** with Geoffrey Gee, Jacob Goldin, Joseph Gray-Hancuch, and Ithai Lurie <br/>
-<small>[ [Draft][children_claiming] | [NBER WP][children_claiming_nber_wp] | Forthcoming, National Tax Journal ] </small>
-
-[children_claiming]: https://vedant-vohra.github.io/files/child-claiming.pdf
-
-[children_claiming_nber_wp]: https://www.nber.org/papers/w33277
-
-## Working Papers
-
-&dagger;**Valid Inference on Functions of Causal Effects in the Absence of Microdata** <br />
-<small>[ [Draft][inference_no_data_draft_link] | [arXiv][inference_no_data_arxiv] ] <br /> </small>
-*<small>Winner of Walter Heller Memorial Prize (Best 3rd Year Paper)</small>*
-
-[inference_no_data_draft_link]: https://vedant-vohra.github.io/files/inference-no-data.pdf
-
-[inference_no_data_arxiv]: https://arxiv.org/abs/2410.00217
-
-##  Selected Work in Progress 
-**Racial Penalty in Job Ladder Transitions** with Briana Sullivan and Itzik Fadlon <br /> 
-*<small>Presented (by co-author) at University of Michigan Population Studies Center, 2024 SOLE Annual Conference, Yale
-University, Stony Brook University, 2024 All-California Labor Economics Conference, Federal Reserve Bank of Chicago, 2025 NBER Summer Institute Labor Studies-Public Economics Joint Session (Scheduled) </small>*
-
-**Enhancing Revenue Collection Capacity through Automation: Evidence from a VAT** with Bhanu Gupta and Tejaswi Velayudhan <br /> 
-*<small>Presented at Southern California Conference in Applied Microeconomics (2025)</small>*
-
+<!-- reference links -->
+[stay_home_link]: https://link.springer.com/article/10.1007/s00148-021-00848-z
+[ripple_link]: https://doi.org/10.1080/02723638.2019.1567202
+[mental_health_link]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5192345
