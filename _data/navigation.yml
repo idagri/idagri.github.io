@@ -7,7 +7,7 @@
 
 main:
   - title: "About"
-    url: /home/
+    url: /
  
   - title: "CV"
     url: /files/CV_IdaGri.pdf
@@ -17,9 +17,12 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
-    
+ 
+  - title: "Undegrad Lab (URL)"
+    url: /lab_URL/
+ 
   - title: "Predoc Tips"
-    url: /predoc-tips/
+    url: /predoc_tips/
         
   - title: "Outdoors"
     url: /outdoors/
