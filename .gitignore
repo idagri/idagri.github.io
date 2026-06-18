@@ -18,3 +18,7 @@ vendor/
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Ignore macOS system files
+.DS_Store
+**/.DS_Store

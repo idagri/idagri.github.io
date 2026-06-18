@@ -1,49 +1,45 @@
 ---
 layout: archive
-title: ""
-permalink: /research/
+title: "Predoc Tips"
+permalink: /predoc-tips/
 author_profile: true
 ---
 
 {% include base_path %}
-###### &dagger; Indicates First-Authored Research  
 
-## Publications  
+Looking for a predoc? Here are some sources I've used and recommended to friends for finding predoctoral and research-assistant (RA) positions. This list is by no means exhaustive, but it's a good place to start.
 
-**Stay-at-home Orders, Social Distancing, and Trust** with Abel Brodeur and Lysse Kattan  <br/>
-<small>[ [Journal page][stay_home_link] ] Journal of Population Economics 34 (4): 1321–1354, 2021</small>  
+## Pages with predoc / RA postings
 
-&dagger;**The Price Ripple Effect in the Vancouver Housing Market** with David Ley  <br/>
-<small>[ [Journal page][ripple_link] ] Urban Geography 40 (8): 1171–1189, 2019</small>  
+**A hub of predoc resources** — [Predoc.org](https://predoc.org/who-we-are) collects useful materials related to predocs, including practice coding tasks and a newsletter with advertised positions.
 
+**Sites that aggregate many postings**
 
-## Working Papers  
+- NBER posts non-NBER RA positions [here](https://conference.nber.org/jobs/nonnberjobs.html), and advertises some positions directly [here](https://www.nber.org/career-resources/calls-fellowship-applications).
+- Professors and others tag relevant RA postings on the [@econ_RA Twitter/X page](https://twitter.com/econ_ra) (no account needed to read the postings).
 
-&dagger;**Agricultural Productivity & Urbanization: Evidence from Indonesia’s Transmigration Program**  <br/>
-<small> . </small>  
+**Organized predoc programs with a set hiring cycle** (hiring multiple RAs each year)
 
-**Stigma, Beliefs, and Demand for Mental Health Services Among University Students**  
-with Alisher Batmanov  <br/>
-<small>[Draft][mental_health_link]</small>  
+- Stanford — SIEPR predoctoral program (a variety of topics)
+- Chicago — EPIC (Energy Policy Institute)
+- Harvard — EPoD Research Fellow postings [here](https://epod.cid.harvard.edu/jobs-opportunities)
+- Harvard — Opportunity Insights (two-year commitment) [here](https://opportunityinsights.org/joinourteam/)
+- Yale — [predoctoral fellows program](https://tobin.yale.edu/tobin-predoctoral-fellows)
+- Princeton — a [cross-department university program](https://graddiversity.princeton.edu/pre-doctoral-fellowship-initiative) (also mentioned in the PhD application)
 
+**Programs for US citizens and/or permanent residents only**
 
-**Motivated Beliefs & Anticipation of Uncertainty Resolution: A Note** with Alisher Batmanov  <br/>
-<small>I4R Discussion Paper Series No. 65, 2023</small>  
+- [Harvard Research Scholar Initiative](https://gsas.harvard.edu/diversity/research-scholar-initiative) (no visa sponsorship)
+- [PhD Excellence Initiative](https://www.phdexcellence.org/apply/) (NYU Stern)
 
+**Other sources to check**
 
-**Homework vs. Midterms: Course Structure to Improve Learning in Economics**  
-with Kate Antonovics and Melissa Famulari    <br/>
-<small>Draft available upon request</small>  
+- [J-PAL Careers](https://www.povertyactionlab.org/careers) — many RA positions (note: some at J-PAL directly do not provide visa sponsorship, but other postings do)
+- [Innovations for Poverty Action (IPA)](https://www.poverty-action.org/work-with-ipa/current-opportunities)
+- Brown and Princeton often post positions in their own career portals that don't always appear on the sites above — e.g., [Predoctoral Research Jobs at Princeton](https://research-princeton.icims.com/jobs/search)
+- The [World Bank](https://worldbankgroup.csod.com/ats/careersite) posts research positions (under the research & quantitative analysis job family) that don't always show up on Twitter or NBER — look for Research Assistant and ET Consultant roles
 
-## Selected Work in Progress  
+## Other resources
 
-**Rural Spillovers of Urban Growth in India** with Sam Asher, J-P Chauvin, and Paul Novosad  
-
-**Violence & Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores**  
-with Vinicius Peçanha  
- 
-
-<!-- reference links -->
-[stay_home_link]: https://link.springer.com/article/10.1007/s00148-021-00848-z
-[ripple_link]: https://doi.org/10.1080/02723638.2019.1567202
-[mental_health_link]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5192345
+- [J-PAL's 2-page guide](https://www.dropbox.com/s/yp6g51o9rt0ghr7/JPAL-RAship-guide-Advice-for-Landing-an-RA-ship.pdf) on what matters when looking for an RA position
+- My [archived predoc search guide](https://www.dropbox.com/s/qc3wrgwhimpa8tv/Pre-Doc-search-guide-202011.pdf) (PDF, last updated Nov 2020)

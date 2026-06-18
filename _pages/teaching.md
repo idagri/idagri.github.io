@@ -1,57 +1,58 @@
 ---
 layout: archive
-title: ""
+title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
+I care a great deal about teaching, especially making quantitative methods approachable for students new to data and economics. At UCSD I have taught econometrics and data analysis as instructor of record and as a teaching assistant, and my teaching has been recognized with several awards.
 
-### Teaching Experience  
+## Instructor of Record — UC San Diego
 
+**Applied Econometrics** (ECON 121, upper-division elective) — 2024–2025
+<small>Economics Department Instructor of Record Teaching Award (2024–2025).</small>
 
+**Introduction to Data Analysis for Economists** (ECON 5, lower-division core) — 2024–2025
+<small>Economics Department Instructor of Record Teaching Award (2024–2025).</small>
 
-#### University of California, San Diego (UCSD)
+**Introduction to Data Analysis for Economists** (ECON 5, lower-division core) — 2023–2024
+<small>Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors at UCSD); Economics Department Instructor of Record Teaching Award.</small>
 
-- **Instructor of Record**  
+## Teaching Assistant
 
-    - **ECON 5: Intro to Data Analysis for Economists** — *Instructor of record*   (Undergraduate) 
+**UC San Diego**
 
-    Summer 2024 [(Evaluations TBD)](https://idagri.github.io/files/Econ5_Instructor_Evals.pdf)
+- Applied Econometrics (ECON 121) and Introduction to Data Analysis for Economists (ECON 5), 2022–2023
+- Intermediate Microeconomics (ECON 100B), 2021–2022
+- Market Imperfections & Policy (ECON 2), 2021; Decisions under Uncertainty (ECON 171), 2022
+- GIS & Spatial Data Analysis (GPEC 447, graduate), 2024
 
-- **Teaching Assistant**  
+**University of British Columbia**
 
-  - **GPEC 447: GIS & Spatial Data Analysis** (Graduate)
+- Microeconomic & Macroeconomic Policy (ECON 210–211), 2018–2019
+- Geography, Globalization & Modernization (GEOG 121–122), 2015–2017 and 2018–2019
+- *Killam Outstanding Graduate Teaching Assistant Award (2019).*
 
-    Fall 2024
+**National Research University Higher School of Economics**
 
-  - **ECON 190: Intro to Research in Economics** (Undergraduate, Upper-level Elective)  
+- Introduction to Microeconomics (2013–2014); Academic English (2014–2015)
 
-    Winter 2024, Winter 2025, Summer 2025
+## Guest Lectures
 
-  - **ECON 121: Applied Econometrics** (Undergraduate, Upper-level Elective)  
+- Urbanization, Access to Housing & Slums in Latin American Cities — GEOG 352, *Urbanization in the Global South* (Feb 2019)
+- Introduction to Data Analysis — BIO 340, *Introduction to Cell Biology* (Mar 2018)
+- Gentrification of "Hutongs" in Beijing, China — GEOG 350, *Urban Worlds* (Nov 2017)
+- Vancouver Housing Market: Price Dynamics and Social Outcomes — GEOG 350, *Urban Geography* (Mar 2017)
+- Land, Housing & Gentrification in Beijing, China — GEOG 352, *Urbanization in the Global South* (Feb 2017)
+- Vancouver Housing Market: Evidence of a "Growth Machine" — GEOG 250, *Cities* (Nov 2016)
 
-    Fall 2022, Fall 2023
+## Teaching Credentials
 
-  - **ECON 100A: Intermediate Microeconomics** (Undergraduate Core)  
+- Summer Graduate Teaching Scholars (SGTS) program (2024)
+- Advanced College Teaching: Equitable Course Design and Instruction (2023–2024)
+- Center for the Integration of Research, Teaching, and Learning (CIRTL) Associate (2021)
+- Certificate in Advanced Teaching & Learning (CATL, 2016–2017); Instructional Skills Workshop (ISW, 2016)
 
-    Spring 2023, Summer 2023, Spring 2024, Summer 2024
-  
-  - **ECON 5: Data Analytics for the Social Sciences**  (Undergraduate Core) 
-
-    Spring 2022, Winter 2023, Spring 2025
-
-  
-
-
-
-#### University of British Columbia (UBC)
-
-- **Teaching Assistant**  
-
-  - Microeconomic Policy (2018)
-
-  - Macroeconomic Policy (2018)
-  
-  - Urban & Social Geography (2015-2017, 2018-2019)
+[Teaching portfolio (PDF)](https://www.dropbox.com/s/rkpk44oh2jgm3h3/Teaching%20Portfolio_2019_final_Killam.pdf)

@@ -1,49 +1,38 @@
 ---
 layout: archive
-title: ""
-permalink: /research/
+title: "Undergraduate–Graduate Research Lab"
+permalink: /lab/
 author_profile: true
 ---
 
 {% include base_path %}
-###### &dagger; Indicates First-Authored Research  
 
-## Publications  
+Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** at UC San Diego, mentoring a group of 10–20 motivated undergraduate students on research projects each quarter. Projects span migration, education, mental health, and gender gaps, and students work hands-on with **STATA, Python, and QGIS**.
 
-**Stay-at-home Orders, Social Distancing, and Trust** with Abel Brodeur and Lysse Kattan  <br/>
-<small>[ [Journal page][stay_home_link] ] Journal of Population Economics 34 (4): 1321–1354, 2021</small>  
+Through the lab, students gain experience with the full research pipeline — experimental design, data cleaning and coding, descriptive and econometric analysis, web scraping, and spatial analysis — and present and discuss their work in weekly group meetings.
 
-&dagger;**The Price Ripple Effect in the Vancouver Housing Market** with David Ley  <br/>
-<small>[ [Journal page][ripple_link] ] Urban Geography 40 (8): 1171–1189, 2019</small>  
+Many of my former students have gone on to graduate school and to research assistant and predoctoral roles, including working with professors and researchers at Harvard, Tufts, and the Federal Reserve, among others.
 
+## Student Projects
 
-## Working Papers  
+A selection of projects and tools built by lab members. *(More to be added — students' repositories and project pages will be linked here.)*
 
-&dagger;**Agricultural Productivity & Urbanization: Evidence from Indonesia’s Transmigration Program**  <br/>
-<small> . </small>  
+<!--
+  Template for each student project — copy a block and fill it in:
 
-**Stigma, Beliefs, and Demand for Mental Health Services Among University Students**  
-with Alisher Batmanov  <br/>
-<small>[Draft][mental_health_link]</small>  
+  **Student Name** — *Project title*
+  One or two sentences on the research question, data, and methods.
+  [GitHub repo](https://github.com/USERNAME/REPO) · [Project page](https://...)
+-->
 
+> **Student Name** — *Project title*
+> Short description of the project, the data used, and the methods applied.
+> [GitHub repo](#) · [Project page](#)
 
-**Motivated Beliefs & Anticipation of Uncertainty Resolution: A Note** with Alisher Batmanov  <br/>
-<small>I4R Discussion Paper Series No. 65, 2023</small>  
+> **Student Name** — *Project title*
+> Short description of the project, the data used, and the methods applied.
+> [GitHub repo](#) · [Project page](#)
 
+## Interested in joining?
 
-**Homework vs. Midterms: Course Structure to Improve Learning in Economics**  
-with Kate Antonovics and Melissa Famulari    <br/>
-<small>Draft available upon request</small>  
-
-## Selected Work in Progress  
-
-**Rural Spillovers of Urban Growth in India** with Sam Asher, J-P Chauvin, and Paul Novosad  
-
-**Violence & Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores**  
-with Vinicius Peçanha  
- 
-
-<!-- reference links -->
-[stay_home_link]: https://link.springer.com/article/10.1007/s00148-021-00848-z
-[ripple_link]: https://doi.org/10.1080/02723638.2019.1567202
-[mental_health_link]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5192345
+UCSD undergraduates curious about empirical research in development, urban, or education economics are welcome to reach out at [idagri@ucsd.edu](mailto:idagri@ucsd.edu).

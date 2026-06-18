@@ -8,22 +8,21 @@
 main:
   - title: "About"
     url: /
- 
-  - title: "CV"
-    url: /files/CV_IdaGri.pdf
 
   - title: "Research"
     url: /research/
 
   - title: "Teaching"
-    url: /teaching/    
- 
-  - title: "Undegrad Lab (URL)"
-    url: /lab_URL/
- 
+    url: /teaching/
+
+  - title: "Research Lab"
+    url: /lab/
+
   - title: "Predoc Tips"
-    url: /predoc_tips/
-        
-  - title: "Outdoors"
-    url: /outdoors/
-    
+    url: /predoc-tips/
+
+  - title: "Beyond Research"
+    url: /beyond-research/
+
+  - title: "CV"
+    url: /files/CV_Ida_Grigoryeva_2026.pdf
