@@ -24,7 +24,7 @@ redirect_from:
 html[data-theme="dark"] .out-stat span{ color:#aaa; }
 </style>
 
-Outside economics, I am an endurance-sport enthusiast: running, triathlon, skiing, and hiking, and I love building an active community wherever I am.
+Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, and I build an active community wherever I land.
 
 <div class="out-stats">
 <div class="out-stat"><b>13,500+ km</b><span>run in 2021–2025</span></div>
