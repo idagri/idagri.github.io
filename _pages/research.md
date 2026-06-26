@@ -58,7 +58,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Agricultural Productivity and Urbanization: Evidence from Indonesia's Transmigration Program <span class="pub-flag">Job Market Paper</span></p>
 <p class="pub-meta">Solo-authored</p>
-<p class="pub-fund">Funding: STEG PhD Research Grant; IHS Field Research Grant</p>
+<p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Field Research Grant ($12,800)</p>
 <details><summary>Abstract</summary><p>Using the quasi-random allocation of Indonesia's Transmigration Program and variation in productivity among transmigrant villages, I show that cities proximate to more productive villages experience higher population and employment growth, concentrated in service industries. The higher growth occurs alongside greater in-migration to cities (from both rural and urban districts) and is not driven by transmigrants abandoning their destination villages. Because migrants tend to stay in more productive villages, the results provide suggestive evidence of positive indirect spillovers of rural productivity onto regional urban markets.</p></details>
 </div>
 </div>
@@ -68,7 +68,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Violence and Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores</p>
 <p class="pub-meta">with Vinicius Peçanha</p>
-<p class="pub-fund">Funding: Weiss Fund</p>
+<p class="pub-fund">Funding: Weiss Fund ($12,900)</p>
 <details><summary>Abstract</summary><p>In many neighborhoods of Latin American cities such as Rio de Janeiro, crime rates are very high, producing educational disruption and acute stress. We find that neighborhood shootings near a school shortly before an exam have a robust negative effect on students' performance on the language and math university-entrance tests. The effects are robust to school and year fixed effects: exposed students perform significantly worse (by 0.1 to 0.3 standard deviations) than non-exposed students.</p></details>
 </div>
 </div>
@@ -82,6 +82,16 @@ My work studies how people and places develop: how cities grow and absorb migran
 </div>
 </div>
 
+<div class="pub">
+<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
+<div class="pub-body">
+<p class="pub-title">Rural Spillovers of Urban Growth in India</p>
+<p class="pub-meta">with Sam Asher, Juan Pablo Chauvin, and Paul Novosad</p>
+<p class="pub-fund">Funding: IHS Field Research Grant</p>
+<details><summary>Abstract</summary><p>We examine the links between urban and rural economic performance in India using geo-spatial socio-economic data on 1,000 cities and 500,000 villages. Rural development falls almost universally with distance from towns; gradients are shallow and urban–rural gaps remain large even at short distances. A Bartik estimation of urban demand shocks reveals clear urban-to-rural spillovers that are larger and wider for manufacturing than for services, and extend further along major highways. Surprisingly, urban demand raises population in proximate rural areas but not in the urban areas themselves, suggesting constraints on densification.</p></details>
+</div>
+</div>
+
 ---
 
 ## Publications
@@ -91,7 +101,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students</p>
 <p class="pub-meta">with Alisher Batmanov, Bruno Calderon-Hernandez, Roberto Gonzalez-Tellez, and Alejandro Guardiola-Ramirez · <em>Journal of Development Economics</em> 180: 103646 (2026) · <a href="https://doi.org/10.1016/j.jdeveco.2025.103646">Journal</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5192345">Preprint</a></p>
-<p class="pub-fund">Funding: Weiss Fund; UC-MX Alianza Field Research Grant</p>
+<p class="pub-fund">Funding: Weiss Fund ($11,000); UC-MX Alianza Field Research Grant ($7,600)</p>
 <details><summary>Abstract</summary><p>We investigate the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where supply-side barriers are minimal. In a survey experiment with 680 students, nearly 50% of students in distress do not receive professional support despite high awareness and perceived effectiveness, a substantial treatment gap. We document stigmatized beliefs and misconceptions correlated with this gap: three-quarters of students incorrectly believe that those in distress perform worse academically and that most students in therapy are in severe distress. An information intervention correcting these beliefs increases students' sharing of on-campus resources and their willingness to recommend them to peers, though it lowers willingness to pay for private therapy and does not change self-reported therapy use six months later.</p></details>
 </div>
 </div>
@@ -125,7 +135,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">The Price Ripple Effect in the Vancouver Housing Market</p>
 <p class="pub-meta">with David Ley · <em>Urban Geography</em> 40(8): 1171–1189 (2019) · <a href="https://doi.org/10.1080/02723638.2019.1567202">Journal</a></p>
-<p class="pub-fund">Funding: Neighborhood Change Research Grant</p>
+<p class="pub-fund">Funding: Neighborhood Change Research Grant ($11,000)</p>
 </div>
 </div>
 
@@ -166,15 +176,6 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Effects of an Emotional Resilience Intervention on Teacher Wellbeing and Performance in Guatemala</p>
 <p class="pub-meta">with Michelle Escobar Carias</p>
-</div>
-</div>
-
-<div class="pub">
-<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
-<div class="pub-body">
-<p class="pub-title">Rural Spillovers of Urban Growth in India</p>
-<p class="pub-meta">with Sam Asher, Juan Pablo Chauvin, and Paul Novosad</p>
-<details><summary>Abstract</summary><p>We examine the links between urban and rural economic performance in India using geo-spatial socio-economic data on 1,000 cities and 500,000 villages. Rural development falls almost universally with distance from towns; gradients are shallow and urban–rural gaps remain large even at short distances. A Bartik estimation of urban demand shocks reveals clear urban-to-rural spillovers that are larger and wider for manufacturing than for services, and extend further along major highways. Surprisingly, urban demand raises population in proximate rural areas but not in the urban areas themselves, suggesting constraints on densification.</p></details>
 </div>
 </div>
 
