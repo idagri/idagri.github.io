@@ -9,15 +9,15 @@ author_profile: true
 
 I care a great deal about teaching, especially making quantitative methods approachable for students new to data and economics. At UCSD I have taught econometrics and data analysis as instructor of record and as a teaching assistant, and my teaching has been recognized with several awards.
 
-## Instructor of Record — UC San Diego
+## Instructor of Record, UC San Diego
 
-**Applied Econometrics** (ECON 121, upper-division elective) — 2024–2025
+**Applied Econometrics** (ECON 121, upper-division elective), 2024–2025
 <small>Economics Department Instructor of Record Teaching Award (2024–2025).</small>
 
-**Introduction to Data Analysis for Economists** (ECON 5, lower-division core) — 2024–2025
+**Introduction to Data Analysis for Economists** (ECON 5, lower-division core), 2024–2025
 <small>Economics Department Instructor of Record Teaching Award (2024–2025).</small>
 
-**Introduction to Data Analysis for Economists** (ECON 5, lower-division core) — 2023–2024
+**Introduction to Data Analysis for Economists** (ECON 5, lower-division core), 2023–2024
 <small>Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors at UCSD); Economics Department Instructor of Record Teaching Award.</small>
 
 ## Teaching Assistant
@@ -41,12 +41,12 @@ I care a great deal about teaching, especially making quantitative methods appro
 
 ## Guest Lectures
 
-- Urbanization, Access to Housing & Slums in Latin American Cities — GEOG 352, *Urbanization in the Global South* (Feb 2019)
-- Introduction to Data Analysis — BIO 340, *Introduction to Cell Biology* (Mar 2018)
-- Gentrification of "Hutongs" in Beijing, China — GEOG 350, *Urban Worlds* (Nov 2017)
-- Vancouver Housing Market: Price Dynamics and Social Outcomes — GEOG 350, *Urban Geography* (Mar 2017)
-- Land, Housing & Gentrification in Beijing, China — GEOG 352, *Urbanization in the Global South* (Feb 2017)
-- Vancouver Housing Market: Evidence of a "Growth Machine" — GEOG 250, *Cities* (Nov 2016)
+- Urbanization, Access to Housing & Slums in Latin American Cities (GEOG 352, *Urbanization in the Global South*, Feb 2019)
+- Introduction to Data Analysis (BIO 340, *Introduction to Cell Biology*, Mar 2018)
+- Gentrification of "Hutongs" in Beijing, China (GEOG 350, *Urban Worlds*, Nov 2017)
+- Vancouver Housing Market: Price Dynamics and Social Outcomes (GEOG 350, *Urban Geography*, Mar 2017)
+- Land, Housing & Gentrification in Beijing, China (GEOG 352, *Urbanization in the Global South*, Feb 2017)
+- Vancouver Housing Market: Evidence of a "Growth Machine" (GEOG 250, *Cities*, Nov 2016)
 
 ## Teaching Credentials
 

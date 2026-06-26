@@ -11,7 +11,7 @@ Looking for a predoc? Here are some sources I've used and recommended to friends
 
 ## Pages with predoc / RA postings
 
-**A hub of predoc resources** — [Predoc.org](https://predoc.org/who-we-are) collects useful materials related to predocs, including practice coding tasks and a newsletter with advertised positions.
+**A hub of predoc resources.** [Predoc.org](https://predoc.org/who-we-are) collects useful materials related to predocs, including practice coding tasks and a newsletter with advertised positions.
 
 **Sites that aggregate many postings**
 
@@ -20,12 +20,12 @@ Looking for a predoc? Here are some sources I've used and recommended to friends
 
 **Organized predoc programs with a set hiring cycle** (hiring multiple RAs each year)
 
-- Stanford — SIEPR predoctoral program (a variety of topics)
-- Chicago — EPIC (Energy Policy Institute)
-- Harvard — EPoD Research Fellow postings [here](https://epod.cid.harvard.edu/jobs-opportunities)
-- Harvard — Opportunity Insights (two-year commitment) [here](https://opportunityinsights.org/joinourteam/)
-- Yale — [predoctoral fellows program](https://tobin.yale.edu/tobin-predoctoral-fellows)
-- Princeton — a [cross-department university program](https://graddiversity.princeton.edu/pre-doctoral-fellowship-initiative) (also mentioned in the PhD application)
+- Stanford: SIEPR predoctoral program (a variety of topics)
+- Chicago: EPIC (Energy Policy Institute)
+- Harvard: EPoD Research Fellow postings [here](https://epod.cid.harvard.edu/jobs-opportunities)
+- Harvard: Opportunity Insights (two-year commitment) [here](https://opportunityinsights.org/joinourteam/)
+- Yale: [predoctoral fellows program](https://tobin.yale.edu/tobin-predoctoral-fellows)
+- Princeton: a [cross-department university program](https://graddiversity.princeton.edu/pre-doctoral-fellowship-initiative) (also mentioned in the PhD application)
 
 **Programs for US citizens and/or permanent residents only**
 
@@ -34,10 +34,10 @@ Looking for a predoc? Here are some sources I've used and recommended to friends
 
 **Other sources to check**
 
-- [J-PAL Careers](https://www.povertyactionlab.org/careers) — many RA positions (note: some at J-PAL directly do not provide visa sponsorship, but other postings do)
+- [J-PAL Careers](https://www.povertyactionlab.org/careers): many RA positions (note: some at J-PAL directly do not provide visa sponsorship, but other postings do)
 - [Innovations for Poverty Action (IPA)](https://www.poverty-action.org/work-with-ipa/current-opportunities)
-- Brown and Princeton often post positions in their own career portals that don't always appear on the sites above — e.g., [Predoctoral Research Jobs at Princeton](https://research-princeton.icims.com/jobs/search)
-- The [World Bank](https://worldbankgroup.csod.com/ats/careersite) posts research positions (under the research & quantitative analysis job family) that don't always show up on Twitter or NBER — look for Research Assistant and ET Consultant roles
+- Brown and Princeton often post positions in their own career portals that don't always appear on the sites above, for example [Predoctoral Research Jobs at Princeton](https://research-princeton.icims.com/jobs/search)
+- The [World Bank](https://worldbankgroup.csod.com/ats/careersite) posts research positions (under the research & quantitative analysis job family) that don't always show up on Twitter or NBER; look for Research Assistant and ET Consultant roles
 
 ## Other resources
 
