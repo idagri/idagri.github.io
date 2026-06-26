@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
 excerpt: ""
+description: "Idaliya (Ida) Grigoryeva is a PhD Candidate in Economics at UC San Diego, studying development, urban, education, and behavioral economics, with work on urbanization, migration, student mental health, and the discovery of talent."
 author_profile: true
 redirect_from:
   - /about/
