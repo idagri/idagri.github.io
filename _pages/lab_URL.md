@@ -7,51 +7,117 @@ author_profile: true
 
 {% include base_path %}
 
-Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** at UC San Diego, mentoring a group of 10–20 motivated undergraduate students on research projects each quarter. Projects span migration and cities, education, mental health, crime, and the discovery of talent, and students work hands-on with Stata, Python, R, and QGIS.
+<style>
+.proj-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.2rem 1.5rem; margin:1.1rem 0 1.4rem; }
+.proj{ display:flex; gap:.7rem; align-items:flex-start; }
+.proj-ic{ font-size:1.55rem; line-height:1.1; flex:0 0 auto; }
+.proj-t{ margin:0 0 .15rem; font-weight:700; font-size:.97rem; line-height:1.3; }
+.proj-d{ margin:0; font-size:.84rem; color:#5f5f5f; line-height:1.5; }
+.proj-d a{ font-weight:600; }
+.proj-tools{ color:#8a8a8a; }
+.place{ display:inline-block; font-size:.74rem; font-weight:600; background:rgba(33,145,140,.13); color:#13716b;
+  border:1px solid rgba(33,145,140,.3); border-radius:1rem; padding:.14rem .65rem; margin:.18rem .3rem .18rem 0; }
+@media (max-width:50em){ .proj-grid{ grid-template-columns:1fr; } }
+html[data-theme="dark"] .proj-d{ color:#b5b5b5; }
+html[data-theme="dark"] .place{ background:rgba(45,170,160,.2); color:#6fd0c8; border-color:rgba(45,170,160,.4); }
+</style>
+
+Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** at UC San Diego, mentoring 10–20 undergraduates each quarter on real research projects in development, urban, and education economics. Students work hands-on with Stata, Python, R, and QGIS, and present their work at the end of each quarter.
 
 <figure class="align-center">
-  <img src="/images/lab-collage.jpg" alt="A collage of lab moments: students working together at laptops, group photos, a world-map presentation, and a quarter-end celebration">
-  <figcaption>Lab meetings, group work, and end-of-quarter presentations.</figcaption>
+  <img src="/images/lab-collage.jpg" alt="Lab meetings, group work, and end-of-quarter presentations">
 </figure>
-
-Through the lab, students gain experience with the full research pipeline: experimental design, data cleaning and coding, descriptive and econometric analysis, web scraping, and spatial analysis. They present and discuss their work in weekly group meetings and deliver an end-of-quarter presentation.
 
 ## Sample projects
 
-A selection of the research projects lab members have worked on, organized by theme. Each runs over one or more quarters, with students contributing data work, analysis, and final presentations.
+<div class="proj-grid">
 
-**Mapping informal settlements from space** · *India & Indonesia · QGIS, machine learning*
-Building a protocol to detect informal settlements (slums) in high-resolution Planet satellite imagery, combining manual classification with machine-learning approaches. Builds on methods for identifying urban areas by pairing human judgment with machine learning.
+<div class="proj">
+<div class="proj-ic">🛰️</div>
+<div>
+<p class="proj-t">Mapping informal settlements from space</p>
+<p class="proj-d">Detecting slums in high-resolution Planet satellite imagery, pairing manual classification with machine learning. <span class="proj-tools">India &amp; Indonesia · QGIS · Python</span></p>
+</div>
+</div>
 
-**The economics of sleep** · *India & United States · Stata, R*
-Using objective sleep data from Fitbit-style wristbands in two field experiments, students measure the gap between how much people think they sleep and how much they actually sleep, and ask whether those misperceptions predict who benefits most from sleep interventions.
+<div class="proj">
+<div class="proj-ic">🗺️</div>
+<div>
+<p class="proj-t">Digitizing historical maps</p>
+<p class="proj-d">Georeferencing and digitizing historical maps into spatial data. <a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python">QGIS + Python guide</a> <span class="proj-tools">· co-authored with a lab student</span></p>
+</div>
+</div>
 
-**Finding "missing talent"** · *Central America & Brazil · survey and test design*
-Many high-potential students in developing countries are never identified because the tests and competitions common in richer countries do not exist there. Students review the economics-of-talent literature, work with national exam data (such as Brazil's ENEM), and help design surveys and math and cognitive assessments for secondary-school students.
+<div class="proj">
+<div class="proj-ic">📰</div>
+<div>
+<p class="proj-t">Crime, news, and cities</p>
+<p class="proj-d">Scraping Portuguese-language newspaper archives to build a dataset of violence events in Rio's favelas. <a href="/files/url-rio-crime-scraping.pdf">Slides</a> <span class="proj-tools">· Rio de Janeiro · Python</span></p>
+</div>
+</div>
 
-**Crime, news, and cities** · *Rio de Janeiro · Python web scraping*
-Scraping and structuring Portuguese-language newspaper archives to build a dataset of violence events in Rio's favelas, supporting research on policing and urban violence.
+<div class="proj">
+<div class="proj-ic">🧠</div>
+<div>
+<p class="proj-t">Finding "missing talent"</p>
+<p class="proj-d">Using national exam data (such as Brazil's ENEM) and new assessments to identify high-potential students. <a href="/files/url-hidden-talent-enem.pdf">Slides</a> <span class="proj-tools">· Central America &amp; Brazil</span></p>
+</div>
+</div>
 
-**Travel time and urban accessibility** · *QGIS, spatial data*
-Mapping travel times and accessibility across urban areas in QGIS to study how transport connects people to jobs, schools, and services.
+<div class="proj">
+<div class="proj-ic">😴</div>
+<div>
+<p class="proj-t">The economics of sleep</p>
+<p class="proj-d">Comparing self-reported and wristband-measured sleep in two field experiments to see who benefits most from sleep interventions. <span class="proj-tools">India &amp; United States · Stata, R</span></p>
+</div>
+</div>
 
-**Compulsory schooling and education policy** · *Brazil · Stata*
-Compiling and coding the timing of compulsory-schooling-law reforms to study how changes in required schooling shape educational attainment.
+<div class="proj">
+<div class="proj-ic">🚍</div>
+<div>
+<p class="proj-t">Travel time and urban accessibility</p>
+<p class="proj-d">Mapping travel times to jobs, schools, and services across urban areas. <a href="/files/url-travel-time-qgis.pdf">Slides</a> <span class="proj-tools">· QGIS · spatial data</span></p>
+</div>
+</div>
 
-**Immigration and fairness across countries** · *Stata, global spatial data*
-Assembling cross-country data and maps to study attitudes toward immigration and fairness, and how they vary across places.
+<div class="proj">
+<div class="proj-ic">🎓</div>
+<div>
+<p class="proj-t">Education and migration</p>
+<p class="proj-d">Reviewing and synthesizing the literature linking migration, schooling, and student outcomes. <a href="/files/url-education-migration.pdf">Slides</a></p>
+</div>
+</div>
 
-## Outcomes
+<div class="proj">
+<div class="proj-ic">🏫</div>
+<div>
+<p class="proj-t">Compulsory schooling reforms</p>
+<p class="proj-d">Coding the timing of compulsory-schooling-law reforms to study effects on educational attainment. <a href="/files/url-brazil-schooling.pdf">Slides</a> <span class="proj-tools">· Brazil · Stata</span></p>
+</div>
+</div>
 
-Many of my former students have gone on to graduate school and to research assistant and predoctoral roles, including positions with professors and researchers at Harvard, Tufts, and the Federal Reserve, among others.
+<div class="proj">
+<div class="proj-ic">📊</div>
+<div>
+<p class="proj-t">The gender gap in economics PhDs</p>
+<p class="proj-d">Examining where and why women drop off the path into economics doctoral programs. <a href="/files/url-econ-phd-gender-gap.pdf">Slides</a></p>
+</div>
+</div>
 
-<!--
-  To feature a specific student's project with their repo or site, copy a block:
+</div>
 
-  **Student Name**, *Project title*
-  One or two sentences on the research question, data, and methods.
-  [GitHub repo](https://github.com/USERNAME/REPO) · [Project page](https://...)
--->
+## Where students go
+
+Lab alumni, from UCSD and beyond, have gone on to graduate programs and research roles, including:
+
+<p>
+<span class="place">Oxford</span>
+<span class="place">University of Michigan (PhD)</span>
+<span class="place">Stanford (predoc)</span>
+<span class="place">Harvard</span>
+<span class="place">Tufts</span>
+<span class="place">Federal Reserve</span>
+</p>
 
 ## Interested in joining?
 
