@@ -21,8 +21,8 @@ author_profile: true
 .pub-tag{ padding-top:.25rem; }
 .pub-body{ min-width:0; }
 .pub-title{ margin:0 0 .25rem; font-size:1.02rem; font-weight:700; line-height:1.35; }
-.pub-flag{ display:inline-block; font-size:.58rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em;
-  color:#9a6a00; border:1px solid rgba(154,106,0,.45); border-radius:1rem; padding:.04rem .45rem; margin-left:.4rem; vertical-align:middle; }
+.pub-flag{ display:inline-block; font-size:.62rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em;
+  color:#fff; background:#3B528B; border:none; border-radius:1rem; padding:.12rem .6rem; margin-left:.45rem; vertical-align:middle; }
 .pub-meta{ margin:0; font-size:.82rem; color:#6b6b6b; line-height:1.5; }
 .pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#8a8a8a; }
 .pub details{ margin:.4rem 0 0; }
@@ -77,7 +77,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
 <p class="pub-title">Economic Consequences of Improving Sleep Among the Poor through Cognitive Behavioral Therapy for Insomnia</p>
-<p class="pub-meta">with Michelle Escobar Carias and Juan Pablo Franco</p>
+<p class="pub-meta">with Michelle Escobar Carias, Juan Pablo Franco, and Sean Drummond</p>
 <details><summary>Abstract</summary><p>A field experiment studying whether cognitive behavioral therapy for insomnia (CBT-I) can improve sleep among low-income adults, and measuring the downstream effects on economic and wellbeing outcomes. <em>(Full abstract to come.)</em></p></details>
 </div>
 </div>
