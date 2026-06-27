@@ -1,13 +1,12 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
+# Header navigation. `class: nav-extra` greys + separates the non-standard tabs;
+# `children:` renders a hover dropdown (see _includes/masthead.html + head/custom.html).
 
 main:
   - title: "About"
     url: /
+
+  - title: "CV"
+    url: /files/CV_Ida_Grigoryeva_2026.pdf
 
   - title: "Research"
     url: /research/
@@ -15,14 +14,23 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Research Lab"
+  - title: "Undergrad Lab"
     url: /lab/
+    class: "nav-extra nav-extra-first"
 
-  - title: "Advice"
-    url: /advice/
+  - title: "Resources"
+    url: /resources/
+    class: "nav-extra"
+    children:
+      - title: "Predoc Tips"
+        url: /resources/#predoc-tips
+      - title: "AI Tools"
+        url: /resources/#ai-tools
+      - title: "Data"
+        url: /resources/#data
+      - title: "Research Tools"
+        url: /resources/#research-tools
 
   - title: "Outdoors"
     url: /outdoors/
-
-  - title: "CV"
-    url: /files/CV_Ida_Grigoryeva_2026.pdf
+    class: "nav-extra"

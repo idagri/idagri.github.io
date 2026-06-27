@@ -33,7 +33,8 @@ author:
   bio             : "Development economist studying urbanization, migration, education, and student mental health in developing countries."
   location        : "University of California, San Diego"
   email           : "idagri@ucsd.edu"
-  pronouns        : "she/her"  
+  pronouns        : "she/her"
+  cv              : "/files/CV_Ida_Grigoryeva_2026.pdf"  # shown as a button under the sidebar photo
   # links:
   #   - label: "Google Scholar"
   #     icon: "fas fa-graduation-cap"

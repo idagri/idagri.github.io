@@ -18,6 +18,7 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.cv %}<p class="author__cv"><a class="btn btn--inverse" href="{{ author.cv }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> CV (PDF)</a></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
