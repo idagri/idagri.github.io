@@ -85,18 +85,7 @@ Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** a
 </div>
 </div>
 
-## Where students go
-
-Lab alumni, from UCSD and beyond, have gone on to graduate programs and research roles, including:
-
-<p>
-<span class="place">Oxford</span>
-<span class="place">University of Michigan (PhD)</span>
-<span class="place">Stanford (predoc)</span>
-<span class="place">Harvard</span>
-<span class="place">Tufts</span>
-<span class="place">Federal Reserve</span>
-</p>
+The students I have worked with, in the lab and beyond, are pursuing further education at the University of Michigan, Tufts, and Oxford, and have obtained predoctoral fellowships and RA positions at the Federal Reserve, Stanford, and elsewhere.
 
 ## Interested in joining?
 
