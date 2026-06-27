@@ -44,7 +44,7 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile"><img src="/images/out-marathon.jpg" alt="Running the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025</div></div>
 <div class="out-tile"><img src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>
 <div class="out-tile"><img src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
-<div class="out-tile"><img src="/images/out-route.jpg" alt="A coastal long-run route map from Torrey Pines to Solana Beach"><div class="out-cap">Coastal long-run route · San Diego</div></div>
+<div class="out-tile"><img src="/images/out-bearroute.jpg" alt="A Strava map of a long running route looping through Pacific Spirit Park, Vancouver"><div class="out-cap">Running projects</div></div>
 </div>
 
 <div class="out-sec">Cycling &amp; triathlon</div>
