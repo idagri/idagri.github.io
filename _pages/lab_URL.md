@@ -77,12 +77,12 @@ Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** a
 <p class="proj-d">Reviewing and synthesizing the literature linking migration, schooling, and student outcomes. <a href="/files/url-education-migration.pdf">Slides</a></p>
 </div>
 <div class="proj">
-<p class="proj-t">Compulsory schooling reforms</p>
-<p class="proj-d">Compiling a cross-country review of compulsory-schooling-law reforms (Brazil, Bangladesh, Vietnam, the Dominican Republic) to study effects on educational attainment. <a href="/files/url-csl-schooling-laws.pdf">Policy review</a> <span class="proj-tools">· Stata</span></p>
+<p class="proj-t">Compulsory schooling laws across countries</p>
+<p class="proj-d">A multi-country dataset compiling compulsory-schooling-law reforms (top-25 countries plus Latin America): policy timing, affected cohorts, and sources, to study effects on schooling. <a href="/files/url-csl-schooling-laws.pdf">Review slides</a> <span class="proj-tools">· Stata</span></p>
 </div>
 <div class="proj">
-<p class="proj-t">The gender gap in economics PhDs</p>
-<p class="proj-d">Examining where and why women drop off the path into economics doctoral programs. <a href="/files/url-econ-phd-gender-gap.pdf">Slides</a></p>
+<p class="proj-t">Gender in economics PhD placements</p>
+<p class="proj-d">A semi-automated scraper of PhD job-market placements across economics, business, and public policy, with gender and academic/industry classifiers, feeding an analysis of gender composition and outcomes. <a href="https://jclluo.github.io/ECON_PHD_Gender_Inequality_Analysis/analysis.html">Student analysis site</a> · <a href="https://github.com/schan676/Gender_composition_STEM">data repo</a> · <a href="/files/url-econ-phd-gender-gap.pdf">slides</a> <span class="proj-tools">· Python</span></p>
 </div>
 </div>
 </div>
