@@ -28,7 +28,7 @@ Here are some sources I've used and recommended for finding predoctoral and rese
 
 **Organized predoc programs with a set hiring cycle** (hiring multiple RAs each year)
 
-- Stanford: SIEPR predoctoral program (a variety of topics)
+- Stanford: [SIEPR predoctoral research fellows program](https://siepr.stanford.edu/programs/siepr-predoctoral-research-fellows-program) (a variety of topics)
 - Chicago: EPIC (Energy Policy Institute)
 - Harvard: EPoD Research Fellow postings [here](https://epod.cid.harvard.edu/jobs-opportunities)
 - Harvard: Opportunity Insights (two-year commitment) [here](https://opportunityinsights.org/joinourteam/)
