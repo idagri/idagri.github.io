@@ -12,11 +12,11 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+<meta name="theme-color" content="#21918c"/>
 
 <!-- Nav: separate "extra" tabs + Resources hover dropdown; sidebar CV button -->
 <style>
-.greedy-nav .masthead__menu-item.nav-extra > a { color:#8a8a8a; }
+.greedy-nav .masthead__menu-item.nav-extra > a { color:#5f6b73; }
 .greedy-nav .masthead__menu-item.nav-extra > a:hover { color:inherit; }
 .greedy-nav .masthead__menu-item.nav-extra-first { margin-left:1.4rem; border-left:1px solid #dcdcdc; padding-left:1.1rem; }
 .greedy-nav .masthead__menu-item.has-sub { position:relative; }
@@ -32,6 +32,35 @@
 html[data-theme="dark"] .greedy-nav .submenu{ background:#252a33; border-color:#3a3f48; }
 html[data-theme="dark"] .greedy-nav .submenu a{ color:#cfd3d8; }
 html[data-theme="dark"] .greedy-nav .masthead__menu-item.nav-extra-first{ border-left-color:#3a3f48; }
+
+/* ---- Design refinements: viridis system, readability, accessibility ---- */
+:root{
+  --vir-purple:#440154; --vir-blue:#31688e; --vir-teal:#21918c; --vir-green:#35b779; --vir-yellow:#fde725;
+  --global-link-color:#2c6e8f; --global-link-color-hover:#21918c;
+}
+html[data-theme="dark"]{ --global-link-color:#6fd0c8; --global-link-color-hover:#8fded8; }
+
+/* circle-crop the sidebar avatar (was an oval) */
+.author__avatar img{ aspect-ratio:1/1; object-fit:cover; border-radius:50%; }
+
+/* let the sidebar location wrap instead of clipping mid-word */
+.author__urls li{ white-space:normal; word-break:break-word; }
+
+/* readable line length for prose; figures, tables, and custom grids stay full width */
+.archive > p, .archive > ul, .archive > ol, .archive > blockquote{ max-width:46rem; }
+.archive > p{ text-wrap:pretty; }
+
+/* one heading system across pages: consistent size + viridis-teal section rule */
+.archive > h2{ font-size:1.5rem; font-weight:700; line-height:1.25; margin:2.4rem 0 .7rem;
+  border-bottom:2px solid var(--vir-teal); padding-bottom:.2rem; text-wrap:balance; }
+.archive > h3{ font-size:1.18rem; font-weight:700; margin:1.7rem 0 .5rem; text-wrap:balance; }
+.page__title{ text-wrap:balance; }
+
+/* mobile: wide tables scroll; comfortable nav tap targets */
+@media (max-width:640px){
+  .archive table{ display:block; width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .greedy-nav a{ padding-top:.55rem; padding-bottom:.55rem; }
+}
 </style>
 
 <!-- end custom head snippets -->

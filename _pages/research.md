@@ -24,7 +24,7 @@ author_profile: true
 .pub-flag{ display:inline-block; font-size:.62rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em;
   color:#fff; background:#3B528B; border:none; border-radius:1rem; padding:.12rem .6rem; margin-left:.45rem; vertical-align:middle; }
 .pub-meta{ margin:0; font-size:.82rem; color:#6b6b6b; line-height:1.5; }
-.pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#8a8a8a; }
+.pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
 .pub details{ margin:.4rem 0 0; }
 .pub summary{ font-size:.78rem; cursor:pointer; color:#6b6b6b; }
 .pub details p{ font-size:.86rem; line-height:1.55; margin:.4rem 0 0; }

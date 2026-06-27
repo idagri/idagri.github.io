@@ -20,7 +20,7 @@ author_profile: true
 .proj-t{ margin:0 0 .15rem; font-weight:700; font-size:.94rem; line-height:1.3; }
 .proj-d{ margin:0; font-size:.83rem; color:#5f5f5f; line-height:1.5; }
 .proj-d a{ font-weight:600; }
-.proj-tools{ color:#8a8a8a; }
+.proj-tools{ color:#6a7480; }
 .place{ display:inline-block; font-size:.74rem; font-weight:600; background:rgba(33,145,140,.13); color:#13716b;
   border:1px solid rgba(33,145,140,.3); border-radius:1rem; padding:.14rem .65rem; margin:.18rem .3rem .18rem 0; }
 @media (max-width:50em){ .proj-grid{ grid-template-columns:1fr; } }
