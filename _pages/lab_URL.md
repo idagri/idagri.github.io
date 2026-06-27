@@ -48,7 +48,7 @@ Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** a
 </div>
 <div class="proj">
 <p class="proj-t">Digitizing historical maps</p>
-<p class="proj-d">Georeferencing and digitizing historical maps into spatial data. <a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python">QGIS + Python guide</a> <span class="proj-tools">· co-authored with a lab student</span></p>
+<p class="proj-d">Georeferencing and digitizing historical maps into spatial data. <a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python/blob/main/Digitizing_Historical_Maps_Guide.ipynb">QGIS + Python guide</a> <span class="proj-tools">· co-authored with a lab student</span></p>
 </div>
 <div class="proj">
 <p class="proj-t">Travel time and urban accessibility</p>

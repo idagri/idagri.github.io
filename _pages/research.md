@@ -39,15 +39,20 @@ html[data-theme="dark"] .tag.well   { background:rgba(45,170,160,.20);  color:#6
 html[data-theme="dark"] .tag.method { background:rgba(160,110,180,.20); color:#caa6da; border-color:rgba(160,110,180,.4); }
 html[data-theme="dark"] .pub-meta, html[data-theme="dark"] .pub summary{ color:#b5b5b5; }
 html[data-theme="dark"] .pub-fund{ color:#9a9a9a; }
+/* clickable topic filter */
+.rsch-key .tag{ cursor:pointer; user-select:none; }
+.rsch-key .tag-active{ box-shadow:0 0 0 2px currentColor inset; }
+.pub{ transition:opacity .2s; }
+.pub.pub-dim{ opacity:.15; }
 </style>
 
-**Fields:** Development Economics · Economics of Education · Behavioral Economics · Urban Economics
+**Fields:** Development Economics · Urban Economics · Behavioral Economics · Economics of Education
 
 **Profiles:** [Google Scholar](https://scholar.google.com/citations?user=WXqdhzsAAAAJ) · [GitHub](https://github.com/idagri)
 
 My work studies how people and places develop: how cities grow and absorb migrants, how crime, stress, and mental health shape learning, and how hidden talent can be discovered and nurtured. I combine field experiments with spatial and administrative data, mostly across Latin America, India, and Indonesia.
 
-<p class="rsch-key"><b>Research topics:</b> <span class="tag urban">Urban &amp; Migration</span> <span class="tag well">Wellbeing &amp; Education</span> <span class="tag method">Methods &amp; Replication</span></p>
+<p class="rsch-key"><b>Research topics</b> <span style="opacity:.55">(click to filter)</span>&nbsp; <span class="tag urban" role="button" tabindex="0">Urban &amp; Migration</span> <span class="tag well" role="button" tabindex="0">Wellbeing &amp; Education</span> <span class="tag method" role="button" tabindex="0">Methods &amp; Replication</span></p>
 
 ---
 
@@ -78,6 +83,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Economic Consequences of Improving Sleep Among the Poor through Cognitive Behavioral Therapy for Insomnia</p>
 <p class="pub-meta">with Michelle Escobar Carias, Juan Pablo Franco, and Sean Drummond</p>
+<p class="pub-fund">Funding: Weiss Fund; CEGA Development Challenge</p>
 <details><summary>Abstract</summary><p>A field experiment studying whether cognitive behavioral therapy for insomnia (CBT-I) can improve sleep among low-income adults, and measuring the downstream effects on economic and wellbeing outcomes. <em>(Full abstract to come.)</em></p></details>
 </div>
 </div>
@@ -205,24 +211,19 @@ My work studies how people and places develop: how cities grow and absorb migran
 </div>
 </div>
 
----
-
-## Code, Maps, and Guides
-
-<div class="pub">
-<div class="pub-tag"></div>
-<div class="pub-body">
-<p class="pub-title"><a href="https://github.com/idagri/stata-tools">Stata tools and how-to guides</a></p>
-<p class="pub-meta">A curated set of Stata tools and self-help guides, including a walkthrough for making maps (SPMAP / GRMAP) and sample do-files.</p>
-</div>
-</div>
-
-<div class="pub">
-<div class="pub-tag"></div>
-<div class="pub-body">
-<p class="pub-title"><a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python">Digitizing Historical Maps with QGIS and Python</a></p>
-<p class="pub-meta">A guide to georeferencing and digitizing historical maps, co-authored with a lab student (Haicheng Xu).</p>
-</div>
-</div>
-
-More of my data, mapping (GIS), and methods work lives on my GitHub profile: [github.com/idagri](https://github.com/idagri).
+<script>
+(function(){
+  var key=document.querySelector('.rsch-key'); if(!key) return;
+  var pubs=[].slice.call(document.querySelectorAll('.pub'));
+  var topics=['urban','well','method'];
+  var tags=[].slice.call(key.querySelectorAll('.tag'));
+  function topicOf(el){ for(var i=0;i<topics.length;i++){ if(el.classList.contains(topics[i])) return topics[i]; } return null; }
+  function clear(){ pubs.forEach(function(p){p.classList.remove('pub-dim');}); tags.forEach(function(t){t.classList.remove('tag-active');}); key.removeAttribute('data-active'); }
+  function apply(topic){ pubs.forEach(function(p){ var pt=p.querySelector('.pub-tag .tag'); if(pt&&pt.classList.contains(topic)) p.classList.remove('pub-dim'); else p.classList.add('pub-dim'); }); }
+  tags.forEach(function(tag){ var t=topicOf(tag); if(!t) return;
+    function toggle(){ if(key.getAttribute('data-active')===t){ clear(); } else { clear(); key.setAttribute('data-active',t); tag.classList.add('tag-active'); apply(t); } }
+    tag.addEventListener('click',toggle);
+    tag.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); toggle(); } });
+  });
+})();
+</script>

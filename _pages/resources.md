@@ -12,10 +12,13 @@ redirect_from:
 {% include base_path %}
 
 <style>
-.res-card{ border-left:3px solid rgba(33,145,140,.4); padding:.1rem 0 .1rem .8rem; margin:.9rem 0; }
+.res-card{ border-left:3px solid rgba(33,145,140,.4); padding:.25rem 0 .25rem .8rem; margin:.9rem 0; }
+.res-card.has-img{ display:flex; gap:.9rem; align-items:flex-start; }
+.res-card.has-img img{ width:140px; height:96px; object-fit:cover; border-radius:6px; flex:0 0 auto; border:1px solid #e4e4e4; }
 .res-card .rt{ font-weight:700; font-size:.97rem; margin:0 0 .15rem; }
 .res-card .rd{ font-size:.85rem; color:#5f5f5f; line-height:1.5; margin:0; }
 .res-card .rd a{ font-weight:600; }
+@media (max-width:40em){ .res-card.has-img img{ width:92px; height:68px; } }
 html[data-theme="dark"] .res-card .rd{ color:#b5b5b5; }
 </style>
 
@@ -69,7 +72,7 @@ I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**: a 
 
 <div class="res-card">
 <p class="rt">Claude Cowork for economists — workshop</p>
-<p class="rd"><a href="/files/ai-cowork-workshop-slides.pdf">Workshop slides (PDF)</a> · thread on <a href="https://x.com/_idagri">X (@_idagri)</a> <!-- TODO: replace with the direct link to the posted thread --></p>
+<p class="rd"><a href="/files/ai-cowork-workshop-slides.pdf">Workshop slides (PDF)</a> · <a href="https://x.com/_IdaGri/status/2056430027739107609">workshop thread on X</a></p>
 </div>
 
 ## Data
@@ -88,19 +91,28 @@ Curated datasets I point students to. *(Expanding this section, see the note bel
 
 ## Research Tools
 
-<div class="res-card">
+<div class="res-card has-img">
+<img src="/images/res-stata-map.jpg" alt="A map made in Stata">
+<div>
 <p class="rt"><a href="https://github.com/idagri/stata-tools">Stata tools and guides</a></p>
 <p class="rd">Useful Stata tools with self-help guides, including making maps (SPMAP / GRMAP) and sample do-files.</p>
 </div>
-
-<div class="res-card">
-<p class="rt"><a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python">Digitizing historical maps with QGIS and Python</a></p>
-<p class="rd">A step-by-step guide to georeferencing and digitizing historical maps (co-authored with a lab student).</p>
 </div>
 
-<div class="res-card">
+<div class="res-card has-img">
+<img src="/images/res-mapdigit.jpg" alt="A historical map being digitized">
+<div>
+<p class="rt"><a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python/blob/main/Digitizing_Historical_Maps_Guide.ipynb">Digitizing historical maps with QGIS and Python</a></p>
+<p class="rd">A step-by-step guide to georeferencing and digitizing historical maps (co-authored with a lab student).</p>
+</div>
+</div>
+
+<div class="res-card has-img">
+<img src="/images/res-shrug.jpg" alt="Map of India showing distance to the nearest urban area">
+<div>
 <p class="rt"><a href="https://www.devdatalab.org/shrug">SHRUG — open geospatial data for India</a></p>
 <p class="rd">The Socioeconomic High-resolution Rural-Urban Geographic Platform: open data covering roughly 600,000 villages and 8,000 towns in India, from the Development Data Lab.</p>
 </div>
+</div>
 
-*More tools and guides will be added here.*
+More of my code, maps, and guides are on my [GitHub profile](https://github.com/idagri).
