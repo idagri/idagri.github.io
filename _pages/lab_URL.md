@@ -12,6 +12,7 @@ author_profile: true
 .proj-group h3{ border-bottom:2px solid; padding-bottom:.2rem; font-size:1.02rem; margin-bottom:.2rem; }
 .proj-group.urban h3{ border-color:#3B528B; }
 .proj-group.well  h3{ border-color:#21918C; }
+.proj-intro{ font-size:.86rem; color:#5f5f5f; margin:.5rem 0 .2rem; line-height:1.55; }
 .proj-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1rem 1.5rem; margin-top:.8rem; }
 .proj{ border-left:3px solid; padding-left:.75rem; }
 .proj-group.urban .proj{ border-color:rgba(59,82,139,.35); }
@@ -23,7 +24,7 @@ author_profile: true
 .place{ display:inline-block; font-size:.74rem; font-weight:600; background:rgba(33,145,140,.13); color:#13716b;
   border:1px solid rgba(33,145,140,.3); border-radius:1rem; padding:.14rem .65rem; margin:.18rem .3rem .18rem 0; }
 @media (max-width:50em){ .proj-grid{ grid-template-columns:1fr; } }
-html[data-theme="dark"] .proj-d{ color:#b5b5b5; }
+html[data-theme="dark"] .proj-d,.proj-intro{ color:#b5b5b5; }
 html[data-theme="dark"] .proj-group.urban .proj{ border-color:rgba(110,140,210,.4); }
 html[data-theme="dark"] .proj-group.well  .proj{ border-color:rgba(45,170,160,.45); }
 html[data-theme="dark"] .place{ background:rgba(45,170,160,.2); color:#6fd0c8; border-color:rgba(45,170,160,.4); }
@@ -38,11 +39,12 @@ Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** a
 ## Sample projects
 
 <div class="proj-group urban" markdown="0">
-<h3>Cities, migration &amp; spatial data</h3>
+<h3>GIS lab — spatial data</h3>
+<p class="proj-intro">A core thread of the lab is building geospatial datasets from scratch: turning raw satellite imagery and paper maps into analysis-ready spatial data. A multi-quarter effort digitizes and classifies informal settlements (slums) from high-resolution imagery, alongside historical-map digitization and accessibility mapping.</p>
 <div class="proj-grid">
 <div class="proj">
-<p class="proj-t">Mapping informal settlements from space</p>
-<p class="proj-d">Detecting slums in high-resolution Planet satellite imagery, pairing manual classification with machine learning. <span class="proj-tools">India &amp; Indonesia · QGIS · Python</span></p>
+<p class="proj-t">Mapping &amp; digitizing informal settlements</p>
+<p class="proj-d">Building a protocol to detect and delineate slums in high-resolution Planet satellite imagery and convert it into classified, analysis-ready spatial data, pairing manual image labeling with machine-learning classification. <a href="/files/url-gis-slums-classification.pdf">Slides</a> <span class="proj-tools">· India &amp; Indonesia · QGIS · Python</span></p>
 </div>
 <div class="proj">
 <p class="proj-t">Digitizing historical maps</p>
@@ -76,7 +78,7 @@ Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** a
 </div>
 <div class="proj">
 <p class="proj-t">Compulsory schooling reforms</p>
-<p class="proj-d">Coding the timing of compulsory-schooling-law reforms to study effects on educational attainment. <a href="/files/url-brazil-schooling.pdf">Slides</a> <span class="proj-tools">· Brazil · Stata</span></p>
+<p class="proj-d">Compiling a cross-country review of compulsory-schooling-law reforms (Brazil, Bangladesh, Vietnam, the Dominican Republic) to study effects on educational attainment. <a href="/files/url-csl-schooling-laws.pdf">Policy review</a> <span class="proj-tools">· Stata</span></p>
 </div>
 <div class="proj">
 <p class="proj-t">The gender gap in economics PhDs</p>

@@ -13,7 +13,9 @@ redirect_from:
 .out-stats{ display:flex; flex-wrap:wrap; gap:1.6rem; margin:.6rem 0 .2rem; }
 .out-stat b{ display:block; font-size:1.4rem; color:#21918C; line-height:1.05; }
 .out-stat span{ font-size:.74rem; color:#777; }
-.out-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(165px,1fr)); gap:.6rem; margin:1.3rem 0 .5rem; }
+.out-sec{ font-size:1.05rem; font-weight:700; margin:1.6rem 0 .2rem; padding-bottom:.2rem;
+  border-bottom:2px solid #21918C; color:#13716b; }
+.out-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(165px,1fr)); gap:.6rem; margin:.7rem 0 .4rem; }
 .out-tile{ position:relative; border-radius:6px; overflow:hidden; aspect-ratio:4/3; background:#e9e9e9; }
 .out-tile img{ width:100%; height:100%; object-fit:cover; display:block; transition:transform .45s ease; }
 .out-tile:hover img{ transform:scale(1.06); }
@@ -32,33 +34,34 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-stat"><b>50-mile</b><span>longest ultramarathon</span></div>
 </div>
 
+<div class="out-sec">Running</div>
 <div class="out-grid">
-
 <div class="out-tile"><img src="/images/out-avalon.jpg" alt="Running the Avalon 50-mile ultramarathon on Catalina Island"><div class="out-cap">50-mile ultramarathon · Catalina, 2026</div></div>
-
 <div class="out-tile"><img src="/images/out-sf50k.jpg" alt="Running the Golden Gate trail 50K in San Francisco"><div class="out-cap">Golden Gate 50K · San Francisco, 2026</div></div>
-
 <div class="out-tile"><img src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First 50K ultramarathon · Oregon, 2023</div></div>
-
 <div class="out-tile"><img src="/images/out-marathon.jpg" alt="Running the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025</div></div>
-
 <div class="out-tile"><img src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
-
 <div class="out-tile"><img src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>
+<div class="out-tile"><img src="/images/out-route.jpg" alt="A coastal long-run route map from Torrey Pines to Solana Beach"><div class="out-cap">Coastal long run · Torrey Pines to Solana Beach</div></div>
+</div>
 
-<div class="out-tile"><img src="/images/out-halfironman.jpg" alt="Cycling in the Victoria Half-Ironman triathlon"><div class="out-cap">Half-Ironman 70.3 · Victoria, 2022</div></div>
-
+<div class="out-sec">Triathlon &amp; biking</div>
+<div class="out-grid">
 <div class="out-tile"><img src="/images/out-triathlon.jpg" alt="Finishing an Olympic-distance triathlon in Vancouver"><div class="out-cap">Olympic triathlon · Vancouver, 2019</div></div>
-
 <div class="out-tile"><img src="/images/out-tribike.jpg" alt="Cycling leg of an Olympic-distance triathlon in Vancouver"><div class="out-cap">Triathlon, bike leg · Vancouver, 2019</div></div>
+<div class="out-tile"><img src="/images/out-trifinish.jpg" alt="At a triathlon finish line with friends"><div class="out-cap">Triathlon finish · with friends</div></div>
+<div class="out-tile"><img src="/images/out-halfironman.jpg" alt="Cycling in the Victoria Half-Ironman triathlon"><div class="out-cap">Half-Ironman 70.3 · Victoria, 2022</div></div>
+<div class="out-tile"><img src="/images/out-century.jpg" alt="On a first 100 km century bike ride by the ocean"><div class="out-cap">First 100 km century ride</div></div>
+</div>
 
-<div class="out-tile"><img src="/images/out-ski.jpg" alt="Skiing at Whistler"><div class="out-cap">Skiing · Whistler, BC</div></div>
-
+<div class="out-sec">Hiking &amp; skiing</div>
+<div class="out-grid">
 <div class="out-tile"><img src="/images/out-garibaldi.jpg" alt="Hiking at Garibaldi Lake"><div class="out-cap">Hiking · Garibaldi Lake, BC</div></div>
-
+<div class="out-tile"><img src="/images/out-bigbear.jpg" alt="Hiking with my PhD cohort at Big Bear"><div class="out-cap">PhD cohort hike · Big Bear, 2022</div></div>
+<div class="out-tile"><img src="/images/out-ski.jpg" alt="Skiing at Whistler"><div class="out-cap">Skiing · Whistler, BC</div></div>
 </div>
 
 <!--
-  To add a tile: copy one <div class="out-tile">…</div> block, drop a photo into images/,
-  and write a short label. Still available to add: first 100 km century ride, more skiing.
+  To add a tile: copy a <div class="out-tile">…</div> into the right section grid,
+  drop a photo into images/, and write a short label. Routes and group photos welcome.
 -->

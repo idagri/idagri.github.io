@@ -2,9 +2,7 @@
 # `children:` renders a hover dropdown (see _includes/masthead.html + head/custom.html).
 
 main:
-  - title: "About"
-    url: /
-
+  # "About" is intentionally omitted: the site title (name) already links to the homepage.
   - title: "CV"
     url: /files/CV_Ida_Grigoryeva_2026.pdf
 

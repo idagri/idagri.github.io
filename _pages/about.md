@@ -23,4 +23,4 @@ I also mentor a group of undergraduate researchers through the [Undergraduate–
 - M.A., Urban Geography (University of British Columbia, 2017)
 - B.A., Economics with honors (National Research University Higher School of Economics, 2015)
 
-You can read more about my [research](/research/) and [teaching](/teaching/), download my [CV](/files/CV_Ida_Grigoryeva_2026.pdf), or reach me at [idagri@ucsd.edu](mailto:idagri@ucsd.edu).
+[Download my CV (PDF)](/files/CV_Ida_Grigoryeva_2026.pdf)
