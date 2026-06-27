@@ -36,6 +36,7 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 
 <div class="out-sec">Running</div>
 <div class="out-grid">
+<div class="out-tile"><img src="/images/out-10k.jpg" alt="A sub-50-minute 10K run in Vancouver"><div class="out-cap">Sub-50 10K · Vancouver, 2018 (with Antonio Serapio-Palacios)</div></div>
 <div class="out-tile"><img src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First 50K ultramarathon · Oregon, 2023 (with Gabriella Escobar)</div></div>
 <div class="out-tile"><img src="/images/out-30k.jpg" alt="Longest training run, 30K in Vancouver"><div class="out-cap">Longest run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
 <div class="out-tile"><img src="/images/out-avalon.jpg" alt="Running the Avalon 50-mile ultramarathon on Catalina Island"><div class="out-cap">50-mile ultramarathon · Catalina, 2026</div></div>
@@ -51,21 +52,20 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile"><img src="/images/out-century.jpg" alt="On a first 100 km century bike ride by the ocean"><div class="out-cap">First 100 km century ride (with Gabriella Wong)</div></div>
 <div class="out-tile"><img src="/images/out-tribike.jpg" alt="Cycling leg of an Olympic-distance triathlon in Vancouver"><div class="out-cap">Olympic triathlon · Vancouver, 2019</div></div>
 <div class="out-tile"><img src="/images/out-trifinish.jpg" alt="At the finish of the Victoria Half-Ironman triathlon"><div class="out-cap">Half-Ironman 70.3 · Victoria, 2022</div></div>
+<div class="out-tile"><img src="/images/out-oceanswim.jpg" alt="UCSD triathlon club ocean swim at the beach"><div class="out-cap">UCSD triathlon ocean swims</div></div>
 </div>
 
 <div class="out-sec">Skiing</div>
 <div class="out-grid">
 <div class="out-tile"><img src="/images/out-ski.jpg" alt="Skiing at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
+<div class="out-tile"><img src="/images/out-cypress.jpg" alt="Skiing at Cypress Mountain"><div class="out-cap">Cypress Mountain, BC</div></div>
+<div class="out-tile"><img src="/images/out-sunpeaks.jpg" alt="Skiing at Sun Peaks"><div class="out-cap">Sun Peaks, BC</div></div>
 </div>
 
 <div class="out-sec">Hiking</div>
 <div class="out-grid">
 <div class="out-tile"><img src="/images/out-garibaldi.jpg" alt="Hiking at Garibaldi Lake"><div class="out-cap">Garibaldi Lake, BC</div></div>
 <div class="out-tile"><img src="/images/out-bigbear.jpg" alt="Hiking with my PhD cohort at Big Bear"><div class="out-cap">Big Bear · PhD cohort trip, 2022</div></div>
+<div class="out-tile"><img src="/images/out-elphinstone.jpg" alt="View from Mt. Elphinstone on the Sunshine Coast"><div class="out-cap">Mt. Elphinstone · Sunshine Coast</div></div>
+<div class="out-tile"><img src="/images/out-yosemite.jpg" alt="Hiking in Yosemite with a view of Half Dome"><div class="out-cap">Yosemite, California</div></div>
 </div>
-
-<!--
-  Still to add from the Google Sites grid (need the photo files): sub-50 10K (with Antonio
-  Serapio-Palacios), UCSD Triathlon ocean swims, Cypress Mountain, Sun Peaks, Mt. Elphinstone
-  (Sunshine Coast), Yosemite. Drop each photo into images/ and copy an <div class="out-tile">.
--->
