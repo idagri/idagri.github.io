@@ -16,7 +16,7 @@ redirect_from:
 .out-sec{ font-size:1.05rem; font-weight:700; margin:1.6rem 0 .2rem; padding-bottom:.2rem;
   border-bottom:2px solid #21918C; color:#13716b; }
 .out-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(165px,1fr)); gap:.6rem; margin:.7rem 0 .4rem; }
-.out-tile{ position:relative; border-radius:6px; overflow:hidden; aspect-ratio:4/3; background:#e9e9e9; }
+.out-tile{ position:relative; border-radius:6px; overflow:hidden; aspect-ratio:1/1; background:#e9e9e9; }
 .out-tile img{ width:100%; height:100%; object-fit:cover; display:block; transition:transform .45s ease; }
 .out-tile:hover img{ transform:scale(1.06); }
 .out-cap{ position:absolute; left:0; right:0; bottom:0; padding:.75rem .55rem .4rem; color:#fff;
@@ -58,6 +58,7 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-sec">Skiing</div>
 <div class="out-grid">
 <div class="out-tile"><img src="/images/out-ski.jpg" alt="Skiing at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
+<div class="out-tile"><img src="/images/out-whistler2.jpg" alt="Skiing with a friend at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
 <div class="out-tile"><img src="/images/out-cypress.jpg" alt="Skiing at Cypress Mountain"><div class="out-cap">Cypress Mountain, BC</div></div>
 <div class="out-tile"><img src="/images/out-sunpeaks.jpg" alt="Skiing at Sun Peaks"><div class="out-cap">Sun Peaks, BC</div></div>
 </div>
