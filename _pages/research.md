@@ -46,7 +46,7 @@ html[data-theme="dark"] .pub-fund{ color:#9a9a9a; }
 .pub.pub-dim{ opacity:.15; }
 </style>
 
-**Fields:** Development Economics · Urban Economics · Behavioral Economics · Economics of Education
+**Fields:** Development Economics · Urban Economics · Behavioral Economics
 
 **Profiles:** [Google Scholar](https://scholar.google.com/citations?user=WXqdhzsAAAAJ) · [GitHub](https://github.com/idagri)
 

@@ -5,10 +5,11 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<!-- favicon: viridis "travel-time rings" mark (concentric accessibility zones), images/favicon.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png" sizes="16x16"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
@@ -49,6 +50,13 @@ html[data-theme="dark"]{ --global-link-color:#6fd0c8; --global-link-color-hover:
 /* readable line length for prose; figures, tables, and custom grids stay full width */
 .archive > p, .archive > ul, .archive > ol, .archive > blockquote{ max-width:46rem; }
 .archive > p{ text-wrap:pretty; }
+
+/* home-page headline so the landing page has the same title hierarchy as every other page */
+.home-hero{ margin:.2rem 0 1.4rem; }
+.home-hero h1{ font-size:2rem; font-weight:800; line-height:1.1; margin:0 0 .3rem; color:#14323a; text-wrap:balance; }
+.home-hero p{ font-size:1.02rem; color:#5b6470; margin:0; line-height:1.35; }
+html[data-theme="dark"] .home-hero h1{ color:#eef1f4; }
+html[data-theme="dark"] .home-hero p{ color:#aeb6c0; }
 
 /* one heading system across pages: consistent size + viridis-teal section rule */
 .archive > h2{ font-size:1.5rem; font-weight:700; line-height:1.25; margin:2.4rem 0 .7rem;

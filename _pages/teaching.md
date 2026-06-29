@@ -16,15 +16,29 @@ author_profile: true
 .tt tr:hover td{ background:rgba(33,145,140,.04); }
 .tt .c-name{ font-weight:600; }
 .tt .yr{ white-space:nowrap; }
-.tt.ins th{ background:rgba(59,82,139,.12); color:#33477a; border-bottom-color:rgba(59,82,139,.4); }
-.tt .grp td{ background:rgba(59,82,139,.08); font-weight:700; font-size:.64rem; text-transform:uppercase;
-  letter-spacing:.04em; color:#33477a; padding:.28rem .55rem; }
+.tt.ins th{ background:rgba(49,104,142,.13); color:#2a5e7e; border-bottom-color:rgba(49,104,142,.45); }
+.tt .grp td{ background:rgba(49,104,142,.09); font-weight:700; font-size:.64rem; text-transform:uppercase;
+  letter-spacing:.04em; color:#2a5e7e; padding:.28rem .55rem; }
 .evlinks a{ white-space:nowrap; }
 .cred li{ margin:.25rem 0; }
 .award-row{ display:flex; gap:.55rem; align-items:flex-start; margin:.35rem 0; font-size:.92rem; }
 .award-row .ic{ flex:0 0 auto; }
-.note{ font-size:.82rem; color:#777; }
-@media (max-width:50em){ .tt{ font-size:.78rem; } .tt th,.tt td{ padding:.28rem .4rem; } }
+.note{ font-size:.82rem; color:#5b6470; }
+.eval-cta{ display:flex; align-items:center; gap:.85rem; margin:1rem 0 1.5rem; padding:.7rem 1rem;
+  border:1px solid rgba(33,145,140,.35); border-left:4px solid var(--vir-teal,#21918c); border-radius:8px;
+  background:rgba(33,145,140,.07); text-decoration:none; color:inherit; transition:background .15s ease; }
+.eval-cta:hover{ background:rgba(33,145,140,.13); }
+.eval-cta .ic{ font-size:1.5rem; flex:0 0 auto; line-height:1; }
+.eval-cta .tx{ flex:1 1 auto; font-size:.92rem; line-height:1.32; }
+.eval-cta .tx strong{ color:#13716b; }
+.eval-cta .sub{ font-size:.8rem; color:#5b6470; }
+.eval-cta .go{ flex:0 0 auto; font-weight:700; font-size:.82rem; color:var(--vir-teal,#21918c); white-space:nowrap; }
+html[data-theme="dark"] .eval-cta{ background:rgba(45,170,160,.12); border-color:rgba(45,170,160,.3); border-left-color:#6fd0c8; }
+html[data-theme="dark"] .eval-cta .tx strong{ color:#6fd0c8; }
+html[data-theme="dark"] .eval-cta .sub{ color:#aeb6c0; }
+html[data-theme="dark"] .eval-cta .go{ color:#6fd0c8; }
+@media (max-width:50em){ .tt{ font-size:.78rem; } .tt th,.tt td{ padding:.28rem .4rem; }
+  .eval-cta{ flex-wrap:wrap; } .eval-cta .go{ width:100%; } }
 html[data-theme="dark"] .tt td{ border-color:#3a3a3a; }
 html[data-theme="dark"] .tt th{ background:rgba(45,170,160,.18); color:#6fd0c8; }
 html[data-theme="dark"] .tt.ins th{ background:rgba(110,140,210,.18); color:#aebfe6; }
@@ -33,6 +47,12 @@ html[data-theme="dark"] .note{ color:#aaa; }
 </style>
 
 I care a great deal about making quantitative methods approachable for students new to data and economics. At UCSD I have taught econometrics and data analysis as instructor of record and as a teaching assistant, work recognized with several teaching awards.
+
+<a class="eval-cta" href="/files/teaching-evaluation-summary.pdf">
+<span class="ic">📊</span>
+<span class="tx"><strong>Teaching evaluation summary</strong><br><span class="sub">Pooled student ratings against department benchmarks, and what students say, across all my courses (PDF).</span></span>
+<span class="go">View&nbsp;PDF&nbsp;→</span>
+</a>
 
 ## Instructor of record
 

@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Ida Grigoryeva"
 title_separator          : "-"
 name                     : &name "Ida Grigoryeva"
-description              : &description "PhD Candidate in Economics at UC San Diego · Development · Urban · Education · Behavioral "
+description              : &description "PhD Candidate in Economics at UC San Diego · Development, Urban & Behavioral Economics"
 url                      : https://idagri.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "idagri/idagri.github.io"
@@ -149,6 +149,10 @@ atom_feed:
 
 
 # SEO Related
+# Google Search Console ownership: from the "HTML tag" method, paste ONLY the content token
+# below (e.g. google_site_verification : abcd1234EFGH...  -- no quotes, no <meta> markup). It
+# renders a site-wide <meta name="google-site-verification"> tag. Push, then click Verify.
+# Full steps: portfolio_site_project/GOOGLE_SEARCH_CONSOLE.md
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
