@@ -15,17 +15,17 @@ redirect_from:
 .out-stat span{ font-size:.74rem; color:#777; }
 .out-sec{ font-size:1.05rem; font-weight:700; margin:1.6rem 0 .2rem; padding-bottom:.2rem;
   border-bottom:2px solid #21918C; color:#13716b; }
-.out-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(132px,1fr)); gap:.5rem; margin:.6rem 0 .3rem; }
-.out-tile{ position:relative; border-radius:6px; overflow:hidden; aspect-ratio:1/1; background:#e9e9e9; }
-.out-tile img{ width:100%; height:100%; object-fit:cover; display:block; transition:transform .45s ease; }
-.out-tile:hover img{ transform:scale(1.06); }
-.out-cap{ position:absolute; left:0; right:0; bottom:0; padding:.75rem .55rem .4rem; color:#fff;
-  font-size:.72rem; font-weight:600; line-height:1.22;
-  background:linear-gradient(to top, rgba(0,0,0,.78), rgba(0,0,0,0)); }
+.out-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(124px,1fr)); gap:.55rem; margin:.55rem 0 .3rem; }
+.out-tile{ display:block; }
+.out-tile img{ width:100%; aspect-ratio:1/1; object-fit:cover; display:block; border-radius:7px;
+  background:#e9e9e9; transition:filter .2s ease; }
+.out-tile:hover img{ filter:brightness(1.05); }
+.out-cap{ font-size:.6rem; color:#5b6470; line-height:1.25; margin:.26rem 0 0; font-weight:500; }
+html[data-theme="dark"] .out-cap{ color:#aeb6c0; }
 @media (max-width:30em){ .out-grid{ grid-template-columns:1fr 1fr; gap:.4rem; } }
 html[data-theme="dark"] .out-stat span{ color:#aaa; }
-.out-results{ font-size:.82rem; color:#5b6470; margin:.1rem 0 .5rem; }
-.out-results a{ font-weight:600; }
+.out-results{ font-size:.72rem; color:#9099a3; margin:1.4rem 0 .2rem; }
+.out-results a{ font-weight:600; color:#6a7480; }
 html[data-theme="dark"] .out-results{ color:#aeb6c0; }
 </style>
 
@@ -49,7 +49,6 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile"><img src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
 <div class="out-tile"><img src="/images/out-bearroute.jpg" alt="A Strava map of a long running route looping through Pacific Spirit Park, Vancouver"><div class="out-cap">Running projects</div></div>
 </div>
-<p class="out-results">Ultramarathon results: <a href="https://ultrarunning.com/calendar/runner/view/Idaliya-Grigoryeva-a5d94586-d306-11ed-9ee8-8e80a249bae3">my UltraRunning.com profile&nbsp;↗</a></p>
 
 <div class="out-sec">Cycling &amp; triathlon</div>
 <div class="out-grid">
@@ -70,3 +69,5 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile"><img src="/images/out-elphinstone.jpg" alt="View from Mt. Elphinstone on the Sunshine Coast"><div class="out-cap">Mt. Elphinstone · Sunshine Coast</div></div>
 <div class="out-tile"><img src="/images/out-yosemite.jpg" alt="Hiking in Yosemite with a view of Half Dome"><div class="out-cap">Yosemite, California</div></div>
 </div>
+
+<p class="out-results">Results: <a href="https://ultrarunning.com/calendar/runner/view/Idaliya-Grigoryeva-a5d94586-d306-11ed-9ee8-8e80a249bae3">ultrarunning.com</a></p>
