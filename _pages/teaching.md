@@ -46,7 +46,7 @@ html[data-theme="dark"] .tt .grp td{ background:rgba(110,140,210,.15); color:#ae
 html[data-theme="dark"] .note{ color:#aaa; }
 </style>
 
-I care a great deal about making quantitative methods approachable for students new to data and economics. At UCSD I have taught econometrics and data analysis as instructor of record and as a teaching assistant, work recognized with several teaching awards.
+I make quantitative methods approachable for students new to data and economics. At UC San Diego I have been **instructor of record three times** and a **teaching assistant in seven courses across sixteen sections**, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
 
 <a class="eval-cta" href="/files/teaching-evaluation-summary.pdf">
 <span class="ic">📊</span>
