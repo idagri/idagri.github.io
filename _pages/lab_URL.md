@@ -113,7 +113,9 @@ Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** a
 </div>
 </div>
 
-The students I have worked with, in the lab and beyond, are pursuing further education at the University of Michigan, Tufts, and Oxford, and have obtained predoctoral fellowships and RA positions at the Federal Reserve, Stanford, and elsewhere.
+## Outcomes
+
+The students I have worked with at UCSD and beyond have gone on to pursue further education at the University of Michigan, Tufts, and Oxford, and/or have obtained predoctoral fellowships and RA positions at the Federal Reserve, Stanford, and Harvard, among others.
 
 <figure class="align-center">
   <img src="/images/lab-collage.jpg" alt="Lab meetings, group work, and end-of-quarter presentations">

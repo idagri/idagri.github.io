@@ -210,11 +210,15 @@ My work studies how people and places develop: how cities grow and absorb migran
 </div>
 </div>
 
+---
+
+## Predoctoral research
+
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
-<p class="pub-title">The Latin American Urbanization Puzzle: Structural Transformation and the Colonial Past <span class="pub-flag pre">MA thesis</span></p>
-<p class="pub-meta">Solo-authored</p>
+<p class="pub-title">The Latin American Urbanization Puzzle: Structural Transformation and the Colonial Past</p>
+<p class="pub-meta">Solo-authored · M.A. thesis, University of British Columbia</p>
 <details><summary>Abstract</summary><p>The most urbanized continent, Latin America lags on the economic development expected of its high urbanization rates. Across the region, I find that while industrialization and resource rents explain some variation, they are insufficient to account for exceptionally high urbanization. I present suggestive evidence that the colonial past created an urban system later conducive to "urbanization without growth."</p></details>
 </div>
 </div>
@@ -222,8 +226,8 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
-<p class="pub-title">Factors of Urban Income Inequality in High- and Middle-Income Countries <span class="pub-flag pre">BA thesis</span></p>
-<p class="pub-meta">ECINEQ Conference Working Paper, Eighth Meeting, Paris (2019)</p>
+<p class="pub-title">Factors of Urban Income Inequality in High- and Middle-Income Countries</p>
+<p class="pub-meta">B.A. thesis, NRU Higher School of Economics · ECINEQ Conference Working Paper, Paris (2019)</p>
 </div>
 </div>
 

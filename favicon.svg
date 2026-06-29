@@ -1,23 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Idaliya Grigoryeva — travel-time rings">
-  <defs>
-    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fde725" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#fde725" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="7" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <!-- dark squircle field -->
-  <rect x="0" y="0" width="512" height="512" rx="116" ry="116" fill="#101a22"/>
-  <!-- concentric viridis travel-time zones, glowing out from a place -->
+  <rect width="512" height="512" rx="116" fill="#101a22"/>
   <circle cx="256" cy="256" r="232" fill="#1d3a5e"/>
-  <circle cx="256" cy="256" r="183" fill="#31688e"/>
-  <circle cx="256" cy="256" r="139" fill="#21918c"/>
-  <circle cx="256" cy="256" r="98"  fill="#44bf70"/>
-  <circle cx="256" cy="256" r="60"  fill="#a5db36"/>
-  <!-- glowing center -->
-  <circle cx="256" cy="256" r="74" fill="url(#halo)"/>
-  <circle cx="256" cy="256" r="31" fill="#fde725" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="184" fill="#31688e"/>
+  <circle cx="256" cy="256" r="140" fill="#21918c"/>
+  <circle cx="256" cy="256" r="99"  fill="#44bf70"/>
+  <circle cx="256" cy="256" r="62"  fill="#a5db36"/>
+  <circle cx="256" cy="256" r="33"  fill="#fde725"/>
 </svg>
