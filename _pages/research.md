@@ -23,6 +23,9 @@ author_profile: true
 .pub-title{ margin:0 0 .25rem; font-size:1.02rem; font-weight:700; line-height:1.35; }
 .pub-flag{ display:inline-block; font-size:.62rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em;
   color:#fff; background:#3B528B; border:none; border-radius:1rem; padding:.12rem .6rem; margin-left:.45rem; vertical-align:middle; }
+.pub-flag.pre{ background:#6a7480; }
+.pub-pres{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
+html[data-theme="dark"] .pub-pres{ color:#9a9a9a; }
 .pub-meta{ margin:0; font-size:.82rem; color:#6b6b6b; line-height:1.5; }
 .pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
 .pub details{ margin:.4rem 0 0; }
@@ -64,6 +67,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <p class="pub-title">Agricultural Productivity and Urbanization: Evidence from Indonesia's Transmigration Program <span class="pub-flag">Job Market Paper</span></p>
 <p class="pub-meta">Solo-authored</p>
 <p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Field Research Grant ($12,800)</p>
+<p class="pub-pres">Presented at: PacDev (UC Davis), DevPEC (Stanford), the European Urban Economics Association Meeting (Barcelona), the UEA PhD Summer School (LSE), and the Cities &amp; Development Workshop (Harvard), 2024–2026.</p>
 <details><summary>Abstract</summary><p>Using the quasi-random allocation of Indonesia's Transmigration Program and variation in productivity among transmigrant villages, I show that cities proximate to more productive villages experience higher population and employment growth, concentrated in service industries. The higher growth occurs alongside greater in-migration to cities (from both rural and urban districts) and is not driven by transmigrants abandoning their destination villages. Because migrants tend to stay in more productive villages, the results provide suggestive evidence of positive indirect spillovers of rural productivity onto regional urban markets.</p></details>
 </div>
 </div>
@@ -73,7 +77,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Violence and Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores</p>
 <p class="pub-meta">with Vinicius Peçanha</p>
-<p class="pub-fund">Funding: Weiss Fund ($12,900)</p>
+<p class="pub-fund">Funding: Weiss Fund ($12,900); SSHRC PhD Fellowship</p>
 <details><summary>Abstract</summary><p>In many neighborhoods of Latin American cities such as Rio de Janeiro, crime rates are very high, producing educational disruption and acute stress. We find that neighborhood shootings near a school shortly before an exam have a robust negative effect on students' performance on the language and math university-entrance tests. The effects are robust to school and year fixed effects: exposed students perform significantly worse (by 0.1 to 0.3 standard deviations) than non-exposed students.</p></details>
 </div>
 </div>
@@ -83,7 +87,8 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Economic Consequences of Improving Sleep Among the Poor through Cognitive Behavioral Therapy for Insomnia</p>
 <p class="pub-meta">with Michelle Escobar Carias, Juan Pablo Franco, and Sean Drummond</p>
-<p class="pub-fund">Funding: Weiss Fund; CEGA Development Challenge</p>
+<p class="pub-fund">Funding: Weiss Fund ($24,400); CEGA Development Challenge ($20,000)</p>
+<p class="pub-pres">Presented at: the University of Melbourne and the Melbourne Institute (2026).</p>
 <details><summary>Abstract</summary><p>A field experiment studying whether cognitive behavioral therapy for insomnia (CBT-I) can improve sleep among low-income adults, and measuring the downstream effects on economic and wellbeing outcomes. <em>(Full abstract to come.)</em></p></details>
 </div>
 </div>
@@ -107,7 +112,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students</p>
 <p class="pub-meta">with Alisher Batmanov, Bruno Calderon-Hernandez, Roberto Gonzalez-Tellez, and Alejandro Guardiola-Ramirez · <em>Journal of Development Economics</em> 180: 103646 (2026) · <a href="https://doi.org/10.1016/j.jdeveco.2025.103646">Journal</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5192345">Preprint</a> · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
-<p class="pub-fund">Funding: Weiss Fund ($11,000); UC-MX Alianza Field Research Grant ($7,600)</p>
+<p class="pub-fund">Funding: Weiss Fund ($11,000); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
 <details><summary>Abstract</summary><p>We investigate the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where supply-side barriers are minimal. In a survey experiment with 680 students, nearly 50% of students in distress do not receive professional support despite high awareness and perceived effectiveness, a substantial treatment gap. We document stigmatized beliefs and misconceptions correlated with this gap: three-quarters of students incorrectly believe that those in distress perform worse academically and that most students in therapy are in severe distress. An information intervention correcting these beliefs increases students' sharing of on-campus resources and their willingness to recommend them to peers, though it lowers willingness to pay for private therapy and does not change self-reported therapy use six months later.</p></details>
 </div>
 </div>
@@ -161,7 +166,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Income Strongly Moderates Climate-Driven Migration</p>
-<p class="pub-meta">with Gaurav Khanna, Katharine Ricke et al. · Submitted (2025)</p>
+<p class="pub-meta">with Gaurav Khanna, Pascal Polonik, Jessica Wan, Jacopo Lunghi, and Katharine Ricke · Submitted (2025)</p>
 </div>
 </div>
 
@@ -174,6 +179,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">You're Better Than You Think: Does Revealing Hidden Talent with a Novel Assessment Improve Student Outcomes?</p>
 <p class="pub-meta">with Michelle Escobar Carias</p>
+<p class="pub-fund">Funding: NBER PhD Dissertation Fellowship on Identifying &amp; Nurturing Math Talent ($36,000)</p>
 </div>
 </div>
 
@@ -182,15 +188,6 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Effects of an Emotional Resilience Intervention on Teacher Wellbeing and Performance in Guatemala</p>
 <p class="pub-meta">with Michelle Escobar Carias</p>
-</div>
-</div>
-
-<div class="pub">
-<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
-<div class="pub-body">
-<p class="pub-title">The Latin American Urbanization Puzzle: Structural Transformation and the Colonial Past</p>
-<p class="pub-meta">Solo-authored</p>
-<details><summary>Abstract</summary><p>The most urbanized continent, Latin America lags on the economic development expected of its high urbanization rates. Across the region, I find that while industrialization and resource rents explain some variation, they are insufficient to account for exceptionally high urbanization. I present suggestive evidence that the colonial past created an urban system later conducive to "urbanization without growth."</p></details>
 </div>
 </div>
 
@@ -206,7 +203,26 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
-<p class="pub-title">Factors of Urban Income Inequality in High- and Middle-Income Countries</p>
+<p class="pub-title">Migrant Protection Protocols ("Remain in Mexico") and Procedural Fairness in U.S. Immigration Courts</p>
+<p class="pub-meta">with Catalina Amuedo-Dorantes</p>
+<p class="pub-fund">Funding: IHS Mentorship Grant ($8,000)</p>
+<details><summary>Abstract</summary><p>The Migrant Protection Protocols (MPP, "Remain in Mexico") required non-Mexican asylum seekers arriving at the U.S.&ndash;Mexico border to wait in Mexico during their immigration court proceedings. Using administrative case-level microdata from the Executive Office for Immigration Review covering over one million cases from 2012 to 2020, we estimate the causal effect of MPP on procedural-fairness outcomes with an event-study difference-in-differences design, comparing non-Mexican (treated) and Mexican (control) respondents in courts operating MPP dockets. MPP led to a sharp decline in legal representation, a large increase in in-absentia removal orders, higher removal rates, shorter case durations, and a temporary surge in case terminations, concentrated among nationals of Honduras, Guatemala, and El Salvador. The findings indicate that MPP systematically undermined procedural fairness, creating a two-tiered system in which structural barriers, not individual choices, drove adverse case outcomes.</p></details>
+</div>
+</div>
+
+<div class="pub">
+<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
+<div class="pub-body">
+<p class="pub-title">The Latin American Urbanization Puzzle: Structural Transformation and the Colonial Past <span class="pub-flag pre">MA thesis</span></p>
+<p class="pub-meta">Solo-authored</p>
+<details><summary>Abstract</summary><p>The most urbanized continent, Latin America lags on the economic development expected of its high urbanization rates. Across the region, I find that while industrialization and resource rents explain some variation, they are insufficient to account for exceptionally high urbanization. I present suggestive evidence that the colonial past created an urban system later conducive to "urbanization without growth."</p></details>
+</div>
+</div>
+
+<div class="pub">
+<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
+<div class="pub-body">
+<p class="pub-title">Factors of Urban Income Inequality in High- and Middle-Income Countries <span class="pub-flag pre">BA thesis</span></p>
 <p class="pub-meta">ECINEQ Conference Working Paper, Eighth Meeting, Paris (2019)</p>
 </div>
 </div>
