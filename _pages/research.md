@@ -111,7 +111,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
 <p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students</p>
-<p class="pub-meta">with Alisher Batmanov, Bruno Calderon-Hernandez, Roberto Gonzalez-Tellez, and Alejandro Guardiola-Ramirez · <em>Journal of Development Economics</em> 180: 103646 (2026) · <a href="https://doi.org/10.1016/j.jdeveco.2025.103646">Journal</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5192345">Preprint</a> · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
+<p class="pub-meta">with Alisher Batmanov, Bruno Calderon-Hernandez, Roberto Gonzalez-Tellez, and Alejandro Guardiola-Ramirez · <em>Journal of Development Economics</em> 180: 103646 (2026) · <a href="https://doi.org/10.1016/j.jdeveco.2025.103646">Journal</a> · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
 <p class="pub-fund">Funding: Weiss Fund ($11,000); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
 <details><summary>Abstract</summary><p>We investigate the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where supply-side barriers are minimal. In a survey experiment with 680 students, nearly 50% of students in distress do not receive professional support despite high awareness and perceived effectiveness, a substantial treatment gap. We document stigmatized beliefs and misconceptions correlated with this gap: three-quarters of students incorrectly believe that those in distress perform worse academically and that most students in therapy are in severe distress. An information intervention correcting these beliefs increases students' sharing of on-campus resources and their willingness to recommend them to peers, though it lowers willingness to pay for private therapy and does not change self-reported therapy use six months later.</p></details>
 </div>
@@ -166,7 +166,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Income Strongly Moderates Climate-Driven Migration</p>
-<p class="pub-meta">with Gaurav Khanna, Pascal Polonik, Jessica Wan, Jacopo Lunghi, and Katharine Ricke · Submitted (2025)</p>
+<p class="pub-meta">with Gaurav Khanna, Pascal Polonik, Jessica Wan, Jacopo Lunghi, and Katharine Ricke · Submitted (2025) · <a href="https://eartharxiv.org/repository/view/11088/">EarthArXiv</a></p>
 </div>
 </div>
 
