@@ -59,17 +59,13 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile"><img src="/images/out-oceanswim.jpg" alt="UCSD triathlon club ocean swim at the beach"><div class="out-cap">UCSD triathlon ocean swims</div></div>
 </div>
 
-<div class="out-sec">Skiing</div>
+<div class="out-sec">Skiing &amp; hiking</div>
 <div class="out-grid">
 <div class="out-tile"><img src="/images/out-ski.jpg" alt="Skiing at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
 <div class="out-tile"><img src="/images/out-whistler2.jpg" alt="Skiing with a friend at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
 <div class="out-tile"><img src="/images/out-cypress.jpg" alt="Skiing at Cypress Mountain"><div class="out-cap">Cypress Mountain, BC</div></div>
 <div class="out-tile"><img src="/images/out-sunpeaks.jpg" alt="Skiing at Sun Peaks"><div class="out-cap">Sun Peaks, BC</div></div>
-</div>
-
-<div class="out-sec">Hiking</div>
-<div class="out-grid">
-<div class="out-tile"><img src="/images/out-garibaldi.jpg" alt="Hiking at Garibaldi Lake"><div class="out-cap">Garibaldi Lake, BC</div></div>
+<div class="out-tile"><img src="/images/out-garibaldi.jpg" alt="Group hike at Garibaldi Lake"><div class="out-cap">Garibaldi Lake, BC</div></div>
 <div class="out-tile"><img src="/images/out-bigbear.jpg" alt="Hiking with my PhD cohort at Big Bear"><div class="out-cap">Big Bear · PhD cohort trip, 2022</div></div>
 <div class="out-tile"><img src="/images/out-elphinstone.jpg" alt="View from Mt. Elphinstone on the Sunshine Coast"><div class="out-cap">Mt. Elphinstone · Sunshine Coast</div></div>
 <div class="out-tile"><img src="/images/out-yosemite.jpg" alt="Hiking in Yosemite with a view of Half Dome"><div class="out-cap">Yosemite, California</div></div>
