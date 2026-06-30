@@ -39,14 +39,14 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 
 <div class="out-sec">Running</div>
 <div class="out-grid">
-<div class="out-tile"><img src="/images/out-10k.jpg" alt="A sub-50-minute 10K run in Vancouver"><div class="out-cap">Sub-50 10K · Vancouver, 2018 (with Antonio Serapio-Palacios)</div></div>
-<div class="out-tile"><img src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First 50K ultramarathon · Oregon, 2023 (with Gabriella Escobar)</div></div>
-<div class="out-tile"><img src="/images/out-30k.jpg" alt="Longest training run, 30K in Vancouver"><div class="out-cap">Longest run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
 <div class="out-tile"><img src="/images/out-avalon.jpg" alt="Running the Avalon 50-mile ultramarathon on Catalina Island"><div class="out-cap">50-mile ultramarathon · Catalina, 2026</div></div>
+<div class="out-tile"><img src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First 50K ultramarathon · Oregon, 2023 (with Gabriella Escobar)</div></div>
 <div class="out-tile"><img src="/images/out-sf50k.jpg" alt="Running the Golden Gate trail 50K in San Francisco"><div class="out-cap">Golden Gate 50K · San Francisco, 2026</div></div>
 <div class="out-tile"><img src="/images/out-marathon.jpg" alt="Running the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025</div></div>
 <div class="out-tile"><img src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>
+<div class="out-tile"><img src="/images/out-30k.jpg" alt="Longest training run, 30K in Vancouver"><div class="out-cap">Longest run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
 <div class="out-tile"><img src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
+<div class="out-tile"><img src="/images/out-10k.jpg" alt="A sub-50-minute 10K run in Vancouver"><div class="out-cap">Sub-50 10K · Vancouver, 2018 (with Antonio Serapio-Palacios)</div></div>
 <div class="out-tile"><img src="/images/out-bearroute.jpg" alt="A Strava map of a long running route looping through Pacific Spirit Park, Vancouver"><div class="out-cap">Running projects</div></div>
 </div>
 
@@ -70,4 +70,4 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile"><img src="/images/out-yosemite.jpg" alt="Hiking in Yosemite with a view of Half Dome"><div class="out-cap">Yosemite, California</div></div>
 </div>
 
-<p class="out-results">Results: <a href="https://ultrarunning.com/calendar/runner/view/Idaliya-Grigoryeva-a5d94586-d306-11ed-9ee8-8e80a249bae3">ultrarunning.com</a></p>
+<p class="out-results">Results: <a href="https://ultrarunning.com/calendar/runner/view/Idaliya-Grigoryeva-a5d94586-d306-11ed-9ee8-8e80a249bae3">UltraRunning</a> · <a href="https://www.strava.com/athletes/37840585">Strava</a></p>

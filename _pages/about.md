@@ -8,11 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<div class="home-hero" markdown="0">
-<h1>Ida Grigoryeva</h1>
-<p>PhD Candidate in Economics, UC&nbsp;San&nbsp;Diego — development, urban &amp; behavioral economics</p>
-</div>
-
 I am a PhD Candidate in the [Department of Economics at the University of California, San Diego](http://economics.ucsd.edu/), where I have studied since 2021.
 
 My research is in Development, Urban, and Behavioral Economics, with projects on urbanization and migration, student mental health and wellbeing, crime and education, and the discovery and nurturing of talent. Much of my work combines field experiments with spatial and administrative data across Latin America, India, and Indonesia. My doctoral research is supported by the **SSHRC PhD Fellowship** (Canada) and the **NBER PhD Dissertation Fellowship on Identifying and Nurturing Math Talent**.
