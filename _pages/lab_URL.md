@@ -33,13 +33,13 @@ html[data-theme="dark"] .proj-group.well  .proj{ border-color:rgba(45,170,160,.4
 html[data-theme="dark"] .place{ background:rgba(45,170,160,.2); color:#6fd0c8; border-color:rgba(45,170,160,.4); }
 </style>
 
-Since Fall 2023, I have led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego, mentoring 10-20 undergraduates each quarter on real research projects in development, urban, and education economics. Students work hands-on with Stata, Python, R, and QGIS, and present their work at the end of each quarter.
+I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since Fall 2023, and it's one of my favorite parts of the job. Each quarter I work with 10-20 undergraduates on real research in development, urban, and education economics, split across two labs: a GIS lab for spatial and satellite data, and a Stata-Python lab for the empirical projects. Everyone works hands-on with Stata, Python, R, and QGIS and presents at the end of the quarter.
 
 ## Students' Sample Projects
 
 <div class="proj-group urban" markdown="0">
 <h3>GIS lab: spatial data</h3>
-<p class="proj-intro">A core thread of the lab is building geospatial datasets from scratch: turning raw satellite imagery and paper maps into analysis-ready spatial data. A multi-quarter effort digitizes and classifies informal settlements (slums) from high-resolution imagery, alongside historical-map digitization and accessibility mapping.</p>
+<p class="proj-intro">In the GIS lab, we build spatial data from scratch: taking raw satellite images and old paper maps and turning them into something we can actually analyze. Right now that means finding and outlining informal settlements in satellite imagery, digitizing historical maps, and measuring how long it takes people to reach jobs, schools, and services.</p>
 <div class="proj-grid">
 <div class="proj">
 <img class="proj-thumb" src="/images/proj-slums.jpg" alt="Satellite imagery classified into informal, formal, and mixed settlement areas">
@@ -73,7 +73,7 @@ Since Fall 2023, I have led an **Undergraduate-Graduate Research Lab (URL)** at 
 </div>
 
 <div class="proj-group well" markdown="0">
-<h3>Wellbeing, education &amp; talent</h3>
+<h3>Stata-Python lab: wellbeing, education &amp; talent</h3>
 <div class="proj-grid">
 <div class="proj">
 <img class="proj-thumb" src="/images/proj-talent.jpg" alt="Distribution of exam scores used to identify high-potential students">
