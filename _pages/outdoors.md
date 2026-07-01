@@ -70,4 +70,4 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile"><img src="/images/out-yosemite.jpg" alt="Hiking in Yosemite with a view of Half Dome"><div class="out-cap">Yosemite, California</div></div>
 </div>
 
-<p class="out-results">Results: <a href="https://ultrarunning.com/calendar/runner/view/Idaliya-Grigoryeva-a5d94586-d306-11ed-9ee8-8e80a249bae3">UltraRunning</a> · <a href="https://www.strava.com/athletes/37840585">Strava</a></p>
+<p class="out-results">Results: <a href="https://ultrarunning.com/calendar/runner/view/Idaliya-Grigoryeva-a5d94586-d306-11ed-9ee8-8e80a249bae3">UltraRunning</a> · <a href="https://www.strava.com/athletes/37840585">Strava</a> · <a href="https://www.ironman.com/races/im703-victoria/results">IRONMAN 70.3 Victoria</a> (select 2022, search "Grigoryeva")</p>
