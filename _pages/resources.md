@@ -92,7 +92,7 @@ Curated datasets I point students to. *(Expanding this section, see the note bel
 ## Research Tools
 
 <div class="res-card has-img">
-<img src="/images/res-stata-map.jpg" alt="A map made in Stata">
+<img src="/images/res-stata-map.jpg" alt="A US choropleth map made with Stata's spmap">
 <div>
 <p class="rt"><a href="https://github.com/idagri/stata-tools">Stata tools and guides</a></p>
 <p class="rd">Useful Stata tools with self-help guides, including making maps (SPMAP / GRMAP) and sample do-files.</p>
