@@ -51,6 +51,8 @@ html[data-theme="dark"] .pub-fund, html[data-theme="dark"] .pub-pres{ color:#9a9
 /* clickable topic filter */
 .rsch-key .tag{ cursor:pointer; user-select:none; }
 .rsch-key .tag-active{ box-shadow:0 0 0 2px currentColor inset; }
+.tag.all{ background:#ececec; color:#555; border-color:#cfcfcf; }
+html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-color:#454e59; }
 .pub{ transition:opacity .2s; }
 .pub.pub-dim{ opacity:.15; }
 </style>
@@ -61,7 +63,7 @@ html[data-theme="dark"] .pub-fund, html[data-theme="dark"] .pub-pres{ color:#9a9
 
 My work studies how people and places develop: how cities grow and absorb migrants, how crime, stress, and mental health shape learning, and how hidden talent can be discovered and nurtured. I combine field experiments with spatial and administrative data, mostly across Latin America, India, and Indonesia.
 
-<p class="rsch-key"><b>Research topics</b> <span style="opacity:.55">(click to filter)</span>&nbsp; <span class="tag urban" role="button" tabindex="0">Urban &amp; Migration</span> <span class="tag well" role="button" tabindex="0">Wellbeing &amp; Education</span> <span class="tag method" role="button" tabindex="0">Methods &amp; Replication</span></p>
+<p class="rsch-key"><b>Research topics</b> <span style="opacity:.55">(click to filter)</span>&nbsp; <span class="tag all tag-active" role="button" tabindex="0">All</span> <span class="tag urban" role="button" tabindex="0">Urban &amp; Migration</span> <span class="tag well" role="button" tabindex="0">Wellbeing &amp; Education</span> <span class="tag method" role="button" tabindex="0">Methods &amp; Replication</span></p>
 
 ---
 
@@ -79,7 +81,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 </div>
 
 <div class="pub">
-<div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span><span class="tag urban">Urban &amp; Migration</span></div>
+<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
 <p class="pub-title">Violence and Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores</p>
 <p class="pub-meta">with <a href="https://sites.google.com/view/viniciuspecanha/home">Vinicius Peçanha</a></p>
@@ -219,6 +221,14 @@ My work studies how people and places develop: how cities grow and absorb migran
 </div>
 </div>
 
+<div class="pub">
+<div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
+<div class="pub-body">
+<p class="pub-title">Robustness in Empirical Economics: A Meta-Reproduction of 66 Articles from Leading Journals</p>
+<p class="pub-meta">with Jörg Ankel-Peters, Gunther Bensch, Abel Brodeur, et al. · Mimeo (2026)</p>
+</div>
+</div>
+
 ---
 
 ## Predoctoral research
@@ -246,10 +256,15 @@ My work studies how people and places develop: how cities grow and absorb migran
   var pubs=[].slice.call(document.querySelectorAll('.pub'));
   var topics=['urban','well','method'];
   var tags=[].slice.call(key.querySelectorAll('.tag'));
-  function clear(){ pubs.forEach(function(p){p.classList.remove('pub-dim');}); tags.forEach(function(t){t.classList.remove('tag-active');}); key.removeAttribute('data-active'); }
+  var allBtn=key.querySelector('.tag.all');
+  function clear(){ pubs.forEach(function(p){p.classList.remove('pub-dim');}); tags.forEach(function(t){t.classList.remove('tag-active');}); key.removeAttribute('data-active'); if(allBtn) allBtn.classList.add('tag-active'); }
   function apply(topic){ pubs.forEach(function(p){ var ts=p.querySelectorAll('.pub-tag .tag'); var match=false; for(var i=0;i<ts.length;i++){ if(ts[i].classList.contains(topic)){ match=true; break; } } if(match) p.classList.remove('pub-dim'); else p.classList.add('pub-dim'); }); }
+  if(allBtn){
+    allBtn.addEventListener('click',clear);
+    allBtn.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); clear(); } });
+  }
   tags.forEach(function(tag){ var t=null; for(var i=0;i<topics.length;i++){ if(tag.classList.contains(topics[i])) t=topics[i]; } if(!t) return;
-    function toggle(){ if(key.getAttribute('data-active')===t){ clear(); } else { clear(); key.setAttribute('data-active',t); tag.classList.add('tag-active'); apply(t); } }
+    function toggle(){ if(key.getAttribute('data-active')===t){ clear(); } else { clear(); key.setAttribute('data-active',t); tag.classList.add('tag-active'); if(allBtn) allBtn.classList.remove('tag-active'); apply(t); } }
     tag.addEventListener('click',toggle);
     tag.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); toggle(); } });
   });

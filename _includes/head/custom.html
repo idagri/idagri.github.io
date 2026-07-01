@@ -46,6 +46,10 @@ html[data-theme="dark"]{ --global-link-color:#6fd0c8; --global-link-color-hover:
 .author__pronouns{ margin:.1rem 0 .5rem; color:#6b6b6b; font-size:.8rem; }
 html[data-theme="dark"] .author__pronouns{ color:#aeb6c0; }
 @media screen and (min-width:1024px){
+  /* keep the whole profile a tidy, narrow, centered column (pic size unchanged) */
+  .sidebar .author__avatar,
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper{ max-width:12.5rem; margin-left:auto; margin-right:auto; }
   .author__avatar{ text-align:center; }
   .author__avatar img{ max-width:175px; width:100%; }
   .author__content{ text-align:center; }
