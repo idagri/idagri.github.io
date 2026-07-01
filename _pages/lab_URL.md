@@ -35,7 +35,7 @@ html[data-theme="dark"] .place{ background:rgba(45,170,160,.2); color:#6fd0c8; b
 
 Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** at UC San Diego, mentoring 10–20 undergraduates each quarter on real research projects in development, urban, and education economics. Students work hands-on with Stata, Python, R, and QGIS, and present their work at the end of each quarter.
 
-## Sample projects
+## Students' Sample Projects
 
 <div class="proj-group urban" markdown="0">
 <h3>GIS lab — spatial data</h3>

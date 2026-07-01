@@ -93,7 +93,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
 <p class="pub-title">Economic Consequences of Improving Sleep Among the Poor through Cognitive Behavioral Therapy for Insomnia</p>
-<p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a>, Juan Pablo Franco, and <a href="https://research.monash.edu/en/persons/sean-drummond/">Sean Drummond</a></p>
+<p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a>, <a href="https://www.jpablofranco.com">Juan Pablo Franco</a>, and <a href="https://research.monash.edu/en/persons/sean-drummond/">Sean Drummond</a></p>
 <p class="pub-fund">Funding: Weiss Fund ($24,400); CEGA Development Challenge ($20,000)</p>
 <p class="pub-pres">Presented at: Advances with Field Experiments (AFE) Conference, Chicago (2026, upcoming).</p>
 <details><summary>Abstract</summary><p>A field experiment studying whether cognitive behavioral therapy for insomnia (CBT-I) can improve sleep among low-income adults, and measuring the downstream effects on economic and wellbeing outcomes. <em>(Full abstract to come.)</em></p></details>
@@ -143,7 +143,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 </div>
 
 <div class="pub">
-<div class="pub-tag"></div>
+<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Stay-at-Home Orders, Social Distancing, and Trust <a class="pub-btn" href="https://link.springer.com/article/10.1007/s00148-021-00848-z"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
 <p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> and <a href="https://sites.google.com/georgetown.edu/lamiskattan/home">Lamis Kattan</a> · <em>Journal of Population Economics</em> 34(4): 1321–1354 (2021)</p>

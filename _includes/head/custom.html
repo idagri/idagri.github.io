@@ -7,9 +7,9 @@
 
 <!-- favicon: viridis "travel-time rings". Root files (/favicon.ico, /favicon.svg, /apple-touch-icon.png)
      are what browsers and crawlers request by default; minimal, standard markup for best pickup. -->
-<link rel="icon" href="/favicon.ico?v=4" sizes="any">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=4">
+<link rel="icon" href="/favicon.ico?v=5" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=5">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=5">
 <link rel="manifest" href="{{ base_path }}/images/manifest.json">
 <meta name="theme-color" content="#21918c">
 
@@ -42,10 +42,15 @@ html[data-theme="dark"]{ --global-link-color:#6fd0c8; --global-link-color-hover:
 /* circle-crop the sidebar avatar (was an oval) */
 .author__avatar img{ aspect-ratio:1/1; object-fit:cover; border-radius:50%; }
 
-/* center the name + pronouns under the avatar */
-.author__name{ text-align:center; }
-.author__pronouns{ text-align:center; margin:.1rem 0 .4rem; color:#6b6b6b; font-size:.8rem; }
+/* sidebar profile: avatar centered above a tidy centered name/pronouns/bio/CV column (desktop) */
+.author__pronouns{ margin:.1rem 0 .5rem; color:#6b6b6b; font-size:.8rem; }
 html[data-theme="dark"] .author__pronouns{ color:#aeb6c0; }
+@media screen and (min-width:1024px){
+  .author__avatar{ text-align:center; }
+  .author__avatar img{ max-width:175px; width:100%; }
+  .author__content{ text-align:center; }
+  .author__cv{ margin-top:.6rem; }
+}
 
 /* let the sidebar location wrap instead of clipping mid-word */
 .author__urls li{ white-space:normal; word-break:break-word; }
