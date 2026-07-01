@@ -77,17 +77,30 @@ I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**: a 
 
 ## Data
 
-Curated datasets I point students to. *(Expanding this section, see the note below.)*
+Curated datasets I point students to.
 
-<div class="res-card">
-<p class="rt">Mental health &amp; education</p>
-<p class="rd">A list of datasets for research on student mental health, wellbeing, and education. <em>Coming soon.</em></p>
-</div>
+<details markdown="1">
+<summary><b>Geospatial data</b> for development &amp; urban research</summary>
 
-<div class="res-card">
-<p class="rt">Geospatial data</p>
-<p class="rd">Spatial and satellite data for development and urban research, building on <a href="https://gps.ucsd.edu/faculty-directory/gordon-mccord.html">Gordon McCord's</a> resources, plus a few of my own. <em>Coming soon.</em></p>
-</div>
+For a broad catalog of global and US spatial data, the [UPenn Libraries GIS guide](https://guides.library.upenn.edu/c.php?g=1321452&p=9876288) is a great starting point. The sources I reach for most:
+
+- **[GHS - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/)** (JRC / Copernicus). Global gridded built-up surface (GHS-BUILT), population (GHS-POP), and a settlement / degree-of-urbanization layer (GHS-SMOD), plus the Urban Centre Database (GHS-UCDB) of consistently delineated cities. I mostly use the GHS-POP population grids (1975-2020) and the Urban Centre Database to define and track cities over time.
+- **[DHS - Demographic and Health Surveys](https://dhsprogram.com/)**. Household survey microdata across many developing countries. The geospatial program adds (randomly displaced) GPS cluster coordinates and spatial covariates such as night lights, so health and wellbeing outcomes can be tied to place; the confidential GPS data needs a short access request.
+- **Night lights.** VIIRS and DMSP nighttime-lights rasters, a standard proxy for local economic activity (Matt Lowe's night-lights and ArcGIS guide is a good hands-on introduction).
+- **[GADM](https://gadm.org/)**. My default source for administrative boundaries (country down to level 2-3) when I need clean, current admin polygons.
+- **[IPUMS International](https://international.ipums.org/international/geography_gis.shtml)**. Harmonized (consistent-over-time GEOLEV1 / GEOLEV2) and unharmonized (year-specific) administrative boundaries that link directly to census microdata; see the [GIS boundary files](https://international.ipums.org/international/gis.shtml). For the US, [IPUMS USA](https://usa.ipums.org/usa/) does the same with US census data.
+- **[geo4.dev data catalog](https://www.geo4.dev/library?cat=Data+Catalog)**. A catalog of spatial datasets aimed specifically at development research.
+
+</details>
+
+<details markdown="1">
+<summary><b>Mental health &amp; education data</b></summary>
+
+Public datasets my lab projects and papers draw on. *(Just getting started, more soon.)*
+
+- **[ENEM microdata](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)** (Brazil, INEP). Individual-level scores and background questionnaires from Brazil's national secondary-education exam, covering millions of students each year; we use it to study educational outcomes and to identify high-potential ("missing talent") students.
+
+</details>
 
 ## Research Tools
 
