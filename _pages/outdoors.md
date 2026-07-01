@@ -20,7 +20,7 @@ redirect_from:
 .out-tile img{ width:100%; aspect-ratio:1/1; object-fit:cover; display:block; border-radius:7px;
   background:#e9e9e9; transition:filter .2s ease; }
 .out-tile:hover img{ filter:brightness(1.05); }
-.out-cap{ font-size:.6rem; color:#5b6470; line-height:1.25; margin:.26rem 0 0; font-weight:500; }
+.out-cap{ font-size:.6rem; color:#5b6470; line-height:1.25; margin:.26rem 0 0; font-weight:500; text-align:center; }
 html[data-theme="dark"] .out-cap{ color:#aeb6c0; }
 @media (max-width:30em){ .out-grid{ grid-template-columns:1fr 1fr; gap:.4rem; } }
 html[data-theme="dark"] .out-stat span{ color:#aaa; }

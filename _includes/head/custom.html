@@ -42,6 +42,11 @@ html[data-theme="dark"]{ --global-link-color:#6fd0c8; --global-link-color-hover:
 /* circle-crop the sidebar avatar (was an oval) */
 .author__avatar img{ aspect-ratio:1/1; object-fit:cover; border-radius:50%; }
 
+/* center the name + pronouns under the avatar */
+.author__name{ text-align:center; }
+.author__pronouns{ text-align:center; margin:.1rem 0 .4rem; color:#6b6b6b; font-size:.8rem; }
+html[data-theme="dark"] .author__pronouns{ color:#aeb6c0; }
+
 /* let the sidebar location wrap instead of clipping mid-word */
 .author__urls li{ white-space:normal; word-break:break-word; }
 
