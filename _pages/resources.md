@@ -96,9 +96,7 @@ For a broad catalog of global and US spatial data, the [UPenn Libraries GIS guid
 <details markdown="1">
 <summary><b>Mental health &amp; education data</b></summary>
 
-Public datasets my lab projects and papers draw on. *(Just getting started, more soon.)*
-
-- **[ENEM microdata](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)** (Brazil, INEP). Individual-level scores and background questionnaires from Brazil's national secondary-education exam, covering millions of students each year; we use it to study educational outcomes and to identify high-potential ("missing talent") students.
+Datasets for research on student mental health, wellbeing, and education. *(In progress, more soon.)*
 
 </details>
 
