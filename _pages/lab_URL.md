@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Undergraduate–Graduate Research Lab"
+title: "Undergraduate-Graduate Research Lab"
 permalink: /lab/
 author_profile: true
 ---
@@ -17,7 +17,7 @@ author_profile: true
 .proj{ display:flex; gap:.7rem; align-items:flex-start; border-left:3px solid; padding-left:.7rem; }
 .proj-group.urban .proj{ border-color:rgba(59,82,139,.35); }
 .proj-group.well  .proj{ border-color:rgba(33,145,140,.4); }
-.proj-thumb{ flex:0 0 auto; width:58px; height:58px; border-radius:7px; object-fit:cover;
+.proj-thumb{ flex:0 0 auto; width:88px; height:62px; border-radius:7px; object-fit:cover;
   box-shadow:0 1px 3px rgba(0,0,0,.14); background:#e9e9e9; }
 .proj-body{ flex:1 1 auto; min-width:0; }
 .proj-t{ margin:0 0 .15rem; font-weight:700; font-size:.94rem; line-height:1.3; }
@@ -33,12 +33,12 @@ html[data-theme="dark"] .proj-group.well  .proj{ border-color:rgba(45,170,160,.4
 html[data-theme="dark"] .place{ background:rgba(45,170,160,.2); color:#6fd0c8; border-color:rgba(45,170,160,.4); }
 </style>
 
-Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** at UC San Diego, mentoring 10–20 undergraduates each quarter on real research projects in development, urban, and education economics. Students work hands-on with Stata, Python, R, and QGIS, and present their work at the end of each quarter.
+Since Fall 2023, I have led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego, mentoring 10-20 undergraduates each quarter on real research projects in development, urban, and education economics. Students work hands-on with Stata, Python, R, and QGIS, and present their work at the end of each quarter.
 
 ## Students' Sample Projects
 
 <div class="proj-group urban" markdown="0">
-<h3>GIS lab — spatial data</h3>
+<h3>GIS lab: spatial data</h3>
 <p class="proj-intro">A core thread of the lab is building geospatial datasets from scratch: turning raw satellite imagery and paper maps into analysis-ready spatial data. A multi-quarter effort digitizes and classifies informal settlements (slums) from high-resolution imagery, alongside historical-map digitization and accessibility mapping.</p>
 <div class="proj-grid">
 <div class="proj">
@@ -66,7 +66,7 @@ Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** a
 <img class="proj-thumb" src="/images/proj-rio.jpg" alt="Crime and cities project">
 <div class="proj-body">
 <p class="proj-t">Crime, news, and cities</p>
-<p class="proj-d">Scraping Portuguese-language newspaper archives to build a dataset of violence events in Rio's favelas. <a href="/files/url-rio-crime-scraping.pdf">Slides</a> <span class="proj-tools">· Rio de Janeiro · Python</span></p>
+<p class="proj-d">Scraping Portuguese-language newspaper archives to build a dataset of violence events in Rio's favelas. <a href="/files/url-rio-scraping-2025.pdf">Slides</a> · <a href="/files/url-rio-crime-scraping.pdf">earlier slides</a> <span class="proj-tools">· Rio de Janeiro · Python</span></p>
 </div>
 </div>
 </div>
@@ -86,7 +86,7 @@ Since Fall 2023, I have led an **Undergraduate–Graduate Research Lab (URL)** a
 <img class="proj-thumb" src="/images/proj-sleep.jpg" alt="Economics of sleep project">
 <div class="proj-body">
 <p class="proj-t">The economics of sleep</p>
-<p class="proj-d">Comparing self-reported and wristband-measured sleep in two field experiments to see who benefits most from sleep interventions. <span class="proj-tools">India &amp; United States · Stata, R</span></p>
+<p class="proj-d">Comparing self-reported and wristband-measured sleep in two field experiments to see who benefits most from sleep interventions. <a href="/files/url-sleep-2026.pdf">Slides</a> <span class="proj-tools">· India &amp; United States · Stata, R</span></p>
 </div>
 </div>
 <div class="proj">

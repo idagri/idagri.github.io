@@ -71,7 +71,7 @@ This list is not exhaustive, but it's a good place to start.
 I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**: a chat-based AI assistant that reads your LaTeX drafts, writes and runs Stata/R/Python, and works directly with your project files, no terminal required.
 
 <div class="res-card">
-<p class="rt">Claude Cowork for economists — workshop</p>
+<p class="rt">Claude Cowork for economists: workshop</p>
 <p class="rd"><a href="/files/ai-cowork-workshop-slides.pdf">Workshop slides (PDF)</a> · <a href="https://x.com/_IdaGri/status/2056430027739107609">workshop thread on X</a></p>
 </div>
 
@@ -110,7 +110,7 @@ Curated datasets I point students to. *(Expanding this section, see the note bel
 <div class="res-card has-img">
 <img src="/images/res-shrug.jpg" alt="Map of India showing distance to the nearest urban area">
 <div>
-<p class="rt"><a href="https://www.devdatalab.org/shrug">SHRUG — open geospatial data for India</a></p>
+<p class="rt"><a href="https://www.devdatalab.org/shrug">SHRUG: open geospatial data for India</a></p>
 <p class="rd">The Socioeconomic High-resolution Rural-Urban Geographic Platform: open data covering roughly 600,000 villages and 8,000 towns in India, from the Development Data Lab.</p>
 </div>
 </div>

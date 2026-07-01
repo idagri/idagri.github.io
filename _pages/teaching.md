@@ -83,7 +83,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <tr><td class="yr">Winter 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2025.pdf">Student</a></td></tr>
 <tr><td class="yr">Winter 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2024.pdf">Student</a> · <a href="/files/evals/eval-prof-econ190-wi2024.pdf">Instructor</a></td></tr>
 
-<tr><td rowspan="4" class="c-name">Intermediate Microeconomics (ECON 100A–B)</td><td rowspan="4">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/eval-prof-econ100a-su2024.pdf">Instructor</a></td></tr>
+<tr><td rowspan="4" class="c-name">Intermediate Microeconomics (ECON 100A-B)</td><td rowspan="4">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/eval-prof-econ100a-su2024.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Summer 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2023.pdf">Student</a> · <a href="/files/evals/eval-prof-econ100a-su2023.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023.pdf">Student</a> · <a href="/files/evals/eval-prof-econ100a-sp2023.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Fall 2021</td><td class="evlinks"><a href="/files/evals/eval-prof-econ100b-fa2021.pdf">Instructor</a></td></tr>
@@ -96,12 +96,12 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <tr><td class="c-name">Market Imperfections &amp; Policy (ECON 2)</td><td>Microeconomics</td><td class="yr">2021</td><td>—</td></tr>
 
 <tr class="grp"><td colspan="4">University of British Columbia</td></tr>
-<tr><td class="c-name">Microeconomic &amp; Macroeconomic Policy</td><td>Economics</td><td class="yr">2018–2019 · MA 2</td><td>—</td></tr>
-<tr><td class="c-name">Geography (Globalization, Cities &amp; Social Geography)</td><td>Geography</td><td class="yr">2015–2017 · MA 1</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-geography.pdf">Student</a></td></tr>
+<tr><td class="c-name">Microeconomic &amp; Macroeconomic Policy</td><td>Economics</td><td class="yr">2018-2019 · MA 2</td><td>—</td></tr>
+<tr><td class="c-name">Geography (Globalization, Cities &amp; Social Geography)</td><td>Geography</td><td class="yr">2015-2017 · MA 1</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-geography.pdf">Student</a></td></tr>
 </tbody>
 </table>
 
-<p class="note">Each link opens the official student evaluation report for that course and term ("Student"), and where available the supervising professor's evaluation of my teaching ("Instructor"). Earlier teaching: Microeconomics, Mathematical Optimization, and Academic English at NRU HSE (2013–2014).</p>
+<p class="note">Each link opens the official student evaluation report for that course and term ("Student"), and where available the supervising professor's evaluation of my teaching ("Instructor"). Earlier teaching: Microeconomics, Mathematical Optimization, and Academic English at NRU HSE (2013-2014).</p>
 
 ## Awards
 
@@ -112,7 +112,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 ## Guest lectures
 
 <details markdown="1">
-<summary>Guest lectures (2016–2025)</summary>
+<summary>Guest lectures (2016-2025)</summary>
 
 - Finding and using existing data for empirical research (ECON 190, *Introduction to Research in Economics*, Manu Vespa; 2024 and 2025)
 - Urbanization, Access to Housing & Slums in Latin American Cities (GEOG 352, *Urbanization in the Global South*, Feb 2019)
@@ -128,8 +128,8 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 
 <ul class="cred">
 <li>Summer Graduate Teaching Scholars (SGTS) program (2024)</li>
-<li>Advanced College Teaching: Equitable Course Design and Instruction (2023–2024)</li>
+<li>Advanced College Teaching: Equitable Course Design and Instruction (2023-2024)</li>
 <li>Center for the Integration of Research, Teaching, and Learning (CIRTL) Associate (2021)</li>
-<li>Certificate in Advanced Teaching &amp; Learning (CATL, 2016–2017)</li>
+<li>Certificate in Advanced Teaching &amp; Learning (CATL, 2016-2017)</li>
 <li>Instructional Skills Workshop (ISW, 2016)</li>
 </ul>

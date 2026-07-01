@@ -32,6 +32,9 @@ author_profile: true
 .pub-meta{ margin:0; font-size:.82rem; color:#6b6b6b; line-height:1.5; }
 .pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
 .pub-pres{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
+.pub-status{ display:inline-block; margin:.3rem 0 0; font-size:.72rem; font-weight:600; color:#13716b;
+  background:rgba(33,145,140,.12); border:1px solid rgba(33,145,140,.3); border-radius:1rem; padding:.08rem .55rem; }
+html[data-theme="dark"] .pub-status{ color:#6fd0c8; background:rgba(45,170,160,.16); border-color:rgba(45,170,160,.4); }
 .pub details{ margin:.4rem 0 0; }
 .pub summary{ font-size:.78rem; cursor:pointer; color:#6b6b6b; }
 .pub details p{ font-size:.86rem; line-height:1.55; margin:.4rem 0 0; }
@@ -109,7 +112,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <p class="pub-meta">with <a href="https://samuelasher.com/">Sam Asher</a>, <a href="https://www.jpchauvin.com/">Juan Pablo Chauvin</a>, and <a href="http://paulnovosad.com/">Paul Novosad</a></p>
 <p class="pub-fund">Funding: IHS Field Research Grant</p>
 <p class="pub-pres">Presented at: European Meeting of the Urban Economics Association (EMUEA), Barcelona (2026).</p>
-<details><summary>Abstract</summary><p>We examine the links between urban and rural economic performance in India using geo-spatial socio-economic data on 1,000 cities and 500,000 villages. Rural development falls almost universally with distance from towns; gradients are shallow and urban–rural gaps remain large even at short distances. A Bartik estimation of urban demand shocks reveals clear urban-to-rural spillovers that are larger and wider for manufacturing than for services, and extend further along major highways. Surprisingly, urban demand raises population in proximate rural areas but not in the urban areas themselves, suggesting constraints on densification.</p></details>
+<details><summary>Abstract</summary><p>We examine the links between urban and rural economic performance in India using geo-spatial socio-economic data on 1,000 cities and 500,000 villages. Rural development falls almost universally with distance from towns; gradients are shallow and urban-rural gaps remain large even at short distances. A Bartik estimation of urban demand shocks reveals clear urban-to-rural spillovers that are larger and wider for manufacturing than for services, and extend further along major highways. Surprisingly, urban demand raises population in proximate rural areas but not in the urban areas themselves, suggesting constraints on densification.</p></details>
 </div>
 </div>
 
@@ -132,7 +135,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
 <div class="pub-body">
 <p class="pub-title">Reproducibility and Robustness of Economics and Political Science Research <a class="pub-btn" href="https://doi.org/10.1038/s41586-026-10251-x"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> et al. (Institute for Replication) · <em>Nature</em> 652(8108): 151–156 (2026)</p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> et al. (Institute for Replication) · <em>Nature</em> 652(8108): 151-156 (2026)</p>
 </div>
 </div>
 
@@ -148,7 +151,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Stay-at-Home Orders, Social Distancing, and Trust <a class="pub-btn" href="https://link.springer.com/article/10.1007/s00148-021-00848-z"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> and <a href="https://sites.google.com/georgetown.edu/lamiskattan/home">Lamis Kattan</a> · <em>Journal of Population Economics</em> 34(4): 1321–1354 (2021)</p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> and <a href="https://sites.google.com/georgetown.edu/lamiskattan/home">Lamis Kattan</a> · <em>Journal of Population Economics</em> 34(4): 1321-1354 (2021)</p>
 </div>
 </div>
 
@@ -156,7 +159,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">The Price Ripple Effect in the Vancouver Housing Market <a class="pub-btn" href="https://doi.org/10.1080/02723638.2019.1567202"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://blogs.ubc.ca/dley/">David Ley</a> · <em>Urban Geography</em> 40(8): 1171–1189 (2019)</p>
+<p class="pub-meta">with <a href="https://blogs.ubc.ca/dley/">David Ley</a> · <em>Urban Geography</em> 40(8): 1171-1189 (2019)</p>
 <p class="pub-fund">Funding: Neighborhood Change Research Grant ($11,000)</p>
 </div>
 </div>
@@ -197,8 +200,9 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub">
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
-<p class="pub-title">Effects of an Emotional Resilience Intervention on Teacher Wellbeing and Performance in Guatemala</p>
-<p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a></p>
+<p class="pub-title">Coping with Chronic Stress: Socio-Emotional Training for Frontline Workers</p>
+<p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a> and Lelys Dinarte</p>
+<p class="pub-status">Data collection in progress (summer-fall 2026)</p>
 </div>
 </div>
 

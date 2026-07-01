@@ -32,7 +32,7 @@ html[data-theme="dark"] .out-results{ color:#aeb6c0; }
 Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, and I build an active community wherever I land.
 
 <div class="out-stats">
-<div class="out-stat"><b>13,500+ km</b><span>run in 2021–2025</span></div>
+<div class="out-stat"><b>13,500+ km</b><span>run in 2021-2025</span></div>
 <div class="out-stat"><b>1,900+ days</b><span>daily running streak since 2021</span></div>
 <div class="out-stat"><b>50-mile</b><span>longest ultramarathon</span></div>
 </div>
