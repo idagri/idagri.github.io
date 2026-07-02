@@ -33,7 +33,7 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 
 <div class="out-stats">
 <div class="out-stat"><b>13,500+ km</b><span>run in 2021-2025</span></div>
-<div class="out-stat"><b>1,900+ days</b><span>daily running streak since 2021</span></div>
+<div class="out-stat"><b>1,900+ days</b><span>daily running streak since 2021 (min. 3 km / ~2 mi)</span></div>
 <div class="out-stat"><b>50-mile</b><span>longest ultramarathon</span></div>
 </div>
 
@@ -41,8 +41,9 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-grid">
 <div class="out-tile"><img src="/images/out-avalon.jpg" alt="Running the Avalon 50-mile ultramarathon on Catalina Island"><div class="out-cap">50-mile ultramarathon · Catalina, 2026</div></div>
 <div class="out-tile"><img src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First 50K ultramarathon · Oregon, 2023 (with Gabriella Escobar)</div></div>
-<div class="out-tile"><img src="/images/out-sf50k.jpg" alt="Running the Golden Gate trail 50K in San Francisco"><div class="out-cap">Golden Gate 50K · San Francisco, 2026</div></div>
-<div class="out-tile"><img src="/images/out-marathon.jpg" alt="Running the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025</div></div>
+<div class="out-tile"><img src="/images/out-sf50k.jpg" alt="Celebrating with arms raised at the Golden Gate 50K, San Francisco"><div class="out-cap">Golden Gate 50K · San Francisco, 2026</div></div>
+<div class="out-tile"><img src="/images/out-bigsur24.jpg" alt="Big Sur 2024 marathon collage with finish medal and a new marathon PR"><div class="out-cap">Big Sur Marathon · California, 2024</div></div>
+<div class="out-tile"><img src="/images/out-marathon.jpg" alt="Selfie with a friend on the coastal road at the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025 (with a friend)</div></div>
 <div class="out-tile"><img src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>
 <div class="out-tile"><img src="/images/out-30k.jpg" alt="Longest training run, 30K in Vancouver"><div class="out-cap">Longest run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
 <div class="out-tile"><img src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
