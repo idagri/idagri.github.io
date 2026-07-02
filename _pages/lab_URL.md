@@ -43,7 +43,7 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 
 ## Students' Sample Projects
 
-<div class="proj-group urban" markdown="0">
+<div class="proj-group" markdown="0">
 <h3>GIS lab: spatial data</h3>
 <p class="proj-intro">In the GIS lab, we build spatial data from scratch: taking raw satellite images and old paper maps and turning them into something we can actually analyze. Right now that means finding and outlining informal settlements in satellite imagery, digitizing historical maps, and measuring how long it takes people to reach jobs, schools, and services.</p>
 <div class="proj-grid">
@@ -78,7 +78,7 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 </div>
 </div>
 
-<div class="proj-group well" markdown="0">
+<div class="proj-group" markdown="0">
 <h3>Stata-Python lab: wellbeing, education &amp; talent</h3>
 <div class="proj-grid">
 <div class="proj">

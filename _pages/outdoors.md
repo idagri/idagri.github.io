@@ -20,6 +20,8 @@ redirect_from:
 .out-tile img{ width:100%; aspect-ratio:1/1; object-fit:cover; display:block; border-radius:7px;
   background:#e9e9e9; transition:filter .2s ease; }
 .out-tile:hover img{ filter:brightness(1.05); }
+.out-tile.wide{ grid-column:span 2; }
+.out-tile.wide img{ aspect-ratio:2 / 1; }
 .out-cap{ font-size:.6rem; color:#5b6470; line-height:1.25; margin:.26rem 0 0; font-weight:500; text-align:center; }
 html[data-theme="dark"] .out-cap{ color:#aeb6c0; }
 @media (max-width:30em){ .out-grid{ grid-template-columns:1fr 1fr; gap:.4rem; } }
@@ -32,9 +34,10 @@ html[data-theme="dark"] .out-results{ color:#aeb6c0; }
 Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, and I build an active community wherever I land.
 
 <div class="out-stats">
-<div class="out-stat"><b>13,500+ km</b><span>run in 2021-2025</span></div>
+<div class="out-stat"><b>13,500+ km</b><span>run since 2021 (~during the PhD)</span></div>
 <div class="out-stat"><b>1,900+ days</b><span>daily running streak since 2021 (min. 3 km / ~2 mi)</span></div>
-<div class="out-stat"><b>50-mile</b><span>longest ultramarathon</span></div>
+<div class="out-stat"><b>50-mile</b><span>longest ultramarathon (2026)</span></div>
+<div class="out-stat"><b>Half-Ironman</b><span>longest triathlon (2022)</span></div>
 </div>
 
 <div class="out-sec">Running</div>
@@ -45,17 +48,17 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile"><img src="/images/out-bigsur24.jpg" alt="Big Sur 2024 marathon collage with finish medal and a new marathon PR"><div class="out-cap">Big Sur Marathon · California, 2024</div></div>
 <div class="out-tile"><img src="/images/out-marathon.jpg" alt="Selfie with a friend on the coastal road at the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025 (with a friend)</div></div>
 <div class="out-tile"><img src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>
-<div class="out-tile"><img src="/images/out-30k.jpg" alt="Longest training run, 30K in Vancouver"><div class="out-cap">Longest run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
+<div class="out-tile"><img src="/images/out-30k.jpg" alt="First run over half-marathon distance, 30K in Vancouver"><div class="out-cap">First over-halfmarathon run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
 <div class="out-tile"><img src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
-<div class="out-tile"><img src="/images/out-10k.jpg" alt="A sub-50-minute 10K run in Vancouver"><div class="out-cap">Sub-50 10K · Vancouver, 2018 (with Antonio Serapio-Palacios)</div></div>
-<div class="out-tile"><img src="/images/out-bearroute.jpg" alt="A Strava map of a long running route looping through Pacific Spirit Park, Vancouver"><div class="out-cap">Running projects</div></div>
+<div class="out-tile"><img src="/images/out-10k.jpg" alt="A sub-50-minute 10K run in Vancouver"><div class="out-cap">Sub-50min 10K · Vancouver, 2018 (with Antonio Serapio-Palacios)</div></div>
+<div class="out-tile"><img src="/images/out-bearroute.jpg" alt="A post from a friend who waited for me after a long run"><div class="out-cap">Running projects <span style="font-size:.82em; opacity:.85">(post by a friend waiting for me after the run)</span></div></div>
 </div>
 
 <div class="out-sec">Cycling &amp; triathlon</div>
 <div class="out-grid">
 <div class="out-tile"><img src="/images/out-century.jpg" alt="On a first 100 km century bike ride by the ocean"><div class="out-cap">First 100 km century ride (with Gabriella Wong)</div></div>
-<div class="out-tile"><img src="/images/out-tribike.jpg" alt="Cycling leg of an Olympic-distance triathlon in Vancouver"><div class="out-cap">Olympic triathlon · Vancouver, 2019</div></div>
-<div class="out-tile"><img src="/images/out-trifinish.jpg" alt="At the finish of the Victoria Half-Ironman triathlon"><div class="out-cap">Half-Ironman 70.3 · Victoria, 2022</div></div>
+<div class="out-tile wide"><img src="/images/out-tri-olympic.jpg" alt="Olympic-distance triathlon in Vancouver: the cycling leg and finishing the run through the arch"><div class="out-cap">Olympic triathlon · Vancouver, 2019</div></div>
+<div class="out-tile wide"><img src="/images/out-tri-halfironman.jpg" alt="Victoria Half-Ironman 70.3: with friends at the finish, and on the bike leg"><div class="out-cap">Half-Ironman 70.3 · Victoria, 2022</div></div>
 <div class="out-tile"><img src="/images/out-oceanswim.jpg" alt="UCSD triathlon club ocean swim at the beach"><div class="out-cap">UCSD triathlon ocean swims</div></div>
 </div>
 
