@@ -201,7 +201,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
 <p class="pub-title">Coping with Chronic Stress: Socio-Emotional Training for Frontline Workers</p>
-<p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a> and Lelys Dinarte</p>
+<p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a></p>
 <p class="pub-status">Data collection in progress (summer-fall 2026)</p>
 </div>
 </div>
