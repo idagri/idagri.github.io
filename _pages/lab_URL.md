@@ -23,6 +23,12 @@ author_profile: true
 .proj-d{ margin:0; font-size:.83rem; color:#585858; line-height:1.5; }
 .proj-d a{ font-weight:600; }
 .proj-tools{ color:#6a7480; }
+.proj.adv{ background:rgba(33,145,140,.11); border-left-color:#21918c; box-shadow:0 1px 5px rgba(33,145,140,.16); }
+.adv-badge{ display:inline-block; font-size:.56rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em;
+  color:#fff; background:#21918c; border-radius:1rem; padding:.04rem .5rem; margin-left:.4rem; vertical-align:middle; }
+.proj-wip{ font-style:italic; color:#6a7480; }
+html[data-theme="dark"] .proj.adv{ background:rgba(45,170,160,.14); border-left-color:#2daaa0; }
+html[data-theme="dark"] .adv-badge{ background:#2daaa0; color:#0d1520; }
 .place{ display:inline-block; font-size:.74rem; font-weight:600; background:rgba(33,145,140,.13); color:#13716b;
   border:1px solid rgba(33,145,140,.3); border-radius:1rem; padding:.14rem .65rem; margin:.18rem .3rem .18rem 0; }
 @media (max-width:50em){ .proj-grid{ grid-template-columns:1fr; } }
@@ -41,17 +47,17 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 <h3>GIS lab: spatial data</h3>
 <p class="proj-intro">In the GIS lab, we build spatial data from scratch: taking raw satellite images and old paper maps and turning them into something we can actually analyze. Right now that means finding and outlining informal settlements in satellite imagery, digitizing historical maps, and measuring how long it takes people to reach jobs, schools, and services.</p>
 <div class="proj-grid">
-<div class="proj">
+<div class="proj adv">
 <img class="proj-thumb" src="/images/proj-slums.jpg" alt="Satellite imagery classified into informal, formal, and mixed settlement areas">
 <div class="proj-body">
-<p class="proj-t">Mapping &amp; digitizing informal settlements</p>
-<p class="proj-d">Building a protocol to detect and delineate slums in high-resolution Planet satellite imagery and convert it into classified, analysis-ready spatial data, pairing manual image labeling with machine-learning classification. <a href="/files/url-gis-slums-classification.pdf">Slides</a> <span class="proj-tools">· India &amp; Indonesia · QGIS · Python</span></p>
+<p class="proj-t">Mapping &amp; digitizing informal settlements <span class="adv-badge">Advanced</span></p>
+<p class="proj-d">Building a protocol to detect and delineate slums in high-resolution Planet satellite imagery and convert it into classified, analysis-ready spatial data, pairing manual image labeling with machine-learning classification. <a href="/files/url-gis-slums-classification.pdf">Slides</a> <span class="proj-tools">· India &amp; Indonesia · QGIS · Python · <span class="proj-wip">ongoing</span></span></p>
 </div>
 </div>
-<div class="proj">
+<div class="proj adv">
 <img class="proj-thumb" src="/images/proj-histmap.jpg" alt="A historical map georeferenced and digitized into vector spatial data">
 <div class="proj-body">
-<p class="proj-t">Digitizing historical maps</p>
+<p class="proj-t">Digitizing historical maps <span class="adv-badge">Advanced</span></p>
 <p class="proj-d">Georeferencing and digitizing historical maps into spatial data. <a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python/blob/main/Digitizing_Historical_Maps_Guide.ipynb">QGIS + Python guide</a> <span class="proj-tools">· co-authored with a lab student</span></p>
 </div>
 </div>
@@ -103,10 +109,10 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 <p class="proj-d">A multi-country dataset compiling compulsory-schooling-law reforms (top-25 countries plus Latin America): policy timing, affected cohorts, and sources, to study effects on schooling. <a href="/files/url-csl-schooling-laws.pdf">Review slides</a> <span class="proj-tools">· Stata</span></p>
 </div>
 </div>
-<div class="proj">
+<div class="proj adv">
 <img class="proj-thumb" src="/images/proj-gender.jpg" alt="Analysis of gender composition in economics PhD job-market placements">
 <div class="proj-body">
-<p class="proj-t">Gender in economics PhD placements</p>
+<p class="proj-t">Gender in economics PhD placements <span class="adv-badge">Advanced</span></p>
 <p class="proj-d">A semi-automated scraper of PhD job-market placements across economics, business, and public policy, with gender and academic/industry classifiers, feeding an analysis of gender composition and outcomes. <a href="https://jclluo.github.io/ECON_PHD_Gender_Inequality_Analysis/analysis.html">Student analysis site</a> · <a href="https://github.com/schan676/Gender_composition_STEM">data repo</a> · <a href="/files/url-econ-phd-gender-gap.pdf">slides</a> <span class="proj-tools">· Python</span></p>
 </div>
 </div>
