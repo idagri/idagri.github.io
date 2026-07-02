@@ -65,7 +65,6 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-sec">Skiing &amp; hiking</div>
 <div class="out-grid">
 <div class="out-tile"><img loading="lazy" src="/images/out-ski.jpg" alt="Skiing at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
-<div class="out-tile"><img loading="lazy" src="/images/out-whistler2.jpg" alt="Skiing with a friend at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-cypress.jpg" alt="Skiing at Cypress Mountain"><div class="out-cap">Cypress Mountain, BC</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-sunpeaks.jpg" alt="Skiing at Sun Peaks"><div class="out-cap">Sun Peaks, BC</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-garibaldi.jpg" alt="Group hike at Garibaldi Lake"><div class="out-cap">Garibaldi Lake, BC</div></div>
