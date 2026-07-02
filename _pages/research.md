@@ -32,9 +32,8 @@ author_profile: true
 .pub-meta{ margin:0; font-size:.82rem; color:#6b6b6b; line-height:1.5; }
 .pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
 .pub-pres{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
-.pub-status{ display:inline-block; margin:.3rem 0 0; font-size:.72rem; font-weight:600; color:#13716b;
-  background:rgba(33,145,140,.12); border:1px solid rgba(33,145,140,.3); border-radius:1rem; padding:.08rem .55rem; }
-html[data-theme="dark"] .pub-status{ color:#6fd0c8; background:rgba(45,170,160,.16); border-color:rgba(45,170,160,.4); }
+.pub-status{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; font-style:italic; }
+html[data-theme="dark"] .pub-status{ color:#9a9a9a; }
 .pub details{ margin:.4rem 0 0; }
 .pub summary{ font-size:.78rem; cursor:pointer; color:#6b6b6b; }
 .pub details p{ font-size:.86rem; line-height:1.55; margin:.4rem 0 0; }
@@ -58,6 +57,7 @@ html[data-theme="dark"] .pub-fund, html[data-theme="dark"] .pub-pres{ color:#9a9
 html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-color:#454e59; }
 .pub{ transition:opacity .2s; }
 .pub.pub-dim{ opacity:.15; }
+.pub-tag .tag.tag-off{ display:none; }  /* when a topic filter is active, hide a multi-tag paper's other-topic tags */
 </style>
 
 **Fields:** Development Economics · Urban Economics · Behavioral Economics
@@ -261,8 +261,9 @@ My work studies how people and places develop: how cities grow and absorb migran
   var topics=['urban','well','method'];
   var tags=[].slice.call(key.querySelectorAll('.tag'));
   var allBtn=key.querySelector('.tag.all');
-  function clear(){ pubs.forEach(function(p){p.classList.remove('pub-dim');}); tags.forEach(function(t){t.classList.remove('tag-active');}); key.removeAttribute('data-active'); if(allBtn) allBtn.classList.add('tag-active'); }
-  function apply(topic){ pubs.forEach(function(p){ var ts=p.querySelectorAll('.pub-tag .tag'); var match=false; for(var i=0;i<ts.length;i++){ if(ts[i].classList.contains(topic)){ match=true; break; } } if(match) p.classList.remove('pub-dim'); else p.classList.add('pub-dim'); }); }
+  var pubTags=[].slice.call(document.querySelectorAll('.pub-tag .tag'));
+  function clear(){ pubs.forEach(function(p){p.classList.remove('pub-dim');}); pubTags.forEach(function(t){t.classList.remove('tag-off');}); tags.forEach(function(t){t.classList.remove('tag-active');}); key.removeAttribute('data-active'); if(allBtn) allBtn.classList.add('tag-active'); }
+  function apply(topic){ pubs.forEach(function(p){ var ts=p.querySelectorAll('.pub-tag .tag'); var match=false; for(var i=0;i<ts.length;i++){ if(ts[i].classList.contains(topic)){ match=true; ts[i].classList.remove('tag-off'); } else { ts[i].classList.add('tag-off'); } } if(match) p.classList.remove('pub-dim'); else p.classList.add('pub-dim'); }); }
   if(allBtn){
     allBtn.addEventListener('click',clear);
     allBtn.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); clear(); } });
