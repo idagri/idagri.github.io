@@ -92,67 +92,68 @@ Curated datasets I point students to.
 <details markdown="1">
 <summary><b>Geospatial data</b> for development &amp; urban research</summary>
 
-For a broad catalog of global and US spatial data, the [UPenn Libraries GIS guide](https://guides.library.upenn.edu/c.php?g=1321452&p=9876288) is a great starting point. The sources I reach for most:
+Publicly available spatial and satellite data for development and urban research:
 
-- **[GHS - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/)** (JRC / Copernicus). Global gridded built-up surface (GHS-BUILT), population (GHS-POP), and a settlement / degree-of-urbanization layer (GHS-SMOD), plus the Urban Centre Database (GHS-UCDB) of consistently delineated cities. I mostly use the GHS-POP population grids (1975-2020) and the Urban Centre Database to define and track cities over time.
-- **[DHS - Demographic and Health Surveys](https://dhsprogram.com/)**. Household survey microdata across many developing countries. The geospatial program adds (randomly displaced) GPS cluster coordinates and spatial covariates such as night lights, so health and wellbeing outcomes can be tied to place; the confidential GPS data needs a short access request.
-- **Night lights.** VIIRS and DMSP nighttime-lights rasters, a standard proxy for local economic activity (Matt Lowe's night-lights and ArcGIS guide is a good hands-on introduction).
-- **[GADM](https://gadm.org/)**. My default source for administrative boundaries (country down to level 2-3) when I need clean, current admin polygons.
-- **[IPUMS International](https://international.ipums.org/international/geography_gis.shtml)**. Harmonized (consistent-over-time GEOLEV1 / GEOLEV2) and unharmonized (year-specific) administrative boundaries that link directly to census microdata; see the [GIS boundary files](https://international.ipums.org/international/gis.shtml). For the US, [IPUMS USA](https://usa.ipums.org/usa/) does the same with US census data.
-- **[geo4.dev data catalog](https://www.geo4.dev/library?cat=Data+Catalog)**. A catalog of spatial datasets aimed specifically at development research.
+- **[GHS - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/)** (JRC / Copernicus). Global gridded data on the human presence, 1975 onward.
+    - GHS-BUILT (built-up surface), GHS-POP (population grids), GHS-SMOD (settlement model / degree of urbanization), and GHS-UCDB (Urban Centre Database of consistently delineated cities).
+- **[DHS - Demographic and Health Surveys](https://dhsprogram.com/)**. Household survey microdata across many developing countries; the geospatial program adds (randomly displaced) GPS cluster coordinates and covariates such as night lights. Confidential GPS data needs a short access request.
+- **Night lights.** VIIRS and DMSP nighttime-lights rasters, a standard proxy for local economic activity (see Matt Lowe's night-lights and ArcGIS guide).
+- **[GADM](https://gadm.org/)**. Administrative boundaries worldwide, country down to level 2-3.
+- **[IPUMS International](https://international.ipums.org/international/geography_gis.shtml)**. Harmonized (consistent-over-time GEOLEV1 / GEOLEV2) and unharmonized (year-specific) administrative boundaries linked to census microdata; see the [GIS boundary files](https://international.ipums.org/international/gis.shtml). [IPUMS USA](https://usa.ipums.org/usa/) does the same for the US.
+- **Aggregated catalogs.** The [UPenn Libraries GIS guide](https://guides.library.upenn.edu/c.php?g=1321452&p=9876288) (global and US spatial data) and the [geo4.dev data catalog](https://www.geo4.dev/library?cat=Data+Catalog) (development-focused) list many more sources.
 
 </details>
 
 <details class="ds-guide" markdown="1">
 <summary><b>Mental health &amp; wellbeing data</b></summary>
 
-Publicly available datasets that carry a validated mental-health or wellbeing measure, plus a few key economics papers with open replication data. Most datasets are free with registration; restricted or paid ones are flagged. The <span class="ds-youth">youth</span> tag marks samples that include adolescents or young adults (usable for student / youth mental-health research).
+Publicly available datasets that carry a validated mental-health or wellbeing measure, plus a few key economics papers with open replication data. Most datasets are free with registration; restricted or paid ones are flagged. The **Youth available?** column notes whether adolescents / young adults are covered: by age (a general sample you can filter), by student status, or as a youth-only sample.
 
 **Development and low- or middle-income country panels**
 
-| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth | Access |
+| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth available? | Access |
 |---|---|---|---|---|---|
-| **[IFLS](https://www.rand.org/health/surveys/FLS/IFLS/access.html)** - Indonesia Family Life Survey (CES-D-10) | Indonesia, 13 provinces; province-level (GPS restricted) | Households &amp; individuals (15+ for CES-D) | ~30,000 individuals / 7,200+ households | <span class="ds-youth">youth</span> | Free, registration |
-| **[MxFLS](https://www.ennvih-mxfls.org/english/)** - Mexican Family Life Survey (Zung/Calderon depression) | Mexico, national; state &amp; municipality | Individuals in households (15+) | ~35,000 individuals / 8,400 households | <span class="ds-youth">youth</span> | Free, registration |
-| **[Young Lives](https://www.younglives.org.uk/)** (SRQ-20, Cantril, GAD-7/PHQ-8) | Ethiopia, India, Peru, Vietnam; region/district | Index children, 2 cohorts | ~12,000 children | <span class="ds-youth">youth</span> | Free, registration (UK Data Service) |
-| **[NIDS](https://www.datafirst.uct.ac.za/dataportal/index.php/collections/NIDS)** - National Income Dynamics Study (CES-D-10) | South Africa, national; district municipality | Individuals (15+) | ~28,000 individuals / 7,300 households | <span class="ds-youth">youth</span> | Free, registration |
-| **[CFPS](https://opendata.pku.edu.cn/dataverse/CFPS)** - China Family Panel Studies (CES-D, K6) | China, 25 provinces (~95% of pop.) | Individuals &amp; households (10+) | ~42,600 individuals / 14,960 households | <span class="ds-youth">youth</span> | Free, registration + data-use agreement |
+| **[IFLS](https://www.rand.org/health/surveys/FLS/IFLS/access.html)** - Indonesia Family Life Survey (CES-D-10) | Indonesia, 13 provinces; province-level (GPS restricted) | Households &amp; individuals (15+ for CES-D) | ~30,000 individuals / 7,200+ households | Yes, age 15+ | Free, registration |
+| **[MxFLS](https://www.ennvih-mxfls.org/english/)** - Mexican Family Life Survey (Zung/Calderon depression) | Mexico, national; state &amp; municipality | Individuals in households (15+) | ~35,000 individuals / 8,400 households | Yes, age 15+ | Free, registration |
+| **[Young Lives](https://www.younglives.org.uk/)** (SRQ-20, Cantril, GAD-7/PHQ-8) | Ethiopia, India, Peru, Vietnam; region/district | Index children, 2 cohorts | ~12,000 children | Youth cohort (child to young adult) | Free, registration (UK Data Service) |
+| **[NIDS](https://www.datafirst.uct.ac.za/dataportal/index.php/collections/NIDS)** - National Income Dynamics Study (CES-D-10) | South Africa, national; district municipality | Individuals (15+) | ~28,000 individuals / 7,300 households | Yes, age 15+ | Free, registration |
+| **[CFPS](https://opendata.pku.edu.cn/dataverse/CFPS)** - China Family Panel Studies (CES-D, K6) | China, 25 provinces (~95% of pop.) | Individuals &amp; households (10+) | ~42,600 individuals / 14,960 households | Yes, age 10+ | Free, registration + data-use agreement |
 
 **Cross-national**
 
-| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth | Access |
+| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth available? | Access |
 |---|---|---|---|---|---|
-| **[WHO World Mental Health](https://www.hcp.med.harvard.edu/wmh/)** (CIDI diagnostic) | 28+ countries; country-level | Adults (mostly 18+) | &gt;200,000 interviews | — | Restricted (consortium agreement) |
-| **[Global Burden of Disease](https://vizhub.healthdata.org/gbd-results/)** (modeled prevalence &amp; burden) | 204 countries + some subnational | Modeled location x year x age x sex | Aggregate (not respondents) | <span class="ds-youth">youth</span> | Free, registration |
-| **[DHS](https://dhsprogram.com/data/)** - Demographic and Health Surveys (PHQ-9 + GAD-7; Nepal &amp; Mozambique 2022 only) | 63 countries; displaced GPS clusters | Individuals 15-49 | ~5,000-30,000 households / survey | <span class="ds-youth">youth</span> | Free, registration |
+| **[WHO World Mental Health](https://www.hcp.med.harvard.edu/wmh/)** (CIDI diagnostic) | 28+ countries; country-level | Adults (mostly 18+) | &gt;200,000 interviews | No (adults) | Restricted (consortium agreement) |
+| **[Global Burden of Disease](https://vizhub.healthdata.org/gbd-results/)** (modeled prevalence &amp; burden) | 204 countries + some subnational | Modeled location x year x age x sex | Aggregate (not respondents) | Yes (age bands, incl. 10-19) | Free, registration |
+| **[DHS](https://dhsprogram.com/data/)** - Demographic and Health Surveys (mental-health module: PHQ-9 + GAD-7) | Overall 63 countries (displaced GPS clusters); the MH module is in a small but growing set (Nepal, Kenya, Bangladesh, and others), not most surveys | Individuals 15-49 | ~5,000-30,000 households / survey | Yes, age 15-49 | Free, registration |
 
 **United States**
 
-| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth | Access |
+| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth available? | Access |
 |---|---|---|---|---|---|
-| **[Add Health](https://addhealth.cpc.unc.edu/data/)** (CES-D depression) | US, national; geocodes restricted | Individuals, grades 7-12 into adulthood | ~20,000 (in-home) | <span class="ds-youth">youth</span> | Public-use free; full sample restricted |
-| **[NSDUH](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health/datafiles)** - Nat. Survey on Drug Use &amp; Health (Kessler K6, MDE module) | US, national + state (small-area est.) | Individuals 12+ | ~67,500 / year | <span class="ds-youth">youth</span> | Free public-use files |
-| **[NHANES](https://www.cdc.gov/nchs/nhanes/index.htm)** (PHQ-9) | US, national only in public file | Individuals, all ages | ~5,000 / year | <span class="ds-youth">youth</span> | Free (18+); 12-17 file restricted |
-| **[NCS-R / NCS-A](https://www.icpsr.umich.edu/web/ICPSR/studies/20240)** (CIDI diagnostic) | US, national | Individuals: adults / adolescents | 9,282 / 10,123 | <span class="ds-youth">youth</span> | NCS-R free; NCS-A restricted |
-| **[HRS](https://hrsdata.isr.umich.edu/data-products/public-survey-data)** - Health &amp; Retirement Study (CES-D-8) | US, national | Adults 50+ | ~20,000 / wave | — | Free, registration |
-| **[Healthy Minds Study](https://healthymindsnetwork.org/hms/)** (PHQ-9, GAD-7, flourishing) | US colleges; Census region only, individual colleges blinded | College / university students | ~935,000 (675+ colleges) | <span class="ds-youth">youth</span> | Free, de-identified; short data-request form |
+| **[Add Health](https://addhealth.cpc.unc.edu/data/)** (CES-D depression) | US, national; geocodes restricted | Individuals, grades 7-12 into adulthood | ~20,000 (in-home) | Yes (adolescent cohort) | Public-use free; full sample restricted |
+| **[NSDUH](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health/datafiles)** - Nat. Survey on Drug Use &amp; Health (Kessler K6, MDE module) | US, national + state (small-area est.) | Individuals 12+ | ~67,500 / year | Yes, age 12+ | Free public-use files |
+| **[NHANES](https://www.cdc.gov/nchs/nhanes/index.htm)** (PHQ-9) | US, national only in public file | Individuals, all ages | ~5,000 / year | Yes (12-17 restricted) | Free (18+); 12-17 file restricted |
+| **[NCS-R / NCS-A](https://www.icpsr.umich.edu/web/ICPSR/studies/20240)** (CIDI diagnostic) | US, national | Individuals: adults / adolescents | 9,282 / 10,123 | Yes (NCS-A, 13-18) | NCS-R free; NCS-A restricted |
+| **[HRS](https://hrsdata.isr.umich.edu/data-products/public-survey-data)** - Health &amp; Retirement Study (CES-D-8) | US, national | Adults 50+ | ~20,000 / wave | No (50+) | Free, registration |
+| **[Healthy Minds Study](https://healthymindsnetwork.org/hms/)** (PHQ-9, GAD-7, flourishing) | US colleges; Census region only, individual colleges blinded | College / university students | ~935,000 (675+ colleges) | Students only (college) | Free, de-identified; short data-request form |
 
 **UK and Europe**
 
-| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth | Access |
+| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth available? | Access |
 |---|---|---|---|---|---|
-| **[Understanding Society](https://www.understandingsociety.ac.uk/)** (UKHLS) (GHQ-12, SWEMWBS; youth SDQ) | UK; region public, finer restricted | Households &amp; individuals (16+; youth 10-15) | ~40,000 households / ~100,000 individuals | <span class="ds-youth">youth</span> | Free, registration (UK Data Service) |
-| **[ELSA](https://www.elsa-project.ac.uk/accessing-elsa-data)** - English Longitudinal Study of Ageing (CES-D-8) | England; region-level public | Adults 50+ | ~11,400 (Wave 1 core) | — | Free, registration |
-| **[SHARE](https://share-eric.eu/data/data-access)** (EURO-D) | 28 European countries + Israel; country-level | Adults 50+ | ~160,000 respondents | — | Free (scientific use), registration |
-| **[UK Biobank](https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/)** (PHQ-9, GAD-7, CIDI-SF) | UK; location restricted (1 km grid) | Adults 40-69 | ~500,000 | — | Application + fee + agreement |
-| **[HBSC](https://www.uib.no/en/hbscdata)** - Health Behaviour in School-aged Children (psychosomatic scale, Cantril; wellbeing, not clinical) | 45+ countries; country/region | Students aged 11, 13, 15 | ~220,000+ / round | <span class="ds-youth">youth</span> | Aggregate public; microdata by request (embargo) |
+| **[Understanding Society](https://www.understandingsociety.ac.uk/)** (UKHLS) (GHQ-12, SWEMWBS; youth SDQ) | UK; region public, finer restricted | Households &amp; individuals (16+; youth 10-15) | ~40,000 households / ~100,000 individuals | Yes (youth panel 10-15) | Free, registration (UK Data Service) |
+| **[ELSA](https://www.elsa-project.ac.uk/accessing-elsa-data)** - English Longitudinal Study of Ageing (CES-D-8) | England; region-level public | Adults 50+ | ~11,400 (Wave 1 core) | No (50+) | Free, registration |
+| **[SHARE](https://share-eric.eu/data/data-access)** (EURO-D) | 28 European countries + Israel; country-level | Adults 50+ | ~160,000 respondents | No (50+) | Free (scientific use), registration |
+| **[UK Biobank](https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/)** (PHQ-9, GAD-7, CIDI-SF) | UK; location restricted (1 km grid) | Adults 40-69 | ~500,000 | No (40-69) | Application + fee + agreement |
+| **[HBSC](https://www.uib.no/en/hbscdata)** - Health Behaviour in School-aged Children (psychosomatic scale, Cantril; wellbeing, not clinical) | 45+ countries; country/region | Students aged 11, 13, 15 | ~220,000+ / round | Students only (ages 11/13/15) | Aggregate public; microdata by request (embargo) |
 
 **Subjective wellbeing** (life satisfaction and happiness, not clinical mental health)
 
-| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth | Access |
+| Dataset (measure) | Geographic coverage | Unit of obs. | Total N | Youth available? | Access |
 |---|---|---|---|---|---|
-| **[Gallup World Poll](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)** (Cantril ladder, daily affect) | 160+ countries; country-level | Adults 15+ | ~1,000 / country / year | <span class="ds-youth">youth</span> | Paid microdata; some free aggregates |
-| **[World Values Survey](https://www.worldvaluessurvey.org/)** (life satisfaction, happiness) | 64 countries (Wave 7); country-level | Adults 18+ | ~95,000 / wave | — | Free, registration |
+| **[Gallup World Poll](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)** (Cantril ladder, daily affect) | 160+ countries; country-level | Adults 15+ | ~1,000 / country / year | Yes, age 15+ | Paid microdata; some free aggregates |
+| **[World Values Survey](https://www.worldvaluessurvey.org/)** (life satisfaction, happiness) | 64 countries (Wave 7); country-level | Adults 18+ | ~95,000 / wave | No (18+) | Free, registration |
 
 **Key mental-health economics papers (with public replication data)**
 
@@ -190,5 +191,3 @@ Publicly available datasets that carry a validated mental-health or wellbeing me
 <p class="rd">The Socioeconomic High-resolution Rural-Urban Geographic Platform: open data covering roughly 600,000 villages and 8,000 towns in India, from the Development Data Lab.</p>
 </div>
 </div>
-
-More of my code, maps, and guides are on my [GitHub profile](https://github.com/idagri).
