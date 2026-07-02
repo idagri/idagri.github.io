@@ -180,9 +180,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "false" # GA4-ready: change to "google-analytics-4" once tracking_id below is filled
   google:
-    tracking_id          :
+    tracking_id          :  # paste your GA4 Measurement ID here (looks like G-XXXXXXXXXX), then set provider above to "google-analytics-4"
 
 
 # Reading Files

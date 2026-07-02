@@ -42,36 +42,36 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 
 <div class="out-sec">Running</div>
 <div class="out-grid">
-<div class="out-tile"><img src="/images/out-avalon.jpg" alt="Running the Avalon 50-mile ultramarathon on Catalina Island"><div class="out-cap">50-mile ultramarathon · Catalina, 2026</div></div>
-<div class="out-tile"><img src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First 50K ultramarathon · Oregon, 2023 (with Gabriella Escobar)</div></div>
-<div class="out-tile"><img src="/images/out-sf50k.jpg" alt="Celebrating with arms raised at the Golden Gate 50K, San Francisco"><div class="out-cap">Golden Gate 50K · San Francisco, 2026</div></div>
-<div class="out-tile"><img src="/images/out-bigsur24.jpg" alt="Big Sur 2024 marathon collage with finish medal and a new marathon PR"><div class="out-cap">Big Sur Marathon · California, 2024</div></div>
-<div class="out-tile"><img src="/images/out-marathon.jpg" alt="Selfie with a friend on the coastal road at the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025 (with a friend)</div></div>
-<div class="out-tile"><img src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>
-<div class="out-tile"><img src="/images/out-30k.jpg" alt="First run over half-marathon distance, 30K in Vancouver"><div class="out-cap">First over-halfmarathon run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
-<div class="out-tile"><img src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
-<div class="out-tile"><img src="/images/out-10k.jpg" alt="A sub-50-minute 10K run in Vancouver"><div class="out-cap">Sub-50min 10K · Vancouver, 2018 (with Antonio Serapio-Palacios)</div></div>
-<div class="out-tile"><img src="/images/out-bearroute.jpg" alt="A post from a friend who waited for me after a long run"><div class="out-cap">Running projects <span style="font-size:.82em; opacity:.85">(post by a friend waiting for me after the run)</span></div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-avalon.jpg" alt="Running the Avalon 50-mile ultramarathon on Catalina Island"><div class="out-cap">50-mile ultramarathon · Catalina, 2026</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First 50K ultramarathon · Oregon, 2023 (with Gabriella Escobar)</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-sf50k.jpg" alt="Celebrating with arms raised at the Golden Gate 50K, San Francisco"><div class="out-cap">Golden Gate 50K · San Francisco, 2026</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-bigsur24.jpg" alt="Big Sur 2024 marathon collage with finish medal and a new marathon PR"><div class="out-cap">Big Sur Marathon · California, 2024</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-marathon.jpg" alt="Selfie with a friend on the coastal road at the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025 (with a friend)</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-30k.jpg" alt="First run over half-marathon distance, 30K in Vancouver"><div class="out-cap">First over-halfmarathon run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-10k.jpg" alt="A sub-50-minute 10K run in Vancouver"><div class="out-cap">Sub-50min 10K · Vancouver, 2018 (with Antonio Serapio-Palacios)</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-bearroute.jpg" alt="A post from a friend who waited for me after a long run"><div class="out-cap">Running projects <span style="font-size:.82em; opacity:.85">(post by a friend waiting for me after the run)</span></div></div>
 </div>
 
 <div class="out-sec">Cycling &amp; triathlon</div>
 <div class="out-grid">
-<div class="out-tile"><img src="/images/out-century.jpg" alt="On a first 100 km century bike ride by the ocean"><div class="out-cap">First 100 km century ride (with Gabriella Wong)</div></div>
-<div class="out-tile wide"><img src="/images/out-tri-olympic.jpg" alt="Olympic-distance triathlon in Vancouver: the cycling leg and finishing the run through the arch"><div class="out-cap">Olympic triathlon · Vancouver, 2019</div></div>
-<div class="out-tile wide"><img src="/images/out-tri-halfironman.jpg" alt="Victoria Half-Ironman 70.3: with friends at the finish, and on the bike leg"><div class="out-cap">Half-Ironman 70.3 · Victoria, 2022</div></div>
-<div class="out-tile"><img src="/images/out-oceanswim.jpg" alt="UCSD triathlon club ocean swim at the beach"><div class="out-cap">UCSD triathlon ocean swims</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-century.jpg" alt="On a first 100 km century bike ride by the ocean"><div class="out-cap">First 100 km century ride (with Gabriella Wong)</div></div>
+<div class="out-tile wide"><img loading="lazy" src="/images/out-tri-olympic.jpg" alt="Olympic-distance triathlon in Vancouver: the cycling leg and finishing the run through the arch"><div class="out-cap">Olympic triathlon · Vancouver, 2019</div></div>
+<div class="out-tile wide"><img loading="lazy" src="/images/out-tri-halfironman.jpg" alt="Victoria Half-Ironman 70.3: with friends at the finish, and on the bike leg"><div class="out-cap">Half-Ironman 70.3 · Victoria, 2022</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-oceanswim.jpg" alt="UCSD triathlon club ocean swim at the beach"><div class="out-cap">UCSD triathlon ocean swims</div></div>
 </div>
 
 <div class="out-sec">Skiing &amp; hiking</div>
 <div class="out-grid">
-<div class="out-tile"><img src="/images/out-ski.jpg" alt="Skiing at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
-<div class="out-tile"><img src="/images/out-whistler2.jpg" alt="Skiing with a friend at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
-<div class="out-tile"><img src="/images/out-cypress.jpg" alt="Skiing at Cypress Mountain"><div class="out-cap">Cypress Mountain, BC</div></div>
-<div class="out-tile"><img src="/images/out-sunpeaks.jpg" alt="Skiing at Sun Peaks"><div class="out-cap">Sun Peaks, BC</div></div>
-<div class="out-tile"><img src="/images/out-garibaldi.jpg" alt="Group hike at Garibaldi Lake"><div class="out-cap">Garibaldi Lake, BC</div></div>
-<div class="out-tile"><img src="/images/out-bigbear.jpg" alt="Hiking with my PhD cohort at Big Bear"><div class="out-cap">Big Bear · PhD cohort trip, 2022</div></div>
-<div class="out-tile"><img src="/images/out-elphinstone.jpg" alt="View from Mt. Elphinstone on the Sunshine Coast"><div class="out-cap">Mt. Elphinstone · Sunshine Coast</div></div>
-<div class="out-tile"><img src="/images/out-yosemite.jpg" alt="Hiking in Yosemite with a view of Half Dome"><div class="out-cap">Yosemite, California</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-ski.jpg" alt="Skiing at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-whistler2.jpg" alt="Skiing with a friend at Whistler Blackcomb"><div class="out-cap">Whistler Blackcomb, BC</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-cypress.jpg" alt="Skiing at Cypress Mountain"><div class="out-cap">Cypress Mountain, BC</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-sunpeaks.jpg" alt="Skiing at Sun Peaks"><div class="out-cap">Sun Peaks, BC</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-garibaldi.jpg" alt="Group hike at Garibaldi Lake"><div class="out-cap">Garibaldi Lake, BC</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-bigbear.jpg" alt="Hiking with my PhD cohort at Big Bear"><div class="out-cap">Big Bear · PhD cohort trip, 2022</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-elphinstone.jpg" alt="View from Mt. Elphinstone on the Sunshine Coast"><div class="out-cap">Mt. Elphinstone · Sunshine Coast</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-yosemite.jpg" alt="Hiking in Yosemite with a view of Half Dome"><div class="out-cap">Yosemite, California</div></div>
 </div>
 
 <p class="out-results">Results: <a href="https://ultrarunning.com/calendar/runner/view/Idaliya-Grigoryeva-a5d94586-d306-11ed-9ee8-8e80a249bae3">UltraRunning</a> · <a href="https://www.strava.com/athletes/37840585">Strava</a> · <a href="https://www.ironman.com/races/im703-victoria/results">IRONMAN 70.3 Victoria</a> (select 2022, search "Grigoryeva")</p>
