@@ -18,8 +18,6 @@ author_profile: true
 .tag.method { background:rgba(68,1,84,.10);    color:#5a3168; border-color:rgba(68,1,84,.25); }
 
 .pub{ display:grid; grid-template-columns:8.5rem 1fr; gap:.15rem 1.3rem; align-items:start; margin:0 0 1.5rem; }
-.pub.featured{ background:rgba(33,145,140,.06); border-left:3px solid var(--vir-teal); border-radius:0 8px 8px 0; padding:.75rem .9rem; }
-html[data-theme="dark"] .pub.featured{ background:rgba(45,170,160,.10); border-left-color:#2daaa0; }
 .pub-tag{ padding-top:.25rem; display:flex; flex-direction:column; gap:.12rem; align-items:flex-start; }
 .pub-body{ min-width:0; }
 .pub-title{ margin:0 0 .25rem; font-size:1.02rem; font-weight:700; line-height:1.35; }
@@ -72,20 +70,18 @@ My work studies how people and places develop: how cities grow and absorb migran
 
 ---
 
-## Job Market Paper
+## Working Papers
 
-<div class="pub featured">
+<div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
-<p class="pub-title">Agricultural Productivity and Urbanization: Evidence from Indonesia's Transmigration Program</p>
+<p class="pub-title">Agricultural Productivity and Urbanization: Evidence from Indonesia's Transmigration Program <span class="pub-flag">Job Market Paper</span></p>
 <p class="pub-meta">Solo-authored</p>
 <p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Field Research Grant ($12,800)</p>
 <p class="pub-pres">Presented at: Cities &amp; Development Workshop, Harvard (2024); University of Hawaii Applied Seminar (2025); PacDev, UC Davis (2026); DevPEC, Stanford (2026); UEA PhD Summer School, LSE (2026); University of Melbourne (2026).</p>
 <details><summary>Abstract</summary><p>Using the quasi-random allocation of Indonesia's Transmigration Program and variation in productivity among transmigrant villages, I show that cities proximate to more productive villages experience higher population and employment growth, concentrated in service industries. The higher growth occurs alongside greater in-migration to cities (from both rural and urban districts) and is not driven by transmigrants abandoning their destination villages. Because migrants tend to stay in more productive villages, the results provide suggestive evidence of positive indirect spillovers of rural productivity onto regional urban markets.</p></details>
 </div>
 </div>
-
-## Working Papers
 
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span><span class="tag well">Wellbeing &amp; Education</span></div>
