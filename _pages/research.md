@@ -78,7 +78,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <p class="pub-title">Agricultural Productivity and Urbanization: Evidence from Indonesia's Transmigration Program <span class="pub-flag">Job Market Paper</span></p>
 <p class="pub-meta">Solo-authored</p>
 <p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Field Research Grant ($12,800)</p>
-<p class="pub-pres">Presented at: Cities &amp; Development Workshop, Harvard (2024); University of Hawaii Applied Seminar (2025); PacDev, UC Davis (2026); DevPEC, Stanford (2026); UEA PhD Summer School, LSE (2026); University of Melbourne (2026).</p>
+<p class="pub-pres">Presented at: Cities &amp; Development Workshop, Harvard (2024); IHS Trade Workshop, Harvard (2024); Economics of Migration Summer School, Mexico (2024); University of Hawaii Applied Seminar (2025); Lindau Nobel Laureates Meeting, Germany (2025); IHS Migration Workshop, UC Davis (2025); PacDev, UC Davis (2026); DevPEC, Stanford (2026); UEA PhD Summer School, LSE (2026); University of Melbourne (2026).</p>
 <details><summary>Abstract</summary><p>Using the quasi-random allocation of Indonesia's Transmigration Program and variation in productivity among transmigrant villages, I show that cities proximate to more productive villages experience higher population and employment growth, concentrated in service industries. The higher growth occurs alongside greater in-migration to cities (from both rural and urban districts) and is not driven by transmigrants abandoning their destination villages. Because migrants tend to stay in more productive villages, the results provide suggestive evidence of positive indirect spillovers of rural productivity onto regional urban markets.</p></details>
 </div>
 </div>
@@ -89,7 +89,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <p class="pub-title">Violence and Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores</p>
 <p class="pub-meta">with <a href="https://sites.google.com/view/viniciuspecanha/home">Vinicius Peçanha</a></p>
 <p class="pub-fund">Funding: Weiss Fund ($12,900); SSHRC PhD Fellowship</p>
-<p class="pub-pres">Presented at: Urban Economics Association, Washington DC (2022); Workshop on the Economics of Education, Universidad de los Andes, Santiago (2024).</p>
+<p class="pub-pres">Presented at: Urban Economics Association, Washington DC (2022); International &amp; Development Economics Summer School, Italy (2022); Workshop on the Economics of Education, Universidad de los Andes, Santiago (2024).</p>
 <details><summary>Abstract</summary><p>In many neighborhoods of Latin American cities such as Rio de Janeiro, crime rates are very high, producing educational disruption and acute stress. We find that neighborhood shootings near a school shortly before an exam have a robust negative effect on students' performance on the language and math university-entrance tests. The effects are robust to school and year fixed effects: exposed students perform significantly worse (by 0.1 to 0.3 standard deviations) than non-exposed students.</p></details>
 </div>
 </div>
