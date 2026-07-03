@@ -181,6 +181,28 @@ Publicly available datasets with a validated mental-health or wellbeing measure,
 
 </details>
 
+<details class="ds-guide" markdown="1">
+<summary><b>Sleep data</b> (self-reported and objective actigraphy / lab)</summary>
+
+**Economics field experiments** - objective wearable/actigraphy sleep alongside self-report and economic outcomes:
+
+| Study | Year | Population | Sleep measure | Data |
+|---|---|---|---|---|
+| **Bessone, Rao, Schilbach, Schofield &amp; Toma**, QJE | 2021 | Low-income adults, Chennai (India) | Actigraphy + self-report | [Harvard Dataverse](https://doi.org/10.7910/DVN/GJ9QPC) (public) |
+| **Giuntella, Saccardo &amp; Sadoff**, JPE (forthcoming) | 2025 | ~1,150 US university students | Fitbit + self-report | [NBER w32550](https://www.nber.org/papers/w32550); replication not yet public |
+| **Avery, Giuntella &amp; Jiao**, REStat | 2025 | US college students | Wearable + self-report | [paper](https://direct.mit.edu/rest/article/107/1/65/113168); no public package located |
+
+**Objective sleep-data repositories** (polysomnography and actigraphy):
+
+| Source | Sleep measure | Coverage | Access |
+|---|---|---|---|
+| **[NSRR - National Sleep Research Resource](https://sleepdata.org)** (NHLBI) | PSG + actigraphy + questionnaires | 13+ cohorts, 26,000+ people (SHHS, MESA, MrOS, CHAT, ...) | Free, per-dataset data-use agreement |
+| **[UK Biobank](https://www.ukbiobank.ac.uk)** accelerometer sub-study | Wrist actigraphy (7-day); derived sleep duration/efficiency/timing | ~104,000 participants | Approved application + fee |
+| **[NHANES accelerometry](https://wwwn.cdc.gov/nchs/nhanes/)** (2011-2014) | Wrist accelerometry (minute-level) | US, nationally representative | Fully public, no application |
+| **[PhysioNet](https://physionet.org/content/?topic=sleep)** (Sleep-EDF, MMASH, Apple-Watch+PSG) | PSG and/or consumer wearable with PSG labels | Small validation cohorts | Mostly open access |
+
+</details>
+
 ## Research Tools
 
 <div class="res-card has-img">
