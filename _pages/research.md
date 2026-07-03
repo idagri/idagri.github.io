@@ -77,7 +77,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Agricultural Productivity and Urbanization: Evidence from Indonesia's Transmigration Program <span class="pub-flag">Job Market Paper</span></p>
 <p class="pub-meta">Solo-authored</p>
-<p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Field Research Grant ($12,800)</p>
+<p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Research &amp; Travel Grants ($12,800)</p>
 <p class="pub-pres">Presented at: Cities &amp; Development Workshop, Harvard (2024); IHS Trade Workshop, Harvard (2024); Economics of Migration Summer School, Mexico (2024); University of Hawaii Applied Seminar (2025); Lindau Nobel Laureates Meeting, Germany (2025); IHS Migration Workshop, UC Davis (2025); PacDev, UC Davis (2026); DevPEC, Stanford (2026); UEA PhD Summer School, LSE (2026); University of Melbourne (2026).</p>
 <details><summary>Abstract</summary><p>Using the quasi-random allocation of Indonesia's Transmigration Program and variation in productivity among transmigrant villages, I show that cities proximate to more productive villages experience higher population and employment growth, concentrated in service industries. The higher growth occurs alongside greater in-migration to cities (from both rural and urban districts) and is not driven by transmigrants abandoning their destination villages. Because migrants tend to stay in more productive villages, the results provide suggestive evidence of positive indirect spillovers of rural productivity onto regional urban markets.</p></details>
 </div>
@@ -88,7 +88,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Violence and Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores</p>
 <p class="pub-meta">with <a href="https://sites.google.com/view/viniciuspecanha/home">Vinicius Peçanha</a></p>
-<p class="pub-fund">Funding: Weiss Fund ($12,900); SSHRC PhD Fellowship</p>
+<p class="pub-fund">Funding: Weiss Fund ($12,900); IHS Research &amp; Travel Grant; Jacobs Social Impact Summer Research Fellowship ($6,000)</p>
 <p class="pub-pres">Presented at: Urban Economics Association, Washington DC (2022); International &amp; Development Economics Summer School, Italy (2022); Workshop on the Economics of Education, Universidad de los Andes, Santiago (2024).</p>
 <details><summary>Abstract</summary><p>In many neighborhoods of Latin American cities such as Rio de Janeiro, crime rates are very high, producing educational disruption and acute stress. We find that neighborhood shootings near a school shortly before an exam have a robust negative effect on students' performance on the language and math university-entrance tests. The effects are robust to school and year fixed effects: exposed students perform significantly worse (by 0.1 to 0.3 standard deviations) than non-exposed students.</p></details>
 </div>
@@ -125,7 +125,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
 <p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a>, <a href="https://www.bruno-calderon.com/">Bruno Calderon-Hernandez</a>, <a href="https://robertoglz.github.io/">Roberto Gonzalez-Tellez</a>, and <a href="https://research.tec.mx/vivo-tec/display/PID_316616">Alejandro Guardiola-Ramirez</a> · <em>Journal of Development Economics</em> 180: 103646 (2026) · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
-<p class="pub-fund">Funding: Weiss Fund ($11,000); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
+<p class="pub-fund">Funding: Weiss Fund ($11,000, plus an earlier $3,300); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
 <p class="pub-pres">Presented at: Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); Advances with Field Experiments (AFE) Conference (2025); Melbourne Institute (2026).</p>
 <details><summary>Abstract</summary><p>We investigate the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where supply-side barriers are minimal. In a survey experiment with 680 students, nearly 50% of students in distress do not receive professional support despite high awareness and perceived effectiveness, a substantial treatment gap. We document stigmatized beliefs and misconceptions correlated with this gap: three-quarters of students incorrectly believe that those in distress perform worse academically and that most students in therapy are in severe distress. An information intervention correcting these beliefs increases students' sharing of on-campus resources and their willingness to recommend them to peers, though it lowers willingness to pay for private therapy and does not change self-reported therapy use six months later.</p></details>
 </div>
@@ -229,7 +229,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
 <div class="pub-body">
 <p class="pub-title">Robustness in Empirical Economics: A Meta-Reproduction of 66 Articles from Leading Journals</p>
-<p class="pub-meta">with Jörg Ankel-Peters, Gunther Bensch, Abel Brodeur, et al. · Mimeo (2026)</p>
+<p class="pub-meta">with <a href="https://www.rwi-essen.de/en/rwi/team/person/joerg-ankel-peters">Jörg Ankel-Peters</a>, <a href="https://www.rwi-essen.de/en/rwi/team/person/gunther-bensch">Gunther Bensch</a>, <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, et al. · Mimeo (2026)</p>
 </div>
 </div>
 
