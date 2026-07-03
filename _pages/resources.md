@@ -26,12 +26,13 @@ redirect_from:
 .ds-guide th{ font-weight:700; color:#13716b; border-bottom:2px solid rgba(33,145,140,.4); }
 .ds-guide td a{ font-weight:600; }
 .ds-guide .ds-tbl{ table-layout:fixed; }
-.ds-guide .ds-tbl th:nth-child(1){ width:26%; }
-.ds-guide .ds-tbl th:nth-child(2){ width:24%; }
-.ds-guide .ds-tbl th:nth-child(3){ width:12%; }
-.ds-guide .ds-tbl th:nth-child(4){ width:13%; }
-.ds-guide .ds-tbl th:nth-child(5){ width:13%; }
-.ds-guide .ds-tbl th:nth-child(6){ width:12%; }
+.ds-guide .ds-tbl th:nth-child(1){ width:17%; }
+.ds-guide .ds-tbl th:nth-child(2){ width:21%; }
+.ds-guide .ds-tbl th:nth-child(3){ width:18%; }
+.ds-guide .ds-tbl th:nth-child(4){ width:10%; }
+.ds-guide .ds-tbl th:nth-child(5){ width:12%; }
+.ds-guide .ds-tbl th:nth-child(6){ width:11%; }
+.ds-guide .ds-tbl th:nth-child(7){ width:11%; }
 @media (max-width:40em){ .res-card.has-img img{ width:92px; height:68px; } .ds-guide .ds-tbl{ table-layout:auto; } }
 html[data-theme="dark"] .res-card .rd{ color:#b5b5b5; }
 html[data-theme="dark"] .ds-youth{ color:#6fd0c8; background:rgba(45,170,160,.18); border-color:rgba(45,170,160,.4); }
@@ -114,52 +115,52 @@ Publicly available spatial and satellite data for development and urban research
 <details class="ds-guide" markdown="1">
 <summary><b>Mental health &amp; Sleep data</b></summary>
 
-Publicly available datasets with a validated mental-health or wellbeing measure, a few key economics papers with open replication data, speech/audio depression corpora, and sleep data (self-reported and objective actigraphy / lab). Most datasets are free with registration; restricted or paid ones are flagged. The **Youth available?** column notes whether adolescents / young adults are covered: by age (a general sample you can filter), by student status, or as a youth-only sample.
+Publicly available datasets with a validated mental-health or wellbeing measure, a few key economics papers with open replication data, speech/audio depression corpora, and sleep data (self-reported and objective actigraphy / lab). Most datasets are free with registration; restricted or paid ones are flagged. The **MH / sleep measures** column lists each dataset's mental-health instruments and what sleep data it collects, if any (checked in the questionnaires / codebooks). The **Youth available?** column notes whether adolescents / young adults are covered: by age (a general sample you can filter), by student status, or as a youth-only sample.
 
 **Development and low- or middle-income country panels**
 
-| Dataset (measure) | Geographic coverage | Level | Total N | Youth available? | Access |
-|---|---|---|---|---|---|
-| **[IFLS](https://www.rand.org/health/surveys/FLS/IFLS/access.html)** - Indonesia Family Life Survey (CES-D-10) | Indonesia, 13 provinces; province-level (GPS restricted) | Individual &amp; household | ~30,000 individuals / 7,200+ households | Yes, age 15+ | Free, registration |
-| **[MxFLS](https://www.ennvih-mxfls.org/english/)** - Mexican Family Life Survey (Zung/Calderon depression) | Mexico, national; state &amp; municipality | Individual &amp; household | ~35,000 individuals / 8,400 households | Yes, age 15+ | Free, registration |
-| **[Young Lives](https://www.younglives.org.uk/)** (SRQ-20, Cantril, GAD-7/PHQ-8) | Ethiopia, India, Peru, Vietnam; region/district | Individual (child cohort) | ~12,000 children | Youth cohort (child to young adult) | Free, registration (UK Data Service) |
-| **[NIDS](https://www.datafirst.uct.ac.za/dataportal/index.php/collections/NIDS)** - National Income Dynamics Study (CES-D-10) | South Africa, national; district municipality | Individual | ~28,000 individuals / 7,300 households | Yes, age 15+ | Free, registration |
-| **[CFPS](https://opendata.pku.edu.cn/dataverse/CFPS)** - China Family Panel Studies (CES-D, K6) | China, 25 provinces (~95% of pop.) | Individual &amp; household | ~42,600 individuals / 14,960 households | Yes, age 10+ | Free, registration + data-use agreement |
-| **[KLPS](https://dataverse.harvard.edu/dataverse/KLPS)** - Kenya Life Panel Survey (CES-D-10, KLPS-4) | Kenya, Busia County cohort (followed nationwide and abroad) | Individual (+ 2nd-gen children) | ~7,500 cohort + ~5,200 children | Yes (young-adult cohort) | Free, open (CC0) |
+| Dataset | MH / sleep measures | Geographic coverage | Level | Total N | Youth available? | Access |
+|---|---|---|---|---|---|---|
+| **[IFLS](https://www.rand.org/health/surveys/FLS/IFLS/access.html)** - Indonesia Family Life Survey | CES-D-10<br>Sleep: PROMIS quality &amp; disturbance items (wave 5) | Indonesia, 13 provinces; province-level (GPS restricted) | Individual &amp; household | ~30,000 individuals / 7,200+ households | Yes, age 15+ | Free, registration |
+| **[MxFLS](https://www.ennvih-mxfls.org/english/)** - Mexican Family Life Survey | Zung/Calderon depression<br>Sleep: daily hours (time-use, all waves) | Mexico, national; state &amp; municipality | Individual &amp; household | ~35,000 individuals / 8,400 households | Yes, age 15+ | Free, registration |
+| **[Young Lives](https://www.younglives.org.uk/)** | SRQ-20, GAD-7/PHQ-8, Cantril<br>Sleep: time-use hours/day (rounds 2-5, 7) | Ethiopia, India, Peru, Vietnam; region/district | Individual (child cohort) | ~12,000 children | Youth cohort (child to young adult) | Free, registration (UK Data Service) |
+| **[NIDS](https://www.datafirst.uct.ac.za/dataportal/index.php/collections/NIDS)** - National Income Dynamics Study | CES-D-10<br>Sleep: only the CES-D restless-sleep item | South Africa, national; district municipality | Individual | ~28,000 individuals / 7,300 households | Yes, age 15+ | Free, registration |
+| **[CFPS](https://opendata.pku.edu.cn/dataverse/CFPS)** - China Family Panel Studies | CES-D, Kessler K6<br>Sleep: hours (2014+), bedtime &amp; naps (all waves) | China, 25 provinces (~95% of pop.) | Individual &amp; household | ~42,600 individuals / 14,960 households | Yes, age 10+ | Free, registration + data-use agreement |
+| **[KLPS](https://dataverse.harvard.edu/dataverse/KLPS)** - Kenya Life Panel Survey | CES-D-10 (KLPS-4)<br>Sleep: bed/wake times, quality, naps (KLPS-4) | Kenya, Busia County cohort (followed nationwide and abroad) | Individual (+ 2nd-gen children) | ~7,500 cohort + ~5,200 children | Yes (young-adult cohort) | Free, open (CC0) |
 {: .ds-tbl}
 
 **United States, UK &amp; Europe**
 
-| Dataset (measure) | Geographic coverage | Level | Total N | Youth available? | Access |
-|---|---|---|---|---|---|
-| **[Add Health](https://addhealth.cpc.unc.edu/data/)** (CES-D depression) | US, national; geocodes restricted | Individual | ~20,000 (in-home) | Yes (adolescent cohort) | Public-use free; full sample restricted |
-| **[NSDUH](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health/datafiles)** - Nat. Survey on Drug Use &amp; Health (Kessler K6, MDE module) | US, national + state (small-area est.) | Individual | ~67,500 / year | Yes, age 12+ | Free public-use files |
-| **[NHANES](https://www.cdc.gov/nchs/nhanes/index.htm)** (PHQ-9) | US, national only in public file | Individual | ~5,000 / year | Yes (12-17 restricted) | Free (18+); 12-17 file restricted |
-| **[NCS-R / NCS-A](https://www.icpsr.umich.edu/web/ICPSR/studies/20240)** (CIDI diagnostic) | US, national | Individual | 9,282 / 10,123 | Yes (NCS-A, 13-18) | NCS-R free; NCS-A restricted |
-| **[HRS](https://hrsdata.isr.umich.edu/data-products/public-survey-data)** - Health &amp; Retirement Study (CES-D-8) | US, national | Individual | ~20,000 / wave | No (50+) | Free, registration |
-| **[Healthy Minds Study](https://healthymindsnetwork.org/hms/)** (PHQ-9, GAD-7, flourishing) | US colleges; Census region only, individual colleges blinded | Individual (student) | ~935,000 (675+ colleges) | Students only (college) | Free, de-identified; short data-request form |
-| **[Understanding Society](https://www.understandingsociety.ac.uk/)** (UKHLS) (GHQ-12, SWEMWBS; youth SDQ) | UK; region public, finer restricted | Individual &amp; household | ~40,000 households / ~100,000 individuals | Yes (youth panel 10-15) | Free, registration (UK Data Service) |
-| **[ELSA](https://www.elsa-project.ac.uk/accessing-elsa-data)** - English Longitudinal Study of Ageing (CES-D-8) | England; region-level public | Individual | ~11,400 (Wave 1 core) | No (50+) | Free, registration |
-| **[SHARE](https://share-eric.eu/data/data-access)** (EURO-D) | 28 European countries + Israel; country-level | Individual | ~160,000 respondents | No (50+) | Free (scientific use), registration |
-| **[UK Biobank](https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/)** (PHQ-9, GAD-7, CIDI-SF) | UK; location restricted (1 km grid) | Individual | ~500,000 | No (40-69) | Application + fee + agreement |
+| Dataset | MH / sleep measures | Geographic coverage | Level | Total N | Youth available? | Access |
+|---|---|---|---|---|---|---|
+| **[Add Health](https://addhealth.cpc.unc.edu/data/)** | CES-D (modified)<br>Sleep: duration, timing &amp; quality items (all waves) | US, national; geocodes restricted | Individual | ~20,000 (in-home) | Yes (adolescent cohort) | Public-use free; full sample restricted |
+| **[NSDUH](https://www.samhsa.gov/data/data-we-collect/nsduh-national-survey-drug-use-and-health/datafiles)** - Nat. Survey on Drug Use &amp; Health | Kessler K6, MDE module<br>Sleep: MDE insomnia / hypersomnia items only | US, national + state (small-area est.) | Individual | ~67,500 / year | Yes, age 12+ | Free public-use files |
+| **[NHANES](https://www.cdc.gov/nchs/nhanes/index.htm)** | PHQ-9<br>Sleep: SLQ items (2005+); wrist accelerometry 2011-14 | US, national only in public file | Individual | ~5,000 / year | Yes (12-17 restricted) | Free (18+); 12-17 file restricted |
+| **[NCS-R / NCS-A](https://www.icpsr.umich.edu/web/ICPSR/studies/20240)** | CIDI diagnostic<br>Sleep: insomnia items; NCS-A adds bedtime &amp; hours | US, national | Individual | 9,282 / 10,123 | Yes (NCS-A, 13-18) | NCS-R free; NCS-A restricted |
+| **[HRS](https://hrsdata.isr.umich.edu/data-products/public-survey-data)** - Health &amp; Retirement Study | CES-D-8<br>Sleep: Jenkins insomnia items (2002+); time-use hours | US, national | Individual | ~20,000 / wave | No (50+) | Free, registration |
+| **[Healthy Minds Study](https://healthymindsnetwork.org/hms/)** | PHQ-9, GAD-7, flourishing<br>Sleep: duration items; ISI module (some waves) | US colleges; Census region only, individual colleges blinded | Individual (student) | ~935,000 (675+ colleges) | Students only (college) | Free, de-identified; short data-request form |
+| **[Understanding Society](https://www.understandingsociety.ac.uk/)** (UKHLS) | GHQ-12, SWEMWBS; youth SDQ<br>Sleep: PSQI-derived items (waves 1, 4, 7, 10, 13) | UK; region public, finer restricted | Individual &amp; household | ~40,000 households / ~100,000 individuals | Yes (youth panel 10-15) | Free, registration (UK Data Service) |
+| **[ELSA](https://www.elsa-project.ac.uk/accessing-elsa-data)** - English Longitudinal Study of Ageing | CES-D-8<br>Sleep: items in waves 4/6/8; wrist actigraphy (wave 10) | England; region-level public | Individual | ~11,400 (Wave 1 core) | No (50+) | Free, registration |
+| **[SHARE](https://share-eric.eu/data/data-access)** | EURO-D<br>Sleep: trouble-sleeping &amp; medication items; hours (waves 8-9) | 28 European countries + Israel; country-level | Individual | ~160,000 respondents | No (50+) | Free (scientific use), registration |
+| **[UK Biobank](https://www.ukbiobank.ac.uk/use-our-data/apply-for-access/)** | PHQ-9, GAD-7, CIDI-SF<br>Sleep: duration, chronotype &amp; insomnia items; actigraphy (~103,000) | UK; location restricted (1 km grid) | Individual | ~500,000 | No (40-69) | Application + fee + agreement |
 {: .ds-tbl}
 
 **Cross-national and global**
 
-| Dataset (measure) | Geographic coverage | Level | Total N | Youth available? | Access |
-|---|---|---|---|---|---|
-| **[WHO World Mental Health](https://www.hcp.med.harvard.edu/wmh/)** (CIDI diagnostic) | 28+ countries; country-level | Individual | &gt;200,000 interviews | No (adults) | Restricted (consortium agreement) |
-| **[HBSC](https://www.uib.no/en/hbscdata)** - Health Behaviour in School-aged Children (psychosomatic scale, Cantril; wellbeing) | 45+ countries; country/region | Individual (student) | ~220,000+ / round | Students only (ages 11/13/15) | Aggregate public; microdata by request (embargo) |
-| **[Global Burden of Disease](https://vizhub.healthdata.org/gbd-results/)** (modeled prevalence &amp; burden) | 204 countries + some subnational | Country-year (aggregate) | Aggregate (not respondents) | Yes (age bands, incl. 10-19) | Free, registration |
-| **[DHS](https://dhsprogram.com/data/)** - Demographic and Health Surveys (mental-health module: PHQ-9 + GAD-7) | Overall 63 countries (displaced GPS clusters); MH module in a small but growing set (Nepal, Kenya, Bangladesh, and others), not most surveys | Individual &amp; household | ~5,000-30,000 households / survey | Yes, age 15-49 | Free, registration |
+| Dataset | MH / sleep measures | Geographic coverage | Level | Total N | Youth available? | Access |
+|---|---|---|---|---|---|---|
+| **[WHO World Mental Health](https://www.hcp.med.harvard.edu/wmh/)** | CIDI diagnostic<br>Sleep: insomnia items (chronic-conditions section) | 28+ countries; country-level | Individual | &gt;200,000 interviews | No (adults) | Restricted (consortium agreement) |
+| **[HBSC](https://www.uib.no/en/hbscdata)** - Health Behaviour in School-aged Children | Psychosomatic scale, Cantril<br>Sleep: sleep-onset difficulties (all rounds); bedtimes (optional) | 45+ countries; country/region | Individual (student) | ~220,000+ / round | Students only (ages 11/13/15) | Aggregate public; microdata by request (embargo) |
+| **[Global Burden of Disease](https://vizhub.healthdata.org/gbd-results/)** | Modeled prevalence &amp; burden (not survey items)<br>Sleep: none | 204 countries + some subnational | Country-year (aggregate) | Aggregate (not respondents) | Yes (age bands, incl. 10-19) | Free, registration |
+| **[DHS](https://dhsprogram.com/data/)** - Demographic and Health Surveys | PHQ-9 + GAD-7 module<br>Sleep: none | Overall 63 countries (displaced GPS clusters); MH module in a small but growing set (Nepal, Kenya, Bangladesh, and others), not most surveys | Individual &amp; household | ~5,000-30,000 households / survey | Yes, age 15-49 | Free, registration |
 {: .ds-tbl}
 
 **Subjective wellbeing** (life satisfaction and happiness, not clinical mental health)
 
-| Dataset (measure) | Geographic coverage | Level | Total N | Youth available? | Access |
-|---|---|---|---|---|---|
-| **[Gallup World Poll](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)** (Cantril ladder, daily affect) | 160+ countries; country-level | Individual | ~1,000 / country / year | Yes, age 15+ | Paid microdata; some free aggregates |
-| **[World Values Survey](https://www.worldvaluessurvey.org/)** (life satisfaction, happiness) | 64 countries (Wave 7); country-level | Individual | ~95,000 / wave | No (18+) | Free, registration |
+| Dataset | MH / sleep measures | Geographic coverage | Level | Total N | Youth available? | Access |
+|---|---|---|---|---|---|---|
+| **[Gallup World Poll](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)** | Cantril ladder, daily affect<br>Sleep: "well-rested yesterday" item only | 160+ countries; country-level | Individual | ~1,000 / country / year | Yes, age 15+ | Paid microdata; some free aggregates |
+| **[World Values Survey](https://www.worldvaluessurvey.org/)** | Life satisfaction, happiness<br>Sleep: none | 64 countries (Wave 7); country-level | Individual | ~95,000 / wave | No (18+) | Free, registration |
 {: .ds-tbl}
 
 **Key mental-health economics papers (with public replication data)**
