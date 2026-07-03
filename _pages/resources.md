@@ -85,7 +85,7 @@ This list is not exhaustive, but it's a good place to start.
 
 ## AI Tools
 
-I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**: a chat-based AI assistant that reads your LaTeX drafts, writes and runs Stata/R/Python, and works directly with your project files, no terminal required.
+I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**. The session covered how these tools fit into an economics research workflow: reading and editing LaTeX drafts, writing and running Stata, R, and Python code, and working with project files, with live examples. Slides and the workshop thread:
 
 <div class="res-card">
 <p class="rt">Claude Cowork for economists: workshop</p>
@@ -112,9 +112,9 @@ Publicly available spatial and satellite data for development and urban research
 </details>
 
 <details class="ds-guide" markdown="1">
-<summary><b>Mental health &amp; wellbeing data</b></summary>
+<summary><b>Mental health &amp; Sleep data</b></summary>
 
-Publicly available datasets with a validated mental-health or wellbeing measure, a few key economics papers with open replication data, and speech/audio depression corpora. Most datasets are free with registration; restricted or paid ones are flagged. The **Youth available?** column notes whether adolescents / young adults are covered: by age (a general sample you can filter), by student status, or as a youth-only sample.
+Publicly available datasets with a validated mental-health or wellbeing measure, a few key economics papers with open replication data, speech/audio depression corpora, and sleep data (self-reported and objective actigraphy / lab). Most datasets are free with registration; restricted or paid ones are flagged. The **Youth available?** column notes whether adolescents / young adults are covered: by age (a general sample you can filter), by student status, or as a youth-only sample.
 
 **Development and low- or middle-income country panels**
 
@@ -179,12 +179,7 @@ Publicly available datasets with a validated mental-health or wellbeing measure,
 - **[EATD-Corpus](https://github.com/speechandlanguageprocessing/ICASSP2022-Depression)**. Chinese speech + text with SDS depression labels; open download.
 - **[MODMA](https://modma.lzu.edu.cn/data/index/)** (Lanzhou). Audio (+ EEG), clinical MDD diagnosis; free but account + agreement.
 
-</details>
-
-<details class="ds-guide" markdown="1">
-<summary><b>Sleep data</b> (self-reported and objective actigraphy / lab)</summary>
-
-**Economics field experiments** - objective wearable/actigraphy sleep alongside self-report and economic outcomes:
+**Sleep in economics field experiments** - objective wearable/actigraphy sleep alongside self-report and economic outcomes:
 
 | Study | Year | Population | Sleep measure | Data |
 |---|---|---|---|---|

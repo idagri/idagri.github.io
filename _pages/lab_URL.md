@@ -50,7 +50,7 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 <div class="proj adv">
 <img loading="lazy" class="proj-thumb" src="/images/proj-slums.jpg" alt="Satellite imagery classified into informal, formal, and mixed settlement areas">
 <div class="proj-body">
-<p class="proj-t">Mapping &amp; digitizing informal settlements <span class="adv-badge">Advanced</span></p>
+<p class="proj-t">Slum Mapping <span class="adv-badge">Advanced</span></p>
 <p class="proj-d">Building a protocol to detect and delineate slums in high-resolution Planet satellite imagery and convert it into classified, analysis-ready spatial data, pairing manual image labeling with machine-learning classification. <a href="/files/url-gis-slums-classification.pdf">Slides</a> <span class="proj-tools">· India &amp; Indonesia · QGIS · Python · <span class="proj-wip">ongoing</span></span></p>
 </div>
 </div>
