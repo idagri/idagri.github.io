@@ -83,17 +83,14 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <tr><td class="yr">Winter 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2025.pdf">Student</a></td></tr>
 <tr><td class="yr">Winter 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2024.pdf">Student</a> · <a href="/files/evals/eval-prof-econ190-wi2024.pdf">Instructor</a></td></tr>
 
-<tr><td rowspan="4" class="c-name">Intermediate Microeconomics (ECON 100A-B)</td><td rowspan="4">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/eval-prof-econ100a-su2024.pdf">Instructor</a></td></tr>
+<tr><td rowspan="3" class="c-name">Intermediate Microeconomics (ECON 100A)</td><td rowspan="3">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/eval-prof-econ100a-su2024.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Summer 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2023.pdf">Student</a> · <a href="/files/evals/eval-prof-econ100a-su2023.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023.pdf">Student</a> · <a href="/files/evals/eval-prof-econ100a-sp2023.pdf">Instructor</a></td></tr>
-<tr><td class="yr">Fall 2021</td><td class="evlinks"><a href="/files/evals/eval-prof-econ100b-fa2021.pdf">Instructor</a></td></tr>
 
 <tr><td rowspan="2" class="c-name">Applied Econometrics &amp; Data (ECON 121)</td><td rowspan="2">Econometrics</td><td class="yr">Fall 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2023.pdf">Student</a></td></tr>
 <tr><td class="yr">Fall 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2022.pdf">Student</a> · <a href="/files/evals/eval-prof-econ121-fa2022.pdf">Instructor</a></td></tr>
 
 <tr><td class="c-name">Decisions under Uncertainty (ECON 171)</td><td>Microeconomics</td><td class="yr">Summer 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ171-su2022.pdf">Student</a></td></tr>
-
-<tr><td class="c-name">Market Imperfections &amp; Policy (ECON 2)</td><td>Microeconomics</td><td class="yr">2021</td><td>—</td></tr>
 
 <tr class="grp"><td colspan="4">University of British Columbia</td></tr>
 <tr><td class="c-name">Microeconomic &amp; Macroeconomic Policy</td><td>Economics</td><td class="yr">2018-2019 · MA 2</td><td>—</td></tr>
