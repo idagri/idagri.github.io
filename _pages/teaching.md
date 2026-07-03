@@ -72,6 +72,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <table class="tt">
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations</th></tr></thead>
 <tbody>
+<tr class="grp"><td colspan="4">UC San Diego</td></tr>
 <tr><td rowspan="3" class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a></td></tr>
 <tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/eval-prof-econ5-sp2025.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/eval-prof-econ5-wi2023.pdf">Instructor</a></td></tr>
@@ -93,8 +94,9 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <tr><td class="c-name">Decisions under Uncertainty (ECON 171)</td><td>Microeconomics</td><td class="yr">Summer 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ171-su2022.pdf">Student</a></td></tr>
 
 <tr class="grp"><td colspan="4">University of British Columbia</td></tr>
-<tr><td class="c-name">Microeconomic &amp; Macroeconomic Policy</td><td>Economics</td><td class="yr">2018-2019 · MA 2</td><td>—</td></tr>
-<tr><td class="c-name">Geography (Globalization, Cities &amp; Social Geography)</td><td>Geography</td><td class="yr">2015-2017 · MA 1</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-geography.pdf">Student</a></td></tr>
+<tr><td class="c-name">Microeconomic &amp; Macroeconomic Policy (ECON 210/211)</td><td>Economics</td><td class="yr">2018-2019</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-econ-2018-2019.pdf">Student</a></td></tr>
+<tr><td rowspan="2" class="c-name">Human Geography: Globalization &amp; Environment (GEOG 121/122)</td><td rowspan="2">Geography</td><td class="yr">2018-2019</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-geog-2018-2019.pdf">Student</a></td></tr>
+<tr><td class="yr">2015-2017</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-geog-2015-2017.pdf">Student</a></td></tr>
 </tbody>
 </table>
 
