@@ -61,9 +61,9 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <table class="tt ins">
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluation</th></tr></thead>
 <tbody>
-<tr><td class="c-name">Applied Econometrics &amp; Data (ECON 121)</td><td>Econometrics</td><td class="yr">Summer 2025</td><td><a href="/files/evals/eval-ins-econ121-su2025.pdf">Student eval</a></td></tr>
-<tr><td class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2025</td><td><a href="/files/evals/eval-ins-econ5-su2025.pdf">Student eval</a></td></tr>
-<tr><td class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2024</td><td><a href="/files/evals/eval-ins-econ5-su2024.pdf">Student eval</a></td></tr>
+<tr><td class="c-name">Applied Econometrics &amp; Data (ECON 121)</td><td>Econometrics</td><td class="yr">Summer 2025</td><td><a href="/files/evals/eval-ins-econ121-su2025.pdf">Student evals</a></td></tr>
+<tr><td class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2025</td><td><a href="/files/evals/eval-ins-econ5-su2025.pdf">Student evals</a></td></tr>
+<tr><td class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2024</td><td><a href="/files/evals/eval-ins-econ5-su2024.pdf">Student evals</a></td></tr>
 </tbody>
 </table>
 
