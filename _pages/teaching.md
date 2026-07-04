@@ -24,6 +24,7 @@ author_profile: true
 .award-row{ display:flex; gap:.55rem; align-items:flex-start; margin:.35rem 0; font-size:.92rem; }
 .award-row .ic{ flex:0 0 auto; }
 .note{ font-size:.82rem; color:#5b6470; }
+.footnote{ font-size:.75rem; margin-top:.3rem; }
 .eval-cta{ display:flex; align-items:center; gap:.85rem; margin:1rem 0 1.5rem; padding:.7rem 1rem;
   border:1px solid rgba(33,145,140,.35); border-left:4px solid var(--vir-teal,#21918c); border-radius:8px;
   background:rgba(33,145,140,.07); text-decoration:none; color:inherit; transition:background .15s ease; }
@@ -100,7 +101,9 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 </tbody>
 </table>
 
-<p class="note">Each link opens the official student evaluation report for that course and term ("Student"), and the supervising professor's evaluation of my teaching ("Instructor"). <sup>*</sup>An instructor evaluation is listed for every term one was conducted; where none is shown, none was administered for that section, so all available instructor evaluations are reported. Earlier teaching: Microeconomics, Mathematical Optimization, and Academic English at NRU HSE (2013-2014).</p>
+<p class="note">Each link opens the official student evaluation report for that course and term ("Student"), and the supervising professor's evaluation of my teaching ("Instructor"). Earlier teaching: Microeconomics, Mathematical Optimization, and Academic English at NRU HSE (2013-2014).</p>
+
+<p class="note footnote">*&nbsp;An instructor evaluation is listed for every term one was conducted; where none is shown, none was administered for that section, so all available instructor evaluations are reported.</p>
 
 ## Awards
 
