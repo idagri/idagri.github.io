@@ -50,7 +50,7 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-tile wide"><img loading="lazy" src="/images/out-valencia.jpg" alt="Valencia Marathon group photos: with friends at the City of Arts and Sciences after the finish, and an evening celebration in the city"><div class="out-cap">Valencia Marathon · 3:57 PB · Spain, 2025 (with Patrick Sewell)</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-30k.jpg" alt="First run over half-marathon distance, 30K in Vancouver"><div class="out-cap">First over-halfmarathon run, 30K · Vancouver, 2021 (with Alejandro Rojas Bernal)</div></div>
-<div class="out-tile"><img loading="lazy" src="/images/out-halfmarathon.jpg" alt="Running a half marathon in Lugano"><div class="out-cap">Half marathon · Lugano, 2022</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-halfmarathon.jpg" alt="Running the StraLugano half marathon along the Lake Lugano lakefront promenade"><div class="out-cap">StraLugano Half Marathon · 1:50 · Lugano, 2022</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-10k.jpg" alt="A sub-50-minute 10K run in Vancouver"><div class="out-cap">Sub-50min 10K · Vancouver, 2018 (with Antonio Serapio-Palacios)</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-bearroute.jpg" alt="A post from a friend who waited for me after a long run"><div class="out-cap">Running projects <span style="font-size:.82em; opacity:.85">(post by a friend waiting for me after the run)</span></div></div>
 </div>
