@@ -31,7 +31,10 @@ author:
   name            : "Ida Grigoryeva"
   avatar          : "profile.jpg"
   bio             : "Development economist studying urbanization, migration, mental health, and education in developing countries."
-  location        : "University of California, San Diego"
+  # Key degrees shown under the name in the sidebar (each rendered with a graduation-cap icon).
+  degrees:
+    - "PhD in Economics, UC San Diego (expected 2027)"
+    - "MA in Economics, UBC"
   email           : "idagri@ucsd.edu"
   pronouns        : "she/her"
   cv              : "/files/CV_Ida_Grigoryeva_2026.pdf"  # shown as a button under the sidebar photo

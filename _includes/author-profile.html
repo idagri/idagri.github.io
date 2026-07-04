@@ -25,7 +25,11 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
-      {% if author.location %}
+      {% if author.degrees %}
+        {% for degree in author.degrees %}
+          <li class="author__desktop"><i class="fas fa-fw fa-graduation-cap icon-pad-right" aria-hidden="true"></i>{{ degree }}</li>
+        {% endfor %}
+      {% elsif author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
