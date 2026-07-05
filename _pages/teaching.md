@@ -16,6 +16,9 @@ author_profile: true
 .tt tr:hover td{ background:rgba(33,145,140,.04); }
 .tt .c-name{ font-weight:600; }
 .tt .yr{ white-space:nowrap; }
+.tt .lvl{ display:inline-block; font-size:.6rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em;
+  color:#2a5e7e; background:rgba(49,104,142,.12); border:1px solid rgba(49,104,142,.28); border-radius:999px;
+  padding:.03rem .4rem; margin-left:.35rem; vertical-align:middle; white-space:nowrap; }
 .tt.ins th{ background:rgba(49,104,142,.13); color:#2a5e7e; border-bottom-color:rgba(49,104,142,.45); }
 .tt .grp td{ background:rgba(49,104,142,.09); font-weight:700; font-size:.64rem; text-transform:uppercase;
   letter-spacing:.04em; color:#2a5e7e; padding:.28rem .55rem; }
@@ -44,6 +47,7 @@ html[data-theme="dark"] .tt td{ border-color:#3a3a3a; }
 html[data-theme="dark"] .tt th{ background:rgba(45,170,160,.18); color:#6fd0c8; }
 html[data-theme="dark"] .tt.ins th{ background:rgba(110,140,210,.18); color:#aebfe6; }
 html[data-theme="dark"] .tt .grp td{ background:rgba(110,140,210,.15); color:#aebfe6; }
+html[data-theme="dark"] .tt .lvl{ color:#aebfe6; background:rgba(110,140,210,.16); border-color:rgba(110,140,210,.4); }
 html[data-theme="dark"] .note{ color:#aaa; }
 </style>
 
@@ -78,7 +82,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/eval-prof-econ5-sp2025.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/eval-prof-econ5-wi2023.pdf">Instructor</a></td></tr>
 
-<tr><td rowspan="2" class="c-name">GIS &amp; Spatial Data Analysis (GPEC 443)</td><td rowspan="2">Spatial data &amp; GIS</td><td class="yr">Fall 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2025.pdf">Student</a></td></tr>
+<tr><td rowspan="2" class="c-name">GIS &amp; Spatial Data Analysis (GPEC 443) <span class="lvl">Graduate</span></td><td rowspan="2">Spatial data &amp; GIS</td><td class="yr">Fall 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2025.pdf">Student</a></td></tr>
 <tr><td class="yr">Fall 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2024.pdf">Student</a> · <a href="/files/evals/eval-prof-gpec443-fa2024.pdf">Instructor</a></td></tr>
 
 <tr><td rowspan="4" class="c-name">Introduction to Research in Economics (ECON 190)</td><td rowspan="4">Applied research &amp; data</td><td class="yr">Winter 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2026.pdf">Student</a> · <a href="/files/evals/eval-prof-econ190-wi2026.pdf">Instructor</a></td></tr>
@@ -101,6 +105,8 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <tr><td class="yr">2015-2017</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-geog-2015-2017.pdf">Student</a></td></tr>
 </tbody>
 </table>
+
+<p class="note">The <span class="lvl">Graduate</span> tag marks GPEC 443 (GIS &amp; Spatial Data Analysis), my one graduate (master's-level) course; the others listed are undergraduate.</p>
 
 <p class="note">Each link opens the official student evaluation report for that course and term ("Student"), and the supervising professor's evaluation of my teaching ("Instructor"). The instructor evaluation is optional, so one is not available for every section; every instructor evaluation that was made available to me is posted here. Earlier teaching: Microeconomics, Mathematical Optimization, and Academic English at NRU HSE (2013-2014).</p>
 
