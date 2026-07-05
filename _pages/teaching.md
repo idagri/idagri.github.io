@@ -99,7 +99,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 
 <tr><td rowspan="3" class="c-name">Intermediate Microeconomics (ECON 100A)</td><td rowspan="3">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=11">Instructor</a></td></tr>
 <tr><td class="yr">Summer 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=12">Instructor</a></td></tr>
-<tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023-a.pdf">Student (A)</a> · <a href="/files/evals/eval-ta-econ100a-sp2023-b.pdf">Student (B)</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=13">Instructor</a></td></tr>
+<tr><td class="yr">Spring 2023</td><td class="evlinks">Student (<a href="/files/evals/eval-ta-econ100a-sp2023-a.pdf">A</a>&nbsp;/ <a href="/files/evals/eval-ta-econ100a-sp2023-b.pdf">B</a>) · <a href="/files/evals/instructor-evaluations-combined.pdf#page=13">Instructor</a></td></tr>
 
 <tr><td rowspan="2" class="c-name">Applied Econometrics &amp; Data (ECON 121)</td><td rowspan="2">Econometrics</td><td class="yr">Fall 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2023.pdf">Student</a></td></tr>
 <tr><td class="yr">Fall 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2022.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=14">Instructor</a></td></tr>
