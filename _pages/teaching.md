@@ -51,7 +51,7 @@ I make quantitative methods approachable for students new to data and economics.
 
 <a class="eval-cta" href="/files/teaching-evaluation-summary.pdf">
 <span class="ic">📊</span>
-<span class="tx"><strong>Teaching evaluation summary</strong><br><span class="sub">Pooled student ratings against department benchmarks, and what students say, across all my courses (PDF).</span></span>
+<span class="tx"><strong>Teaching evaluation summary</strong><br><span class="sub">Student ratings vs. department benchmarks, and what students say (PDF).</span></span>
 <span class="go">View&nbsp;PDF&nbsp;→</span>
 </a>
 
