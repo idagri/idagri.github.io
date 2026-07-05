@@ -28,7 +28,8 @@ author_profile: true
 html[data-theme="dark"] .tt .grp .grp-all{ color:#aeb6c0; }
 html[data-theme="dark"] .tt .grp .grp-all a{ color:#6fd0c8; }
 .evlinks a{ white-space:nowrap; }
-.tt .evlinks .ab{ font-size:.92em; }
+.tt .evlinks .ab{ font-size:.82em; color:#9099a3; }
+html[data-theme="dark"] .tt .evlinks .ab{ color:#8f97a1; }
 .cred li{ margin:.25rem 0; }
 .award-row{ display:flex; gap:.55rem; align-items:flex-start; margin:.35rem 0; font-size:.92rem; }
 .award-row .ic{ flex:0 0 auto; }
@@ -98,7 +99,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 
 <tr><td rowspan="3" class="c-name">Intermediate Microeconomics (ECON 100A)</td><td rowspan="3">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=11">Instructor</a></td></tr>
 <tr><td class="yr">Summer 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=12">Instructor</a></td></tr>
-<tr><td class="yr">Spring 2023</td><td class="evlinks">Student · <a href="/files/evals/instructor-evaluations-combined.pdf#page=13">Instructor</a><br><span class="ab"><a href="/files/evals/eval-ta-econ100a-sp2023-a.pdf">A</a>&nbsp;/ <a href="/files/evals/eval-ta-econ100a-sp2023-b.pdf">B</a></span></td></tr>
+<tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=13">Instructor</a><br><span class="ab">(2 sections merged)</span></td></tr>
 
 <tr><td rowspan="2" class="c-name">Applied Econometrics &amp; Data (ECON 121)</td><td rowspan="2">Econometrics</td><td class="yr">Fall 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2023.pdf">Student</a></td></tr>
 <tr><td class="yr">Fall 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2022.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=14">Instructor</a></td></tr>
