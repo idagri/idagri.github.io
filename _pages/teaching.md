@@ -56,7 +56,7 @@ html[data-theme="dark"] .tt .lvl{ color:#aebfe6; background:rgba(110,140,210,.16
 html[data-theme="dark"] .note{ color:#aaa; }
 </style>
 
-I make quantitative methods approachable for students new to data and economics. At UC San Diego I have been **instructor of record three times** and a **teaching assistant in seven courses across sixteen sections**, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
+I make quantitative methods approachable for students new to data and economics. At UC San Diego I have been **instructor of record three times** and a <strong>teaching assistant in <span id="ta-courses">6</span> courses across <span id="ta-sections">15</span> sections</strong>, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
 
 <a class="eval-cta" href="/files/teaching-evaluation-summary.pdf">
 <span class="ic">📊</span>
@@ -147,3 +147,30 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <li>Certificate in Advanced Teaching &amp; Learning (CATL, 2016-2017)</li>
 <li>Instructional Skills Workshop (ISW, 2016)</li>
 </ul>
+
+<script>
+// Keep the "N courses across M sections" summary in the intro in sync with the
+// UC San Diego teaching-assistant table (single source of truth): courses =
+// distinct course entries (.c-name cells), sections = term rows, counted up to
+// the University of British Columbia group header. Edit the table and this
+// updates automatically; the hard-coded 6/15 is only the no-JS fallback.
+document.addEventListener('DOMContentLoaded', function () {
+  var tb = document.querySelector('table.tt:not(.ins) tbody');
+  if (!tb) return;
+  var courses = 0, sections = 0;
+  var rows = tb.querySelectorAll(':scope > tr');
+  for (var i = 0; i < rows.length; i++) {
+    var tr = rows[i];
+    if (tr.classList.contains('grp')) {
+      if (/British Columbia/i.test(tr.textContent)) break;
+      continue;
+    }
+    sections++;
+    if (tr.querySelector('.c-name')) courses++;
+  }
+  if (courses > 0 && sections > 0) {
+    var c = document.getElementById('ta-courses'); if (c) c.textContent = courses;
+    var s = document.getElementById('ta-sections'); if (s) s.textContent = sections;
+  }
+});
+</script>
