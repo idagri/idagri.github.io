@@ -21,8 +21,8 @@ author_profile: true
   padding:.03rem .4rem; margin-left:.35rem; vertical-align:middle; white-space:nowrap; }
 .tt.ins th{ background:rgba(49,104,142,.13); color:#2a5e7e; border-bottom-color:rgba(49,104,142,.45); }
 .tt .grp td{ background:rgba(49,104,142,.09); font-weight:700; font-size:.64rem; text-transform:uppercase;
-  letter-spacing:.04em; color:#2a5e7e; padding:.28rem .55rem;
-  display:flex; justify-content:space-between; align-items:baseline; gap:.5rem; flex-wrap:wrap; }
+  letter-spacing:.04em; color:#2a5e7e; padding:.28rem .55rem; }
+.tt .grp .grp-row{ display:flex; justify-content:space-between; align-items:baseline; gap:.5rem; flex-wrap:wrap; }
 .tt .grp .grp-all{ text-transform:none; letter-spacing:0; font-weight:600; font-size:.72rem; color:#5b6470; }
 .tt .grp .grp-all a{ color:#2c6e8f; white-space:nowrap; }
 html[data-theme="dark"] .tt .grp .grp-all{ color:#aeb6c0; }
@@ -84,7 +84,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <table class="tt">
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations</th></tr></thead>
 <tbody>
-<tr class="grp"><td colspan="4"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF: <a href="/files/evals/student-evaluations-combined.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf">Instructor</a></span></td></tr>
+<tr class="grp"><td colspan="4"><div class="grp-row"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF: <a href="/files/evals/student-evaluations-combined.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf">Instructor</a></span></div></td></tr>
 <tr><td rowspan="3" class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=2">Instructor</a></td></tr>
 <tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=3">Instructor</a></td></tr>
 <tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=4">Instructor</a></td></tr>
