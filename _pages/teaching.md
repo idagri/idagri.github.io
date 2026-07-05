@@ -74,14 +74,15 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations</th></tr></thead>
 <tbody>
 <tr class="grp"><td colspan="4">UC San Diego</td></tr>
-<tr><td rowspan="3" class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a></td></tr>
+<tr><td rowspan="3" class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/eval-prof-econ5-sp2026.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/eval-prof-econ5-sp2025.pdf">Instructor</a><sup>*</sup></td></tr>
 <tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/eval-prof-econ5-wi2023.pdf">Instructor</a></td></tr>
 
 <tr><td rowspan="2" class="c-name">GIS &amp; Spatial Data Analysis (GPEC 443)</td><td rowspan="2">Spatial data &amp; GIS</td><td class="yr">Fall 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2025.pdf">Student</a></td></tr>
 <tr><td class="yr">Fall 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2024.pdf">Student</a> · <a href="/files/evals/eval-prof-gpec443-fa2024.pdf">Instructor</a></td></tr>
 
-<tr><td rowspan="3" class="c-name">Introduction to Research in Economics (ECON 190)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Summer 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-su2025.pdf">Student</a> · <a href="/files/evals/eval-prof-econ190-su2025.pdf">Instructor</a></td></tr>
+<tr><td rowspan="4" class="c-name">Introduction to Research in Economics (ECON 190)</td><td rowspan="4">Applied research &amp; data</td><td class="yr">Winter 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2026.pdf">Student</a> · <a href="/files/evals/eval-prof-econ190-wi2026.pdf">Instructor</a></td></tr>
+<tr><td class="yr">Summer 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-su2025.pdf">Student</a> · <a href="/files/evals/eval-prof-econ190-su2025.pdf">Instructor</a></td></tr>
 <tr><td class="yr">Winter 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2025.pdf">Student</a></td></tr>
 <tr><td class="yr">Winter 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2024.pdf">Student</a> · <a href="/files/evals/eval-prof-econ190-wi2024.pdf">Instructor</a></td></tr>
 
