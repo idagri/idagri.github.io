@@ -56,7 +56,7 @@ html[data-theme="dark"] .tt .lvl{ color:#aebfe6; background:rgba(110,140,210,.16
 html[data-theme="dark"] .note{ color:#aaa; }
 </style>
 
-I make quantitative methods approachable for students new to data and economics. At UC San Diego I have been **instructor of record three times** and a <strong>teaching assistant in <span id="ta-courses">6</span> courses across <span id="ta-sections">15</span> sections</strong>, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
+I make quantitative methods approachable for students new to data and economics. At UC San Diego I have been **instructor of record three times** and a <strong>teaching assistant in <span id="ta-courses">6</span> courses</strong>, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
 
 <a class="eval-cta" href="/files/teaching-evaluation-summary.pdf">
 <span class="ic">📊</span>
@@ -99,7 +99,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 
 <tr><td rowspan="3" class="c-name">Intermediate Microeconomics (ECON 100A)</td><td rowspan="3">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=11">Instructor</a></td></tr>
 <tr><td class="yr">Summer 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=12">Instructor</a></td></tr>
-<tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=13">Instructor</a></td></tr>
+<tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023-a.pdf">Student (A)</a> · <a href="/files/evals/eval-ta-econ100a-sp2023-b.pdf">Student (B)</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=13">Instructor</a></td></tr>
 
 <tr><td rowspan="2" class="c-name">Applied Econometrics &amp; Data (ECON 121)</td><td rowspan="2">Econometrics</td><td class="yr">Fall 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2023.pdf">Student</a></td></tr>
 <tr><td class="yr">Fall 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2022.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=14">Instructor</a></td></tr>
@@ -149,15 +149,16 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 </ul>
 
 <script>
-// Keep the "N courses across M sections" summary in the intro in sync with the
-// UC San Diego teaching-assistant table (single source of truth): courses =
-// distinct course entries (.c-name cells), sections = term rows, counted up to
-// the University of British Columbia group header. Edit the table and this
-// updates automatically; the hard-coded 6/15 is only the no-JS fallback.
+// Keep the intro's unique-course count in sync with the UC San Diego
+// teaching-assistant table (single source of truth): one .c-name cell per
+// distinct course, counted up to the University of British Columbia group
+// header. Edit the table and this updates automatically; the hard-coded 6 is
+// only the no-JS fallback. We intentionally count unique COURSES, not
+// sections/sessions, which are brittle to over-count.
 document.addEventListener('DOMContentLoaded', function () {
   var tb = document.querySelector('table.tt:not(.ins) tbody');
   if (!tb) return;
-  var courses = 0, sections = 0;
+  var courses = 0;
   var rows = tb.querySelectorAll(':scope > tr');
   for (var i = 0; i < rows.length; i++) {
     var tr = rows[i];
@@ -165,12 +166,10 @@ document.addEventListener('DOMContentLoaded', function () {
       if (/British Columbia/i.test(tr.textContent)) break;
       continue;
     }
-    sections++;
     if (tr.querySelector('.c-name')) courses++;
   }
-  if (courses > 0 && sections > 0) {
+  if (courses > 0) {
     var c = document.getElementById('ta-courses'); if (c) c.textContent = courses;
-    var s = document.getElementById('ta-sections'); if (s) s.textContent = sections;
   }
 });
 </script>
