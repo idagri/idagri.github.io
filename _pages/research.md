@@ -135,7 +135,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
 <div class="pub-body">
 <p class="pub-title">Reproducibility and Robustness of Economics and Political Science Research <a class="pub-btn" href="https://doi.org/10.1038/s41586-026-10251-x"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> et al. (Institute for Replication) · <em>Nature</em> 652(8108): 151-156 (2026)</p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://sites.google.com/view/derekmikola/">Derek Mikola</a>, <a href="https://sites.google.com/site/nikolaimcook/home">Nikolai Cook</a>, et al. (Institute for Replication) · <em>Nature</em> 652(8108): 151-156 (2026)</p>
 </div>
 </div>
 
@@ -143,7 +143,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
 <div class="pub-body">
 <p class="pub-title">AI-Assisted Teams Outperform AI-Led Teams but Not Human-Only Teams in Assessing Research Reproducibility in Quantitative Social Science <a class="pub-btn" href="https://doi.org/10.1073/pnas.2524747123"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> et al. (Institute for Replication) · <em>Proceedings of the National Academy of Sciences (PNAS)</em> 123(22): e2524747123 (2026)</p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://valenta.dev/">David Valenta</a>, <a href="http://alexandrumarcoci.com/">Alexandru Marcoci</a>, et al. (Institute for Replication) · <em>Proceedings of the National Academy of Sciences (PNAS)</em> 123(22): e2524747123 (2026)</p>
 </div>
 </div>
 
