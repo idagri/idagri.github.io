@@ -123,7 +123,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub">
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
-<p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
+<p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <a class="pub-btn" href="/papers/2026-06-JDE-Beliefs--information-sharing--and-mental-health-care.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a> <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
 <p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a>, <a href="https://www.bruno-calderon.com/">Bruno Calderon-Hernandez</a>, <a href="https://robertoglz.github.io/">Roberto Gonzalez-Tellez</a>, and <a href="https://research.tec.mx/vivo-tec/display/PID_316616">Alejandro Guardiola-Ramirez</a> · <em>Journal of Development Economics</em> 180: 103646 (2026) · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
 <p class="pub-fund">Funding: Weiss Fund ($11,000, plus an earlier $3,300); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
 <p class="pub-pres">Presented at: Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); Advances with Field Experiments (AFE) Conference (2025); Melbourne Institute (2026).</p>
