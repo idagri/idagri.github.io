@@ -183,7 +183,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # GA4-ready: change to "google-analytics-4" once tracking_id below is filled
+  provider               :  "custom" # GoatCounter snippet in _includes/analytics-providers/custom.html. (Was "false"; GA4 still available: set "google-analytics-4" + tracking_id below.)
   google:
     tracking_id          :  # paste your GA4 Measurement ID here (looks like G-XXXXXXXXXX), then set provider above to "google-analytics-4"
 
