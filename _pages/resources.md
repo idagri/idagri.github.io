@@ -115,7 +115,9 @@ Publicly available spatial and satellite data for development and urban research
 <details class="ds-guide" markdown="1">
 <summary><b>Mental health &amp; Sleep data</b></summary>
 
-Publicly available datasets with a validated mental-health or wellbeing measure, a few key economics papers with open replication data, speech/audio depression corpora, and sleep data (self-reported and objective actigraphy / lab). Most datasets are free with registration; restricted or paid ones are flagged. The **MH / sleep measures** column lists each dataset's mental-health instruments and what sleep data it collects, if any (checked in the questionnaires / codebooks). The **Youth available?** column notes whether adolescents / young adults are covered: by age (a general sample you can filter), by student status, or as a youth-only sample.
+Publicly available datasets with a validated mental-health or wellbeing measure, plus a few open-replication economics papers, speech/audio depression corpora, and sleep data (self-reported and objective actigraphy / lab); free with registration unless a restricted/paid flag is noted.
+
+<p style="font-size:.78rem; color:#6a7480; line-height:1.5; margin:.2rem 0 0;"><strong>MH / sleep measures</strong> = each dataset's mental-health instruments and any sleep data it collects (from the questionnaires / codebooks). <strong>Youth available?</strong> = whether adolescents / young adults are covered (by age in a filterable general sample, by student status, or as a youth-only sample).</p>
 
 **Development and low- or middle-income country panels**
 
