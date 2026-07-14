@@ -86,7 +86,7 @@ This list is not exhaustive, but it's a good place to start.
 
 ## AI Tools
 
-I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**. The session covered how these tools fit into an economics research workflow: reading and editing LaTeX drafts, writing and running Stata, R, and Python code, and working with project files, with live examples. Slides and the workshop thread:
+I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**. The session covered using AI tools in economics research: writing and editing Stata, R, and Python, integrating results into Overleaf, and keeping projects and replications organized, with live examples. Slides and the workshop thread:
 
 <div class="res-card">
 <p class="rt">Claude Cowork for economists: workshop</p>
@@ -95,7 +95,7 @@ I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**. Th
 
 ## Data
 
-Curated datasets I point students to.
+Datasets you may find useful to explore geo-spatial and/or mental-health-related research ideas.
 
 <details markdown="1">
 <summary><b>Geospatial data</b> for development &amp; urban research</summary>
