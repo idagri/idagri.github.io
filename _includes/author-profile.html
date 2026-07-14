@@ -34,7 +34,7 @@
       {% endif %}
       {% if author.predocs %}
         {% for predoc in author.predocs %}
-          <li class="author__desktop"><i class="fas fa-fw fa-flask icon-pad-right" aria-hidden="true"></i>{% if predoc.url %}<a href="{{ predoc.url }}" rel="nofollow noopener">{{ predoc.label }}</a>{% else %}{{ predoc.label }}{% endif %}</li>
+          <li class="author__desktop">{% if predoc.url %}<a href="{{ predoc.url }}" rel="nofollow noopener"><i class="fas fa-fw fa-laptop-code icon-pad-right" aria-hidden="true"></i>{{ predoc.label }}</a>{% else %}<i class="fas fa-fw fa-laptop-code icon-pad-right" aria-hidden="true"></i>{{ predoc.label }}{% endif %}</li>
         {% endfor %}
       {% endif %}
       {% if author.employer %}
