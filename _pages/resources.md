@@ -97,18 +97,20 @@ I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**. Th
 
 Datasets you may find useful to explore geo-spatial and/or mental-health-related research ideas.
 
-<details markdown="1">
+<details class="ds-guide" markdown="1">
 <summary><b>Geospatial data</b> for development &amp; urban research</summary>
 
 Publicly available spatial and satellite data for development and urban research:
 
-- **[GHS - Global Human Settlement Layer](https://human-settlement.emergency.copernicus.eu/)** (JRC / Copernicus). Global gridded data on the human presence, 1975 onward.
-    - GHS-BUILT (built-up surface), GHS-POP (population grids), GHS-SMOD (settlement model / degree of urbanization), and GHS-UCDB (Urban Centre Database of consistently delineated cities).
-- **[DHS - Demographic and Health Surveys](https://dhsprogram.com/)**. Household survey microdata across many developing countries; the geospatial program adds (randomly displaced) GPS cluster coordinates and covariates such as night lights. Confidential GPS data needs a short access request.
-- **Night lights.** VIIRS and DMSP nighttime-lights rasters, a standard proxy for local economic activity (see Matt Lowe's night-lights and ArcGIS guide).
-- **[GADM](https://gadm.org/)**. Administrative boundaries worldwide, country down to level 2-3.
-- **[IPUMS International](https://international.ipums.org/international/geography_gis.shtml)**. Harmonized (consistent-over-time GEOLEV1 / GEOLEV2) and unharmonized (year-specific) administrative boundaries linked to census microdata; see the [GIS boundary files](https://international.ipums.org/international/gis.shtml). [IPUMS USA](https://usa.ipums.org/usa/) does the same for the US.
-- **Aggregated catalogs.** The [UPenn Libraries GIS guide](https://guides.library.upenn.edu/c.php?g=1321452&p=9876288) (global and US spatial data) and the [geo4.dev data catalog](https://www.geo4.dev/library?cat=Data+Catalog) (development-focused) list many more sources.
+| Topic | Dataset | Geographic units | Time coverage | Key variables | Spatial data | Access |
+|---|---|---|---|---|---|---|
+| Settlement &amp; population | **[GHS](https://human-settlement.emergency.copernicus.eu/)** - Global Human Settlement Layer (JRC / Copernicus) | Global grid (100 m - 1 km); GHS-UCDB city polygons | 1975 onward, in epochs | Built-up surface (GHS-BUILT), population (GHS-POP), settlement model / degree of urbanization (GHS-SMOD), consistently delineated cities (GHS-UCDB) | Rasters; UCDB as vector polygons | Free, open |
+| Household surveys + GPS | **[DHS](https://dhsprogram.com/)** - Demographic and Health Surveys | Survey clusters, country | 1985 onward, repeated cross-sections | Health, fertility, and wealth microdata; geospatial covariates such as night lights | Randomly displaced GPS cluster coordinates | Free, registration; GPS needs a short access request |
+| Economic activity proxy | **Night lights** - VIIRS &amp; DMSP | Global grid (VIIRS ~500 m; DMSP ~1 km) | DMSP 1992-2013; VIIRS 2012 onward | Nighttime radiance, a standard proxy for local economic activity | Rasters | Free (see Matt Lowe's night-lights and ArcGIS guide) |
+| Administrative boundaries | **[GADM](https://gadm.org/)** | Country down to level 2-3 | Current, versioned releases | Administrative names and codes | Vector boundaries | Free for non-commercial use |
+| Census microdata + boundaries | **[IPUMS International](https://international.ipums.org/international/geography_gis.shtml)** | Harmonized GEOLEV1 / GEOLEV2 (consistent over time) and unharmonized year-specific admin units | 1960 onward, census rounds | Census microdata linked to boundaries; [IPUMS USA](https://usa.ipums.org/usa/) does the same for the US | [GIS boundary files](https://international.ipums.org/international/gis.shtml) | Free, registration |
+
+**Aggregated catalogs.** The [UPenn Libraries GIS guide](https://guides.library.upenn.edu/c.php?g=1321452&p=9876288) (global and US spatial data) and the [geo4.dev data catalog](https://www.geo4.dev/library?cat=Data+Catalog) (development-focused) list many more sources.
 
 </details>
 
@@ -116,8 +118,6 @@ Publicly available spatial and satellite data for development and urban research
 <summary><b>Mental health &amp; Sleep data</b></summary>
 
 Publicly available datasets with a validated mental-health or wellbeing measure, plus a few open-replication economics papers, speech/audio depression corpora, and sleep data (self-reported and objective actigraphy / lab); free with registration unless a restricted/paid flag is noted.
-
-<p style="font-size:.78rem; color:#6a7480; line-height:1.5; margin:.2rem 0 0;"><strong>MH / sleep measures</strong> = each dataset's mental-health instruments and any sleep data it collects (from the questionnaires / codebooks). <strong>Youth available?</strong> = whether adolescents / young adults are covered (by age in a filterable general sample, by student status, or as a youth-only sample).</p>
 
 **Development and low- or middle-income country panels**
 
@@ -164,6 +164,8 @@ Publicly available datasets with a validated mental-health or wellbeing measure,
 | **[Gallup World Poll](https://www.gallup.com/analytics/318923/world-poll-public-datasets.aspx)** | Cantril ladder, daily affect<br>Sleep: "well-rested yesterday" item only | 160+ countries; country-level | Individual | ~1,000 / country / year | Yes, age 15+ | Paid microdata; some free aggregates |
 | **[World Values Survey](https://www.worldvaluessurvey.org/)** | Life satisfaction, happiness<br>Sleep: none | 64 countries (Wave 7); country-level | Individual | ~95,000 / wave | No (18+) | Free, registration |
 {: .ds-tbl}
+
+<p style="font-size:.78rem; color:#6a7480; line-height:1.5; margin:.2rem 0 1.2rem;">Columns in the four tables above: <strong>MH / sleep measures</strong> = each dataset's mental-health instruments and any sleep data it collects (from the questionnaires / codebooks). <strong>Youth available?</strong> = whether adolescents / young adults are covered (by age in a filterable general sample, by student status, or as a youth-only sample).</p>
 
 **Key mental-health economics papers (with public replication data)**
 
