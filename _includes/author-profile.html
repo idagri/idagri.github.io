@@ -32,6 +32,11 @@
       {% elsif author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
+      {% if author.predocs %}
+        {% for predoc in author.predocs %}
+          <li class="author__desktop"><i class="fas fa-fw fa-flask icon-pad-right" aria-hidden="true"></i>{% if predoc.url %}<a href="{{ predoc.url }}" rel="nofollow noopener">{{ predoc.label }}</a>{% else %}{{ predoc.label }}{% endif %}</li>
+        {% endfor %}
+      {% endif %}
       {% if author.employer %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}

@@ -14,8 +14,6 @@ My research is in Development, Urban, and Behavioral Economics, with projects on
 
 Before my PhD, I was a Predoctoral Research Fellow at the [Development Data Lab](https://www.devdatalab.org/) with Paul Novosad and Sam Asher (2020-2021), and a [SIEPR Predoctoral Research Fellow](https://siepr.stanford.edu/programs/siepr-predoctoral-research-fellows-program) at Stanford University with Paulo Somaini and Brad Larsen (2019-2020).
 
-I also mentor a group of undergraduate researchers through the [Undergraduate-Graduate Research Lab](/lab/) at UCSD, and I share [resources](/resources/) on predocs, AI tools, data, and research methods.
-
 **Education**
 
 - PhD Candidate, Economics (University of California, San Diego, 2021-present)

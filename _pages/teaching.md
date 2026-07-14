@@ -58,7 +58,7 @@ html[data-theme="dark"] .tt .lvl{ color:#aebfe6; background:rgba(110,140,210,.16
 html[data-theme="dark"] .note{ color:#aaa; }
 </style>
 
-I make quantitative methods approachable for students new to data and economics. At UC San Diego I have been **instructor of record three times** and a <strong>teaching assistant in <span id="ta-courses">6</span> courses</strong>, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
+At UC San Diego I have been **instructor of record three times** and a <strong>teaching assistant in <span id="ta-courses">6</span> courses</strong>, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
 
 <a class="eval-cta" href="/files/teaching-evaluation-summary.pdf">
 <span class="ic">📊</span>
@@ -78,6 +78,12 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <tr><td class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2024</td><td><a href="/files/evals/eval-ins-econ5-su2024.pdf">Student evals</a></td></tr>
 </tbody>
 </table>
+
+## Awards
+
+<div class="award-row"><span class="ic">🏅</span><span>Outstanding Summer Graduate Teaching Scholar Award, 2024 (top-5 instructors at UCSD)</span></div>
+<div class="award-row"><span class="ic">🏅</span><span>Graduate Associate-In Instructor in Economics Award, 2024 and 2025</span></div>
+<div class="award-row"><span class="ic">🏅</span><span>Killam Outstanding Graduate Teaching Assistant Award, UBC, 2019</span></div>
 
 ## Teaching assistant
 
@@ -118,12 +124,6 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <p class="note">Each link opens the official student evaluation report for that course and term ("Student"), and the supervising professor's evaluation of my teaching ("Instructor"). Earlier teaching: Microeconomics, Mathematical Optimization, and Academic English at NRU HSE (2013-2014).</p>
 
 <p class="note footnote">*&nbsp;The instructor evaluation is optional, so one is not available for every section; every instructor evaluation that was made available to me is posted here.</p>
-
-## Awards
-
-<div class="award-row"><span class="ic">🏅</span><span>Outstanding Summer Graduate Teaching Scholar Award, 2024 (top-5 instructors at UCSD)</span></div>
-<div class="award-row"><span class="ic">🏅</span><span>Graduate Associate-In Instructor in Economics Award, 2024 and 2025</span></div>
-<div class="award-row"><span class="ic">🏅</span><span>Killam Outstanding Graduate Teaching Assistant Award, UBC, 2019</span></div>
 
 ## Guest lectures
 

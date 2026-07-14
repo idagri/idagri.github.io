@@ -30,6 +30,10 @@ author_profile: true
 .pub-btn:hover{ background:var(--vir-teal); color:#fff; }
 .pub-btn .fa-fw{ font-size:.9em; margin-right:.2em; }
 .pub-meta{ margin:0; font-size:.82rem; color:#6b6b6b; line-height:1.5; }
+.pub-journal{ margin:.15rem 0 0; font-size:.85rem; color:#3a3a3a; font-weight:500; line-height:1.45; }
+.pub-journal em{ font-style:italic; color:#13716b; }
+html[data-theme="dark"] .pub-journal{ color:#cbd2da; }
+html[data-theme="dark"] .pub-journal em{ color:#6fd0c8; }
 .pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
 .pub-pres{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
 .pub-status{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; font-style:italic; }
@@ -77,6 +81,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Agricultural Productivity and Urbanization: Evidence from Indonesia's Transmigration Program <span class="pub-flag">Job Market Paper</span></p>
 <p class="pub-meta">Solo-authored</p>
+<p class="pub-status">Draft available upon request.</p>
 <p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Research &amp; Travel Grants ($12,800)</p>
 <p class="pub-pres">Presented at: Cities &amp; Development Workshop, Harvard (2024); IHS Trade Workshop, Harvard (2024); Economics of Migration Summer School, Mexico (2024); University of Hawaii Applied Seminar (2025); Lindau Nobel Laureates Meeting, Germany (2025); IHS Migration Workshop, UC Davis (2025); PacDev, UC Davis (2026); DevPEC, Stanford (2026); UEA PhD Summer School, LSE (2026); University of Melbourne (2026).</p>
 <details><summary>Abstract</summary><p>Using the quasi-random allocation of Indonesia's Transmigration Program and variation in productivity among transmigrant villages, I show that cities proximate to more productive villages experience higher population and employment growth, concentrated in service industries. The higher growth occurs alongside greater in-migration to cities (from both rural and urban districts) and is not driven by transmigrants abandoning their destination villages. Because migrants tend to stay in more productive villages, the results provide suggestive evidence of positive indirect spillovers of rural productivity onto regional urban markets.</p></details>
@@ -88,7 +93,8 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Violence and Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores</p>
 <p class="pub-meta">with <a href="https://sites.google.com/view/viniciuspecanha/home">Vinicius Peçanha</a></p>
-<p class="pub-fund">Funding: Weiss Fund ($12,900); IHS Research &amp; Travel Grant; Jacobs Social Impact Summer Research Fellowship ($6,000)</p>
+<p class="pub-status">Draft available upon request.</p>
+<p class="pub-fund">Funding: Weiss Fund ($12,900); IHS Research &amp; Travel Grant; Jacobs Social Impact Summer Research Grant ($6,000)</p>
 <p class="pub-pres">Presented at: Urban Economics Association, Washington DC (2022); International &amp; Development Economics Summer School, Italy (2022); Workshop on the Economics of Education, Universidad de los Andes, Santiago (2024).</p>
 <details><summary>Abstract</summary><p>In many neighborhoods of Latin American cities such as Rio de Janeiro, crime rates are very high, producing educational disruption and acute stress. We find that neighborhood shootings near a school shortly before an exam have a robust negative effect on students' performance on the language and math university-entrance tests. The effects are robust to school and year fixed effects: exposed students perform significantly worse (by 0.1 to 0.3 standard deviations) than non-exposed students.</p></details>
 </div>
@@ -99,6 +105,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Economic Consequences of Improving Sleep Among the Poor through Cognitive Behavioral Therapy for Insomnia</p>
 <p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a>, <a href="https://www.jpablofranco.com">Juan Pablo Franco</a>, and <a href="https://research.monash.edu/en/persons/sean-drummond/">Sean Drummond</a></p>
+<p class="pub-status">Data collection in progress (summer-fall 2026)</p>
 <p class="pub-fund">Funding: Weiss Fund ($24,400); CEGA Development Challenge ($20,000)</p>
 <p class="pub-pres">Presented at: Advances with Field Experiments (AFE) Conference, Chicago (2026, upcoming).</p>
 <details><summary>Abstract</summary><p>A field experiment studying whether cognitive behavioral therapy for insomnia (CBT-I) can improve sleep among low-income adults, and measuring the downstream effects on economic and wellbeing outcomes. <em>(Full abstract to come.)</em></p></details>
@@ -110,6 +117,7 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-body">
 <p class="pub-title">Rural Spillovers of Urban Growth in India</p>
 <p class="pub-meta">with <a href="https://samuelasher.com/">Sam Asher</a>, <a href="https://www.jpchauvin.com/">Juan Pablo Chauvin</a>, and <a href="http://paulnovosad.com/">Paul Novosad</a></p>
+<p class="pub-status">Draft available upon request.</p>
 <p class="pub-fund">Funding: IHS Field Research Grant</p>
 <p class="pub-pres">Presented at: European Meeting of the Urban Economics Association (EMUEA), Barcelona (2026).</p>
 <details><summary>Abstract</summary><p>We examine the links between urban and rural economic performance in India using geo-spatial socio-economic data on 1,000 cities and 500,000 villages. Rural development falls almost universally with distance from towns; gradients are shallow and urban-rural gaps remain large even at short distances. A Bartik estimation of urban demand shocks reveals clear urban-to-rural spillovers that are larger and wider for manufacturing than for services, and extend further along major highways. Surprisingly, urban demand raises population in proximate rural areas but not in the urban areas themselves, suggesting constraints on densification.</p></details>
@@ -124,7 +132,8 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
 <p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <a class="pub-btn" href="/papers/2026-06-JDE-Beliefs--information-sharing--and-mental-health-care.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a> <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a>, <a href="https://www.bruno-calderon.com/">Bruno Calderon-Hernandez</a>, <a href="https://robertoglz.github.io/">Roberto Gonzalez-Tellez</a>, and <a href="https://research.tec.mx/vivo-tec/display/PID_316616">Alejandro Guardiola-Ramirez</a> · <em>Journal of Development Economics</em> 180: 103646 (2026) · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
+<p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a>, <a href="https://www.bruno-calderon.com/">Bruno Calderon-Hernandez</a>, <a href="https://robertoglz.github.io/">Roberto Gonzalez-Tellez</a>, and <a href="https://research.tec.mx/vivo-tec/display/PID_316616">Alejandro Guardiola-Ramirez</a> · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
+<p class="pub-journal"><em>Journal of Development Economics</em> 180: 103646 (2026)</p>
 <p class="pub-fund">Funding: Weiss Fund ($11,000, plus an earlier $3,300); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
 <p class="pub-pres">Presented at: Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); Advances with Field Experiments (AFE) Conference (2025); Melbourne Institute (2026).</p>
 <details><summary>Abstract</summary><p>We investigate the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where supply-side barriers are minimal. In a survey experiment with 680 students, nearly 50% of students in distress do not receive professional support despite high awareness and perceived effectiveness, a substantial treatment gap. We document stigmatized beliefs and misconceptions correlated with this gap: three-quarters of students incorrectly believe that those in distress perform worse academically and that most students in therapy are in severe distress. An information intervention correcting these beliefs increases students' sharing of on-campus resources and their willingness to recommend them to peers, though it lowers willingness to pay for private therapy and does not change self-reported therapy use six months later.</p></details>
@@ -135,7 +144,8 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
 <div class="pub-body">
 <p class="pub-title">Reproducibility and Robustness of Economics and Political Science Research <a class="pub-btn" href="https://doi.org/10.1038/s41586-026-10251-x"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://sites.google.com/view/derekmikola/">Derek Mikola</a>, <a href="https://sites.google.com/site/nikolaimcook/home">Nikolai Cook</a>, et al. (Institute for Replication) · <em>Nature</em> 652(8108): 151-156 (2026)</p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://sites.google.com/view/derekmikola/">Derek Mikola</a>, <a href="https://sites.google.com/site/nikolaimcook/home">Nikolai Cook</a>, et al. (Institute for Replication)</p>
+<p class="pub-journal"><em>Nature</em> 652(8108): 151-156 (2026)</p>
 </div>
 </div>
 
@@ -143,7 +153,8 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
 <div class="pub-body">
 <p class="pub-title">AI-Assisted Teams Outperform AI-Led Teams but Not Human-Only Teams in Assessing Research Reproducibility in Quantitative Social Science <a class="pub-btn" href="https://doi.org/10.1073/pnas.2524747123"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://valenta.dev/">David Valenta</a>, <a href="http://alexandrumarcoci.com/">Alexandru Marcoci</a>, et al. (Institute for Replication) · <em>Proceedings of the National Academy of Sciences (PNAS)</em> 123(22): e2524747123 (2026)</p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://valenta.dev/">David Valenta</a>, <a href="http://alexandrumarcoci.com/">Alexandru Marcoci</a>, et al. (Institute for Replication)</p>
+<p class="pub-journal"><em>Proceedings of the National Academy of Sciences (PNAS)</em> 123(22): e2524747123 (2026)</p>
 </div>
 </div>
 
@@ -151,7 +162,8 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Stay-at-Home Orders, Social Distancing, and Trust <a class="pub-btn" href="https://link.springer.com/article/10.1007/s00148-021-00848-z"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> and <a href="https://sites.google.com/georgetown.edu/lamiskattan/home">Lamis Kattan</a> · <em>Journal of Population Economics</em> 34(4): 1321-1354 (2021)</p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a> and <a href="https://sites.google.com/georgetown.edu/lamiskattan/home">Lamis Kattan</a></p>
+<p class="pub-journal"><em>Journal of Population Economics</em> 34(4): 1321-1354 (2021)</p>
 </div>
 </div>
 
@@ -159,7 +171,8 @@ My work studies how people and places develop: how cities grow and absorb migran
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">The Price Ripple Effect in the Vancouver Housing Market <a class="pub-btn" href="https://doi.org/10.1080/02723638.2019.1567202"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://blogs.ubc.ca/dley/">David Ley</a> · <em>Urban Geography</em> 40(8): 1171-1189 (2019)</p>
+<p class="pub-meta">with <a href="https://blogs.ubc.ca/dley/">David Ley</a></p>
+<p class="pub-journal"><em>Urban Geography</em> 40(8): 1171-1189 (2019)</p>
 <p class="pub-fund">Funding: Neighborhood Change Research Grant ($11,000)</p>
 </div>
 </div>

@@ -33,8 +33,14 @@ author:
   bio             : "Development economist studying urbanization, migration, mental health, and education in developing countries."
   # Key degrees shown under the name in the sidebar (each rendered with a graduation-cap icon).
   degrees:
-    - "PhD in Economics, UC San Diego (expected 2027)"
+    - "PhD in Economics, UC San Diego (exp 2027)"
     - "MA in Economics, UBC"
+  # Predoctoral fellowships shown under the degrees (rendered with a flask icon; label linked to url).
+  predocs:
+    - label: "Predoc, Stanford (SIEPR)"
+      url: "https://siepr.stanford.edu/programs/siepr-predoctoral-research-fellows-program"
+    - label: "Predoc, Development Data Lab"
+      url: "https://www.devdatalab.org/"
   email           : "idagri@ucsd.edu"
   pronouns        : "she/her"
   cv              : "/files/CV_Ida_Grigoryeva_2026.pdf"  # shown as a button under the sidebar photo
