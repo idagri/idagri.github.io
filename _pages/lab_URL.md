@@ -81,6 +81,13 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 <div class="proj-group" markdown="0">
 <h3>Stata-Python lab: wellbeing, education &amp; talent</h3>
 <div class="proj-grid">
+<div class="proj adv">
+<img loading="lazy" class="proj-thumb" src="/images/proj-mpp.jpg" alt="Event-study estimates showing legal representation falling after MPP">
+<div class="proj-body">
+<p class="proj-t">Asylum seekers and "Remain in Mexico" <span class="adv-badge">Advanced</span></p>
+<p class="proj-d">Cleaning and analyzing case-level immigration court microdata (over one million cases from the Executive Office for Immigration Review) to trace how the Migrant Protection Protocols changed legal representation, in-absentia orders, and case outcomes, using an event-study difference-in-differences design. <span class="proj-tools">· U.S.-Mexico border · Stata · Python</span></p>
+</div>
+</div>
 <div class="proj">
 <img loading="lazy" class="proj-thumb" src="/images/proj-mentalhealth.jpg" alt="Student mental health stigma project">
 <div class="proj-body">
@@ -121,6 +128,13 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 <div class="proj-body">
 <p class="proj-t">Gender in economics PhD placements <span class="adv-badge">Advanced</span></p>
 <p class="proj-d">A semi-automated scraper of PhD job-market placements across economics, business, and public policy, with gender and academic/industry classifiers, feeding an analysis of gender composition and outcomes. <a href="https://jclluo.github.io/ECON_PHD_Gender_Inequality_Analysis/analysis.html">Student analysis site</a> · <a href="https://github.com/schan676/Gender_composition_STEM">data repo</a> · <a href="/files/url-econ-phd-gender-gap.pdf">slides</a> <span class="proj-tools">· Python</span></p>
+</div>
+</div>
+<div class="proj adv">
+<img loading="lazy" class="proj-thumb" src="/images/proj-gendercomp.jpg" alt="Gender gap in STEM enrollment at top U.S. universities">
+<div class="proj-body">
+<p class="proj-t">Gender, competition, and the STEM gap <span class="adv-badge">Advanced</span></p>
+<p class="proj-d">Assembling enrollment data across top U.S. universities to track how the gender gap in STEM has changed over time and how it relates to institutional ranking, alongside the wider question of gender differences in competitiveness. Published in the <em>Journal of Emerging Investigators</em>: <a href="https://emerginginvestigators.org/articles/23-310">The gender gap in STEM at top U.S. Universities</a> <span class="proj-tools">· United States · Stata</span></p>
 </div>
 </div>
 </div>
