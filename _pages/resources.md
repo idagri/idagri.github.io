@@ -106,18 +106,23 @@ Publicly available spatial and satellite data for development and urban research
 |---|---|---|---|---|---|---|
 | Settlement &amp; population | **[GHS](https://human-settlement.emergency.copernicus.eu/)** - Global Human Settlement Layer (JRC / Copernicus) | Global grid (100 m - 1 km); GHS-UCDB city polygons | 1975 onward, in epochs | Built-up surface (GHS-BUILT), population (GHS-POP), settlement model / degree of urbanization (GHS-SMOD), consistently delineated cities (GHS-UCDB) | Rasters; UCDB as vector polygons | Free, open |
 | Household surveys + GPS | **[DHS](https://dhsprogram.com/)** - Demographic and Health Surveys | Survey clusters, country | 1985 onward, repeated cross-sections | Health, fertility, and wealth microdata; geospatial covariates such as night lights | Randomly displaced GPS cluster coordinates | Free, registration; GPS needs a short access request |
-| Economic activity proxy | **Night lights** - VIIRS &amp; DMSP | Global grid (VIIRS ~500 m; DMSP ~1 km) | DMSP 1992-2013; VIIRS 2012 onward | Nighttime radiance, a standard proxy for local economic activity | Rasters | Free (see Matt Lowe's night-lights and ArcGIS guide) |
+| Economic activity proxy | **Night lights** - [VIIRS](https://eogdata.mines.edu/products/vnl/) &amp; [DMSP](https://eogdata.mines.edu/products/dmsp/) (Earth Observation Group) | Global grid (VIIRS ~500 m; DMSP ~1 km) | DMSP 1992-2013 (an extension series runs to 2019); VIIRS 2012 onward | Nighttime radiance, a standard proxy for local economic activity | Rasters | Free, but bulk downloads now need an EOG account; also on Google Earth Engine |
+| Urban extent, from night lights | **[Annual urban extents](https://doi.org/10.6084/m9.figshare.16602224)** - Zhao et al. (2022), [paper](https://doi.org/10.5194/essd-14-517-2022) | Global grid, ~1 km | 1992-2020, annual | Binary urban / non-urban maps built from harmonized night lights (DMSP-OLS through 2013, VIIRS-derived after). Note this is a core-urban-domain concept, not a Landsat impervious-surface product like GAIA, so the two are not drop-in substitutes | Rasters | Free, open (CC BY 4.0) |
+| Gridded GDP | **[Kummu et al.](https://doi.org/10.5061/dryad.dk1j0)** - gridded GDP &amp; HDI | Global grid, 5 arc-min (~10 km); the update also gives 30 arc-sec and admin-level polygons | 1990-2015, annual; the [2025 update](https://doi.org/10.5281/zenodo.13943886) runs 1990-2022 | GDP per capita PPP, total GDP, HDI. The 2025 update extends GDP per capita and downscales to admin-2, but **drops HDI**, so for gridded HDI you still need the 2018 release | NetCDF; update adds gpkg and CSV | Free, open (CC BY 4.0) |
+| Gridded GDP | **[Local GDP estimates](https://bfidatastudio.org/gdp)** - Rossi-Hansberg &amp; Zhang (2026), [paper](https://doi.org/10.1016/j.jue.2026.103871) | Global cells at 1, 0.5, and 0.25 degrees | 2012-2022, annual | Predicted local GDP with uncertainty bounds, from a random forest on population, night lights, land use, emissions, and vegetation. Predictors reach beyond night lights, which helps if night lights are your regressor | Shapefiles + CSV | Public; no explicit license stated |
 | Administrative boundaries | **[GADM](https://gadm.org/)** | Country down to level 2-3 | Current, versioned releases | Administrative names and codes | Vector boundaries | Free for non-commercial use |
 | Census microdata + boundaries | **[IPUMS International](https://international.ipums.org/international/geography_gis.shtml)** | Harmonized GEOLEV1 / GEOLEV2 (consistent over time) and unharmonized year-specific admin units | 1960 onward, census rounds | Census microdata linked to boundaries; [IPUMS USA](https://usa.ipums.org/usa/) does the same for the US | [GIS boundary files](https://international.ipums.org/international/gis.shtml) | Free, registration |
+
+**Working with night lights.** Matt Lowe's [Night Lights and ArcGIS: A Brief Guide](https://web.archive.org/web/20170704072933/http://economics.mit.edu/files/8945) (2014) walks from the raw downloads to an analysis-ready dataset, covering clipping, gas-flare removal, and projections. The ArcGIS workflow still holds; its data links predate the move to the Earth Observation Group, so pair it with the VIIRS and DMSP links above. (Linked via the Internet Archive: the original MIT URL now 404s.)
 
 **Aggregated catalogs.** The [UPenn Libraries GIS guide](https://guides.library.upenn.edu/c.php?g=1321452&p=9876288) (global and US spatial data) and the [geo4.dev data catalog](https://www.geo4.dev/library?cat=Data+Catalog) (development-focused) list many more sources.
 
 </details>
 
 <details class="ds-guide" markdown="1">
-<summary><b>Mental health &amp; Sleep data</b></summary>
+<summary><b>Mental health data</b></summary>
 
-Publicly available datasets with a validated mental-health or wellbeing measure, plus a few open-replication economics papers, speech/audio depression corpora, and sleep data (self-reported and objective actigraphy / lab); free with registration unless a restricted/paid flag is noted.
+Publicly available datasets with a validated mental-health or wellbeing measure, plus a few open-replication economics papers and speech/audio depression corpora; free with registration unless a restricted/paid flag is noted. Sleep has its own section below, though the survey tables here also note what sleep each dataset collects.
 
 **Development and low- or middle-income country panels**
 
@@ -129,6 +134,7 @@ Publicly available datasets with a validated mental-health or wellbeing measure,
 | **[NIDS](https://www.datafirst.uct.ac.za/dataportal/index.php/collections/NIDS)** - National Income Dynamics Study | CES-D-10<br>Sleep: only the CES-D restless-sleep item | South Africa, national; district municipality | Individual | ~28,000 individuals / 7,300 households | Yes, age 15+ | Free, registration |
 | **[CFPS](https://opendata.pku.edu.cn/dataverse/CFPS)** - China Family Panel Studies | CES-D, Kessler K6<br>Sleep: hours (2014+), bedtime &amp; naps (all waves) | China, 25 provinces (~95% of pop.) | Individual &amp; household | ~42,600 individuals / 14,960 households | Yes, age 10+ | Free, registration + data-use agreement |
 | **[KLPS](https://dataverse.harvard.edu/dataverse/KLPS)** - Kenya Life Panel Survey | CES-D-10 (KLPS-4)<br>Sleep: bed/wake times, quality, naps (KLPS-4) | Kenya, Busia County cohort (followed nationwide and abroad) | Individual (+ 2nd-gen children) | ~7,500 cohort + ~5,200 children | Yes (young-adult cohort) | Free, open (CC0) |
+| **[DHS](https://dhsprogram.com/data/)** - Demographic and Health Surveys | Mental Health module (optional, introduced with DHS-8 in 2022): full PHQ-9 + GAD-7<br>Released: Nepal 2022, Bangladesh 2022, Mozambique 2022-23, Zimbabwe 2023-24, Zambia 2024. Lesotho 2023-24 fielded PHQ-9 only, no GAD-7. Timor-Leste 2025-26 is fielded but not fully released; Sierra Leone 2026 is planned. Senegal 2023 is tagged "mental health" but uses a different, locally developed instrument, not PHQ-9/GAD-7<br>Sleep: none | The module is only in the surveys listed, not in most DHS; 63 countries overall, with randomly displaced GPS clusters | Individual &amp; household | ~5,000-30,000 households / survey | Yes, 15-49 (Bangladesh: ever-married women only; Nepal and Lesotho: a subsample) | Free, registration |
 {: .ds-tbl}
 
 **United States, UK &amp; Europe**
@@ -154,7 +160,6 @@ Publicly available datasets with a validated mental-health or wellbeing measure,
 | **[WHO World Mental Health](https://www.hcp.med.harvard.edu/wmh/)** | CIDI diagnostic<br>Sleep: insomnia items (chronic-conditions section) | 28+ countries; country-level | Individual | &gt;200,000 interviews | No (adults) | Restricted (consortium agreement) |
 | **[HBSC](https://www.uib.no/en/hbscdata)** - Health Behaviour in School-aged Children | Psychosomatic scale, Cantril<br>Sleep: sleep-onset difficulties (all rounds); bedtimes (optional) | 45+ countries; country/region | Individual (student) | ~220,000+ / round | Students only (ages 11/13/15) | Aggregate public; microdata by request (embargo) |
 | **[Global Burden of Disease](https://vizhub.healthdata.org/gbd-results/)** | Modeled prevalence &amp; burden (not survey items)<br>Sleep: none | 204 countries + some subnational | Country-year (aggregate) | Aggregate (not respondents) | Yes (age bands, incl. 10-19) | Free, registration |
-| **[DHS](https://dhsprogram.com/data/)** - Demographic and Health Surveys | PHQ-9 + GAD-7 module<br>Sleep: none | Overall 63 countries (displaced GPS clusters); MH module in a small but growing set (Nepal, Kenya, Bangladesh, and others), not most surveys | Individual &amp; household | ~5,000-30,000 households / survey | Yes, age 15-49 | Free, registration |
 {: .ds-tbl}
 
 **Subjective wellbeing** (life satisfaction and happiness, not clinical mental health)
@@ -183,6 +188,13 @@ Publicly available datasets with a validated mental-health or wellbeing measure,
 - **[Androids Corpus](https://github.com/androidscorpus/data)**. Italian speech (reading + interview), clinician diagnoses; open direct download (academic terms).
 - **[EATD-Corpus](https://github.com/speechandlanguageprocessing/ICASSP2022-Depression)**. Chinese speech + text with SDS depression labels; open download.
 - **[MODMA](https://modma.lzu.edu.cn/data/index/)** (Lanzhou). Audio (+ EEG), clinical MDD diagnosis; free but account + agreement.
+
+</details>
+
+<details class="ds-guide" markdown="1">
+<summary><b>Sleep data</b></summary>
+
+Sleep measured objectively (actigraphy, wearables, polysomnography) alongside self-report, plus the economics field experiments that have collected it. For sleep items inside the large mental-health panels (IFLS, MxFLS, Add Health, HRS, Understanding Society, and others), see the survey tables in the mental health section above.
 
 **Sleep in economics field experiments** - objective wearable/actigraphy sleep alongside self-report and economic outcomes:
 
