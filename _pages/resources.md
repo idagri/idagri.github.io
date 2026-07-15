@@ -89,7 +89,7 @@ This list is not exhaustive, but it's a good place to start.
 I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**. The session covered using AI tools in economics research: writing and editing Stata, R, and Python, integrating results into Overleaf, and keeping projects and replications organized, with live examples. Slides and the workshop thread:
 
 <div class="res-card">
-<p class="rt">Claude Cowork for economists: workshop</p>
+<p class="rt">Claude Desktop Workshop for Economists</p>
 <p class="rd"><a href="/files/ai-cowork-workshop-slides.pdf">Workshop slides (PDF)</a> · <a href="https://x.com/_IdaGri/status/2056430027739107609">workshop thread on X</a></p>
 </div>
 

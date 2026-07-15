@@ -35,6 +35,11 @@ html[data-theme="dark"] .tt .evlinks .ab{ color:#8f97a1; }
 .award-row .ic{ flex:0 0 auto; }
 .note{ font-size:.82rem; color:#5b6470; }
 .footnote{ font-size:.75rem; margin-top:.3rem; }
+/* numbered footnotes under the tables (replaces the loose notes that used to pile up here) */
+.fnref{ font-size:.62rem; font-weight:700; line-height:0; vertical-align:super; margin-left:.1em; }
+.fnref a{ text-decoration:none; }
+.fnotes{ font-size:.75rem; color:#5b6470; margin:.6rem 0 0; padding-left:1.2rem; }
+.fnotes li{ margin:.2rem 0; padding-left:.15rem; }
 .eval-cta{ display:flex; align-items:center; gap:.85rem; margin:1rem 0 1.5rem; padding:.7rem 1rem;
   border:1px solid rgba(33,145,140,.35); border-left:4px solid var(--vir-teal,#21918c); border-radius:8px;
   background:rgba(33,145,140,.07); text-decoration:none; color:inherit; transition:background .15s ease; }
@@ -56,6 +61,7 @@ html[data-theme="dark"] .tt.ins th{ background:rgba(110,140,210,.18); color:#aeb
 html[data-theme="dark"] .tt .grp td{ background:rgba(110,140,210,.15); color:#aebfe6; }
 html[data-theme="dark"] .tt .lvl{ color:#aebfe6; background:rgba(110,140,210,.16); border-color:rgba(110,140,210,.4); }
 html[data-theme="dark"] .note{ color:#aaa; }
+html[data-theme="dark"] .fnotes{ color:#aaa; }
 </style>
 
 At UC San Diego I have been **instructor of record three times** and a <strong>teaching assistant in <span id="ta-courses">6</span> courses</strong>, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
@@ -88,11 +94,11 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 ## Teaching assistant
 
 <table class="tt">
-<thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations</th></tr></thead>
+<thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations<sup class="fnref"><a href="#fn1">1</a></sup></th></tr></thead>
 <tbody>
 <tr class="grp"><td colspan="4"><div class="grp-row"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF: <a href="/files/evals/student-evaluations-combined.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf">Instructor</a></span></div></td></tr>
 <tr><td rowspan="3" class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=2">Instructor</a></td></tr>
-<tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=3">Instructor</a><sup>*</sup></td></tr>
+<tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=3">Instructor</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
 <tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=4">Instructor</a></td></tr>
 
 <tr><td rowspan="4" class="c-name">Introduction to Research in Economics (ECON 190)</td><td rowspan="4">Applied research &amp; data</td><td class="yr">Winter 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=5">Instructor</a></td></tr>
@@ -116,14 +122,16 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <tr><td class="c-name">Microeconomic &amp; Macroeconomic Policy (ECON 210/211)</td><td>Economics</td><td class="yr">2018-2019</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-econ-2018-2019.pdf">Student</a></td></tr>
 <tr><td rowspan="2" class="c-name">Human Geography: Globalization &amp; Environment (GEOG 121/122)</td><td rowspan="2">Geography</td><td class="yr">2018-2019</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-geog-2018-2019.pdf">Student</a></td></tr>
 <tr><td class="yr">2015-2017</td><td class="evlinks"><a href="/files/evals/eval-ta-ubc-geog-2015-2017.pdf">Student</a></td></tr>
+
+<tr class="grp"><td colspan="4">NRU Higher School of Economics</td></tr>
+<tr><td class="c-name">Microeconomics, Mathematical Optimization, and Academic English (Grader)</td><td>Economics, mathematics &amp; English</td><td class="yr">2013-2014</td><td></td></tr>
 </tbody>
 </table>
 
-<p class="note">The <span class="lvl">Graduate</span> tag marks GPEC 443 (GIS &amp; Spatial Data Analysis), my one graduate (master's-level) course; the others listed are undergraduate.</p>
-
-<p class="note">Each link opens the official student evaluation report for that course and term ("Student"), and the supervising professor's evaluation of my teaching ("Instructor"). Earlier teaching: Microeconomics, Mathematical Optimization, and Academic English at NRU HSE (2013-2014).</p>
-
-<p class="note footnote">*&nbsp;The instructor evaluation is optional, so one is not available for every section; every instructor evaluation that was made available to me is posted here.</p>
+<ol class="fnotes">
+<li id="fn1">Each link opens the official student evaluation report for that course and term ("Student"), and the supervising professor's evaluation of my teaching ("Instructor").</li>
+<li id="fn2">The instructor evaluation is optional, so one is not available for every section; every instructor evaluation that was made available to me is posted here.</li>
+</ol>
 
 ## Guest lectures
 

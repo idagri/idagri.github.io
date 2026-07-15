@@ -39,7 +39,7 @@ html[data-theme="dark"] .proj{ background:rgba(45,170,160,.08); border-color:rgb
 html[data-theme="dark"] .place{ background:rgba(45,170,160,.2); color:#6fd0c8; border-color:rgba(45,170,160,.4); }
 </style>
 
-I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since Fall 2023, and it's one of my favorite parts of the job. Each quarter I work with 10-20 undergraduates on real research in development, urban, and education economics, split across two labs: a GIS lab for spatial and satellite data, and a Stata-Python lab for other empirical and experimental projects. Everyone works hands-on in small groups and occasionally solo with Stata, Python, R, and QGIS and presents at the end of the quarter.
+I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since Fall 2023. Each quarter I work with 10-20 undergraduates on real research in development, urban, and education economics, split across two labs: a GIS lab for spatial and satellite data, and a Stata-Python lab for other empirical and experimental projects. Everyone works hands-on in small groups and occasionally solo in Stata, Python, R, and QGIS and presents at the end of the quarter.
 
 ## Students' Sample Projects
 

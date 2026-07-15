@@ -18,6 +18,10 @@
 .greedy-nav .masthead__menu-item.nav-extra > a { color:#5f6b73; }
 .greedy-nav .masthead__menu-item.nav-extra > a:hover { color:inherit; }
 .greedy-nav .masthead__menu-item.nav-extra-first { margin-left:1.4rem; border-left:1px solid #dcdcdc; padding-left:1.1rem; }
+/* In the collapsed (mobile) dropdown the items stack vertically, so the divider that separates the
+   standard tabs from the extras has to lie flat: a rule under CV instead of a stray vertical line. */
+.greedy-nav .hidden-links .masthead__menu-item.nav-extra-first { margin-left:0; padding-left:0; border-left:0;
+  border-top:1px solid #dcdcdc; margin-top:.35rem; padding-top:.35rem; }
 .greedy-nav .masthead__menu-item.has-sub { position:relative; }
 .greedy-nav .submenu{ display:none; position:absolute; left:0; top:100%; min-width:11rem; z-index:40; margin:0; padding:.3rem 0;
   list-style:none; background:#fff; border:1px solid #e4e4e4; border-radius:6px; box-shadow:0 8px 22px rgba(0,0,0,.13); }
@@ -31,6 +35,7 @@
 html[data-theme="dark"] .greedy-nav .submenu{ background:#252a33; border-color:#3a3f48; }
 html[data-theme="dark"] .greedy-nav .submenu a{ color:#cfd3d8; }
 html[data-theme="dark"] .greedy-nav .masthead__menu-item.nav-extra-first{ border-left-color:#3a3f48; }
+html[data-theme="dark"] .greedy-nav .hidden-links .masthead__menu-item.nav-extra-first{ border-top-color:#3a3f48; }
 
 /* ---- Design refinements: viridis system, readability, accessibility ---- */
 :root{

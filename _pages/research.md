@@ -30,10 +30,9 @@ author_profile: true
 .pub-btn:hover{ background:var(--vir-teal); color:#fff; }
 .pub-btn .fa-fw{ font-size:.9em; margin-right:.2em; }
 .pub-meta{ margin:0; font-size:.82rem; color:#6b6b6b; line-height:1.5; }
-.pub-journal{ margin:.15rem 0 0; font-size:.85rem; color:#3a3a3a; font-weight:500; line-height:1.45; }
-.pub-journal em{ font-style:italic; color:#13716b; }
-html[data-theme="dark"] .pub-journal{ color:#cbd2da; }
-html[data-theme="dark"] .pub-journal em{ color:#6fd0c8; }
+/* journal on its own line; italics only, everything else left at the theme default */
+.pub-journal{ margin:.15rem 0 0; line-height:1.45; }
+.pub-journal em{ font-style:italic; }
 .pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
 .pub-pres{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
 .pub-status{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; font-style:italic; }
@@ -68,7 +67,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 
 **Profiles:** [Google Scholar](https://scholar.google.com/citations?user=WXqdhzsAAAAJ) · [GitHub](https://github.com/idagri)
 
-I study how people and places develop, with migration and urbanization on one side and mental health and wellbeing on the other, including how stress and burnout play out in schools and workplaces. I work on a mix of field experiments and projects leveraging rich spatial and administrative data, mostly across Latin America, Indonesia, and India.
+I study how people and places develop, with migration and urbanization on one side and mental health and wellbeing on the other. I work on a mix of field experiments and projects leveraging rich spatial and administrative data, mostly across Latin America, Indonesia, and India.
 
 <p class="rsch-key"><b>Research topics</b> <span style="opacity:.55">(click to filter)</span>&nbsp; <span class="tag all tag-active" role="button" tabindex="0">All</span> <span class="tag urban" role="button" tabindex="0">Urban &amp; Migration</span> <span class="tag well" role="button" tabindex="0">Wellbeing &amp; Education</span> <span class="tag method" role="button" tabindex="0">Methods &amp; Replication</span></p>
 
@@ -136,7 +135,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-journal"><em>Journal of Development Economics</em> 180: 103646 (2026)</p>
 <p class="pub-fund">Funding: Weiss Fund ($11,000, plus an earlier $3,300); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
 <details><summary>Abstract</summary><p>This paper investigates the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where supply-side barriers are minimal and services are readily accessible. In a survey experiment with 680 students, we find that nearly 50% of students in distress do not receive professional mental health support despite a high level of awareness and perceived effectiveness, constituting a substantial treatment gap. We document stigmatized beliefs and misconceptions correlated with the treatment gap. As three-quarters of students incorrectly believe that those in distress perform worse academically and that the majority of students going to therapy are in severe distress, we implement an information intervention to correct these beliefs. We find that it increases students' sharing of on-campus mental health resources with peers and encourages them to recommend these resources when advising a friend in distress. Interestingly, we find that it lowers respondents' willingness to pay for private therapy at the end of the intervention. Yet, this effect does not translate into a long-run reduction in self-reported therapy use 6 months after the experiment, with prior therapy users showing increased off-campus take-up.</p></details>
-<p class="pub-pres">Presented at: Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); Advances with Field Experiments (AFE) Conference (2025); Melbourne Institute (2026).</p>
+<p class="pub-pres">Presented at: UCSD-ITAM Collaborative Workshop, UC San Diego (2023); ITAM Applied Econometrics guest lecture (2023); Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); Advances with Field Experiments (AFE) Conference (2025); Melbourne Institute (2026).</p>
 </div>
 </div>
 
@@ -218,8 +217,9 @@ I study how people and places develop, with migration and urbanization on one si
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
 <p class="pub-title">Coping with Chronic Stress: Socio-Emotional Training for Frontline Workers</p>
-<p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a></p>
+<p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a> · <a href="https://www.socialscienceregistry.org/trials/18308">Pre-registration</a></p>
 <p class="pub-status">Data collection in progress (summer-fall 2026)</p>
+<details><summary>Abstract</summary><p>Essential public-sector workers in low- and middle-income countries (teachers, health workers, police officers) operate under chronic stress, exposure to community violence, and institutional neglect of their mental health. Burnout, anxiety, and untreated trauma are pervasive among these frontline workers, yet rigorous evidence on scalable interventions to support their wellbeing remains nearly nonexistent. This gap matters not only to the workers themselves, but also to the quality of public services they deliver. We provide experimental evidence on whether socio-emotional resilience training can improve the mental health and professional effectiveness of essential workers, focusing on public school teachers in Guatemala. We evaluate SanaMente, a trauma-informed training program that builds skills in stress recognition, emotional regulation, and supportive workplace practices, using a school-level cluster-randomized trial across 120 schools targeting 600 teachers in three municipalities in Guatemala.</p></details>
 </div>
 </div>
 
@@ -268,6 +268,7 @@ I study how people and places develop, with migration and urbanization on one si
 <div class="pub-body">
 <p class="pub-title">Factors of Urban Income Inequality in High- and Middle-Income Countries</p>
 <p class="pub-meta">B.A. thesis, NRU Higher School of Economics · ECINEQ Conference Working Paper, Paris (2019)</p>
+<details><summary>Abstract</summary><p>Inequality is widely studied within and across countries, but much less is known about inequality between the leading cities of different countries. I study an international cross-section of leading cities in high- and middle-income countries and propose a measure of the gap between a major city's per capita income and its country's national average. Since 2010 most countries in the sample have been catching up with their leading cities, consistent with cities acting as engines of growth. Reading the cross-section through a structural transformation lens, and clustering cities by a principal component approach, I find convergence both between clusters of developed- and developing-country cities and within clusters of similarly developed cities. Cities growing faster in population and per capita income show a wider city-country gap, while a stronger national economy and a larger primary-sector share in city output narrow it.</p></details>
 </div>
 </div>
 

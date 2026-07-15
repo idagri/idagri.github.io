@@ -3,14 +3,14 @@
 
 main:
   # "About" is intentionally omitted: the site title (name) already links to the homepage.
-  - title: "CV"
-    url: /files/CV_Ida_Grigoryeva_2026.pdf
-
   - title: "Research"
     url: /research/
 
   - title: "Teaching"
     url: /teaching/
+
+  - title: "CV"
+    url: /files/CV_Ida_Grigoryeva_2026.pdf
 
   - title: "Undergrad Lab"
     url: /lab/
