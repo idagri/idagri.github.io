@@ -22,3 +22,12 @@ vendor/
 # Ignore macOS system files
 .DS_Store
 **/.DS_Store
+
+# Unpublished drafts kept locally in the repo but deliberately NOT public.
+# Anything committed here is served to the public web, so drafts Ida has not
+# explicitly chosen to link must never be tracked. These sit in papers/ only
+# for convenience; their real home is ../source_materials/. Do not `git add -A`
+# in this repo (it would stage them) -- always add explicit paths. A .docx is
+# never a public deliverable, so all of papers/*.docx is ignored.
+papers/*.docx
+papers/City-Country Gap WD-S-19-03165.pdf
