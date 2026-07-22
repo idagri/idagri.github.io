@@ -29,17 +29,19 @@ author_profile: true
   padding:.08rem .5rem; margin-left:.4rem; vertical-align:middle; white-space:nowrap; }
 .pub-btn:hover{ background:var(--vir-teal); color:#fff; }
 .pub-btn .fa-fw{ font-size:.9em; margin-right:.2em; }
-.pub-meta{ margin:0; font-size:.82rem; color:#6b6b6b; line-height:1.5; }
-/* journal on its own line; italics only, everything else left at the theme default */
-.pub-journal{ margin:.15rem 0 0; line-height:1.45; }
+/* All meta/note text shares ONE neutral gray (#6b6b6b), set apart from the black title. Sizes:
+   authors, journal, status, and abstract at .85rem; funding and presentations sit smaller at .72rem.
+   The journal was previously unsized (theme default, oversized) and black; it now matches the rest. */
+.pub-meta{ margin:0; font-size:.85rem; color:#6b6b6b; line-height:1.5; }
+.pub-journal{ margin:.15rem 0 .5rem; font-size:.85rem; color:#6b6b6b; line-height:1.45; }
 .pub-journal em{ font-style:italic; }
-.pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
-.pub-pres{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; }
-.pub-status{ margin:.2rem 0 0; font-size:.72rem; color:#6a7480; font-style:italic; }
-html[data-theme="dark"] .pub-status{ color:#9a9a9a; }
-.pub details{ margin:.4rem 0 0; }
-.pub summary{ font-size:.78rem; cursor:pointer; color:#6b6b6b; }
-.pub details p{ font-size:.86rem; line-height:1.55; margin:.4rem 0 0; }
+.pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6b6b6b; }
+.pub-status{ margin:.2rem 0 0; font-size:.85rem; color:#6b6b6b; font-style:italic; }
+.pub details{ margin:.5rem 0 0; }
+.pub summary{ font-size:.85rem; cursor:pointer; color:#6b6b6b; }
+.pub details p{ font-size:.72rem; line-height:1.55; margin:.4rem 0 0; color:#6b6b6b; }
+/* Conference presentations: the smaller, tertiary tier, same gray, with a paragraph-space above. */
+.pub-pres{ margin:.5rem 0 0; font-size:.72rem; color:#6b6b6b; }
 
 @media (max-width:50em){
   .pub{ grid-template-columns:1fr; gap:.3rem; }
@@ -51,8 +53,7 @@ html[data-theme="dark"] .tag.well   { background:rgba(45,170,160,.20);  color:#6
 html[data-theme="dark"] .tag.method { background:rgba(160,110,180,.20); color:#caa6da; border-color:rgba(160,110,180,.4); }
 html[data-theme="dark"] .pub-btn{ color:#6fd0c8; background:rgba(45,170,160,.15); border-color:rgba(45,170,160,.5); }
 html[data-theme="dark"] .pub-btn:hover{ background:#2daaa0; color:#0d1520; }
-html[data-theme="dark"] .pub-meta, html[data-theme="dark"] .pub summary{ color:#b5b5b5; }
-html[data-theme="dark"] .pub-fund, html[data-theme="dark"] .pub-pres{ color:#9a9a9a; }
+html[data-theme="dark"] .pub-meta, html[data-theme="dark"] .pub-journal, html[data-theme="dark"] .pub-fund, html[data-theme="dark"] .pub-status, html[data-theme="dark"] .pub-pres, html[data-theme="dark"] .pub summary, html[data-theme="dark"] .pub details p{ color:#b5b5b5; }
 /* clickable topic filter */
 .rsch-key .tag{ cursor:pointer; user-select:none; }
 .rsch-key .tag-active{ box-shadow:0 0 0 2px currentColor inset; }
@@ -83,7 +84,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-status">Draft available upon request.</p>
 <p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Research &amp; Travel Grants ($12,800)</p>
 <details><summary>Abstract</summary><p>Using the quasi-random allocation of Indonesia's Transmigration Program and variation in productivity among transmigrant villages, I show that cities proximate to more productive villages experience higher population and employment growth, concentrated in service industries. The higher growth occurs alongside greater in-migration to cities (from both rural and urban districts) and is not driven by transmigrants abandoning their destination villages. Because migrants tend to stay in more productive villages, the results provide suggestive evidence of positive indirect spillovers of rural productivity onto regional urban markets.</p></details>
-<p class="pub-pres">Presented at: Cities &amp; Development Workshop, Harvard (2024); IHS Trade Workshop, Harvard (2024); Economics of Migration Summer School, Mexico (2024); University of Hawaii Applied Seminar (2025); Lindau Nobel Laureates Meeting, Germany (2025); IHS Migration Workshop, UC Davis (2025); PacDev, UC Davis (2026); DevPEC, Stanford (2026); UEA PhD Summer School, LSE (2026); University of Melbourne (2026).</p>
+<p class="pub-pres">Presented at: PacDev, UC Davis (2026); DevPEC, Stanford (2026); UEA PhD Summer School, LSE (2026); University of Melbourne (2026); University of Hawaii Applied Seminar (2025); Lindau Nobel Laureates Meeting, Germany (2025); IHS Migration Workshop, UC Davis (2025); Cities &amp; Development Workshop, Harvard (2024); IHS Trade Workshop, Harvard (2024); Economics of Migration Summer School, Mexico (2024)</p>
 </div>
 </div>
 
@@ -95,7 +96,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-status">Draft available upon request.</p>
 <p class="pub-fund">Funding: Weiss Fund ($12,900); IHS Research &amp; Travel Grant; Jacobs Social Impact Summer Research Grant ($6,000)</p>
 <details><summary>Abstract</summary><p>In many neighborhoods of Latin American cities such as Rio de Janeiro, crime rates are very high, producing educational disruption and acute stress. We find that neighborhood shootings near a school shortly before an exam have a robust negative effect on students' performance on the language and math university-entrance tests. The effects are robust to school and year fixed effects: exposed students perform significantly worse (by 0.1 to 0.3 standard deviations) than non-exposed students.</p></details>
-<p class="pub-pres">Presented at: Urban Economics Association, Washington DC (2022); International &amp; Development Economics Summer School, Italy (2022); Workshop on the Economics of Education, Universidad de los Andes, Santiago (2024).</p>
+<p class="pub-pres">Presented at: Workshop on the Economics of Education, Universidad de los Andes, Santiago (2024); Urban Economics Association, Washington DC (2022); International &amp; Development Economics Summer School, Italy (2022)</p>
 </div>
 </div>
 
@@ -107,7 +108,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-status">Data collection in progress (summer-fall 2026)</p>
 <p class="pub-fund">Funding: Weiss Fund ($24,400); CEGA Development Challenge ($20,000)</p>
 <details><summary>Abstract</summary><p>Poor sleep is pervasive among the world's urban poor and almost entirely untreated, yet it plausibly constrains health, mood, and economic life. We ask whether helping low-income workers sleep better improves these outcomes, and whether what matters is sleep quality rather than quantity. We study a scalable, lay-facilitated group adaptation of Cognitive Behavioral Therapy for Insomnia (CBT-I), the first-line treatment for insomnia, among low-income workers with insomnia symptoms in Nairobi, Kenya. This is the first CBT-I trial in a low-income community population and the first objective sleep measurement in a Nairobi informal settlement. CBT-I raises sleep efficiency and consolidation, often while restricting time in bed, which targets the quality margin and separates any economic effect from extra hours of sleep. A single-arm pilot is complete, and the powered randomized trial is pre-registered.</p></details>
-<p class="pub-pres">Presented at: Advances with Field Experiments (AFE) Conference, Chicago (2026, upcoming).</p>
+<p class="pub-pres">Presented at: Advances with Field Experiments (AFE) Conference, Chicago (2026, upcoming)</p>
 </div>
 </div>
 
@@ -119,7 +120,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-status">Draft available upon request.</p>
 <p class="pub-fund">Funding: IHS Field Research Grant</p>
 <details><summary>Abstract</summary><p>We examine the links between urban and rural economic performance in India using geo-spatial socio-economic data on 1,000 cities and 500,000 villages. Rural development falls almost universally with distance from towns; gradients are shallow and urban-rural gaps remain large even at short distances. A Bartik estimation of urban demand shocks reveals clear urban-to-rural spillovers that are larger and wider for manufacturing than for services, and extend further along major highways. Surprisingly, urban demand raises population in proximate rural areas but not in the urban areas themselves, suggesting constraints on densification.</p></details>
-<p class="pub-pres">Presented at: European Meeting of the Urban Economics Association (EMUEA), Barcelona (2026).</p>
+<p class="pub-pres">Presented at: European Meeting of the Urban Economics Association (EMUEA), Barcelona (2026)</p>
 </div>
 </div>
 
@@ -135,7 +136,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-journal"><em>Journal of Development Economics</em> 180: 103646 (2026)</p>
 <p class="pub-fund">Funding: Weiss Fund ($11,000, plus an earlier $3,300); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
 <details><summary>Abstract</summary><p>This paper investigates the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where supply-side barriers are minimal and services are readily accessible. In a survey experiment with 680 students, we find that nearly 50% of students in distress do not receive professional mental health support despite a high level of awareness and perceived effectiveness, constituting a substantial treatment gap. We document stigmatized beliefs and misconceptions correlated with the treatment gap. As three-quarters of students incorrectly believe that those in distress perform worse academically and that the majority of students going to therapy are in severe distress, we implement an information intervention to correct these beliefs. We find that it increases students' sharing of on-campus mental health resources with peers and encourages them to recommend these resources when advising a friend in distress. Interestingly, we find that it lowers respondents' willingness to pay for private therapy at the end of the intervention. Yet, this effect does not translate into a long-run reduction in self-reported therapy use 6 months after the experiment, with prior therapy users showing increased off-campus take-up.</p></details>
-<p class="pub-pres">Presented at: UCSD-ITAM Collaborative Workshop, UC San Diego (2023); ITAM Applied Econometrics guest lecture (2023); Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); Advances with Field Experiments (AFE) Conference (2025); Melbourne Institute (2026).</p>
+<p class="pub-pres">Presented at: Melbourne Institute (2026); Advances with Field Experiments (AFE) Conference (2025); Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); UCSD-ITAM Collaborative Workshop, UC San Diego (2023); ITAM Applied Econometrics guest lecture (2023)</p>
 </div>
 </div>
 
