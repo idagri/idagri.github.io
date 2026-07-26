@@ -15,8 +15,15 @@ $indent-var                 : 1.3em;
 
 /* System typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif-system          : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+
+/* Site typeface: Lora (matches co-author Alisher Batmanov's site). Loaded from Google Fonts in
+   _includes/head/custom.html. Lora is a serif, so it falls back to Georgia/Times, not the old system
+   sans stack (now $sans-serif-system, kept only as a reference). Repointed $sans-serif itself so the
+   components that hard-code it (nav, masthead, buttons, forms, archive) follow without touching each. */
+$lora                       : "Lora", Georgia, Times, serif;
+$sans-serif                 : $lora;
 
 /* Sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -39,9 +46,9 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family         : $lora;
+$header-font-family         : $lora;
+$caption-font-family        : $lora;
 
 /* ==========================================================================
    Breakpoints
