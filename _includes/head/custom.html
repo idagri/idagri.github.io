@@ -11,6 +11,34 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<!-- Copy-email button behavior. Lives here in <head> (not in the sidebar include) so the browser always
+     runs it as a script; the address is assembled from split data-attributes on click, so the raw
+     user@domain string is never in the page source. Delegation on document, so load order is irrelevant. -->
+<script>
+(function(){
+  if (window.__copyEmailInit) return; window.__copyEmailInit = true;
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('.author__copy-email');
+    if (!a) return;
+    e.preventDefault();
+    var addr = a.getAttribute('data-u') + '@' + a.getAttribute('data-d');
+    var label = a.querySelector('.ce-label');
+    var flash = function(msg){
+      if (!label) return;
+      if (!label.getAttribute('data-orig')) label.setAttribute('data-orig', label.textContent);
+      label.textContent = msg;
+      clearTimeout(a.__t);
+      a.__t = setTimeout(function(){ label.textContent = label.getAttribute('data-orig'); }, 1600);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(addr).then(function(){ flash('Copied!'); }, function(){ flash(addr); });
+    } else {
+      flash(addr);
+    }
+  });
+})();
+</script>
+
 <!-- favicon: viridis "travel-time rings". Root files (/favicon.ico, /favicon.svg, /apple-touch-icon.png)
      are what browsers and crawlers request by default; minimal, standard markup for best pickup. -->
 <link rel="icon" href="/favicon.ico?v=5" sizes="any">

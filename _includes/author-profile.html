@@ -176,30 +176,3 @@
     </ul>
   </div>
 </div>
-
-<script>
-/* Copy-email button: assemble the address from split data-attributes (so the raw user@domain string
-   never sits in the page source for scrapers), copy to clipboard on click, and flash "Copied!". */
-(function(){
-  if (window.__copyEmailInit) return; window.__copyEmailInit = true;
-  document.addEventListener('click', function(e){
-    var a = e.target.closest('.author__copy-email');
-    if (!a) return;
-    e.preventDefault();
-    var addr = a.getAttribute('data-u') + '@' + a.getAttribute('data-d');
-    var label = a.querySelector('.ce-label');
-    var flash = function(msg){
-      if (!label) return;
-      if (!label.getAttribute('data-orig')) label.setAttribute('data-orig', label.textContent);
-      label.textContent = msg;
-      clearTimeout(a.__t);
-      a.__t = setTimeout(function(){ label.textContent = label.getAttribute('data-orig'); }, 1600);
-    };
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(addr).then(function(){ flash('Copied!'); }, function(){ flash(addr); });
-    } else {
-      flash(addr);  /* no clipboard API: reveal the address so it can be copied manually */
-    }
-  });
-})();
-</script>
