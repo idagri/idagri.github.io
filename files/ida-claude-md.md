@@ -1,8 +1,16 @@
-# Ida's global Claude profile settings
+# Ida's global Claude rules
 
-These are the standing rules I keep in my Claude profile (the desktop-app equivalent of a
-global `CLAUDE.md`). They apply across every project, on top of whatever per-project
-`CLAUDE.md` is in the working folder.
+I first wrote these as **profile settings in the Claude web app**, when I was still working
+in ordinary chat rather than in Claude Code. Moving to Claude Code, they became a real file
+on disk: `~/.claude/CLAUDE.md`, which is read on every project.
+
+Settings sit in three layers, each narrower than the last:
+
+| File | Scope |
+|---|---|
+| `~/.claude/CLAUDE.md` | global, every project (the rules below) |
+| `<project>/CLAUDE.md` | conventions for that project only |
+| `<project>/.claude/settings.local.json` | what is pre-approved, so no prompt appears |
 
 Rules (1) and (2) are the ones doing the safety work: they are why I can run in Auto
 permission mode without worrying much about destructive actions. The rest are
