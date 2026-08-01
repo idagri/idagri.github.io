@@ -93,7 +93,7 @@ I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**. Th
 <p class="rd"><a href="/files/ai-cowork-workshop-slides.pdf">Workshop slides (PDF)</a> · <a href="https://x.com/_IdaGri/status/2056430027739107609">workshop thread on X</a></p>
 </div>
 
-A shorter follow-up session on **permissions**: the difference between Manual and Auto mode, what Auto actually does, and why the thing keeping me safe is a set of conventions and easy rollback rather than the permission prompt itself. It also shares the global `CLAUDE.md` rules I use across every project, which you are welcome to copy and adapt.
+A shorter follow-up on **permissions**: the difference between Manual and Auto mode, and why version controlling with git and/or Dropbox does more of the safety work than the permission prompt.
 
 <div class="res-card">
 <p class="rt">Permission Modes and Auto: A Short Follow-Up</p>
