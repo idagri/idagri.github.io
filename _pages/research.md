@@ -68,6 +68,8 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 
 **Profiles:** [Google Scholar](https://scholar.google.com/citations?user=WXqdhzsAAAAJ) · [GitHub](https://github.com/idagri)
 
+**Tools:** [Where the world's open borders are](/open-borders-map/) — an interactive map of 19 free-movement and visa-free work regimes involving lower- and middle-income countries
+
 I study how people and places develop, with migration and urbanization on one side and mental health and wellbeing on the other. I work on a mix of field experiments and projects leveraging rich spatial and administrative data, mostly across Latin America, Indonesia, and India.
 
 <p class="rsch-key"><b>Research topics</b> <span style="opacity:.55">(click to filter)</span>&nbsp; <span class="tag all tag-active" role="button" tabindex="0">All</span> <span class="tag urban" role="button" tabindex="0">Urban &amp; Migration</span> <span class="tag well" role="button" tabindex="0">Wellbeing &amp; Education</span> <span class="tag method" role="button" tabindex="0">Methods &amp; Replication</span></p>
