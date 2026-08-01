@@ -23,6 +23,9 @@ vendor/
 .DS_Store
 **/.DS_Store
 
+# Scratch and superseded files, kept locally for reference, never published.
+_archive_claude/
+
 # Unpublished drafts kept locally in the repo but deliberately NOT public.
 # Anything committed here is served to the public web, so drafts Ida has not
 # explicitly chosen to link must never be tracked. These sit in papers/ only
