@@ -120,7 +120,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-title">Rural Spillovers of Urban Growth in India</p>
 <p class="pub-meta">with <a href="https://samuelasher.com/">Sam Asher</a>, <a href="https://www.jpchauvin.com/">Juan Pablo Chauvin</a>, and <a href="http://paulnovosad.com/">Paul Novosad</a></p>
 <p class="pub-status">Draft available upon request.</p>
-<p class="pub-fund">Funding: IHS Field Research Grant</p>
+<p class="pub-fund">Funding: IHS Summer Research Fellowship</p>
 <details><summary>Abstract</summary><p>We examine the links between urban and rural economic performance in India using geo-spatial socio-economic data on 1,000 cities and 500,000 villages. Rural development falls almost universally with distance from towns; gradients are shallow and urban-rural gaps remain large even at short distances. A Bartik estimation of urban demand shocks reveals clear urban-to-rural spillovers that are larger and wider for manufacturing than for services, and extend further along major highways. Surprisingly, urban demand raises population in proximate rural areas but not in the urban areas themselves, suggesting constraints on densification.</p></details>
 <p class="pub-pres">Presented at: European Meeting of the Urban Economics Association (EMUEA), Barcelona (2026)</p>
 </div>
