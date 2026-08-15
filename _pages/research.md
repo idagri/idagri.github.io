@@ -98,7 +98,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-status">Draft available upon request.</p>
 <p class="pub-fund">Funding: Weiss Fund ($12,900); IHS Research &amp; Travel Grant; Jacobs Social Impact Summer Research Grant ($6,000)</p>
 <details><summary>Abstract</summary><p>In many neighborhoods of Latin American cities such as Rio de Janeiro, crime rates are very high, producing educational disruption and acute stress. We find that neighborhood shootings near a school shortly before an exam have a robust negative effect on students' performance on the language and math university-entrance tests. The effects are robust to school and year fixed effects: exposed students perform significantly worse (by 0.1 to 0.3 standard deviations) than non-exposed students.</p></details>
-<p class="pub-pres">Presented at: Workshop on the Economics of Education, Universidad de los Andes, Santiago (2024); Urban Economics Association, Washington DC (2022); International &amp; Development Economics Summer School, Italy (2022)</p>
+<p class="pub-pres">Presented at: LACEA-LAMES Annual Meeting, Lima, Peru (2026, upcoming); Workshop on the Economics of Education, Universidad de los Andes, Santiago, Chile (2024); Urban Economics Association, Washington DC (2022); International &amp; Development Economics Summer School, Italy (2022)</p>
 </div>
 </div>
 
@@ -136,7 +136,7 @@ I study how people and places develop, with migration and urbanization on one si
 <p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <a class="pub-btn" href="/papers/2026-06-JDE-Beliefs--information-sharing--and-mental-health-care.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a> <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
 <p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a>, <a href="https://www.bruno-calderon.com/">Bruno Calderon-Hernandez</a>, <a href="https://robertoglz.github.io/">Roberto Gonzalez-Tellez</a>, and <a href="https://research.tec.mx/vivo-tec/display/PID_316616">Alejandro Guardiola-Ramirez</a> · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
 <p class="pub-journal"><em>Journal of Development Economics</em> 180: 103646 (2026)</p>
-<p class="pub-fund">Funding: Weiss Fund ($11,000, plus an earlier $3,300); UC-MX Alianza Field Research Grant ($7,600); IHS Field Research Grant</p>
+<p class="pub-fund">Funding: Weiss Fund ($14,300); UC-MX Alianza Field Research Grant ($7,600); IHS Travel Research Grants</p>
 <details><summary>Abstract</summary><p>This paper investigates the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where supply-side barriers are minimal and services are readily accessible. In a survey experiment with 680 students, we find that nearly 50% of students in distress do not receive professional mental health support despite a high level of awareness and perceived effectiveness, constituting a substantial treatment gap. We document stigmatized beliefs and misconceptions correlated with the treatment gap. As three-quarters of students incorrectly believe that those in distress perform worse academically and that the majority of students going to therapy are in severe distress, we implement an information intervention to correct these beliefs. We find that it increases students' sharing of on-campus mental health resources with peers and encourages them to recommend these resources when advising a friend in distress. Interestingly, we find that it lowers respondents' willingness to pay for private therapy at the end of the intervention. Yet, this effect does not translate into a long-run reduction in self-reported therapy use 6 months after the experiment, with prior therapy users showing increased off-campus take-up.</p></details>
 <p class="pub-pres">Presented at: Melbourne Institute (2026); Advances with Field Experiments (AFE) Conference (2025); Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); UCSD-ITAM Collaborative Workshop, UC San Diego (2023); ITAM Applied Econometrics guest lecture (2023)</p>
 </div>
@@ -199,7 +199,7 @@ I study how people and places develop, with migration and urbanization on one si
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Income Strongly Moderates Climate-Driven Migration <a class="pub-btn" href="https://eartharxiv.org/repository/view/11088/"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a></p>
-<p class="pub-meta">with <a href="https://gps.ucsd.edu/faculty-directory/gaurav-khanna.html">Gaurav Khanna</a>, <a href="https://ppolonik2.github.io/">Pascal Polonik</a>, <a href="https://jessicaswan.github.io/">Jessica Wan</a>, <a href="https://jacopolunghi.github.io/">Jacopo Lunghi</a>, and <a href="https://katericke.com/">Katharine Ricke</a> · Submitted (2025)</p>
+<p class="pub-meta">with <a href="https://gps.ucsd.edu/faculty-directory/gaurav-khanna.html">Gaurav Khanna</a>, <a href="https://ppolonik2.github.io/">Pascal Polonik</a>, <a href="https://jessicaswan.github.io/">Jessica Wan</a>, <a href="https://jacopolunghi.github.io/">Jacopo Lunghi</a>, and <a href="https://katericke.com/">Katharine Ricke</a> · Under Review (2025)</p>
 </div>
 </div>
 
@@ -264,7 +264,7 @@ I study how people and places develop, with migration and urbanization on one si
 
 ---
 
-## Predoctoral research
+## Pre-PhD Research
 
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
