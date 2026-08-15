@@ -246,6 +246,15 @@ I study how people and places develop, with migration and urbanization on one si
 </div>
 
 <div class="pub">
+<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
+<div class="pub-body">
+<p class="pub-title">Two Ways to Widen the City: Dense Towns, Commuting Zones, and the Urbanization-Income Gradient</p>
+<p class="pub-meta">Solo-authored</p>
+<details><summary>Abstract</summary><p>A country's urban share is a statistic with five official answers: national censuses, two tiers of the satellite degree-of-urbanization standard, night lights, and functional urban areas each draw the urban line differently, and the plurality is now official, with the United Nations publishing parallel definitions side by side. I re-estimate the income-urbanization gradient, region by region, under all five urban lines on one harmonized subnational grid. The gradient is a joint property of the region and the definition, not of the region alone: which major region is most urban and which has the steepest income gradient both flip with the measure, and Latin America's census gradient is two and a half times its gradient under the satellite cities-plus-towns line. Two margins explain the flips. The dense-town tier separates the census from the satellite share in agrarian Asia and Africa, and the commuting belt outside the dense core carries the rich world's steepest and most precisely estimated urbanization gradient, the dense-core tier none at all. Africa's gradient is the narrowest across the five lines even as its measured levels move by more than 50 points, so for the gradient the choice of urban line is second-order there and first-order almost everywhere else, an asymmetry that turns a measurement warning into a diagnostic. The urban line is not a nuisance parameter: where it is drawn is part of the answer, and the paper closes with a mapping from research questions to urban lines.</p></details>
+</div>
+</div>
+
+<div class="pub">
 <div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
 <div class="pub-body">
 <p class="pub-title">Robustness in Empirical Economics: A Meta-Reproduction of 66 Articles from Leading Journals</p>
