@@ -39,12 +39,13 @@
 })();
 </script>
 
-<!-- favicon: viridis "travel-time rings". Root files (/favicon.ico, /favicon.svg, /apple-touch-icon.png)
+<!-- favicon: viridis "travel-time rings", circular with transparent corners so the browser tab shows
+     a disc rather than a square. Root files (/favicon.ico, /favicon.svg, /apple-touch-icon.png)
      are what browsers and crawlers request by default; minimal, standard markup for best pickup. -->
-<link rel="icon" href="/favicon.ico?v=5" sizes="any">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=5">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=5">
-<link rel="manifest" href="{{ base_path }}/images/manifest.json">
+<link rel="icon" href="/favicon.ico?v=6" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=6">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=6">
+<link rel="manifest" href="{{ base_path }}/images/manifest.json?v=6">
 <meta name="theme-color" content="#21918c">
 
 <!-- Nav: separate "extra" tabs + Resources hover dropdown; sidebar CV button -->
@@ -78,21 +79,28 @@ html[data-theme="dark"] .greedy-nav .hidden-links .masthead__menu-item.nav-extra
 }
 html[data-theme="dark"]{ --global-link-color:#6fd0c8; --global-link-color-hover:#8fded8; }
 
-/* circle-crop the sidebar avatar (was an oval) */
-.author__avatar img{ aspect-ratio:1/1; object-fit:cover; border-radius:50%; }
+/* sidebar avatar: the photo's own rectangle, shown whole, with no circular crop or frame */
+.author__avatar img{ aspect-ratio:auto; object-fit:contain; border-radius:0;
+  height:auto; padding:0; border:0; display:block; margin:0 auto; }
 
 /* sidebar profile: avatar centered above a tidy centered name/pronouns/bio/CV column (desktop) */
 .author__pronouns{ margin:.1rem 0 .5rem; color:#6b6b6b; font-size:.8rem; }
 html[data-theme="dark"] .author__pronouns{ color:#aeb6c0; }
 @media screen and (min-width:1024px){
-  /* keep the whole profile a tidy, narrow, centered column (pic size unchanged) */
+  /* keep the whole profile a tidy, centered column, as wide as the sidebar allows */
   .sidebar .author__avatar,
   .sidebar .author__content,
-  .sidebar .author__urls-wrapper{ max-width:12.5rem; margin-left:auto; margin-right:auto; }
+  .sidebar .author__urls-wrapper{ max-width:245px; margin-left:auto; margin-right:auto; }
   .author__avatar{ text-align:center; }
-  .author__avatar img{ max-width:175px; width:100%; }
+  .author__avatar img{ max-width:100%; width:100%; }
   .author__content{ text-align:center; }
   .author__cv{ margin-top:.6rem; }
+}
+
+/* wide desktops: a slightly wider sidebar, which is what lets the profile photo be larger.
+   The sidebar is fixed and clears the body text by roughly 45px at this width, so it uses part of that */
+@media screen and (min-width:1280px){
+  .sidebar{ width:245px; }
 }
 
 /* let the sidebar location wrap instead of clipping mid-word */
