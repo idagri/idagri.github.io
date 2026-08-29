@@ -90,17 +90,22 @@ html[data-theme="dark"] .author__pronouns{ color:#aeb6c0; }
   /* keep the whole profile a tidy, centered column, as wide as the sidebar allows */
   .sidebar .author__avatar,
   .sidebar .author__content,
-  .sidebar .author__urls-wrapper{ max-width:245px; margin-left:auto; margin-right:auto; }
+  .sidebar .author__urls-wrapper{ max-width:275px; margin-left:auto; margin-right:auto; }
   .author__avatar{ text-align:center; }
   .author__avatar img{ max-width:100%; width:100%; }
   .author__content{ text-align:center; }
   .author__cv{ margin-top:.6rem; }
 }
 
-/* wide desktops: a slightly wider sidebar, which is what lets the profile photo be larger.
-   The sidebar is fixed and clears the body text by roughly 45px at this width, so it uses part of that */
+/* wide desktops: a wider sidebar, which is what lets the profile photo be larger. The theme caps
+   the sidebar at 250px, so that cap is lifted too. The sidebar gains 30px and the body text moves
+   right by 40px, taken from the 211px of empty space that sat to the right of the text column, so
+   the reading measure is unchanged and the photo clears the text by about 28px instead of 18px */
 @media screen and (min-width:1280px){
-  .sidebar{ width:245px; }
+  .sidebar{ width:275px; max-width:275px; }
+  /* two wrappers to move, since single pages use .page and list pages use .archive */
+  .page{ padding-left:93px; padding-right:171px; }
+  .archive{ padding-left:93px; }
 }
 
 /* let the sidebar location wrap instead of clipping mid-word */

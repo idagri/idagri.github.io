@@ -10,7 +10,11 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+      {% comment %} avatar_base + avatar_widths name one file per width, so the browser downloads the
+      size it will actually display rather than the largest one. Falls back to a plain src when a
+      site does not set them. {% endcomment %}
+      {% if author.avatar_base and author.avatar_widths %}{% capture avatar_srcset %}{% for w in author.avatar_widths %}{{ author.avatar_base | append: "_" | append: w | append: "w.jpg" | prepend: "/images/" | prepend: base_path }} {{ w }}w{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}{% endif %}
+    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"{% if avatar_srcset %} srcset="{{ avatar_srcset }}" sizes="{{ author.avatar_sizes | default: '100vw' }}"{% endif %} fetchpriority="high" />
     {% endif %}
   </div>
 
