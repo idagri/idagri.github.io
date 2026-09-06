@@ -199,7 +199,7 @@ I study how people and places develop, with migration and urbanization on one si
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Income Strongly Moderates Climate-Driven Migration <a class="pub-btn" href="https://eartharxiv.org/repository/view/11088/"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a></p>
-<p class="pub-meta">with <a href="https://gps.ucsd.edu/faculty-directory/gaurav-khanna.html">Gaurav Khanna</a>, <a href="https://ppolonik2.github.io/">Pascal Polonik</a>, <a href="https://jessicaswan.github.io/">Jessica Wan</a>, <a href="https://jacopolunghi.github.io/">Jacopo Lunghi</a>, and <a href="https://katericke.com/">Katharine Ricke</a> · Under Review (2025)</p>
+<p class="pub-meta">with <a href="https://gps.ucsd.edu/faculty-directory/gaurav-khanna.html">Gaurav Khanna</a>, <a href="https://ppolonik2.github.io/">Pascal Polonik</a>, <a href="https://jessicaswan.github.io/">Jessica Wan</a>, <a href="https://jacopolunghi.github.io/">Jacopo Lunghi</a>, and <a href="https://katericke.com/">Katharine Ricke</a> · R&amp;R at <em>PNAS</em> (2025)</p>
 </div>
 </div>
 
