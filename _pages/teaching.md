@@ -17,10 +17,10 @@ author_profile: true
 /* Column widths: the course and theme columns were taking all the slack and pushing
    "Student / Instructor" onto a second line. Widths are set on the header cells because
    the body cells use rowspan, so nth-child does not line up on continuation rows. */
-.tt th:nth-child(1){ width:40%; }
-.tt th:nth-child(2){ width:19%; }
-.tt th:nth-child(3){ width:15%; }
-.tt th:nth-child(4){ width:26%; }
+.tt th:nth-child(1){ width:45%; }
+.tt th:nth-child(2){ width:20%; }
+.tt th:nth-child(3){ width:12%; }
+.tt th:nth-child(4){ width:23%; }
 .tt td.yr{ white-space:nowrap; }
 .tt td.evlinks{ white-space:nowrap; }
 .tt .c-name{ font-weight:600; }
@@ -32,7 +32,7 @@ author_profile: true
 .tt .grp td{ background:rgba(49,104,142,.09); font-weight:700; font-size:.64rem; text-transform:uppercase;
   letter-spacing:.04em; color:#2a5e7e; padding:.28rem .55rem; }
 .tt .grp .grp-row{ display:flex; justify-content:space-between; align-items:baseline; gap:.5rem; flex-wrap:wrap; }
-.tt .grp .grp-all{ text-transform:none; letter-spacing:0; font-weight:600; font-size:.72rem; color:#5b6470; }
+.tt .grp .grp-all{ text-align:right; line-height:1.35; text-transform:none; letter-spacing:0; font-weight:600; font-size:.72rem; color:#5b6470; }
 .tt .grp .grp-all a{ color:#2c6e8f; white-space:nowrap; }
 html[data-theme="dark"] .tt .grp .grp-all{ color:#aeb6c0; }
 html[data-theme="dark"] .tt .grp .grp-all a{ color:#6fd0c8; }
@@ -98,7 +98,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 ## Awards
 
 <div class="award-row"><span class="ic">🏅</span><span>Outstanding Summer Graduate Teaching Scholar Award, 2024 (top-5 instructors at UCSD)</span></div>
-<div class="award-row"><span class="ic">🏅</span><span>Graduate Associate-In Instructor in Economics Award, 2024 and 2025</span></div>
+<div class="award-row"><span class="ic">🏅</span><span>Graduate Associate-In Instructor in Economics Award, UCSD, 2024 and 2025</span></div>
 <div class="award-row"><span class="ic">🏅</span><span>Killam Outstanding Graduate Teaching Assistant Award, UBC, 2019</span></div>
 
 ## Teaching assistant
@@ -106,7 +106,7 @@ I have been the **instructor of record** (Associate Instructor) for my own cours
 <table class="tt">
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations<sup class="fnref"><a href="#fn1">1</a></sup></th></tr></thead>
 <tbody>
-<tr class="grp"><td colspan="4"><div class="grp-row"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF: <a href="/files/evals/student-evaluations-combined.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf">Instructor</a></span></div></td></tr>
+<tr class="grp"><td colspan="4"><div class="grp-row"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF:<br><a href="/files/evals/student-evaluations-combined.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf">Instructor</a></span></div></td></tr>
 <tr><td rowspan="3" class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=2">Instructor</a></td></tr>
 <tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=3">Instructor</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
 <tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=4">Instructor</a></td></tr>
