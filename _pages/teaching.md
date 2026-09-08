@@ -84,7 +84,7 @@ At UC San Diego I have been **instructor of record three times** and a <strong>t
 
 ## Instructor of record
 
-I have been the **instructor of record** (Associate Instructor) for my own course **three times**, designing and delivering the full course:
+I have been the **instructor of record** (Associate-In Instructor) for my own course **three times**, designing and delivering the full course:
 
 <table class="tt ins">
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluation</th></tr></thead>
