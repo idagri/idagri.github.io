@@ -14,6 +14,15 @@ author_profile: true
   font-size:.66rem; text-transform:uppercase; letter-spacing:.03em; }
 .tt td{ padding:.3rem .55rem; border-bottom:1px solid #ececec; vertical-align:top; line-height:1.35; }
 .tt tr:hover td{ background:rgba(33,145,140,.04); }
+/* Column widths: the course and theme columns were taking all the slack and pushing
+   "Student / Instructor" onto a second line. Widths are set on the header cells because
+   the body cells use rowspan, so nth-child does not line up on continuation rows. */
+.tt th:nth-child(1){ width:40%; }
+.tt th:nth-child(2){ width:19%; }
+.tt th:nth-child(3){ width:15%; }
+.tt th:nth-child(4){ width:26%; }
+.tt td.yr{ white-space:nowrap; }
+.tt td.evlinks{ white-space:nowrap; }
 .tt .c-name{ font-weight:600; }
 .tt .yr{ white-space:nowrap; }
 .tt .lvl{ display:inline-block; font-size:.6rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em;
@@ -54,6 +63,7 @@ html[data-theme="dark"] .eval-cta .tx strong{ color:#6fd0c8; }
 html[data-theme="dark"] .eval-cta .sub{ color:#aeb6c0; }
 html[data-theme="dark"] .eval-cta .go{ color:#6fd0c8; }
 @media (max-width:50em){ .tt{ font-size:.78rem; } .tt th,.tt td{ padding:.28rem .4rem; }
+  .tt td.evlinks{ white-space:normal; }
   .eval-cta{ flex-wrap:wrap; } .eval-cta .go{ width:100%; } }
 html[data-theme="dark"] .tt td{ border-color:#3a3a3a; }
 html[data-theme="dark"] .tt th{ background:rgba(45,170,160,.18); color:#6fd0c8; }
