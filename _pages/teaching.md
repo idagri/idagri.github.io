@@ -17,10 +17,10 @@ author_profile: true
 /* Column widths: the course and theme columns were taking all the slack and pushing
    "Student / Instructor" onto a second line. Widths are set on the header cells because
    the body cells use rowspan, so nth-child does not line up on continuation rows. */
-.tt th:nth-child(1){ width:45%; }
-.tt th:nth-child(2){ width:20%; }
-.tt th:nth-child(3){ width:12%; }
-.tt th:nth-child(4){ width:23%; }
+.tt th:nth-child(1){ width:46%; }
+.tt th:nth-child(2){ width:24%; }
+.tt th:nth-child(3){ width:11%; }
+.tt th:nth-child(4){ width:19%; }
 .tt td.yr{ white-space:nowrap; }
 .tt td.evlinks{ white-space:nowrap; }
 .tt .c-name{ font-weight:600; }
@@ -32,7 +32,7 @@ author_profile: true
 .tt .grp td{ background:rgba(49,104,142,.09); font-weight:700; font-size:.64rem; text-transform:uppercase;
   letter-spacing:.04em; color:#2a5e7e; padding:.28rem .55rem; }
 .tt .grp .grp-row{ display:flex; justify-content:space-between; align-items:baseline; gap:.5rem; flex-wrap:wrap; }
-.tt .grp .grp-all{ text-align:right; line-height:1.35; text-transform:none; letter-spacing:0; font-weight:600; font-size:.72rem; color:#5b6470; }
+.tt .grp .grp-all{ flex:0 0 19%; text-align:left; line-height:1.35; text-transform:none; letter-spacing:0; font-weight:600; font-size:.72rem; color:#5b6470; }
 .tt .grp .grp-all a{ color:#2c6e8f; white-space:nowrap; }
 html[data-theme="dark"] .tt .grp .grp-all{ color:#aeb6c0; }
 html[data-theme="dark"] .tt .grp .grp-all a{ color:#6fd0c8; }
