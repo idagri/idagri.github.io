@@ -71,6 +71,12 @@ html[data-theme="dark"] .greedy-nav .submenu{ background:#252a33; border-color:#
 html[data-theme="dark"] .greedy-nav .submenu a{ color:#cfd3d8; }
 html[data-theme="dark"] .greedy-nav .masthead__menu-item.nav-extra-first{ border-left-color:#3a3f48; }
 html[data-theme="dark"] .greedy-nav .hidden-links .masthead__menu-item.nav-extra-first{ border-top-color:#3a3f48; }
+/* The three extra tabs are greyed to sit below Research/Teaching/CV in the hierarchy, but #5f6b73
+   on the dark masthead (#474747) is only 1.7:1, which is unreadable. Dark mode gets a light grey at
+   5.3:1 instead, still clearly dimmer than the white primary tabs. The collapsed mobile dropdown
+   keeps the dark grey, because that panel's background stays white in both themes. */
+html[data-theme="dark"] .greedy-nav .masthead__menu-item.nav-extra > a{ color:#bcc5cf; }
+html[data-theme="dark"] .greedy-nav .hidden-links .masthead__menu-item.nav-extra > a{ color:#5f6b73; }
 
 /* ---- Design refinements: viridis system, readability, accessibility ---- */
 :root{
@@ -82,6 +88,14 @@ html[data-theme="dark"]{ --global-link-color:#6fd0c8; --global-link-color-hover:
 /* sidebar avatar: the photo's own rectangle, shown whole, with no circular crop or frame */
 .author__avatar img{ aspect-ratio:auto; object-fit:contain; border-radius:0;
   height:auto; padding:0; border:0; display:block; margin:0 auto; }
+/* Below the sidebar breakpoint the theme shrinks the photo to a 36px thumbnail beside the name,
+   which is too small to read as a portrait on a phone. 110px keeps her name on one line and leaves
+   the bio a comfortable measure; 140px pushes the name onto two lines. If this width changes, the
+   avatar_sizes hint in _config.yml has to change with it, or the browser downloads a file too small
+   for the display size and the photo renders soft. */
+@media screen and (max-width:1023px){
+  .author__avatar{ width:110px; }
+}
 
 /* sidebar profile: avatar centered above a tidy centered name/pronouns/bio/CV column (desktop) */
 .author__pronouns{ margin:.1rem 0 .5rem; color:#6b6b6b; font-size:.8rem; }
