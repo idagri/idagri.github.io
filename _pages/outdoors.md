@@ -31,7 +31,7 @@ html[data-theme="dark"] .out-stat span{ color:#aaa; }
 html[data-theme="dark"] .out-results{ color:#aeb6c0; }
 </style>
 
-Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, and I build an active community wherever I land.
+Beyond economics, I am happiest outside in an active community 😁
 
 <div class="out-stats">
 <div class="out-stat"><b>13,500+ km</b><span>run since 2021 (~during the PhD)</span></div>
@@ -43,7 +43,7 @@ Beyond economics, I am happiest outside. I run, race triathlons, ski, and hike, 
 <div class="out-sec">Running</div>
 <div class="out-grid">
 <div class="out-tile"><img loading="lazy" src="/images/out-avalon.jpg" alt="Running the Avalon 50-mile ultramarathon on Catalina Island"><div class="out-cap">50-mile ultramarathon · Catalina, 2026</div></div>
-<div class="out-tile"><img loading="lazy" src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First 50K ultramarathon · Oregon, 2023 (with Gabriella Escobar)</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First ultramarathon · 50K · Oregon, 2023 (with Gabriella Escobar)</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-sf50k.jpg" alt="Celebrating with arms raised at the Golden Gate 50K, San Francisco"><div class="out-cap">Golden Gate 50K · San Francisco, 2026</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-bigsur24.jpg" alt="Big Sur 2024 marathon collage with finish medal and a new marathon PR"><div class="out-cap">Big Sur Marathon · California, 2024</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-marathon.jpg" alt="Selfie on the coastal road at the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025</div></div>

@@ -49,22 +49,20 @@ html[data-theme="dark"] .tt .evlinks .ab{ color:#8f97a1; }
 .fnref a{ text-decoration:none; }
 .fnotes{ font-size:.75rem; color:#5b6470; margin:.6rem 0 0; padding-left:1.2rem; }
 .fnotes li{ margin:.2rem 0; padding-left:.15rem; }
-.eval-cta{ display:flex; align-items:center; gap:.85rem; margin:1rem 0 1.5rem; padding:.7rem 1rem;
-  border:1px solid rgba(33,145,140,.35); border-left:4px solid var(--vir-teal,#21918c); border-radius:8px;
-  background:rgba(33,145,140,.07); text-decoration:none; color:inherit; transition:background .15s ease; }
-.eval-cta:hover{ background:rgba(33,145,140,.13); }
-.eval-cta .ic{ font-size:1.5rem; flex:0 0 auto; line-height:1; }
-.eval-cta .tx{ flex:1 1 auto; font-size:.92rem; line-height:1.32; }
-.eval-cta .tx strong{ color:#13716b; }
-.eval-cta .sub{ font-size:.8rem; color:#5b6470; }
-.eval-cta .go{ flex:0 0 auto; font-weight:700; font-size:.82rem; color:var(--vir-teal,#21918c); white-space:nowrap; }
-html[data-theme="dark"] .eval-cta{ background:rgba(45,170,160,.12); border-color:rgba(45,170,160,.3); border-left-color:#6fd0c8; }
-html[data-theme="dark"] .eval-cta .tx strong{ color:#6fd0c8; }
-html[data-theme="dark"] .eval-cta .sub{ color:#aeb6c0; }
-html[data-theme="dark"] .eval-cta .go{ color:#6fd0c8; }
+/* Teaching evaluation summary: a small pill in the top right of the content column,
+   set beside the first heading instead of the full-width banner it replaced. */
+.eval-chip-wrap{ margin:0; }
+.eval-chip{ float:right; display:inline-flex; align-items:center; gap:.35rem;
+  margin:.9rem 0 .4rem .9rem; padding:.26rem .7rem; border-radius:999px;
+  border:1px solid rgba(33,145,140,.35); background:rgba(33,145,140,.08);
+  font-size:.76rem; font-weight:600; color:#13716b; text-decoration:none;
+  white-space:nowrap; transition:background .15s ease; }
+.archive a.eval-chip, .page__content a.eval-chip{ text-decoration:none; }  /* the theme underlines every content link; the pill reads as a button */
+.eval-chip:hover{ background:rgba(33,145,140,.16); }
+html[data-theme="dark"] .eval-chip{ color:#6fd0c8; background:rgba(45,170,160,.12); border-color:rgba(45,170,160,.32); }
 @media (max-width:50em){ .tt{ font-size:.78rem; } .tt th,.tt td{ padding:.28rem .4rem; }
-  .tt td.evlinks{ white-space:normal; }
-  .eval-cta{ flex-wrap:wrap; } .eval-cta .go{ width:100%; } }
+  .tt td.evlinks{ white-space:normal; } }
+@media (max-width:40em){ .eval-chip{ float:none; margin:.2rem 0 .8rem; } .eval-chip-wrap{ text-align:center; } }
 html[data-theme="dark"] .tt td{ border-color:#3a3a3a; }
 html[data-theme="dark"] .tt th{ background:rgba(45,170,160,.18); color:#6fd0c8; }
 html[data-theme="dark"] .tt.ins th{ background:rgba(110,140,210,.18); color:#aebfe6; }
@@ -74,13 +72,7 @@ html[data-theme="dark"] .note{ color:#aaa; }
 html[data-theme="dark"] .fnotes{ color:#aaa; }
 </style>
 
-At UC San Diego I have been **instructor of record three times** and a <strong>teaching assistant in <span id="ta-courses">6</span> courses</strong>, work recognized with several teaching awards, including UCSD's Outstanding Summer Graduate Teaching Scholar Award (top-5 instructors).
-
-<a class="eval-cta" href="/files/teaching-evaluation-summary.pdf">
-<span class="ic">📊</span>
-<span class="tx"><strong>Teaching evaluation summary</strong><br><span class="sub">Student ratings vs. department benchmarks, and what students say (PDF).</span></span>
-<span class="go">View&nbsp;PDF&nbsp;→</span>
-</a>
+<div class="eval-chip-wrap"><a class="eval-chip" href="/files/teaching-evaluation-summary.pdf"><span aria-hidden="true">📊</span> Teaching evaluation summary (PDF)</a></div>
 
 ## Instructor of record
 
@@ -167,29 +159,3 @@ I have been the **instructor of record** (Associate-In Instructor) for my own co
 <li>Certificate in Advanced Teaching &amp; Learning (CATL, 2016-2017)</li>
 <li>Instructional Skills Workshop (ISW, 2016)</li>
 </ul>
-
-<script>
-// Keep the intro's unique-course count in sync with the UC San Diego
-// teaching-assistant table (single source of truth): one .c-name cell per
-// distinct course, counted up to the University of British Columbia group
-// header. Edit the table and this updates automatically; the hard-coded 6 is
-// only the no-JS fallback. We intentionally count unique COURSES, not
-// sections/sessions, which are brittle to over-count.
-document.addEventListener('DOMContentLoaded', function () {
-  var tb = document.querySelector('table.tt:not(.ins) tbody');
-  if (!tb) return;
-  var courses = 0;
-  var rows = tb.querySelectorAll(':scope > tr');
-  for (var i = 0; i < rows.length; i++) {
-    var tr = rows[i];
-    if (tr.classList.contains('grp')) {
-      if (/British Columbia/i.test(tr.textContent)) break;
-      continue;
-    }
-    if (tr.querySelector('.c-name')) courses++;
-  }
-  if (courses > 0) {
-    var c = document.getElementById('ta-courses'); if (c) c.textContent = courses;
-  }
-});
-</script>

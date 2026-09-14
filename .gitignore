@@ -34,3 +34,12 @@ _archive_claude/
 # never a public deliverable, so all of papers/*.docx is ignored.
 papers/*.docx
 papers/City-Country Gap WD-S-19-03165.pdf
+
+# Editor and backup debris (standing rule across Ida's repos).
+*.bak
+*.bak.*
+*.orig
+*.rej
+*~
+*.swp
+*.swo

@@ -224,6 +224,11 @@ Sleep measured objectively (actigraphy, wearables, polysomnography) alongside se
 
 ## Research Tools
 
+<div class="res-card">
+<p class="rt"><a href="/open-borders-map/">Where the world's open borders are</a></p>
+<p class="rd">An interactive map of 19 free-movement and visa-free work regimes involving lower- and middle-income countries.</p>
+</div>
+
 <div class="res-card has-img">
 <img loading="lazy" src="/images/res-stata-map.jpg" alt="A US choropleth map made with Stata's spmap">
 <div>
