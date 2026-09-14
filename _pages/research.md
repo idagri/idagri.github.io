@@ -66,7 +66,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 
 **Fields:** Development Economics · Urban Economics · Behavioral Economics
 
-**Profiles:** [Google Scholar](https://scholar.google.com/citations?user=WXqdhzsAAAAJ) · [GitHub](https://github.com/idagri)
+**Profiles:** [Google Scholar](https://scholar.google.com/citations?user=WXqdhzsAAAAJ)
 
 <p class="rsch-key"><b>Research topics</b> <span style="opacity:.55">(click to filter)</span>&nbsp; <span class="tag all tag-active" role="button" tabindex="0">All</span> <span class="tag urban" role="button" tabindex="0">Urban &amp; Migration</span> <span class="tag well" role="button" tabindex="0">Wellbeing &amp; Education</span> <span class="tag method" role="button" tabindex="0">Methods &amp; Replication</span></p>
 
