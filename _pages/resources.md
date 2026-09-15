@@ -225,7 +225,7 @@ Sleep measured objectively (actigraphy, wearables, polysomnography) alongside se
 ## Research Tools
 
 <div class="res-card">
-<p class="rt"><a href="/open-borders-map/">Where the world's open borders are</a></p>
+<p class="rt"><a href="/open-borders-map/">The world's open borders</a></p>
 <p class="rd">An interactive map of 19 free-movement and visa-free work regimes involving lower- and middle-income countries.</p>
 </div>
 
