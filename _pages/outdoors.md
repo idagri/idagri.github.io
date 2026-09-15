@@ -11,6 +11,10 @@ redirect_from:
 
 <style>
 .out-stats{ display:flex; flex-wrap:wrap; gap:1.6rem; margin:.6rem 0 .2rem; }
+/* Each stat takes an equal share of the row, so the grey caption wraps to a second line
+   instead of setting the column's width. Without this the long streak caption pushed the
+   fourth stat onto its own line on a laptop. */
+.out-stat{ flex:1 1 0; min-width:9.5rem; }
 .out-stat b{ display:block; font-size:1.4rem; color:#21918C; line-height:1.05; }
 .out-stat span{ font-size:.74rem; color:#777; }
 .out-sec{ font-size:1.05rem; font-weight:700; margin:1.6rem 0 .2rem; padding-bottom:.2rem;
@@ -22,6 +26,8 @@ redirect_from:
 .out-tile:hover img{ filter:brightness(1.05); }
 .out-tile.wide{ grid-column:span 2; }
 .out-tile.wide img{ aspect-ratio:2 / 1; }
+.out-pb{ color:#21918C; font-weight:700; }
+html[data-theme="dark"] .out-pb{ color:#5fc9c2; }
 .out-cap{ font-size:.6rem; color:#5b6470; line-height:1.25; margin:.26rem 0 0; font-weight:500; text-align:center; }
 html[data-theme="dark"] .out-cap{ color:#aeb6c0; }
 @media (max-width:30em){ .out-grid{ grid-template-columns:1fr 1fr; gap:.4rem; } }
@@ -46,7 +52,7 @@ Beyond economics, I am happiest outside in an active community 😁
 <div class="out-tile"><img loading="lazy" src="/images/out-ultra.jpg" alt="Trail running a 50K ultramarathon in Oregon"><div class="out-cap">First ultramarathon · 50K · Oregon, 2023 (with Gabriella Escobar)</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-sf50k.jpg" alt="Celebrating with arms raised at the Golden Gate 50K, San Francisco"><div class="out-cap">Golden Gate 50K · San Francisco, 2026</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-bigsur24.jpg" alt="Big Sur 2024 marathon collage with finish medal and a new marathon PR"><div class="out-cap">Big Sur Marathon · California, 2024</div></div>
-<div class="out-tile"><img loading="lazy" src="/images/out-marathon.jpg" alt="Selfie on the coastal road at the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025</div></div>
+<div class="out-tile"><img loading="lazy" src="/images/out-marathon.jpg" alt="Selfie on the coastal road at the Big Sur Marathon"><div class="out-cap">Big Sur Marathon · California, 2025 <span class="out-pb">first sub-4h</span></div></div>
 <div class="out-tile wide"><img loading="lazy" src="/images/out-valencia.jpg" alt="Valencia Marathon group photos: with friends at the City of Arts and Sciences after the finish, and an evening celebration in the city"><div class="out-cap">Valencia Marathon · 3:57 PB · Spain, 2025 (with Patrick Sewell)</div></div>
 <div class="out-tile wide"><img loading="lazy" src="/images/out-tahoe.jpg" alt="Lake Tahoe running weekend: the marathon through golden aspens, and finishing the 10K alongside Antonio Serapio-Palacios"><div class="out-cap">Lake Tahoe Running Weekend: Marathon + 10K, 2025 (w Antonio Serapio-Palacios)</div></div>
 <div class="out-tile"><img loading="lazy" src="/images/out-kenya.jpg" alt="Running a 30 km trail run in Lukenya, Kenya"><div class="out-cap">30 km trail run · Lukenya, Kenya, 2026</div></div>

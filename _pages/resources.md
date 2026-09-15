@@ -18,6 +18,8 @@ redirect_from:
 .res-card .rt{ font-weight:700; font-size:.97rem; margin:0 0 .15rem; }
 .res-card .rd{ font-size:.85rem; color:#5f5f5f; line-height:1.5; margin:0; }
 .res-card .rd a{ font-weight:600; }
+.res-card .rt-soon{ font-weight:500; font-size:.85rem; color:#7a8188; }
+html[data-theme="dark"] .res-card .rt-soon{ color:#9aa2aa; }
 .ds-youth{ display:inline-block; font-size:.6rem; font-weight:700; text-transform:uppercase; letter-spacing:.03em;
   color:#13716b; background:rgba(33,145,140,.13); border:1px solid rgba(33,145,140,.32); border-radius:1rem;
   padding:.02rem .45rem; vertical-align:middle; white-space:nowrap; }
@@ -39,8 +41,6 @@ html[data-theme="dark"] .ds-youth{ color:#6fd0c8; background:rgba(45,170,160,.18
 html[data-theme="dark"] .ds-guide th, html[data-theme="dark"] .ds-guide td{ border-color:#3a3f48; }
 html[data-theme="dark"] .ds-guide th{ color:#6fd0c8; }
 </style>
-
-Things I share with students and collaborators: how to find a predoc, AI tools for research, useful datasets, and research tools and guides.
 
 ## Predoc Tips
 
@@ -86,18 +86,18 @@ This list is not exhaustive, but it's a good place to start.
 
 ## AI Tools
 
-I ran a hands-on workshop for economists at UCSD on **Claude Cowork + Code**. The session covered using AI tools in economics research: writing and editing Stata, R, and Python, integrating results into Overleaf, and keeping projects and replications organized, with live examples. Slides and the workshop thread:
+I ran hands-on workshops for economists at UCSD on using Claude for Econ Research.
 
 <div class="res-card">
-<p class="rt">Claude Desktop Workshop for Economists</p>
-<p class="rd"><a href="/files/ai-cowork-workshop-slides.pdf">Workshop slides (PDF)</a> · <a href="https://x.com/_IdaGri/status/2056430027739107609">workshop thread on X</a></p>
+<p class="rt">Claude Desktop Workshop for Economists (April 2026)</p>
+<p class="rd">Using AI tools in economics research: writing and editing Stata, R, and Python, integrating results into Overleaf, and keeping projects and replications organized, with live examples.<br>
+<a href="/files/ai-cowork-workshop-slides.pdf">Workshop slides (PDF)</a> &middot; <a href="https://x.com/_IdaGri/status/2056430027739107609">workshop thread on X</a></p>
 </div>
 
-A shorter follow-up on **permissions**: the difference between Manual and Auto mode, and why version controlling with git and/or Dropbox does more of the safety work than the permission prompt.
-
 <div class="res-card">
-<p class="rt">Permission Modes and Auto: A Short Follow-Up</p>
-<p class="rd"><a href="/files/ai-permissions-workshop-slides.pdf">Short deck (PDF)</a> · <a href="/files/ida-claude-md.md">my global CLAUDE.md rules</a></p>
+<p class="rt">Permission Modes and Auto: A Short Follow-Up (July 2026)</p>
+<p class="rd">The difference between Manual and Auto mode, and why version controlling with git and/or Dropbox does more of the safety work than the permission prompt.<br>
+<a href="/files/ai-permissions-workshop-slides.pdf">Short deck (PDF)</a> &middot; <a href="/files/ida-claude-md.md">my global CLAUDE.md rules</a></p>
 </div>
 
 ## Data
@@ -227,6 +227,8 @@ Sleep measured objectively (actigraphy, wearables, polysomnography) alongside se
 
 ## Research Tools
 
+These are original tools and guides, built by me and by students in my lab.
+
 <div class="res-card">
 <p class="rt"><a href="/open-borders-map/">The world's open borders</a></p>
 <p class="rd">An interactive map of 19 free-movement and visa-free work regimes involving lower- and middle-income countries.</p>
@@ -248,3 +250,7 @@ Sleep measured objectively (actigraphy, wearables, polysomnography) alongside se
 </div>
 </div>
 
+<div class="res-card">
+<p class="rt">Identifying slums from satellite imagery <span class="rt-soon">(guide in preparation)</span></p>
+<p class="rd">Work by students in my lab on detecting informal settlements in satellite imagery. The method and code are being written up as a public guide.</p>
+</div>
