@@ -119,8 +119,11 @@ Publicly available spatial and satellite data for development and urban research
 | Gridded GDP | **[Local GDP estimates](https://bfidatastudio.org/gdp)** - Rossi-Hansberg &amp; Zhang (2026), [paper](https://doi.org/10.1016/j.jue.2026.103871) | Global cells at 1, 0.5, and 0.25 degrees | 2012-2022, annual | Predicted local GDP with uncertainty bounds, from a random forest on population, night lights, land use, emissions, and vegetation. Predictors reach beyond night lights, which helps if night lights are your regressor | Shapefiles + CSV | Public; no explicit license stated |
 | Administrative boundaries | **[GADM](https://gadm.org/)** | Country down to level 2-3 | Current, versioned releases | Administrative names and codes | Vector boundaries | Free for non-commercial use |
 | Census microdata + boundaries | **[IPUMS International](https://international.ipums.org/international/geography_gis.shtml)** | Harmonized GEOLEV1 / GEOLEV2 (consistent over time) and unharmonized year-specific admin units | 1960 onward, census rounds | Census microdata linked to boundaries; [IPUMS USA](https://usa.ipums.org/usa/) does the same for the US | [GIS boundary files](https://international.ipums.org/international/gis.shtml) | Free, registration |
+| India, villages and towns | **[SHRUG](https://www.devdatalab.org/shrug)** - Socioeconomic High-resolution Rural-Urban Geographic Platform (Development Data Lab) | Villages and towns (shrids), plus subdistrict, district, and assembly constituency | About 25 years, with units held to consistent boundaries since 1991 | Dozens of socioeconomic datasets linked on one set of identifiers, so different Indian sources merge cleanly; browsable in the [SHRUG Atlas](https://www.devdatalab.org/atlas) | Village and town polygons based on the 2011 Census | Free, open access; modules downloaded separately |
 
 **Working with night lights.** Matt Lowe's [Night Lights and ArcGIS: A Brief Guide](https://web.archive.org/web/20170704072933/http://economics.mit.edu/files/8945) (2014) walks from the raw downloads to an analysis-ready dataset, covering clipping, gas-flare removal, and projections. The ArcGIS workflow still holds; its data links predate the move to the Earth Observation Group, so pair it with the VIIRS and DMSP links above. (Linked via the Internet Archive: the original MIT URL now 404s.)
+
+**Village and town data for India.** [SHRUG](https://www.devdatalab.org/shrug), the Socioeconomic High-resolution Rural-Urban Geographic Platform, is open data covering roughly 600,000 villages and 8,000 towns in India, from the Development Data Lab.
 
 **Aggregated catalogs.** The [UPenn Libraries GIS guide](https://guides.library.upenn.edu/c.php?g=1321452&p=9876288) (global and US spatial data) and the [geo4.dev data catalog](https://www.geo4.dev/library?cat=Data+Catalog) (development-focused) list many more sources.
 
@@ -245,10 +248,3 @@ Sleep measured objectively (actigraphy, wearables, polysomnography) alongside se
 </div>
 </div>
 
-<div class="res-card has-img">
-<img loading="lazy" src="/images/res-shrug.jpg" alt="Map of India showing distance to the nearest urban area">
-<div>
-<p class="rt"><a href="https://www.devdatalab.org/shrug">SHRUG: open geospatial data for India</a></p>
-<p class="rd">The Socioeconomic High-resolution Rural-Urban Geographic Platform: open data covering roughly 600,000 villages and 8,000 towns in India, from the Development Data Lab.</p>
-</div>
-</div>
