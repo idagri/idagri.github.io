@@ -249,8 +249,3 @@ These are original tools and guides, built by me and by students in my lab.
 <p class="rd">A step-by-step guide to georeferencing and digitizing historical maps (co-authored with a lab student).</p>
 </div>
 </div>
-
-<div class="res-card">
-<p class="rt">Identifying slums from satellite imagery <span class="rt-soon">(guide in preparation)</span></p>
-<p class="rd">Work by students in my lab on detecting informal settlements in satellite imagery. The method and code are being written up as a public guide.</p>
-</div>
