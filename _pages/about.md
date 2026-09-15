@@ -13,7 +13,7 @@ I am a PhD Candidate in the [Department of Economics at the University of Califo
 **Education**
 
 - PhD Candidate, Economics (University of California, San Diego, 2021-present)
-  - Select PhD fellowships: NBER PhD Dissertation Fellowship, STEG PhD Research Grant, SSHRC PhD Fellowship (Canada)
+  - Select PhD fellowships: NBER PhD Dissertation Fellowship, STEG PhD Research Grant, Canadian SSHRC PhD Fellowship
 - M.A., Economics (University of British Columbia, 2019)
 - M.A., Urban Geography (University of British Columbia, 2017)
 - B.A., Economics with honors (National Research University Higher School of Economics, 2015)

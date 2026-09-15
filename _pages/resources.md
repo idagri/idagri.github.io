@@ -123,7 +123,7 @@ Publicly available spatial and satellite data for development and urban research
 
 **Working with night lights.** Matt Lowe's [Night Lights and ArcGIS: A Brief Guide](https://web.archive.org/web/20170704072933/http://economics.mit.edu/files/8945) (2014) walks from the raw downloads to an analysis-ready dataset, covering clipping, gas-flare removal, and projections. The ArcGIS workflow still holds; its data links predate the move to the Earth Observation Group, so pair it with the VIIRS and DMSP links above. (Linked via the Internet Archive: the original MIT URL now 404s.)
 
-**Village and town data for India.** [SHRUG](https://www.devdatalab.org/shrug), the Socioeconomic High-resolution Rural-Urban Geographic Platform, is open data covering roughly 600,000 villages and 8,000 towns in India, from the Development Data Lab.
+**Village and town data for India.** [SHRUG](https://www.devdatalab.org/shrug), the Socioeconomic High-resolution Rural-Urban Geographic Platform, is open data covering over 500,000 villages and 8,000 towns in India, from the Development Data Lab.
 
 **Aggregated catalogs.** The [UPenn Libraries GIS guide](https://guides.library.upenn.edu/c.php?g=1321452&p=9876288) (global and US spatial data) and the [geo4.dev data catalog](https://www.geo4.dev/library?cat=Data+Catalog) (development-focused) list many more sources.
 
