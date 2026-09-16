@@ -18,8 +18,6 @@ redirect_from:
 .res-card .rt{ font-weight:700; font-size:.97rem; margin:0 0 .15rem; }
 .res-card .rd{ font-size:.85rem; color:#5f5f5f; line-height:1.5; margin:0; }
 .res-card .rd a{ font-weight:600; }
-.res-card .rt-soon{ font-weight:500; font-size:.85rem; color:#7a8188; }
-html[data-theme="dark"] .res-card .rt-soon{ color:#9aa2aa; }
 .ds-youth{ display:inline-block; font-size:.6rem; font-weight:700; text-transform:uppercase; letter-spacing:.03em;
   color:#13716b; background:rgba(33,145,140,.13); border:1px solid rgba(33,145,140,.32); border-radius:1rem;
   padding:.02rem .45rem; vertical-align:middle; white-space:nowrap; }
