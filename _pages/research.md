@@ -77,7 +77,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
-<p class="pub-title">Agricultural Productivity and Urbanization: Evidence from Indonesia's Transmigration Program <span class="pub-flag">Job Market Paper</span></p>
+<p class="pub-title">Feeding the City: How Agricultural Productivity in Villages Shapes Urban Structural Change <span class="pub-flag">Job Market Paper</span></p>
 <p class="pub-meta">Solo-authored</p>
 <p class="pub-status">Draft available upon request.</p>
 <p class="pub-fund">Funding: STEG PhD Research Grant ($19,000); IHS Research &amp; Travel Grants ($12,800)</p>
