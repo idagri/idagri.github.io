@@ -173,7 +173,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub-body">
 <p class="pub-title">The Price Ripple Effect in the Vancouver Housing Market <a class="pub-btn" href="https://doi.org/10.1080/02723638.2019.1567202"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
 <p class="pub-meta">with <a href="https://blogs.ubc.ca/dley/">David Ley</a></p>
-<p class="pub-journal"><em>Urban Geography</em> 40(8): 1171-1189 (2019)</p>
+<p class="pub-journal"><em>Urban Geography</em> 40(8): 1168-1190 (2019)</p>
 <p class="pub-fund">Funding: Neighborhood Change Research Grant ($11,000)</p>
 <details><summary>Abstract</summary><p>Models of housing market dynamics examine the spatial diffusion of price changes from an epicenter through a regional or national network of geographic units. Less common has been the study of a ripple effect of price changes within a single metropolitan area, with implications for the erosion of residential affordability. Such trends have particular salience in the Vancouver metropolitan area, the least affordable housing market in North America. Using quarterly price data from local real estate boards, we examine price changes through municipal regions from 2005-2017, a period including several externally-induced price shocks. A time lag of three months consistently exists in the communication of price shocks from an originating epicenter to other parts of the metropolitan region, with longer lags for several more distant municipalities, confirming the presence of an intra-metropolitan ripple effect.</p></details>
 </div>
