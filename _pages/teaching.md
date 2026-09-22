@@ -89,7 +89,7 @@ I have been the **instructor of record** (Associate-In Instructor) for my own co
 
 ## Awards
 
-<div class="award-row"><span class="ic">🏅</span><span>Outstanding Summer Graduate Teaching Scholar Award, 2024 (top-5 instructors at UCSD)</span></div>
+<div class="award-row"><span class="ic">🏅</span><span>Outstanding Summer Graduate Teaching Scholar Award, 2024 (one of five selected from 61 UCSD graduate instructors of record)</span></div>
 <div class="award-row"><span class="ic">🏅</span><span>Graduate Associate-In Instructor in Economics Award, UCSD, 2024 and 2025</span></div>
 <div class="award-row"><span class="ic">🏅</span><span>Killam Outstanding Graduate Teaching Assistant Award, UBC, 2019</span></div>
 
