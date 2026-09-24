@@ -99,7 +99,8 @@ I have been the **instructor of record** (Associate-In Instructor) for my own co
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations<sup class="fnref"><a href="#fn1">1</a></sup></th></tr></thead>
 <tbody>
 <tr class="grp"><td colspan="4"><div class="grp-row"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF:<br><a href="/files/evals/student-evaluations-combined.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf">Instructor</a></span></div></td></tr>
-<tr><td rowspan="3" class="c-name">Data Analysis in Economics (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=2">Instructor</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
+<tr><td rowspan="4" class="c-name">Data Analysis in Economics (ECON 5)</td><td rowspan="4">Applied research &amp; data</td><td class="yr">Summer Session II 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-su2026.pdf">Student</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
+<tr><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=2">Instructor</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
 <tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=3">Instructor</a></td></tr>
 <tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=4">Instructor</a></td></tr>
 
@@ -142,6 +143,7 @@ I have been the **instructor of record** (Associate-In Instructor) for my own co
 <summary>Guest lectures (2016-2025)</summary>
 
 - Finding and using existing data for empirical research (ECON 190, *Introduction to Research in Economics*, Manu Vespa; 2024 and 2025)
+- Applied Econometrics guest lecture (ITAM, Mexico City, Horacio Larreguy; 2023)
 - Urbanization, Access to Housing & Slums in Latin American Cities (GEOG 352, *Urbanization in the Global South*, Feb 2019)
 - Introduction to Data Analysis (BIO 340, *Introduction to Cell Biology*, Mar 2018)
 - Gentrification of "Hutongs" in Beijing, China (GEOG 350, *Urban Worlds*, Nov 2017)
