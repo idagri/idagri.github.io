@@ -112,7 +112,7 @@ I have been the **instructor of record** (Associate-In Instructor) for my own co
 <tr><td class="yr">Fall 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=9">Instructor</a></td></tr>
 
 <tr><td rowspan="4" class="c-name">Intermediate Microeconomics (ECON 100A)</td><td rowspan="4">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=11">Instructor</a></td></tr>
-<tr><td class="yr">Spring 2024</td><td class="evlinks"></td></tr>
+<tr><td class="yr">Spring 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=15">Instructor</a><br><span class="ab">(2 sections merged)</span></td></tr>
 <tr><td class="yr">Summer 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=12">Instructor</a></td></tr>
 <tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=13">Instructor</a><br><span class="ab">(2 sections merged)</span></td></tr>
 
