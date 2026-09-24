@@ -82,15 +82,15 @@ I have been the **instructor of record** (Associate-In Instructor) for my own co
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluation</th></tr></thead>
 <tbody>
 <tr><td class="c-name">Applied Econometrics &amp; Data (ECON 121)</td><td>Econometrics</td><td class="yr">Summer 2025</td><td><a href="/files/evals/eval-ins-econ121-su2025.pdf">Student evals</a></td></tr>
-<tr><td class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2025</td><td><a href="/files/evals/eval-ins-econ5-su2025.pdf">Student evals</a></td></tr>
-<tr><td class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2024</td><td><a href="/files/evals/eval-ins-econ5-su2024.pdf">Student evals</a></td></tr>
+<tr><td class="c-name">Data Analysis in Economics (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2025</td><td><a href="/files/evals/eval-ins-econ5-su2025.pdf">Student evals</a></td></tr>
+<tr><td class="c-name">Data Analysis in Economics (ECON 5)</td><td>Applied research &amp; data</td><td class="yr">Summer 2024</td><td><a href="/files/evals/eval-ins-econ5-su2024.pdf">Student evals</a></td></tr>
 </tbody>
 </table>
 
 ## Awards
 
 <div class="award-row"><span class="ic">🏅</span><span>Outstanding Summer Graduate Teaching Scholar Award, 2024 (one of five selected from 61 UCSD graduate instructors of record)</span></div>
-<div class="award-row"><span class="ic">🏅</span><span>Graduate Associate-In Instructor in Economics Award, UCSD, 2024 and 2025</span></div>
+<div class="award-row"><span class="ic">🏅</span><span>Associate-In Instructor Teaching Award, Economics, UCSD, 2024 and 2025</span></div>
 <div class="award-row"><span class="ic">🏅</span><span>Killam Outstanding Graduate Teaching Assistant Award, UBC, 2019</span></div>
 
 ## Teaching assistant
@@ -99,7 +99,7 @@ I have been the **instructor of record** (Associate-In Instructor) for my own co
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations<sup class="fnref"><a href="#fn1">1</a></sup></th></tr></thead>
 <tbody>
 <tr class="grp"><td colspan="4"><div class="grp-row"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF:<br><a href="/files/evals/student-evaluations-combined.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf">Instructor</a></span></div></td></tr>
-<tr><td rowspan="3" class="c-name">Introduction to Data Analysis for Economists (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=2">Instructor</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
+<tr><td rowspan="3" class="c-name">Data Analysis in Economics (ECON 5)</td><td rowspan="3">Applied research &amp; data</td><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=2">Instructor</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
 <tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=3">Instructor</a></td></tr>
 <tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=4">Instructor</a></td></tr>
 

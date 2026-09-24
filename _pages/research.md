@@ -186,7 +186,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub">
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
-<p class="pub-title">Out-of-Class Assignments versus Midterms: Shifting Grade-Weights to Improve Learning</p>
+<p class="pub-title">Out-of-Class Assignments Versus Midterms: Shifting Grade Weights to Improve Student Learning in Economics</p>
 <p class="pub-meta">with <a href="https://econweb.ucsd.edu/~kantonov/">Kate Antonovics</a> and <a href="https://econweb.ucsd.edu/~mfamulari/">Melissa Famulari</a> · Revise &amp; Resubmit, <em>Journal of Economic Education</em> (2025)</p>
 </div>
 </div>
