@@ -128,6 +128,124 @@ Publicly available spatial and satellite data for development and urban research
 </details>
 
 <details class="ds-guide" markdown="1">
+<summary><b>More spatial datasets to check</b> (compiled by Gordon McCord)</summary>
+
+GIS data sources for the social sciences, grouped by topic and then by country, from [Gordon McCord's list](https://sites.google.com/site/gordoncmccord/gis). Sources already in the geospatial table above (DHS, IPUMS, and the EOG night lights) are left out.
+
+**Multi-topic**
+
+- **[Free GIS Data](https://freegisdata.rtwilson.com/)** - Robin Wilson's catalog of free datasets, by topic and by country
+- **[DIVA-GIS](https://diva-gis.org/data.html)** - country-level boundaries, roads, railways, elevation, land cover, and population density
+- **[Natural Earth](https://www.naturalearthdata.com/)** - free vector and raster base maps at 1:10m, 1:50m, and 1:110m scales
+- **[Stanford EarthWorks](https://earthworks.stanford.edu/)** - a searchable geospatial data repository
+- **[HYDE](https://landuse.sites.uu.nl/hyde-portal/)** - History Database of the Global Environment: gridded population and land use over the last 12,000 years
+- **[G-Econ](https://gecon.yale.edu/)** - Yale's gridded economic activity at 1-degree cells, for several years
+- **[Simulated VIIRS night lights](https://doi.org/10.6084/m9.figshare.22262545)** - a consistent annual series from 1992 at about 500 m, built by converting DMSP images to VIIRS-like values ([Chen et al. 2024](https://doi.org/10.1038/s41597-024-04228-6))
+
+**Demography and income**
+
+- **[WorldPop](https://www.worldpop.org/)** - high-resolution gridded population, global and by country
+- **[Meta population density maps](https://ai.meta.com/ai-for-good/datasets/high-resolution-population-density-maps/)** - population density estimated from buildings detected in satellite imagery; files on [HDX](https://data.humdata.org/organization/meta)
+- **[CIESIN](https://ciesin.columbia.edu/)** (Columbia) - gridded population, urban extents, and other socioeconomic data; its SEDAC collection is searchable in [NASA Earthdata](https://search.earthdata.nasa.gov/search?q=CIESIN%20ESDIS)
+
+**Infrastructure**
+
+- **[OpenStreetMap](https://www.openstreetmap.org/)** - crowd-sourced street maps for the whole world
+- **[gROADS](https://doi.org/10.7910/DVN/NEXOVP)** - Global Roads Open Access Data Set, version 1 (1980-2010), from CIESIN
+- **[Accessibility to Cities](https://malariaatlas.org/project-resources/accessibility-to-healthcare/)** (Malaria Atlas Project) - travel time to the nearest city in 2015 at 1 km ([Weiss et al. 2018](https://doi.org/10.1038/nature25181)), listed as "Travel time to cities" on that page
+
+**Agriculture**
+
+- **[EarthStat](http://www.earthstat.org/)** - global gridded crop areas and yields by crop, pasture, and fertilizer use
+- **[SAGE](https://sage.nelson.wisc.edu/data-and-models/)** (Wisconsin) - environment and agriculture datasets from the Center for Sustainability and the Global Environment
+- **[GRACE](https://grace.jpl.nasa.gov/data/get-data/)** (NASA) - monthly changes in water storage, groundwater included, from satellite gravity measurements
+- **[Gridded yield changes under 1-3°C of warming](https://doi.org/10.6084/m9.figshare.5417548)** - maize, rice, soy, and wheat (Moore et al.)
+- **[Land Matrix](https://landmatrix.org/)** - a public database of large-scale land deals
+- **[FAO AgroMaps](https://www.dropbox.com/sh/vp9m3rux0aqscjj/AAALS65NTUBMltOkig13pt8Ia?dl=0)** - subnational agricultural production and yields over time, shared through McCord's Dropbox
+
+**Health**
+
+- **[Malaria Ecology Index](https://www.dropbox.com/s/f739o09nev14rs8/ME_raster.zip?dl=0)** - the stability of malaria transmission implied by local temperature, rainfall, and the dominant mosquito vector ([Kiszewski et al. 2004](https://doi.org/10.4269/ajtmh.2004.70.486)), extended and validated against serological data in [McCord and Anttila-Hughes (2017)](https://doi.org/10.4269/ajtmh.16-0602)
+
+**Conflict**
+
+- **[PRIO](https://www.prio.org/data)** (Peace Research Institute Oslo) - conflict datasets, including [Conflict Site](https://www.prio.org/data/5) (georeferenced armed conflicts, 1989-2008) and [PRIO-GRID](https://grid.prio.org/) (a global grid with conflict, socioeconomic, and environmental variables)
+
+**Weather and climate**
+
+- **[University of Delaware temperature and precipitation](https://psl.noaa.gov/data/gridded/data.UDel_AirT_Precip.html)** - monthly gridded land data at 0.5 degrees, hosted by NOAA
+- **[TerraClimate](https://climatedataguide.ucar.edu/climate-data/terraclimate-global-high-resolution-gridded-temperature-precipitation-and-other-water)** - monthly high-resolution temperature, precipitation, and water-balance variables, 1958 onward
+
+**Other environmental data**
+
+- **[Global Solar Atlas](https://globalsolaratlas.info/map?c=11.609193,8.261719,3)** - solar energy potential
+- **[Global Wind Atlas](https://globalwindatlas.info/)** - wind energy potential
+
+**Hazards**
+
+- **[Natural Disaster Hotspots](https://www.ldeo.columbia.edu/chrr/research/hotspots/)** (Columbia) - global mortality and economic-loss risk from earthquakes, volcanoes, landslides, floods, drought, and cyclones ([data](https://www.ldeo.columbia.edu/chrr/research/hotspots/coredata.html))
+- **[Dartmouth Flood Observatory archive](https://data.humdata.org/dataset/global-active-archive-of-large-flood-events-dfo)** - large flood events worldwide, 1985-2010, on HDX
+
+**Urban areas**
+
+- **[Atlas of Urban Expansion](https://www.lincolninst.edu/publications/other/atlas-urban-expansion-2016-edition/)** (NYU, UN-Habitat, and the Lincoln Institute) - urban extent of a global sample of 200 cities, 1990-2015, with growth back to the 19th century for some cities
+
+**China**
+
+- **[China Data Online](https://china-data-online.com/)** - Chinese statistics from yearbooks and censuses (subscription)
+- **[Free Chinese GIS data](https://apollomapping.com/blog/free-chinese-gis-data)** - an Apollo Mapping guide centered on the China Historical GIS
+- **[China in Time and Space (CITAS)](https://citas.csde.washington.edu/)** - an archived University of Washington collection of Chinese spatial data
+- **[AidData's Chinese development finance data](https://china.aiddata.org/)** - China's development finance abroad, project by project
+
+**Japan**
+
+- **[e-Stat GIS](https://www.e-stat.go.jp/gis)** - Japan's official statistics portal, with boundary files and small-area data
+- **[University of Michigan guide to Japan GIS data](https://guides.lib.umich.edu/c.php?g=283318&p=1886981)** - datasets and GIS files, including boundaries from the Tokugawa (Edo) and Meiji periods
+- **[Healthcare professionals in Japan](https://www.mhlw.go.jp/toukei/saikin/hw/hoken/national/dl/22-04.pdf)** - Ministry of Health, Labour and Welfare tables (PDF, in Japanese)
+
+**Mexico**
+
+- **[CONABIO geoportal](http://www.conabio.gob.mx/informacion/gis/)** - downloadable biodiversity GIS data
+- **[INEGI](https://www.inegi.org.mx/datos/)** - Mexico's statistics office, with municipal-level data to merge onto municipal boundaries
+
+**United States**
+
+- **[GeoPlatform.gov](https://www.geoplatform.gov/)** - the federal government's geospatial data portal
+- **[TIGER/Line shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)** - Census boundaries from states down to blocks, plus roads
+- **[data.census.gov](https://data.census.gov/)** - Census Bureau tables, the successor to American FactFinder
+- **[LEHD](https://lehd.ces.census.gov/data/)** - Census Bureau employer-household data, including commuting flows
+- **[Dartmouth Atlas of Health Care](https://www.dartmouthatlas.org/)** - health-care resources and use by ZIP code and primary care service area
+- **[School locations (NCES EDGE)](https://nces.ed.gov/programs/edge/geographic/schoollocations)** - geocoded public and private schools
+- **[MarineCadastre.gov](https://hub.marinecadastre.gov/)** - ocean data for US waters, including vessel traffic
+- **[NOAA sea level rise data](https://coast.noaa.gov/slrdata/)** - sea level rise inundation data for the US coast
+- **[CDC Social Vulnerability Index](https://www.atsdr.cdc.gov/place-health/php/svi/index.html)** - vulnerability by census tract and county
+- **[Social Deprivation Index](https://www.graham-center.org/evidence-based-research/featured-work/social-deprivation-index)** (Robert Graham Center) - down to ZIP code and census tract
+- **[USGS National Map downloader](https://apps.nationalmap.gov/downloader/)** - elevation, hydrography, land cover, and other base layers
+- **[NASA smoke, dust, and ash data](https://www.earthdata.nasa.gov/topics/atmosphere/dust-ash-smoke/near-real-time-data)** - near real-time satellite products for tracking smoke plumes
+- **[USA Cropland](https://www.arcgis.com/home/item.html?id=6d9c03213d874def89663afc26189acf)** (Esri, from the USDA Cropland Data Layer) - crop type at 30 m, annually since 2008
+
+**US state and local**
+
+- **[LA County Open Data](https://data.lacounty.gov/)**
+- **[California Open Data](https://data.ca.gov/)**
+- **[California State Geoportal](https://gis.data.ca.gov/)**
+- **[NYC Open Data](https://www.nyc.gov/opendata)**
+- **[Florida Geographic Data Library](https://fgdl.org/)**
+- **[US City Open Data Census](http://us-city.census.okfn.org/)** - which US cities publish which open datasets
+
+**San Diego region**
+
+- **[SANDAG Regional Data Warehouse](https://geo.sandag.org/portal/apps/experiencebuilder/experience/?id=fad9e9c038c84f799b5378e4cc3ed068#data_s=id%3AdataSource_1-0%3A268)** (SanGIS)
+- **[City of San Diego Open Data](https://data.sandiego.gov/)**
+
+**Sub-Saharan Africa**
+
+- **[Sub-Saharan public hospitals](https://doi.org/10.7910/DVN/JTL9VY)** - a geocoded database of public hospitals (Harvard Dataverse)
+- **[Georeferenced Afrobarometer](https://www.aiddata.org/blog/aiddata-afrobarometer-partnership-produces-geocoded-public-attitude-survey-data-for-37-african-countries)** (AidData) - geocoded survey responses from 37 African countries on citizens' priorities, local and national institutions, public services, and corruption
+
+</details>
+
+<details class="ds-guide" markdown="1">
 <summary><b>Mental health data</b></summary>
 
 Publicly available datasets with a validated mental-health or wellbeing measure, plus a few open-replication economics papers and speech/audio depression corpora; free with registration unless a restricted/paid flag is noted. Sleep has its own section below, though the survey tables here also note what sleep each dataset collects.
