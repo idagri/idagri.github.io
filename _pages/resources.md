@@ -140,7 +140,7 @@ GIS data sources for the social sciences, grouped by topic and then by country, 
 - **[Stanford EarthWorks](https://earthworks.stanford.edu/)** - a searchable geospatial data repository
 - **[HYDE](https://landuse.sites.uu.nl/hyde-portal/)** - History Database of the Global Environment: gridded population and land use over the last 12,000 years
 - **[G-Econ](https://gecon.yale.edu/)** - Yale's gridded economic activity at 1-degree cells, for several years
-- **[Simulated VIIRS night lights](https://doi.org/10.6084/m9.figshare.22262545)** - a consistent annual series from 1992 at about 500 m, built by converting DMSP images to VIIRS-like values ([Chen et al. 2024](https://doi.org/10.1038/s41597-024-04228-6))
+- **[Simulated VIIRS night lights](https://doi.org/10.6084/m9.figshare.22262545)** - a consistent annual series from 1992 at about 500 m, built by simulating VIIRS-like values from DMSP images ([Chen et al. 2024](https://doi.org/10.1038/s41597-024-04228-6))
 
 **Demography and income**
 
