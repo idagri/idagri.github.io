@@ -65,7 +65,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 .pub-tag .tag.tag-off{ display:none; }  /* when a topic filter is active, hide a multi-tag paper's other-topic tags */
 </style>
 
-**Fields:** Development Economics · Urban Economics · Behavioral Economics
+**Fields:** Development Economics · Urban Economics · Behavioral & Experimental Economics
 
 **Profiles:** [Google Scholar](https://scholar.google.com/citations?user=WXqdhzsAAAAJ)
 
@@ -140,26 +140,6 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 </div>
 
 <div class="pub">
-<div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
-<div class="pub-body">
-<p class="pub-title">Reproducibility and Robustness of Economics and Political Science Research <a class="pub-btn" href="https://doi.org/10.1038/s41586-026-10251-x"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://sites.google.com/view/derekmikola/">Derek Mikola</a>, <a href="https://sites.google.com/site/nikolaimcook/home">Nikolai Cook</a>, et al. (Institute for Replication)</p>
-<p class="pub-journal"><em>Nature</em> 652(8108): 151-156 (2026)</p>
-<details><summary>Abstract</summary><p>Reproducibility efforts strengthen science by testing the reliability of published findings and promoting self-correction. Computational reproductions, whereby independent researchers reproduce the results of published studies, are an essential diagnostic tool. We reproduced original analyses and conducted robustness checks of 110 articles published in leading economics and political science journals with mandatory data- and code-sharing policies. More than 85% of published claims were computationally reproducible. In robustness checks, 72% of statistically significant estimates remained significant and in the same direction, and the median reproduced effect size was 99% of the originally published effect size. Six independent research teams then examined 12 pre-specified hypotheses about the determinants of robustness: teams with more experience found lower levels of robustness, and robustness did not correlate with author characteristics or data availability.</p></details>
-</div>
-</div>
-
-<div class="pub">
-<div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
-<div class="pub-body">
-<p class="pub-title">AI-Assisted Teams Outperform AI-Led Teams but Not Human-Only Teams in Assessing Research Reproducibility in Quantitative Social Science <a class="pub-btn" href="https://doi.org/10.1073/pnas.2524747123"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
-<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://valenta.dev/">David Valenta</a>, <a href="http://alexandrumarcoci.com/">Alexandru Marcoci</a>, et al. (Institute for Replication)</p>
-<p class="pub-journal"><em>Proceedings of the National Academy of Sciences (PNAS)</em> 123(22): e2524747123 (2026)</p>
-<details><summary>Abstract</summary><p>Large language models (LLMs) such as ChatGPT are transforming how scientists conduct and validate research, yet computational reproducibility and error detection remain expensive and labor-intensive. We experimentally test how collaboration between researchers and LLM assistants influences the reproduction of quantitative social science findings. We randomly assigned 288 researchers to 103 teams working under three conditions: human-only, AI-assisted (ChatGPT as a collaborative tool), or AI-led (ChatGPT with minimal human oversight). Teams reproduced published results from leading social science journals, detected coding errors, and proposed robustness checks. Human-only and AI-assisted teams achieved comparable reproduction rates (94% vs. 91%), and human-only teams identified more major coding errors. Both substantially outperformed AI-led teams, which achieved a 37% reproduction rate, detected fewer errors, and proposed weaker robustness checks. Expert human judgment currently remains indispensable for reliable empirical verification.</p></details>
-</div>
-</div>
-
-<div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Stay-at-Home Orders, Social Distancing, and Trust <a class="pub-btn" href="https://link.springer.com/article/10.1007/s00148-021-00848-z"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
@@ -180,6 +160,28 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 </div>
 </div>
 
+
+### Large-team replication projects as a contributing author
+
+<div class="pub">
+<div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
+<div class="pub-body">
+<p class="pub-title">Reproducibility and Robustness of Economics and Political Science Research <a class="pub-btn" href="https://doi.org/10.1038/s41586-026-10251-x"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://sites.google.com/view/derekmikola/">Derek Mikola</a>, <a href="https://sites.google.com/site/nikolaimcook/home">Nikolai Cook</a>, et al. (347 authors in total; Institute for Replication)</p>
+<p class="pub-journal"><em>Nature</em> 652(8108): 151-156 (2026)</p>
+<details><summary>Abstract</summary><p>Reproducibility efforts strengthen science by testing the reliability of published findings and promoting self-correction. Computational reproductions, whereby independent researchers reproduce the results of published studies, are an essential diagnostic tool. We reproduced original analyses and conducted robustness checks of 110 articles published in leading economics and political science journals with mandatory data- and code-sharing policies. More than 85% of published claims were computationally reproducible. In robustness checks, 72% of statistically significant estimates remained significant and in the same direction, and the median reproduced effect size was 99% of the originally published effect size. Six independent research teams then examined 12 pre-specified hypotheses about the determinants of robustness: teams with more experience found lower levels of robustness, and robustness did not correlate with author characteristics or data availability.</p></details>
+</div>
+</div>
+
+<div class="pub">
+<div class="pub-tag"><span class="tag method">Methods &amp; Replication</span></div>
+<div class="pub-body">
+<p class="pub-title">AI-Assisted Teams Outperform AI-Led Teams but Not Human-Only Teams in Assessing Research Reproducibility in Quantitative Social Science <a class="pub-btn" href="https://doi.org/10.1073/pnas.2524747123"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
+<p class="pub-meta">with <a href="https://sites.google.com/site/abelbrodeur/">Abel Brodeur</a>, <a href="https://valenta.dev/">David Valenta</a>, <a href="http://alexandrumarcoci.com/">Alexandru Marcoci</a>, et al. (272 authors in total; Institute for Replication)</p>
+<p class="pub-journal"><em>Proceedings of the National Academy of Sciences (PNAS)</em> 123(22): e2524747123 (2026)</p>
+<details><summary>Abstract</summary><p>Large language models (LLMs) such as ChatGPT are transforming how scientists conduct and validate research, yet computational reproducibility and error detection remain expensive and labor-intensive. We experimentally test how collaboration between researchers and LLM assistants influences the reproduction of quantitative social science findings. We randomly assigned 288 researchers to 103 teams working under three conditions: human-only, AI-assisted (ChatGPT as a collaborative tool), or AI-led (ChatGPT with minimal human oversight). Teams reproduced published results from leading social science journals, detected coding errors, and proposed robustness checks. Human-only and AI-assisted teams achieved comparable reproduction rates (94% vs. 91%), and human-only teams identified more major coding errors. Both substantially outperformed AI-led teams, which achieved a 37% reproduction rate, detected fewer errors, and proposed weaker robustness checks. Expert human judgment currently remains indispensable for reliable empirical verification.</p></details>
+</div>
+</div>
 ---
 
 ## Under Review
