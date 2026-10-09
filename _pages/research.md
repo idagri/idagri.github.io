@@ -235,6 +235,16 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 </div>
 
 <div class="pub">
+<div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
+<div class="pub-body">
+<p class="pub-title">Learning About Therapy From Friends: Conversations &amp; Treatment Take-Up Among Students</p>
+<p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a></p>
+<p class="pub-status">Designing experiment</p>
+<details><summary>Abstract</summary><p>Many university students in mental distress do not seek professional help, even where counseling is free and widely regarded as effective. Information interventions that correct misperceptions about therapy have been shown to increase conversations about mental health and the sharing of resources among peers, yet their effects on individual help-seeking remain limited. In this project, we ask whether learning from friends' therapy-use experience can shift help-seeking itself. We propose a field experiment at a large university with free on-campus counseling, in which students attend small group sessions with their peers. In treated groups, a structured conversation invites participants to share how they or people close to them came to seek therapy and what the experience was like, while control groups discuss an unrelated campus topic. Our primary outcome is subsequent use of counseling services. To our knowledge, this is the first experiment to test whether learning from the lived experiences of peers moves students from talking about mental health to seeking care.</p></details>
+</div>
+</div>
+
+<div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
 <p class="pub-title">Migrant Protection Protocols ("Remain in Mexico") and Procedural Fairness in U.S. Immigration Courts</p>
