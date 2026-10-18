@@ -130,6 +130,15 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub">
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
+<p class="pub-title">Out-of-Class Assignments Versus Midterms: Shifting Grade Weights to Improve Student Learning in Economics</p>
+<p class="pub-meta">with <a href="https://econweb.ucsd.edu/~kantonov/">Kate Antonovics</a> and <a href="https://econweb.ucsd.edu/~mfamulari/">Melissa Famulari</a></p>
+<p class="pub-journal"><em>Journal of Economic Education</em>, forthcoming</p>
+</div>
+</div>
+
+<div class="pub">
+<div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
+<div class="pub-body">
 <p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <a class="pub-btn" href="/papers/2026-06-JDE-Beliefs--information-sharing--and-mental-health-care.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a> <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
 <p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a>, <a href="https://www.bruno-calderon.com/">Bruno Calderon-Hernandez</a>, <a href="https://robertoglz.github.io/">Roberto Gonzalez-Tellez</a>, and <a href="https://research.tec.mx/vivo-tec/display/PID_316616">Alejandro Guardiola-Ramirez</a> · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
 <p class="pub-journal"><em>Journal of Development Economics</em> 180: 103646 (2026)</p>
@@ -185,14 +194,6 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 ---
 
 ## Under Review
-
-<div class="pub">
-<div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
-<div class="pub-body">
-<p class="pub-title">Out-of-Class Assignments Versus Midterms: Shifting Grade Weights to Improve Student Learning in Economics</p>
-<p class="pub-meta">with <a href="https://econweb.ucsd.edu/~kantonov/">Kate Antonovics</a> and <a href="https://econweb.ucsd.edu/~mfamulari/">Melissa Famulari</a> · Revise &amp; Resubmit, <em>Journal of Economic Education</em> (2025)</p>
-</div>
-</div>
 
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
