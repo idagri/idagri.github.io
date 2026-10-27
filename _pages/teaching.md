@@ -72,7 +72,7 @@ html[data-theme="dark"] .note{ color:#aaa; }
 html[data-theme="dark"] .fnotes{ color:#aaa; }
 </style>
 
-<div class="eval-chip-wrap"><a class="eval-chip" href="/files/teaching-evals-summary.pdf"><span aria-hidden="true">📊</span> Teaching evals summary (PDF)</a> <a class="eval-chip" href="/files/teaching-evals-combined.pdf"><span aria-hidden="true">📚</span> Combined teaching evals (PDF)</a></div>
+<div class="eval-chip-wrap"><a class="eval-chip" href="/files/teaching-evals-summary.pdf"><span aria-hidden="true">📊</span> Teaching evals summary (PDF)</a> <a class="eval-chip" href="/files/teaching-evals-full.pdf"><span aria-hidden="true">📚</span> Combined teaching evals (PDF)</a></div>
 
 ## Instructor of record
 
