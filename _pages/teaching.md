@@ -72,7 +72,7 @@ html[data-theme="dark"] .note{ color:#aaa; }
 html[data-theme="dark"] .fnotes{ color:#aaa; }
 </style>
 
-<div class="eval-chip-wrap"><a class="eval-chip" href="/files/teaching-evaluation-summary.pdf"><span aria-hidden="true">📊</span> Teaching evaluation summary (PDF)</a></div>
+<div class="eval-chip-wrap"><a class="eval-chip" href="/files/teaching-evals-summary.pdf"><span aria-hidden="true">📊</span> Teaching evals summary (PDF)</a></div>
 
 ## Instructor of record
 
@@ -98,27 +98,27 @@ I have been the **instructor of record** (Associate-In Instructor) for my own co
 <table class="tt">
 <thead><tr><th>Course</th><th>Theme</th><th>Term</th><th>Evaluations<sup class="fnref"><a href="#fn1">1</a></sup></th></tr></thead>
 <tbody>
-<tr class="grp"><td colspan="4"><div class="grp-row"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF:<br><a href="/files/evals/student-evaluations-combined.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf">Instructor</a></span></div></td></tr>
+<tr class="grp"><td colspan="4"><div class="grp-row"><span class="grp-name">UC San Diego</span><span class="grp-all">Combined PDF:<br><a href="/files/evals/student-evals-combined.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf">Instructor</a></span></div></td></tr>
 <tr><td rowspan="4" class="c-name">Data Analysis in Economics (ECON 5)</td><td rowspan="4">Applied research &amp; data</td><td class="yr">Summer Session II 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-su2026.pdf">Student</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
-<tr><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=2">Instructor</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
-<tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=3">Instructor</a></td></tr>
-<tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=4">Instructor</a></td></tr>
+<tr><td class="yr">Spring 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2026.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=2">Instructor</a><sup class="fnref"><a href="#fn2">2</a></sup></td></tr>
+<tr><td class="yr">Spring 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-sp2025.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=3">Instructor</a></td></tr>
+<tr><td class="yr">Winter 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ5-wi2023.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=4">Instructor</a></td></tr>
 
-<tr><td rowspan="4" class="c-name">Introduction to Research in Economics (ECON 190)</td><td rowspan="4">Applied research &amp; data</td><td class="yr">Winter 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2026.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=5">Instructor</a></td></tr>
-<tr><td class="yr">Summer 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-su2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=6">Instructor</a></td></tr>
-<tr><td class="yr">Winter 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2025.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=7">Instructor</a></td></tr>
-<tr><td class="yr">Winter 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=8">Instructor</a></td></tr>
+<tr><td rowspan="4" class="c-name">Introduction to Research in Economics (ECON 190)</td><td rowspan="4">Applied research &amp; data</td><td class="yr">Winter 2026</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2026.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=5">Instructor</a></td></tr>
+<tr><td class="yr">Summer 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-su2025.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=6">Instructor</a></td></tr>
+<tr><td class="yr">Winter 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2025.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=7">Instructor</a></td></tr>
+<tr><td class="yr">Winter 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ190-wi2024.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=8">Instructor</a></td></tr>
 
 <tr><td rowspan="2" class="c-name">GIS &amp; Spatial Data Analysis (GPEC 443) <span class="lvl">Graduate</span></td><td rowspan="2">Spatial data &amp; GIS</td><td class="yr">Fall 2025</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2025.pdf">Student</a></td></tr>
-<tr><td class="yr">Fall 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=9">Instructor</a></td></tr>
+<tr><td class="yr">Fall 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-gpec443-fa2024.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=9">Instructor</a></td></tr>
 
-<tr><td rowspan="4" class="c-name">Intermediate Microeconomics (ECON 100A)</td><td rowspan="4">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=11">Instructor</a></td></tr>
-<tr><td class="yr">Spring 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2024.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=15">Instructor</a><br><span class="ab">(2 sections merged)</span></td></tr>
-<tr><td class="yr">Summer 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=12">Instructor</a></td></tr>
-<tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=13">Instructor</a><br><span class="ab">(2 sections merged)</span></td></tr>
+<tr><td rowspan="4" class="c-name">Intermediate Microeconomics (ECON 100A)</td><td rowspan="4">Microeconomics</td><td class="yr">Summer 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2024.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=11">Instructor</a></td></tr>
+<tr><td class="yr">Spring 2024</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2024.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=15">Instructor</a><br><span class="ab">(2 sections merged)</span></td></tr>
+<tr><td class="yr">Summer 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-su2023.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=12">Instructor</a></td></tr>
+<tr><td class="yr">Spring 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ100a-sp2023.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=13">Instructor</a><br><span class="ab">(2 sections merged)</span></td></tr>
 
 <tr><td rowspan="2" class="c-name">Applied Econometrics &amp; Data (ECON 121)</td><td rowspan="2">Econometrics</td><td class="yr">Fall 2023</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2023.pdf">Student</a></td></tr>
-<tr><td class="yr">Fall 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2022.pdf">Student</a> · <a href="/files/evals/instructor-evaluations-combined.pdf#page=14">Instructor</a></td></tr>
+<tr><td class="yr">Fall 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ121-fa2022.pdf">Student</a> · <a href="/files/evals/instructor-evals-combined.pdf#page=14">Instructor</a></td></tr>
 
 <tr><td class="c-name">Decisions under Uncertainty (ECON 171)</td><td>Microeconomics</td><td class="yr">Summer 2022</td><td class="evlinks"><a href="/files/evals/eval-ta-econ171-su2022.pdf">Student</a></td></tr>
 
