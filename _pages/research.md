@@ -130,21 +130,21 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub">
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
-<p class="pub-title">Out-of-Class Assignments Versus Midterms: Shifting Grade Weights to Improve Student Learning in Economics</p>
-<p class="pub-meta">with <a href="https://econweb.ucsd.edu/~kantonov/">Kate Antonovics</a> and <a href="https://econweb.ucsd.edu/~mfamulari/">Melissa Famulari</a></p>
-<p class="pub-journal"><em>Journal of Economic Education</em>, conditionally accepted</p>
-</div>
-</div>
-
-<div class="pub">
-<div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
-<div class="pub-body">
 <p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <a class="pub-btn" href="/papers/2026-06-JDE-Beliefs--information-sharing--and-mental-health-care.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a> <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a> <a class="pub-btn" href="/files/Student_Mental_Health_Mex_JDE_slides.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Slides</a></p>
 <p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a>, <a href="https://www.bruno-calderon.com/">Bruno Calderon-Hernandez</a>, <a href="https://robertoglz.github.io/">Roberto Gonzalez-Tellez</a>, and <a href="https://research.tec.mx/vivo-tec/display/PID_316616">Alejandro Guardiola-Ramirez</a> · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
 <p class="pub-journal"><em>Journal of Development Economics</em> 180: 103646 (2026)</p>
 <p class="pub-fund">Funding: Weiss Fund ($14,300); UC-MX Alianza Field Research Grant ($7,600); IHS Travel Research Grants ($7,000, 2023-2024)</p>
 <details><summary>Abstract</summary><p>This paper investigates the role of beliefs and stigma in shaping students' use of professional mental health services at a large private university in Mexico, where services are readily accessible. In a survey experiment with 680 students, we find that nearly 50% of students in distress do not receive professional support despite high awareness and perceived effectiveness, a substantial treatment gap. We document stigmatized beliefs correlated with this gap: three-quarters of students incorrectly believe that those in distress perform worse academically and that most students going to therapy are in severe distress. An information intervention correcting these beliefs increases students' sharing of on-campus mental health resources with peers and their willingness to recommend these resources to a friend in distress, yet it lowers willingness to pay for private therapy and does not reduce self-reported therapy use six months later.</p></details>
 <p class="pub-pres">Presented at: Melbourne Institute (2026); Advances with Field Experiments (AFE) Conference (2025); Field Experiments in Developing Countries (SEEDEC), Norway (2024); IEPS Seminar, Brazil (2024); UCSD-ITAM Collaborative Workshop, UC San Diego (2023); ITAM Applied Econometrics guest lecture (2023)</p>
+</div>
+</div>
+
+<div class="pub">
+<div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
+<div class="pub-body">
+<p class="pub-title">Out-of-Class Assignments Versus Midterms: Shifting Grade Weights to Improve Student Learning in Economics</p>
+<p class="pub-meta">with <a href="https://econweb.ucsd.edu/~kantonov/">Kate Antonovics</a> and <a href="https://econweb.ucsd.edu/~mfamulari/">Melissa Famulari</a></p>
+<p class="pub-journal"><em>Journal of Economic Education</em>, conditionally accepted</p>
 </div>
 </div>
 
