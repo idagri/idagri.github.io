@@ -65,7 +65,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 .pub-tag .tag.tag-off{ display:none; }  /* when a topic filter is active, hide a multi-tag paper's other-topic tags */
 </style>
 
-**Fields:** Development Economics · Urban Economics · Behavioral & Experimental Economics
+**Fields:** Development Economics, Urban Economics, Behavioral & Experimental Economics
 
 **Profiles:** [Google Scholar](https://scholar.google.com/citations?user=WXqdhzsAAAAJ)
 

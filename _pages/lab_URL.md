@@ -20,7 +20,8 @@ author_profile: true
 .proj-body{ flex:1 1 auto; min-width:0; }
 .proj-t{ margin:0 0 .15rem; font-weight:700; font-size:.94rem; line-height:1.3; color:#1d1d1d; }
 .proj-d{ margin:0; font-size:.83rem; color:#585858; line-height:1.5; }
-.proj-d a{ font-weight:600; }
+.proj-links{ margin:.2rem 0 0; font-size:.83rem; color:#585858; line-height:1.5; }
+.proj-links a{ font-weight:600; }
 .proj-tools{ color:#6a7480; }
 .adv-badge{ display:inline-block; font-size:.56rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em;
   color:#fff; background:#21918c; border-radius:1rem; padding:.04rem .5rem; margin-left:.4rem; vertical-align:middle; }
@@ -31,7 +32,7 @@ html[data-theme="dark"] .adv-badge{ background:#2daaa0; color:#0d1520; }
 @media (max-width:50em){ .proj-grid{ grid-template-columns:1fr; } }
 html[data-theme="dark"] .proj-group h3{ color:#6fd0c8; border-color:rgba(45,170,160,.5); }
 html[data-theme="dark"] .proj-t{ color:#e6e9ec; }
-html[data-theme="dark"] .proj-d, html[data-theme="dark"] .proj-intro{ color:#b5b5b5; }
+html[data-theme="dark"] .proj-d, html[data-theme="dark"] .proj-links, html[data-theme="dark"] .proj-intro{ color:#b5b5b5; }
 html[data-theme="dark"] .place{ background:rgba(45,170,160,.2); color:#6fd0c8; border-color:rgba(45,170,160,.4); }
 </style>
 
@@ -47,28 +48,32 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 <img loading="lazy" class="proj-thumb" src="/images/proj-slums.jpg" alt="Satellite imagery classified into informal, formal, and mixed settlement areas">
 <div class="proj-body">
 <p class="proj-t">Slum Mapping <span class="adv-badge">Advanced</span></p>
-<p class="proj-d">Building a protocol to detect and delineate slums in high-resolution Planet satellite imagery and convert it into classified, analysis-ready spatial data, pairing manual image labeling with machine-learning classification. <a href="/files/url-gis-slums-classification.pdf">Slides</a> <span class="proj-tools">· India &amp; Indonesia · QGIS · Python · <span class="proj-wip">ongoing</span></span></p>
+<p class="proj-d">Building a protocol to detect and delineate slums in high-resolution Planet satellite imagery and convert it into classified, analysis-ready spatial data, pairing manual image labeling with machine-learning classification. <span class="proj-tools">· India &amp; Indonesia · QGIS · Python · <span class="proj-wip">ongoing</span></span></p>
+<p class="proj-links"><a href="/files/url-gis-slums-classification.pdf">Slides</a></p>
 </div>
 </div>
 <div class="proj adv">
 <img loading="lazy" class="proj-thumb" src="/images/proj-histmap.jpg" alt="A historical map georeferenced and digitized into vector spatial data">
 <div class="proj-body">
 <p class="proj-t">Digitizing historical maps <span class="adv-badge">Advanced</span></p>
-<p class="proj-d">Georeferencing and digitizing historical maps into spatial data. <a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python/blob/main/Digitizing_Historical_Maps_Guide.ipynb">QGIS + Python guide</a> <span class="proj-tools">· co-authored with a lab student</span></p>
+<p class="proj-d">Georeferencing and digitizing historical maps into spatial data.</p>
+<p class="proj-links"><a href="https://github.com/Xu-Haicheng/Digitizing-Historical-Maps-With-QGIS-and-Python/blob/main/Digitizing_Historical_Maps_Guide.ipynb">QGIS + Python guide</a> <span class="proj-tools">· co-authored with a lab student</span></p>
 </div>
 </div>
 <div class="proj">
 <img loading="lazy" class="proj-thumb" src="/images/proj-travel.jpg" alt="A travel-time surface mapping access to jobs, schools, and services">
 <div class="proj-body">
 <p class="proj-t">Travel time and urban accessibility</p>
-<p class="proj-d">Mapping travel times to jobs, schools, and services across urban areas. <a href="/files/url-travel-time-qgis.pdf">Slides</a> <span class="proj-tools">· QGIS · spatial data</span></p>
+<p class="proj-d">Mapping travel times to jobs, schools, and services across urban areas. <span class="proj-tools">· QGIS · spatial data</span></p>
+<p class="proj-links"><a href="/files/url-travel-time-qgis.pdf">Slides</a></p>
 </div>
 </div>
 <div class="proj">
 <img loading="lazy" class="proj-thumb" src="/images/proj-rio.jpg" alt="Crime and cities project">
 <div class="proj-body">
 <p class="proj-t">Crime, news, and cities</p>
-<p class="proj-d">Scraping Portuguese-language newspaper archives to build a dataset of violence events in Rio's favelas. <a href="/files/url-rio-scraping-2025.pdf">Slides</a> · <a href="/files/url-rio-crime-scraping.pdf">earlier slides</a> <span class="proj-tools">· Rio de Janeiro · Python</span></p>
+<p class="proj-d">Scraping Portuguese-language newspaper archives to build a dataset of violence events in Rio's favelas. <span class="proj-tools">· Rio de Janeiro · Python</span></p>
+<p class="proj-links"><a href="/files/url-rio-scraping-2025.pdf">Slides</a> · <a href="/files/url-rio-crime-scraping.pdf">earlier slides</a></p>
 </div>
 </div>
 </div>
@@ -88,49 +93,56 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 <img loading="lazy" class="proj-thumb" src="/images/proj-mentalhealth.jpg" alt="Student mental health stigma project">
 <div class="proj-body">
 <p class="proj-t">Mental health stigma among students</p>
-<p class="proj-d">The lab's first project, from Fall 2023: reviewing how stigma and help-seeking have been measured in psychology and economics, designing pre- and post-treatment survey instruments, piloting them on campus, and drafting a short information treatment. <a href="/files/url-mh-stigma-lit-review-2023.pdf">Lit review slides</a> · <a href="/files/url-mh-stigma-survey-2023.pdf">survey design</a> · <a href="/files/url-mh-stigma-treatment-2023.pdf">draft treatment</a> <span class="proj-tools">· United States &amp; Mexico · surveys</span></p>
+<p class="proj-d">The lab's first project, from Fall 2023: reviewing how stigma and help-seeking have been measured in psychology and economics, designing pre- and post-treatment survey instruments, piloting them on campus, and drafting a short information treatment. <span class="proj-tools">· United States &amp; Mexico · surveys</span></p>
+<p class="proj-links"><a href="/files/url-mh-stigma-lit-review-2023.pdf">Lit review slides</a> · <a href="/files/url-mh-stigma-survey-2023.pdf">survey design</a> · <a href="/files/url-mh-stigma-treatment-2023.pdf">draft treatment</a></p>
 </div>
 </div>
 <div class="proj">
 <img loading="lazy" class="proj-thumb" src="/images/proj-talent.jpg" alt="Distribution of exam scores used to identify high-potential students">
 <div class="proj-body">
 <p class="proj-t">Finding "missing talent"</p>
-<p class="proj-d">Using national exam data (such as Brazil's ENEM) and new assessments to identify high-potential students. <a href="/files/url-hidden-talent-enem.pdf">Slides</a> <span class="proj-tools">· Central America &amp; Brazil</span></p>
+<p class="proj-d">Using national exam data (such as Brazil's ENEM) and new assessments to identify high-potential students. <span class="proj-tools">· Central America &amp; Brazil</span></p>
+<p class="proj-links"><a href="/files/url-hidden-talent-enem.pdf">Slides</a></p>
 </div>
 </div>
 <div class="proj">
 <img loading="lazy" class="proj-thumb" src="/images/proj-sleep.jpg" alt="Economics of sleep project">
 <div class="proj-body">
 <p class="proj-t">The economics of sleep</p>
-<p class="proj-d">Comparing self-reported and wristband-measured sleep in two field experiments to see who benefits most from sleep interventions. <a href="/files/url-sleep-2026.pdf">Slides</a> <span class="proj-tools">· India &amp; United States · Stata, R</span></p>
+<p class="proj-d">Comparing self-reported and wristband-measured sleep in two field experiments to see who benefits most from sleep interventions. <span class="proj-tools">· India &amp; United States · Stata, R</span></p>
+<p class="proj-links"><a href="/files/url-sleep-2026.pdf">Slides</a></p>
 </div>
 </div>
 <div class="proj">
 <img loading="lazy" class="proj-thumb" src="/images/proj-edmig.jpg" alt="Education and migration literature review">
 <div class="proj-body">
 <p class="proj-t">Education and migration</p>
-<p class="proj-d">Reviewing and synthesizing the literature linking migration, schooling, and student outcomes. <a href="/files/url-education-migration.pdf">Slides</a></p>
+<p class="proj-d">Reviewing and synthesizing the literature linking migration, schooling, and student outcomes.</p>
+<p class="proj-links"><a href="/files/url-education-migration.pdf">Slides</a></p>
 </div>
 </div>
 <div class="proj">
 <img loading="lazy" class="proj-thumb" src="/images/proj-csl.jpg" alt="Charts of compulsory-schooling-law reforms across countries">
 <div class="proj-body">
 <p class="proj-t">Compulsory schooling laws across countries</p>
-<p class="proj-d">A multi-country dataset compiling compulsory-schooling-law reforms (top-25 countries plus Latin America): policy timing, affected cohorts, and sources, to study effects on schooling. <a href="/files/url-csl-schooling-laws.pdf">Review slides</a> <span class="proj-tools">· Stata</span></p>
+<p class="proj-d">A multi-country dataset compiling compulsory-schooling-law reforms (top-25 countries plus Latin America): policy timing, affected cohorts, and sources, to study effects on schooling. <span class="proj-tools">· Stata</span></p>
+<p class="proj-links"><a href="/files/url-csl-schooling-laws.pdf">Review slides</a></p>
 </div>
 </div>
 <div class="proj adv">
 <img loading="lazy" class="proj-thumb" src="/images/proj-gender.jpg" alt="Analysis of gender composition in economics PhD job-market placements">
 <div class="proj-body">
 <p class="proj-t">Gender in economics PhD placements <span class="adv-badge">Advanced</span></p>
-<p class="proj-d">A semi-automated scraper of PhD job-market placements across economics, business, and public policy, with gender and academic/industry classifiers, feeding an analysis of gender composition and outcomes. <a href="https://jclluo.github.io/ECON_PHD_Gender_Inequality_Analysis/analysis.html">Student analysis site</a> · <a href="https://github.com/schan676/Gender_composition_STEM">data repo</a> · <a href="/files/url-econ-phd-gender-gap.pdf">slides</a> <span class="proj-tools">· Python</span></p>
+<p class="proj-d">A semi-automated scraper of PhD job-market placements across economics, business, and public policy, with gender and academic/industry classifiers, feeding an analysis of gender composition and outcomes. <span class="proj-tools">· Python</span></p>
+<p class="proj-links"><a href="https://jclluo.github.io/ECON_PHD_Gender_Inequality_Analysis/analysis.html">Student analysis site</a> · <a href="https://github.com/schan676/Gender_composition_STEM">data repo</a> · <a href="/files/url-econ-phd-gender-gap.pdf">slides</a></p>
 </div>
 </div>
 <div class="proj adv">
 <img loading="lazy" class="proj-thumb" src="/images/proj-gendercomp.jpg" alt="Gender gap in STEM enrollment at top U.S. universities">
 <div class="proj-body">
 <p class="proj-t">Gender, competition, and the STEM gap <span class="adv-badge">Advanced</span></p>
-<p class="proj-d">Assembling enrollment data across top U.S. universities to track how the gender gap in STEM has changed over time and how it relates to institutional ranking, alongside the wider question of gender differences in competitiveness. Published in the <em>Journal of Emerging Investigators</em>: <a href="https://emerginginvestigators.org/articles/23-310">The gender gap in STEM at top U.S. Universities</a> <span class="proj-tools">· United States · Stata</span></p>
+<p class="proj-d">Assembling enrollment data across top U.S. universities to track how the gender gap in STEM has changed over time and how it relates to institutional ranking, alongside the wider question of gender differences in competitiveness. <span class="proj-tools">· United States · Stata</span></p>
+<p class="proj-links">Published in the <em>Journal of Emerging Investigators</em>: <a href="https://emerginginvestigators.org/articles/23-310">The gender gap in STEM at top U.S. Universities</a></p>
 </div>
 </div>
 </div>
