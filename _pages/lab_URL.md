@@ -90,7 +90,7 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 </div>
 </div>
 <div class="proj">
-<img loading="lazy" class="proj-thumb" src="/images/proj-mentalhealth.jpg" alt="Student mental health stigma project">
+<img loading="lazy" class="proj-thumb" src="/images/proj-mentalhealth.jpg?v=2" alt="Student mental health stigma project">
 <div class="proj-body">
 <p class="proj-t">Mental health stigma among students</p>
 <p class="proj-d">The lab's first project, from Fall 2023: reviewing how stigma and help-seeking have been measured in psychology and economics, designing pre- and post-treatment survey instruments, piloting them on campus, and drafting a short information treatment. <span class="proj-tools">· United States &amp; Mexico · surveys</span></p>
@@ -114,7 +114,7 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 </div>
 </div>
 <div class="proj">
-<img loading="lazy" class="proj-thumb" src="/images/proj-edmig.jpg" alt="Education and migration literature review">
+<img loading="lazy" class="proj-thumb" src="/images/proj-edmig.jpg?v=2" alt="Education and migration literature review">
 <div class="proj-body">
 <p class="proj-t">Education and migration</p>
 <p class="proj-d">Reviewing and synthesizing the literature linking migration, schooling, and student outcomes.</p>
@@ -138,7 +138,7 @@ I've led an **Undergraduate-Graduate Research Lab (URL)** at UC San Diego since 
 </div>
 </div>
 <div class="proj adv">
-<img loading="lazy" class="proj-thumb" src="/images/proj-gendercomp.jpg" alt="Gender gap in STEM enrollment at top U.S. universities">
+<img loading="lazy" class="proj-thumb" src="/images/proj-gendercomp.jpg?v=2" alt="Gender gap in STEM enrollment at top U.S. universities">
 <div class="proj-body">
 <p class="proj-t">Gender, competition, and the STEM gap <span class="adv-badge">Advanced</span></p>
 <p class="proj-d">Assembling enrollment data across top U.S. universities to track how the gender gap in STEM has changed over time and how it relates to institutional ranking, alongside the wider question of gender differences in competitiveness. <span class="proj-tools">· United States · Stata</span></p>
