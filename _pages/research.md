@@ -90,7 +90,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
-<p class="pub-title">Violence and Education in Rio: The Effect of Crime Exposure on University Entrance Exam Scores</p>
+<p class="pub-title">Shootings, Stress, and Tests: Exposure to Violence and Educational Trajectories in Rio de Janeiro</p>
 <p class="pub-meta">with <a href="https://sites.google.com/view/viniciuspecanha/home">Vinicius Peçanha</a></p>
 <p class="pub-status">Draft available upon request.</p>
 <p class="pub-fund">Funding: Weiss Fund ($12,900); IHS Research &amp; Travel Grant; Jacobs Social Impact Summer Research Grant ($6,000)</p>
