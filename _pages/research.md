@@ -114,7 +114,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
-<p class="pub-title">Rural Spillovers of Urban Growth in India</p>
+<p class="pub-title">Rural Spillovers of Urban Growth</p>
 <p class="pub-meta">with <a href="https://samuelasher.com/">Sam Asher</a>, <a href="https://www.jpchauvin.com/">Juan Pablo Chauvin</a>, and <a href="http://paulnovosad.com/">Paul Novosad</a></p>
 <p class="pub-status"><a class="pub-btn" href="/files/Rural_Spillovers_of_Urban_Growth.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Paper</a></p>
 <p class="pub-fund">Funding: IHS Humane Studies Fellowships ($9,500, 2023-2025)</p>
