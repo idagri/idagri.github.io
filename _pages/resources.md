@@ -84,7 +84,7 @@ This list is not exhaustive, but it's a good place to start.
 
 ## AI Tools
 
-I ran hands-on workshops for economists at UCSD on using Claude for Econ Research.
+I ran hands-on workshops for economists at UCSD and for predoctoral researchers at the University of Chicago on using Claude for Econ Research.
 
 <div class="res-card">
 <p class="rt">Claude Desktop Workshop for Economists (April 2026)</p>
@@ -96,6 +96,12 @@ I ran hands-on workshops for economists at UCSD on using Claude for Econ Researc
 <p class="rt">Permission Modes and Auto: A Short Follow-Up (July 2026)</p>
 <p class="rd">The difference between Manual and Auto mode, and why version controlling with git and/or Dropbox does more of the safety work than the permission prompt.<br>
 <a href="/files/ai-permissions-workshop-slides.pdf">Short deck (PDF)</a> &middot; <a href="/files/ida-claude-md.md">my global CLAUDE.md rules</a></p>
+</div>
+
+<div class="res-card">
+<p class="rt">Claude Code for Economics RAs: Rules, Checklists, and Skills From My Setup (September 2026)</p>
+<p class="rd">A hands-on session for the predoctoral researchers of BFI PREP at the University of Chicago, in the Claude Desktop app's Code tab: a project rules file and Auto mode, a citation check that keeps fabricated references apart from unverifiable ones, a coding mistake turned into a numbered lesson and a checklist line, and a chat closed with a verdict and a handoff. The kit holds the sample project, every prompt, and seven starter skills.<br>
+<a href="/files/ai-claude-code-predoc-workshop-slides.pdf">Workshop slides (PDF)</a> &middot; <a href="/files/claude-code-predoc-kit.zip">hands-on kit (zip)</a></p>
 </div>
 
 ## Data
