@@ -285,6 +285,14 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 </div>
 </div>
 
+<div class="pub">
+<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
+<div class="pub-body">
+<p class="pub-title">Slums of Hope: Opportunities in the Developing World</p>
+<p class="pub-meta">TEDxUBC talk, University of British Columbia (2019) · <a href="https://www.ted.com/talks/idaliya_grigoryeva_slums_of_hope_opportunities_in_the_developing_world">Watch on TED</a></p>
+</div>
+</div>
+
 <script>
 (function(){
   var key=document.querySelector('.rsch-key'); if(!key) return;
