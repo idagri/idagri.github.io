@@ -32,7 +32,7 @@ author:
   avatar          : "jmp_profile_photo_2026_crop1_550w.jpg"
   # Responsive copies of the sidebar photo, so a phone downloads about 12 KB and a retina desktop
   # about 52 KB instead of the full file. If the photo changes, point avatar_base at the new name
-  # and regenerate every width; the recipe is in portfolio_site_project/03_conventions.md
+  # and regenerate every width; the recipe is in portfolio_site_notes/03_conventions.md
   avatar_base     : "jmp_profile_photo_2026_crop1"
   avatar_widths   : ["200", "450", "550", "900"]
   avatar_sizes    : "(min-width: 1280px) 275px, (min-width: 1024px) 215px, 110px"
@@ -161,7 +161,7 @@ atom_feed:
 # Google Search Console ownership: from the "HTML tag" method, paste ONLY the content token
 # below (e.g. google_site_verification : abcd1234EFGH...  -- no quotes, no <meta> markup). It
 # renders a site-wide <meta name="google-site-verification"> tag. Push, then click Verify.
-# Full steps: portfolio_site_project/GOOGLE_SEARCH_CONSOLE.md
+# Full steps: portfolio_site_notes/GOOGLE_SEARCH_CONSOLE.md
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
