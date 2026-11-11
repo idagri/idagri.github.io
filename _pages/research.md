@@ -104,7 +104,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub-body">
 <p class="pub-title">Economic Consequences of Improving Sleep Among the Poor through Cognitive Behavioral Therapy for Insomnia</p>
 <p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a>, <a href="https://www.jpablofranco.com">Juan Pablo Franco</a>, and <a href="https://research.monash.edu/en/persons/sean-drummond/">Sean Drummond</a></p>
-<p class="pub-status">Data collection in progress (summer-fall 2026)</p>
+<p class="pub-status">Endline data collected, analysis in progress</p>
 <p class="pub-fund">Funding: Weiss Fund ($24,400); CEGA Development Challenge ($20,000)</p>
 <details><summary>Abstract</summary><p>Up to one in three adults report insomnia symptoms; the burden falls hardest on the urban poor. Whether poor sleep helps keep poor people poor is untested: the one field experiment raising sleep among low-income workers added time in bed without adding quality, and found no gains in cognition, productivity, or earnings. We ask whether the constraint is instead sleep quality, and test it with Cognitive Behavioral Therapy for Insomnia (CBT-I), the clinical first-line treatment, which raises sleep efficiency while leaving sleep time roughly unchanged: any economic effect cannot come from more hours of sleep. In an experiment with nearly 300 adults with insomnia symptoms in Nairobi, we compare four weeks of lay-facilitated group CBT-I with an active control, with pre-registered endpoints spanning sleep, mental health, cognition, and economic outcomes. To our knowledge, this is the first adult randomized trial of CBT-I in sub-Saharan Africa.</p></details>
 <p class="pub-pres">Presented at: Advances with Field Experiments (AFE) Conference, Chicago (2026)</p>
@@ -221,7 +221,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub-body">
 <p class="pub-title">Coping with Chronic Stress: Socio-Emotional Training for Frontline Workers</p>
 <p class="pub-meta">with <a href="https://sites.google.com/view/michelleescobar/main">Michelle Escobar Carias</a> · <a href="https://www.socialscienceregistry.org/trials/18308">Pre-registration</a></p>
-<p class="pub-status">Data collection in progress (summer-fall 2026)</p>
+<p class="pub-status">Endline in progress</p>
 <details><summary>Abstract</summary><p>Essential public-sector workers in low- and middle-income countries (teachers, health workers, police officers) operate under chronic stress, exposure to community violence, and institutional neglect of their mental health. Burnout, anxiety, and untreated trauma are pervasive among these frontline workers, yet rigorous evidence on scalable interventions to support their wellbeing remains nearly nonexistent. This gap matters not only to the workers themselves, but also to the quality of public services they deliver. We provide experimental evidence on whether socio-emotional resilience training can improve the mental health and professional effectiveness of essential workers, focusing on public school teachers in Guatemala. We evaluate SanaMente, a trauma-informed training program that builds skills in stress recognition, emotional regulation, and supportive workplace practices, using a school-level cluster-randomized trial across 120 schools targeting 600 teachers in three municipalities in Guatemala.</p></details>
 </div>
 </div>
