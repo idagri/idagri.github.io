@@ -104,6 +104,42 @@ I ran hands-on workshops for economists at UCSD and for predoctoral researchers 
 <a href="/files/ai-claude-code-predoc-workshop-slides.pdf">Workshop slides (PDF)</a> &middot; <a href="/files/claude-code-predoc-kit.zip">hands-on kit (zip)</a></p>
 </div>
 
+### Claude Skills
+
+Five skills from my own Claude setup, generalized so they work for any researcher: each one asks a few questions on its first run and saves your answers outside the skill folder, so a newer version keeps them.
+
+<div class="res-card">
+<p class="rt">Conference Guide</p>
+<p class="rd">Ranks every talk of a conference program against your research and builds a room-by-room PDF schedule: your path through the rooms, an alternative for each slot, coffee breaks, and the people you know. On its first run it asks for your website and CV, and for a read-only search of your email only if you agree, to build a profile of your projects, coauthors and past session-mates.<br>
+<a href="/files/skills/conference-guide.zip">Skill (zip)</a> &middot; <a href="/files/skills/install.md">install steps</a></p>
+</div>
+
+<div class="res-card">
+<p class="rt">Citation Check</p>
+<p class="rd">Checks every entry of a <code>.bib</code> file against Crossref and publisher records, keeps fabricated references apart from real ones it cannot verify, checks that each source supports the sentence that cites it, and finds working papers published since. On its first run it asks which citation-key convention to use.<br>
+<a href="/files/skills/bib-check.zip">Skill (zip)</a> &middot; <a href="/files/skills/install.md">install steps</a></p>
+</div>
+
+<div class="res-card">
+<p class="rt">Chat Close-Off</p>
+<p class="rd">Ends a Claude Code chat with every finding written to the project's files, a handoff for unfinished work, and a verdict on whether the chat can be closed. On its first run it asks where your notes and handoffs live and how git is handled at the close. It comes with a short rules block for your own CLAUDE.md.<br>
+<a href="/files/skills/close-chat.zip">Skill (zip)</a> &middot; <a href="/files/skills/install.md">install steps</a></p>
+</div>
+
+<div class="res-card">
+<p class="rt">Code Audit</p>
+<p class="rd">Checks that a draft says what its code does: sample restrictions, specifications, fixed effects, clustering, merges, and every quoted number traced to a line of code or a log. It has two modes: an original project, where targeted reruns are allowed, and a replication package, your own before deposit or a published one you are reproducing, read without running.<br>
+<a href="/files/skills/code-audit.zip">Skill (zip)</a> &middot; <a href="/files/skills/install.md">install steps</a></p>
+</div>
+
+<div class="res-card">
+<p class="rt">Paper to Markdown</p>
+<p class="rd">Converts a paper PDF once into a markdown copy, with headings, page markers and regression tables as markdown tables, so every later chat reads the stored copy. On its first run it sets up the converter in its own Python environment and asks where to keep the copies. An optional read hook, a check Claude Code runs before each file read, sends every paper PDF Claude opens to its stored copy.<br>
+<a href="/files/skills/paper-to-markdown.zip">Skill (zip)</a> &middot; <a href="/files/skills/install.md">install steps</a></p>
+</div>
+
+All five are free to use and adapt under the MIT license.
+
 ## Data
 
 Datasets you may find useful to explore geo-spatial and/or mental-health-related research ideas.
