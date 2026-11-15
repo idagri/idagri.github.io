@@ -10,6 +10,10 @@ folder: its main file `SKILL.md`, the reference files it reads, any scripts it r
 - `code-audit.zip`: Code Audit
 - `paper-to-markdown.zip`: Paper to Markdown
 
+`claude-skills-all.zip` holds every skill folder at its root, so in Claude Code
+`unzip claude-skills-all.zip -d ~/.claude/skills/` installs all of them. The Claude app takes one
+skill per upload, so use the single-skill zips there.
+
 ## Claude Code (Recommended)
 
 1. Unzip the skill's zip.

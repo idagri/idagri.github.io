@@ -38,6 +38,13 @@ html[data-theme="dark"] .res-card .rd{ color:#b5b5b5; }
 html[data-theme="dark"] .ds-youth{ color:#6fd0c8; background:rgba(45,170,160,.18); border-color:rgba(45,170,160,.4); }
 html[data-theme="dark"] .ds-guide th, html[data-theme="dark"] .ds-guide td{ border-color:#3a3f48; }
 html[data-theme="dark"] .ds-guide th{ color:#6fd0c8; }
+.skills-all{ float:right; display:inline-block; font-size:.62rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  color:#13716b; background:rgba(33,145,140,.10); border:1px solid var(--vir-teal); border-radius:1rem;
+  padding:.12rem .6rem; margin:.25rem 0 0 .6rem; white-space:nowrap; line-height:1.5; }
+.skills-all:hover{ background:var(--vir-teal); color:#fff; }
+.skills-all .fa-fw{ font-size:.9em; margin-right:.2em; }
+html[data-theme="dark"] .skills-all{ color:#6fd0c8; background:rgba(45,170,160,.15); border-color:rgba(45,170,160,.5); }
+html[data-theme="dark"] .skills-all:hover{ background:#2daaa0; color:#0d1520; }
 </style>
 
 ## Predoc Tips
@@ -104,7 +111,7 @@ I ran hands-on workshops for economists at UCSD and for predoctoral researchers 
 <a href="/files/ai-claude-code-predoc-workshop-slides.pdf">Workshop slides (PDF)</a> &middot; <a href="/files/claude-code-predoc-kit.zip">hands-on kit (zip)</a></p>
 </div>
 
-### Claude Skills
+### Claude Skills <a class="skills-all" href="/files/skills/claude-skills-all.zip"><i class="fas fa-fw fa-download" aria-hidden="true"></i>Download all (zip)</a> {#claude-skills}
 
 Five skills from my own Claude setup, generalized so they work for any researcher: each one asks a few questions on its first run and saves your answers outside the skill folder, so a newer version keeps them.
 
