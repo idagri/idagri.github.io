@@ -1,6 +1,6 @@
 # Installing the Claude Skills
 
-Five skills from my own Claude setup, generalized for any researcher. Each zip holds one skill
+Six skills from my own Claude setup, generalized for any researcher. Each zip holds one skill
 folder: its main file `SKILL.md`, the reference files it reads, any scripts it runs, and an MIT
 `LICENSE`.
 
@@ -9,6 +9,7 @@ folder: its main file `SKILL.md`, the reference files it reads, any scripts it r
 - `close-chat.zip`: Chat Close-Off
 - `code-audit.zip`: Code Audit
 - `paper-to-markdown.zip`: Paper to Markdown
+- `ocr-scans.zip`: OCR for Scans
 
 `claude-skills-all.zip` holds every skill folder at its root, so in Claude Code
 `unzip claude-skills-all.zip -d ~/.claude/skills/` installs all of them. The Claude app takes one
@@ -39,7 +40,8 @@ audit, the PDF read hook, the conference guide's multi-agent ranking) need Claud
 
 Each skill asks a few questions the first time it runs: your website and CV for the conference
 guide, your citation-key convention for the citation check, where your notes and handoffs live for
-the close-off, and where to keep the markdown copies of papers. It shows you the answers before
+the close-off, where to keep the markdown copies of papers, and the budget for image work for the
+OCR skill. It shows you the answers before
 saving them in `~/.claude/<skill-name>/`, outside the skill folder, so installing a newer version
 keeps them. To change them later, ask the skill to update its settings.
 
@@ -61,6 +63,9 @@ keeps them. To change them later, ask the skill to update its settings.
   entry in `~/.claude/settings.json`, that sends every paper PDF Claude opens to its stored copy. `references/read_hook.md` in the zip shows the entry,
   how to test it and how to remove it, and the hook lets a read through unchanged whenever anything
   goes wrong.
+- OCR for Scans: Python 3.9 or newer with PyMuPDF and Pillow (`pip install pymupdf pillow`).
+  `pdfimages` from poppler is optional. In the Claude app chat, attach the page images or the PDF
+  if Claude cannot open the pages it renders.
 
 ## Updating a Skill
 

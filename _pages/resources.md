@@ -113,7 +113,7 @@ I ran hands-on workshops for economists at UCSD and for predoctoral researchers 
 
 ### Claude Skills <a class="skills-all" href="/files/skills/claude-skills-all.zip"><i class="fas fa-fw fa-download" aria-hidden="true"></i>Download all (zip)</a> {#claude-skills}
 
-Five skills from my own Claude setup, generalized so they work for any researcher: each one asks a few questions on its first run and saves your answers outside the skill folder, so a newer version keeps them.
+Six skills from my own Claude setup, generalized so they work for any researcher: each one asks a few questions on its first run and saves your answers outside the skill folder, so a newer version keeps them.
 
 <div class="res-card">
 <p class="rt">Conference Guide</p>
@@ -145,7 +145,13 @@ Five skills from my own Claude setup, generalized so they work for any researche
 <a href="/files/skills/paper-to-markdown.zip">Skill (zip)</a> &middot; <a href="/files/skills/install.md">install steps</a></p>
 </div>
 
-All five are free to use and adapt under the MIT license.
+<div class="res-card">
+<p class="rt">OCR for Scans</p>
+<p class="rd">Reads documents that exist only as images (scans, phone photos, handwritten forms and PDFs without a text layer) into a table, and plans the job before any page is opened: a free check for a text layer, a cost estimate, batch sizes, tight crops of hard-to-read cells, and a check of each transcribed table against its own totals. On its first run it asks which plan pays for the work and how large a run may go ahead without asking you.<br>
+<a href="/files/skills/ocr-scans.zip">Skill (zip)</a> &middot; <a href="/files/skills/install.md">install steps</a></p>
+</div>
+
+All six are free to use and adapt under the MIT license.
 
 ## Data
 
