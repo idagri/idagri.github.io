@@ -113,7 +113,10 @@ I ran hands-on workshops for economists at UCSD and for predoctoral researchers 
 
 ### Claude Skills <a class="skills-all" href="/files/skills/claude-skills-all.zip"><i class="fas fa-fw fa-download" aria-hidden="true"></i>Download all (zip)</a> {#claude-skills}
 
-Six skills from my own Claude setup, generalized so they work for any researcher: each one asks a few questions on its first run and saves your answers outside the skill folder, so a newer version keeps them.
+<details markdown="1">
+<summary>Six skills from my own Claude setup, generalized so they work for any researcher</summary>
+
+Each one asks a few questions on its first run and saves your answers outside the skill folder, so a newer version keeps them.
 
 <div class="res-card">
 <p class="rt">Conference Guide</p>
@@ -152,6 +155,8 @@ Six skills from my own Claude setup, generalized so they work for any researcher
 </div>
 
 All six are free to use and adapt under the MIT license.
+
+</details>
 
 ## Data
 
