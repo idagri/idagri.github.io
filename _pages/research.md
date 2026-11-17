@@ -36,6 +36,9 @@ author_profile: true
 .pub-journal{ margin:.15rem 0 .5rem; font-size:.85rem; color:#6b6b6b; line-height:1.45; }
 .pub-journal em{ font-style:italic; }
 .pub-fund{ margin:.2rem 0 0; font-size:.72rem; color:#6b6b6b; }
+/* (Co-)corresponding author marker and its legend, the same dagger the CV carries. */
+.pub-dag{ color:#3B528B; font-weight:700; }
+.pub-legend{ margin:-.6rem 0 1.6rem; font-size:.75rem; color:#6b6b6b; }
 .pub-status{ margin:.2rem 0 0; font-size:.85rem; color:#6b6b6b; font-style:italic; }
 .pub-status .pub-btn{ font-style:normal; }
 .pub details{ margin:.5rem 0 0; }
@@ -54,7 +57,8 @@ html[data-theme="dark"] .tag.well   { background:rgba(45,170,160,.20);  color:#6
 html[data-theme="dark"] .tag.method { background:rgba(160,110,180,.20); color:#caa6da; border-color:rgba(160,110,180,.4); }
 html[data-theme="dark"] .pub-btn{ color:#6fd0c8; background:rgba(45,170,160,.15); border-color:rgba(45,170,160,.5); }
 html[data-theme="dark"] .pub-btn:hover{ background:#2daaa0; color:#0d1520; }
-html[data-theme="dark"] .pub-meta, html[data-theme="dark"] .pub-journal, html[data-theme="dark"] .pub-fund, html[data-theme="dark"] .pub-status, html[data-theme="dark"] .pub-pres, html[data-theme="dark"] .pub summary, html[data-theme="dark"] .pub details p{ color:#b5b5b5; }
+html[data-theme="dark"] .pub-meta, html[data-theme="dark"] .pub-journal, html[data-theme="dark"] .pub-fund, html[data-theme="dark"] .pub-status, html[data-theme="dark"] .pub-pres, html[data-theme="dark"] .pub-legend, html[data-theme="dark"] .pub summary, html[data-theme="dark"] .pub details p{ color:#b5b5b5; }
+html[data-theme="dark"] .pub-dag{ color:#aebfe6; }
 /* clickable topic filter */
 .rsch-key .tag{ cursor:pointer; user-select:none; }
 .rsch-key .tag-active{ box-shadow:0 0 0 2px currentColor inset; }
@@ -130,7 +134,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub">
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
-<p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <a class="pub-btn" href="/papers/2026-06-JDE-Beliefs--information-sharing--and-mental-health-care.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a> <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a> <a class="pub-btn" href="/files/Student_Mental_Health_Mex_JDE_slides.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Slides</a> <a class="pub-btn" href="https://voxdev.org/topic/health/can-correcting-misconceptions-about-therapy-help-students-seek-care"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i>VoxDev</a></p>
+<p class="pub-title">Beliefs, Information Sharing, and Mental Health Care Use Among University Students <sup class="pub-dag">&dagger;</sup> <a class="pub-btn" href="/papers/2026-06-JDE-Beliefs--information-sharing--and-mental-health-care.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a> <a class="pub-btn" href="https://doi.org/10.1016/j.jdeveco.2025.103646"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a> <a class="pub-btn" href="/files/Student_Mental_Health_Mex_JDE_slides.pdf"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>Slides</a> <a class="pub-btn" href="https://voxdev.org/topic/health/can-correcting-misconceptions-about-therapy-help-students-seek-care"><i class="fas fa-fw fa-newspaper" aria-hidden="true"></i>VoxDev</a></p>
 <p class="pub-meta">with <a href="https://alisher-batmanov.github.io/">Alisher Batmanov</a>, <a href="https://www.bruno-calderon.com/">Bruno Calderon-Hernandez</a>, <a href="https://robertoglz.github.io/">Roberto Gonzalez-Tellez</a>, and <a href="https://research.tec.mx/vivo-tec/display/PID_316616">Alejandro Guardiola-Ramirez</a> · <a href="https://www.socialscienceregistry.org/trials/14804">Pre-registration</a></p>
 <p class="pub-journal"><em>Journal of Development Economics</em> 180: 103646 (2026)</p>
 <p class="pub-fund">Funding: Weiss Fund ($14,300); UC-MX Alianza Field Research Grant ($7,600); IHS Travel Research Grants ($7,000, 2023-2024)</p>
@@ -170,7 +174,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub">
 <div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
 <div class="pub-body">
-<p class="pub-title">The Price Ripple Effect in the Vancouver Housing Market <a class="pub-btn" href="https://doi.org/10.1080/02723638.2019.1567202"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
+<p class="pub-title">The Price Ripple Effect in the Vancouver Housing Market <sup class="pub-dag">&dagger;</sup> <a class="pub-btn" href="https://doi.org/10.1080/02723638.2019.1567202"><i class="fas fa-fw fa-link" aria-hidden="true"></i>Link</a></p>
 <p class="pub-meta">with <a href="https://blogs.ubc.ca/dley/">David Ley</a></p>
 <p class="pub-journal"><em>Urban Geography</em> 40(8): 1168-1190 (2019)</p>
 <p class="pub-fund">Funding: Neighborhood Change Research Grant ($11,000)</p>
@@ -178,6 +182,8 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 </div>
 </div>
 
+
+<p class="pub-legend"><span class="pub-dag">&dagger;</span> (Co-)corresponding author</p>
 
 ### Large-team replication projects as a contributing author
 
