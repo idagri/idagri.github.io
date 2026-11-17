@@ -148,7 +148,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub-body">
 <p class="pub-title">Income Strongly Moderates Climate-Driven Migration <a class="pub-btn" href="https://eartharxiv.org/repository/view/11088/"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a></p>
 <p class="pub-meta">with <a href="https://gps.ucsd.edu/faculty-directory/gaurav-khanna.html">Gaurav Khanna</a>, <a href="https://ppolonik2.github.io/">Pascal Polonik</a>, <a href="https://jessicaswan.github.io/">Jessica Wan</a>, <a href="https://jacopolunghi.github.io/">Jacopo Lunghi</a>, and <a href="https://katericke.com/">Katharine Ricke</a></p>
-<p class="pub-journal"><em>PNAS</em>, conditionally accepted</p>
+<p class="pub-journal"><em>PNAS</em>, conditionally accepted (2026)</p>
 </div>
 </div>
 
@@ -157,7 +157,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub-body">
 <p class="pub-title">Out-of-Class Assignments Versus Midterms: Shifting Grade Weights to Improve Student Learning in Economics</p>
 <p class="pub-meta">with <a href="https://econweb.ucsd.edu/~kantonov/">Kate Antonovics</a> and <a href="https://econweb.ucsd.edu/~mfamulari/">Melissa Famulari</a></p>
-<p class="pub-journal"><em>Journal of Economic Education</em>, conditionally accepted</p>
+<p class="pub-journal"><em>Journal of Economic Education</em>, conditionally accepted (2026)</p>
 </div>
 </div>
 
