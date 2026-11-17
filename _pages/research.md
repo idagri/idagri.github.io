@@ -158,7 +158,7 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <div class="pub-body">
 <p class="pub-title">Out-of-Class Assignments Versus Midterms: Shifting Grade Weights to Improve Student Learning in Economics</p>
 <p class="pub-meta">with <a href="https://econweb.ucsd.edu/~kantonov/">Kate Antonovics</a> and <a href="https://econweb.ucsd.edu/~mfamulari/">Melissa Famulari</a></p>
-<p class="pub-journal"><em>Journal of Economic Education</em>, conditionally accepted (2026)</p>
+<p class="pub-journal"><em>Journal of Economic Education</em>, accepted (2026)</p>
 <details><summary>Abstract</summary><p>We examine whether requiring out-of-class work improves student learning using a within-class randomized controlled trial involving 1,211 students in five introductory and intermediate microeconomics courses. Treated students received a small grade weight on out-of-class work, offset by a corresponding reduction in the weight on midterm exams; for control students, out-of-class work carried no grade weight. Final exam scores are 0.21 standard deviations higher for treated students at both course levels, although the introductory-course estimate is sensitive to selective attrition. Treatment-control differences are largest toward the lower end of the final exam score distribution. We find no evidence that treatment affects other study methods or performance in concurrent courses. Shifting a small grade weight from midterms to out-of-class work can improve learning in college economics courses.</p></details>
 </div>
 </div>
