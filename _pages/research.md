@@ -140,6 +140,15 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 </div>
 
 <div class="pub">
+<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
+<div class="pub-body">
+<p class="pub-title">Income Strongly Moderates Climate-Driven Migration <a class="pub-btn" href="https://eartharxiv.org/repository/view/11088/"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a></p>
+<p class="pub-meta">with <a href="https://gps.ucsd.edu/faculty-directory/gaurav-khanna.html">Gaurav Khanna</a>, <a href="https://ppolonik2.github.io/">Pascal Polonik</a>, <a href="https://jessicaswan.github.io/">Jessica Wan</a>, <a href="https://jacopolunghi.github.io/">Jacopo Lunghi</a>, and <a href="https://katericke.com/">Katharine Ricke</a></p>
+<p class="pub-journal"><em>PNAS</em>, conditionally accepted</p>
+</div>
+</div>
+
+<div class="pub">
 <div class="pub-tag"><span class="tag well">Wellbeing &amp; Education</span></div>
 <div class="pub-body">
 <p class="pub-title">Out-of-Class Assignments Versus Midterms: Shifting Grade Weights to Improve Student Learning in Economics</p>
@@ -191,18 +200,6 @@ html[data-theme="dark"] .tag.all{ background:#333a44; color:#cbd2da; border-colo
 <details><summary>Abstract</summary><p>Large language models (LLMs) such as ChatGPT are transforming how scientists conduct and validate research, yet computational reproducibility and error detection remain expensive and labor-intensive. We experimentally test how collaboration between researchers and LLM assistants influences the reproduction of quantitative social science findings. We randomly assigned 288 researchers to 103 teams working under three conditions: human-only, AI-assisted (ChatGPT as a collaborative tool), or AI-led (ChatGPT with minimal human oversight). Teams reproduced published results from leading social science journals, detected coding errors, and proposed robustness checks. Human-only and AI-assisted teams achieved comparable reproduction rates (94% vs. 91%), and human-only teams identified more major coding errors. Both substantially outperformed AI-led teams, which achieved a 37% reproduction rate, detected fewer errors, and proposed weaker robustness checks. Expert human judgment currently remains indispensable for reliable empirical verification.</p></details>
 </div>
 </div>
----
-
-## Under Review
-
-<div class="pub">
-<div class="pub-tag"><span class="tag urban">Urban &amp; Migration</span></div>
-<div class="pub-body">
-<p class="pub-title">Income Strongly Moderates Climate-Driven Migration <a class="pub-btn" href="https://eartharxiv.org/repository/view/11088/"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i>PDF</a></p>
-<p class="pub-meta">with <a href="https://gps.ucsd.edu/faculty-directory/gaurav-khanna.html">Gaurav Khanna</a>, <a href="https://ppolonik2.github.io/">Pascal Polonik</a>, <a href="https://jessicaswan.github.io/">Jessica Wan</a>, <a href="https://jacopolunghi.github.io/">Jacopo Lunghi</a>, and <a href="https://katericke.com/">Katharine Ricke</a> · R&amp;R at <em>PNAS</em> (2025)</p>
-</div>
-</div>
-
 ---
 
 ## Work in Progress
